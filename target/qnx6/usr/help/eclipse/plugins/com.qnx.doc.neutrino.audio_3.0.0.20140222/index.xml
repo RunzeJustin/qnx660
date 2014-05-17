@@ -1,0 +1,503 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword=" /dev/snd ">
+<topic href="topic/architecture_CardsDevices.html#CardsDevices" title="Cards and devices"/>
+</entry>
+<entry keyword=" &lt;asound.h&gt; ">
+<topic href="topic/architecture_PCMFormats.html#PCMFormats" title="Data formats"/>
+<topic href="topic/about.html#about" title=" About This Guide "/>
+</entry>
+<entry keyword=" &lt;asoundlib.h&gt; ">
+<topic href="topic/about.html#about" title=" About This Guide "/>
+</entry>
+<entry keyword=" asound library">
+<topic href="topic/about.html#about" title=" About This Guide "/>
+</entry>
+<entry keyword=" io-audio ">
+<topic href="topic/about.html#about" title=" About This Guide "/>
+</entry>
+<entry keyword=" libasound.so ">
+<topic href="topic/about.html#about" title=" About This Guide "/>
+</entry>
+<entry keyword=" select() ">
+<topic href="topic/mixer_MixerEventNotification.html#MixerEventNotification" title="Mixer event notification"/>
+</entry>
+<entry keyword=" snd_mixer_close() ">
+<topic href="topic/mixer_ClosingMixer.html#ClosingMixer" title="Closing the mixer device"/>
+</entry>
+<entry keyword=" snd_mixer_element_read() ">
+<topic href="topic/mixer.html#mixer" title="Mixer Architecture"/>
+</entry>
+<entry keyword=" snd_mixer_element_write() ">
+<topic href="topic/mixer.html#mixer" title="Mixer Architecture"/>
+</entry>
+<entry keyword=" snd_mixer_file_descriptor() ">
+<topic href="topic/mixer_MixerEventNotification.html#MixerEventNotification" title="Mixer event notification"/>
+</entry>
+<entry keyword=" snd_mixer_gid_t ">
+<topic href="topic/mixer_FindingAllMixerGroups.html#FindingAllMixerGroups" title="Finding all mixer groups"/>
+<topic href="topic/mixer_ControllingMixerGroup.html#ControllingMixerGroup" title="Controlling a mixer group"/>
+</entry>
+<entry keyword=" snd_mixer_group_read() ">
+<topic href="topic/mixer_ControllingMixerGroup.html#ControllingMixerGroup" title="Controlling a mixer group"/>
+</entry>
+<entry keyword=" snd_mixer_group_t ">
+<topic href="topic/mixer_FindingAllMixerGroups.html#FindingAllMixerGroups" title="Finding all mixer groups"/>
+<topic href="topic/mixer_ControllingMixerGroup.html#ControllingMixerGroup" title="Controlling a mixer group"/>
+</entry>
+<entry keyword=" snd_mixer_group_write() ">
+<topic href="topic/mixer_ControllingMixerGroup.html#ControllingMixerGroup" title="Controlling a mixer group"/>
+</entry>
+<entry keyword=" snd_mixer_groups() ">
+<topic href="topic/mixer_FindingAllMixerGroups.html#FindingAllMixerGroups" title="Finding all mixer groups"/>
+</entry>
+<entry keyword=" snd_mixer_open() ">
+<topic href="topic/mixer_OpeningMixer.html#OpeningMixer" title="Opening the mixer device"/>
+</entry>
+<entry keyword=" snd_mixer_read() ">
+<topic href="topic/mixer_MixerEventNotification.html#MixerEventNotification" title="Mixer event notification"/>
+</entry>
+<entry keyword=" snd_mixer_set_filter() ">
+<topic href="topic/mixer_MixerEventNotification.html#MixerEventNotification" title="Mixer event notification"/>
+</entry>
+<entry keyword=" snd_mixer_t ">
+<topic href="topic/mixer_OpeningMixer.html#OpeningMixer" title="Opening the mixer device"/>
+</entry>
+<entry keyword=" snd_pcm_build_linear_format() ">
+<topic href="topic/architecture_PCMFormats.html#PCMFormats" title="Data formats"/>
+</entry>
+<entry keyword=" snd_pcm_capture_prepare() ">
+<topic href="topic/pcm_PreparingPCMSubchannel.html#PreparingPCMSubchannel" title="Preparing the PCM subchannel"/>
+</entry>
+<entry keyword=" snd_pcm_channel_flush() ">
+<topic href="topic/pcm_StoppingPlayback.html#StoppingPlayback" title="Stopping the playback"/>
+</entry>
+<entry keyword=" snd_pcm_channel_info_t ">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+</entry>
+<entry keyword=" snd_pcm_channel_info() ">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+</entry>
+<entry keyword=" snd_pcm_channel_params_t ">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+</entry>
+<entry keyword=" snd_pcm_channel_params() ">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+</entry>
+<entry keyword=" snd_pcm_channel_prepare() ">
+<topic href="topic/pcm_PreparingPCMSubchannel.html#PreparingPCMSubchannel" title="Preparing the PCM subchannel"/>
+</entry>
+<entry keyword=" snd_pcm_channel_setup_t ">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+</entry>
+<entry keyword=" snd_pcm_channel_setup() ">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+<topic href="topic/mixer_BestMixerGroup.html#BestMixerGroup" title="The best mixer group with respect to your PCM subchannel"/>
+</entry>
+<entry keyword=" snd_pcm_channel_status_t ">
+<topic href="topic/pcm_PlaybackSynchronizing.html#PlaybackSynchronizing" title="Synchronizing with the PCM subchannel"/>
+</entry>
+<entry keyword=" snd_pcm_channel_status() ">
+<topic href="topic/pcm_PlaybackSynchronizing.html#PlaybackSynchronizing" title="Synchronizing with the PCM subchannel"/>
+</entry>
+<entry keyword=" snd_pcm_close() ">
+<topic href="topic/pcm_ClosingSubchannel.html#ClosingSubchannel" title="Closing the PCM subchannel"/>
+</entry>
+<entry keyword=" snd_pcm_file_descriptor() ">
+<topic href="topic/pcm_ReceivingData.html#ReceivingData" title="Receiving data from the PCM subchannel"/>
+<topic href="topic/pcm_SendingData.html#SendingData" title="Sending data to the PCM subchannel"/>
+</entry>
+<entry keyword=" SND_PCM_FMT_* ">
+<topic href="topic/architecture_PCMFormats.html#PCMFormats" title="Data formats"/>
+</entry>
+<entry keyword=" snd_pcm_format_big_endian() ">
+<topic href="topic/architecture_PCMFormats.html#PCMFormats" title="Data formats"/>
+</entry>
+<entry keyword=" snd_pcm_format_linear() ">
+<topic href="topic/architecture_PCMFormats.html#PCMFormats" title="Data formats"/>
+</entry>
+<entry keyword=" snd_pcm_format_little_endian() ">
+<topic href="topic/architecture_PCMFormats.html#PCMFormats" title="Data formats"/>
+</entry>
+<entry keyword=" snd_pcm_format_signed() ">
+<topic href="topic/architecture_PCMFormats.html#PCMFormats" title="Data formats"/>
+</entry>
+<entry keyword=" snd_pcm_format_unsigned() ">
+<topic href="topic/architecture_PCMFormats.html#PCMFormats" title="Data formats"/>
+</entry>
+<entry keyword=" snd_pcm_get_format_name() ">
+<topic href="topic/architecture_PCMFormats.html#PCMFormats" title="Data formats"/>
+</entry>
+<entry keyword=" snd_pcm_nonblock_mode() ">
+<topic href="topic/pcm_ReceivingData.html#ReceivingData" title="Receiving data from the PCM subchannel"/>
+<topic href="topic/pcm_SendingData.html#SendingData" title="Sending data to the PCM subchannel"/>
+</entry>
+<entry keyword=" snd_pcm_playback_drain() ">
+<topic href="topic/pcm_StoppingPlayback.html#StoppingPlayback" title="Stopping the playback"/>
+</entry>
+<entry keyword=" snd_pcm_playback_flush() ">
+<topic href="topic/pcm_StoppingPlayback.html#StoppingPlayback" title="Stopping the playback"/>
+</entry>
+<entry keyword=" snd_pcm_playback_prepare() ">
+<topic href="topic/pcm_PreparingPCMSubchannel.html#PreparingPCMSubchannel" title="Preparing the PCM subchannel"/>
+</entry>
+<entry keyword=" snd_pcm_plugin_flush() ">
+<topic href="topic/pcm_StoppingPlayback.html#StoppingPlayback" title="Stopping the playback"/>
+</entry>
+<entry keyword=" snd_pcm_plugin_get_voice_conversion() ">
+<topic href="topic/pcm_Voice_conversion.html#Voice_conversion" title="Controlling voice conversion"/>
+</entry>
+<entry keyword=" snd_pcm_plugin_info() ">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+</entry>
+<entry keyword=" snd_pcm_plugin_params() ">
+<topic href="topic/pcm_Voice_conversion.html#Voice_conversion" title="Controlling voice conversion"/>
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+</entry>
+<entry keyword=" snd_pcm_plugin_playback_drain() ">
+<topic href="topic/pcm_StoppingPlayback.html#StoppingPlayback" title="Stopping the playback"/>
+</entry>
+<entry keyword=" snd_pcm_plugin_prepare() ">
+<topic href="topic/pcm_PreparingPCMSubchannel.html#PreparingPCMSubchannel" title="Preparing the PCM subchannel"/>
+</entry>
+<entry keyword=" snd_pcm_plugin_read() ">
+<topic href="topic/pcm_ReceivingData.html#ReceivingData" title="Receiving data from the PCM subchannel"/>
+</entry>
+<entry keyword=" snd_pcm_plugin_set_voice_conversion() ">
+<topic href="topic/pcm_Voice_conversion.html#Voice_conversion" title="Controlling voice conversion"/>
+</entry>
+<entry keyword=" snd_pcm_plugin_setup() ">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+<topic href="topic/mixer_BestMixerGroup.html#BestMixerGroup" title="The best mixer group with respect to your PCM subchannel"/>
+</entry>
+<entry keyword=" snd_pcm_plugin_status() ">
+<topic href="topic/pcm_PlaybackSynchronizing.html#PlaybackSynchronizing" title="Synchronizing with the PCM subchannel"/>
+</entry>
+<entry keyword=" snd_pcm_plugin_write() ">
+<topic href="topic/pcm_SendingData.html#SendingData" title="Sending data to the PCM subchannel"/>
+<topic href="topic/pcm_PlaybackPCMSubchannelStops.html#PlaybackPCMSubchannelStops" title="If the PCM subchannel stops during playback"/>
+</entry>
+<entry keyword=" snd_pcm_read() ">
+<topic href="topic/pcm_ReceivingData.html#ReceivingData" title="Receiving data from the PCM subchannel"/>
+</entry>
+<entry keyword=" SND_PCM_SFMT_* ">
+<topic href="topic/architecture_PCMFormats.html#PCMFormats" title="Data formats"/>
+</entry>
+<entry keyword=" SND_PCM_STATUS_NOTREADY ">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+</entry>
+<entry keyword=" SND_PCM_STATUS_PREPARED ">
+<topic href="topic/pcm_PreparingPCMSubchannel.html#PreparingPCMSubchannel" title="Preparing the PCM subchannel"/>
+</entry>
+<entry keyword=" SND_PCM_STATUS_READY ">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+</entry>
+<entry keyword=" SND_PCM_STATUS_UNDERRUN ">
+<topic href="topic/pcm_PlaybackPCMSubchannelStops.html#PlaybackPCMSubchannelStops" title="If the PCM subchannel stops during playback"/>
+</entry>
+<entry keyword=" snd_pcm_voice_conversion_t ">
+<topic href="topic/pcm_Voice_conversion.html#Voice_conversion" title="Controlling voice conversion"/>
+</entry>
+<entry keyword=" snd_pcm_write() ">
+<topic href="topic/pcm_SendingData.html#SendingData" title="Sending data to the PCM subchannel"/>
+<topic href="topic/pcm_PlaybackPCMSubchannelStops.html#PlaybackPCMSubchannelStops" title="If the PCM subchannel stops during playback"/>
+</entry>
+<entry keyword=" snd_strerror() ">
+<topic href="topic/mixer_FindingAllMixerGroups.html#FindingAllMixerGroups" title="Finding all mixer groups"/>
+</entry>
+<entry keyword="/etc/system/config/audio/preferences">
+<topic href="topic/libs/snd_pcm_open_preferred.html#snd_pcm_open_preferred" title="snd_pcm_open_preferred()"/>
+</entry>
+<entry keyword="4-channel ">
+<entry keyword="converting to and from">
+<topic href="topic/pcm_Voice_conversion.html#Voice_conversion" title="Controlling voice conversion"/>
+</entry>
+</entry>
+<entry keyword="Advanced Linux Sound Architecture (ALSA)">
+<topic href="topic/architecture_QSA.html#QSA" title="QNX Sound Architecture"/>
+<topic href="topic/summary.html#summary" title="Audio Library"/>
+<entry keyword="LGPL license agreement">
+<topic href="topic/copyright_3p.html#copyright_3p" title="ALSA and libasound.so"/>
+</entry>
+</entry>
+<entry keyword="Analog Digital Converter (ADC)">
+<topic href="topic/architecture_StateMachine.html#StateMachine" title="PCM state machine"/>
+<topic href="topic/pcm_SelectingCapture.html#SelectingCapture" title="Selecting what to capture"/>
+</entry>
+<entry keyword="Analog Digital Converter (ADC) ">
+<entry keyword="mixer element">
+<topic href="topic/mixer.html#mixer" title="Mixer Architecture"/>
+</entry>
+</entry>
+<entry keyword="asound library">
+<topic href="topic/copyright_3p.html#copyright_3p" title="ALSA and libasound.so"/>
+</entry>
+<entry keyword="audio chips ">
+<topic href="topic/architecture_CardsDevices.html#CardsDevices" title="Cards and devices"/>
+<entry keyword="See cards">
+</entry>
+</entry>
+<entry keyword="audio device">
+<entry keyword="audioman handle">
+<entry keyword="getting">
+<topic href="topic/libs/snd_pcm_get_audioman_handle.html#snd_pcm_get_audioman_handle" title="snd_pcm_get_audioman_handle()"/>
+</entry>
+<entry keyword="setting">
+<topic href="topic/libs/snd_pcm_set_audioman_handle.html#snd_pcm_set_audioman_handle" title="snd_pcm_set_audioman_handle()"/>
+</entry>
+</entry>
+<entry keyword="closing">
+<topic href="topic/libs/snd_pcm_close.html#snd_pcm_close" title="snd_pcm_close()"/>
+</entry>
+<entry keyword="opening">
+<topic href="topic/pcm_OpeningYourPCMDevice.html#OpeningYourPCMDevice" title="Opening your PCM device"/>
+<topic href="topic/libs/snd_pcm_open.html#snd_pcm_open" title="snd_pcm_open()"/>
+<topic href="topic/libs/snd_pcm_open_name.html#snd_pcm_open_name" title="snd_pcm_open_name()"/>
+</entry>
+<entry keyword="opening preferred">
+<topic href="topic/libs/snd_pcm_open_preferred.html#snd_pcm_open_preferred" title="snd_pcm_open_preferred()"/>
+<topic href="topic/pcm_OpeningYourPCMDevice.html#OpeningYourPCMDevice" title="Opening your PCM device"/>
+</entry>
+</entry>
+<entry keyword="blocking mode">
+<topic href="topic/pcm_ReceivingData.html#ReceivingData" title="Receiving data from the PCM subchannel"/>
+<topic href="topic/libs/snd_pcm_open_preferred.html#snd_pcm_open_preferred" title="snd_pcm_open_preferred()"/>
+<topic href="topic/pcm_SendingData.html#SendingData" title="Sending data to the PCM subchannel"/>
+<topic href="topic/libs/snd_pcm_nonblock_mode.html#snd_pcm_nonblock_mode" title="snd_pcm_nonblock_mode()"/>
+<topic href="topic/libs/snd_pcm_open.html#snd_pcm_open" title="snd_pcm_open()"/>
+<topic href="topic/libs/snd_pcm_open_name.html#snd_pcm_open_name" title="snd_pcm_open_name()"/>
+</entry>
+<entry keyword="boolean value">
+<entry keyword="getting">
+<topic href="topic/libs/snd_mixer_get_bit.html#snd_mixer_get_bit" title="snd_mixer_get_bit()"/>
+</entry>
+<entry keyword="setting">
+<topic href="topic/libs/snd_mixer_set_bit.html#snd_mixer_set_bit" title="snd_mixer_set_bit()"/>
+</entry>
+</entry>
+<entry keyword="capture">
+<entry keyword="about">
+<topic href="topic/pcm_Capture.html#Capture" title="Capturing audio data"/>
+</entry>
+<entry keyword="capabilities">
+<entry keyword="getting">
+<topic href="topic/libs/snd_pcm_channel_info.html#snd_pcm_channel_info" title="snd_pcm_channel_info()"/>
+<topic href="topic/libs/snd_pcm_plugin_info.html#snd_pcm_plugin_info" title="snd_pcm_plugin_info()"/>
+</entry>
+<entry keyword="structure">
+<topic href="topic/libs/snd_pcm_channel_info_t.html#snd_pcm_channel_info_t" title="snd_pcm_channel_info_t"/>
+</entry>
+</entry>
+<entry keyword="channel direction">
+<topic href="topic/pcm_OpeningYourPCMDevice.html#OpeningYourPCMDevice" title="Opening your PCM device"/>
+</entry>
+<entry keyword="data, selecting">
+<topic href="topic/pcm_SelectingCapture.html#SelectingCapture" title="Selecting what to capture"/>
+</entry>
+<entry keyword="device">
+<entry keyword="duplex mode">
+<topic href="topic/libs/snd_pcm_info_t.html#snd_pcm_info_t" title="snd_pcm_info_t"/>
+</entry>
+<entry keyword="opening">
+<topic href="topic/pcm_OpeningYourPCMDevice.html#OpeningYourPCMDevice" title="Opening your PCM device"/>
+</entry>
+</entry>
+<entry keyword="flushing">
+<topic href="topic/libs/snd_pcm_capture_flush.html#snd_pcm_capture_flush" title="snd_pcm_capture_flush()"/>
+<topic href="topic/libs/snd_pcm_channel_flush.html#snd_pcm_channel_flush" title="snd_pcm_channel_flush()"/>
+<topic href="topic/libs/snd_pcm_plugin_flush.html#snd_pcm_plugin_flush" title="snd_pcm_plugin_flush()"/>
+<topic href="topic/pcm_StoppingCapture.html#StoppingCapture" title="Stopping the capture"/>
+</entry>
+<entry keyword="information">
+<topic href="topic/libs/snd_ctl_pcm_channel_info.html#snd_ctl_pcm_channel_info" title="snd_ctl_pcm_channel_info()"/>
+</entry>
+<entry keyword="opening channel for">
+<topic href="topic/libs/snd_pcm_open_preferred.html#snd_pcm_open_preferred" title="snd_pcm_open_preferred()"/>
+<topic href="topic/libs/snd_pcm_open.html#snd_pcm_open" title="snd_pcm_open()"/>
+<topic href="topic/libs/snd_pcm_open_name.html#snd_pcm_open_name" title="snd_pcm_open_name()"/>
+</entry>
+<entry keyword="overrun">
+<topic href="topic/architecture_StateMachine.html#StateMachine" title="PCM state machine"/>
+<topic href="topic/libs/snd_pcm_channel_status_t.html#snd_pcm_channel_status_t" title="snd_pcm_channel_status_t"/>
+<topic href="topic/pcm_CapturePCMSubchannelStops.html#CapturePCMSubchannelStops" title="If the PCM subchannel stops during capture"/>
+<topic href="topic/pcm_CaptureStates.html#CaptureStates" title="Capture states"/>
+<entry keyword="rollover">
+<topic href="topic/libs/snd_pcm_channel_params_t.html#snd_pcm_channel_params_t" title="snd_pcm_channel_params_t"/>
+</entry>
+</entry>
+<entry keyword="parameters">
+<entry keyword="setting">
+<topic href="topic/libs/snd_pcm_channel_params.html#snd_pcm_channel_params" title="snd_pcm_channel_params()"/>
+<topic href="topic/libs/snd_pcm_plugin_params.html#snd_pcm_plugin_params" title="snd_pcm_plugin_params()"/>
+</entry>
+<entry keyword="structure">
+<topic href="topic/libs/snd_pcm_channel_params_t.html#snd_pcm_channel_params_t" title="snd_pcm_channel_params_t"/>
+</entry>
+</entry>
+<entry keyword="pausing">
+<topic href="topic/libs/snd_pcm_capture_pause.html#snd_pcm_capture_pause" title="snd_pcm_capture_pause()"/>
+<topic href="topic/libs/snd_pcm_channel_pause.html#snd_pcm_channel_pause" title="snd_pcm_channel_pause()"/>
+<topic href="topic/libs/snd_pcm_capture_resume.html#snd_pcm_capture_resume" title="snd_pcm_capture_resume()"/>
+<topic href="topic/libs/snd_pcm_channel_resume.html#snd_pcm_channel_resume" title="snd_pcm_channel_resume()"/>
+</entry>
+<entry keyword="preparing">
+<topic href="topic/libs/snd_pcm_channel_prepare.html#snd_pcm_channel_prepare" title="snd_pcm_channel_prepare()"/>
+<topic href="topic/libs/snd_pcm_capture_prepare.html#snd_pcm_capture_prepare" title="snd_pcm_capture_prepare()"/>
+<topic href="topic/libs/snd_pcm_plugin_prepare.html#snd_pcm_plugin_prepare" title="snd_pcm_plugin_prepare()"/>
+</entry>
+<entry keyword="reading data">
+<topic href="topic/pcm_ReceivingData.html#ReceivingData" title="Receiving data from the PCM subchannel"/>
+<topic href="topic/libs/snd_pcm_read.html#snd_pcm_read" title="snd_pcm_read()"/>
+<topic href="topic/libs/snd_pcm_plugin_read.html#snd_pcm_plugin_read" title="snd_pcm_plugin_read()"/>
+</entry>
+<entry keyword="setup">
+<entry keyword="getting">
+<topic href="topic/libs/snd_pcm_plugin_setup.html#snd_pcm_plugin_setup" title="snd_pcm_plugin_setup()"/>
+<topic href="topic/libs/snd_pcm_channel_setup.html#snd_pcm_channel_setup" title="snd_pcm_channel_setup()"/>
+</entry>
+<entry keyword="structure">
+<topic href="topic/libs/snd_pcm_channel_setup_t.html#snd_pcm_channel_setup_t" title="snd_pcm_channel_setup_t"/>
+</entry>
+</entry>
+<entry keyword="starting">
+<topic href="topic/libs/snd_pcm_capture_go.html#snd_pcm_capture_go" title="snd_pcm_capture_go()"/>
+<topic href="topic/libs/snd_pcm_channel_go.html#snd_pcm_channel_go" title="snd_pcm_channel_go()"/>
+</entry>
+<entry keyword="states">
+<topic href="topic/pcm_CaptureStates.html#CaptureStates" title="Capture states"/>
+</entry>
+<entry keyword="status">
+<entry keyword="getting">
+<topic href="topic/libs/snd_pcm_plugin_status.html#snd_pcm_plugin_status" title="snd_pcm_plugin_status()"/>
+<topic href="topic/pcm_CaptureSynchronizingPCMSubchannel.html#CaptureSynchronizingPCMSubchannel" title="Synchronizing with the PCM subchannel"/>
+<topic href="topic/libs/snd_pcm_channel_status.html#snd_pcm_channel_status" title="snd_pcm_channel_status()"/>
+</entry>
+<entry keyword="structure">
+<topic href="topic/libs/snd_pcm_channel_status_t.html#snd_pcm_channel_status_t" title="snd_pcm_channel_status_t"/>
+<topic href="topic/pcm_CaptureSynchronizingPCMSubchannel.html#CaptureSynchronizingPCMSubchannel" title="Synchronizing with the PCM subchannel"/>
+</entry>
+</entry>
+<entry keyword="stopping">
+<topic href="topic/pcm_StoppingCapture.html#StoppingCapture" title="Stopping the capture"/>
+</entry>
+<entry keyword="synchronizing">
+<topic href="topic/pcm_CaptureSynchronizingPCMSubchannel.html#CaptureSynchronizingPCMSubchannel" title="Synchronizing with the PCM subchannel"/>
+<topic href="topic/pcm_CapturePCMSubchannelStops.html#CapturePCMSubchannelStops" title="If the PCM subchannel stops during capture"/>
+</entry>
+</entry>
+<entry keyword="capture ">
+<entry keyword="about">
+<topic href="topic/architecture_PCMDevices.html#PCMDevices" title="Pulse Code Modulation (PCM) devices"/>
+</entry>
+<entry keyword="capabilities ">
+<entry keyword="getting">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+</entry>
+<entry keyword="structure">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+</entry>
+</entry>
+<entry keyword="device ">
+<entry keyword="configuring">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+</entry>
+</entry>
+<entry keyword="example">
+<topic href="topic/waverec.html#waverec" title=" waverec.c example"/>
+</entry>
+<entry keyword="mixer groups">
+<topic href="topic/mixer.html#mixer" title="Mixer Architecture"/>
+</entry>
+<entry keyword="overrun">
+<topic href="topic/pcm_PreparingPCMSubchannel.html#PreparingPCMSubchannel" title="Preparing the PCM subchannel"/>
+</entry>
+<entry keyword="parameters ">
+<entry keyword="setting">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+</entry>
+<entry keyword="structure">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+</entry>
+</entry>
+<entry keyword="preparing">
+<topic href="topic/pcm_PreparingPCMSubchannel.html#PreparingPCMSubchannel" title="Preparing the PCM subchannel"/>
+</entry>
+<entry keyword="setup ">
+<entry keyword="getting">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+</entry>
+<entry keyword="structure">
+<topic href="topic/pcm_ConfiguringPCM.html#ConfiguringPCM" title="Configuring the PCM device"/>
+</entry>
+</entry>
+<entry keyword="subchannel ">
+<entry keyword="closing">
+<topic href="topic/pcm_ClosingSubchannel.html#ClosingSubchannel" title="Closing the PCM subchannel"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="cards">
+<entry keyword="counting">
+<topic href="topic/libs/snd_cards.html#snd_cards" title="snd_cards()"/>
+</entry>
+<entry keyword="hardware information">
+<entry keyword="getting">
+<topic href="topic/libs/snd_ctl_hw_info.html#snd_ctl_hw_info" title="snd_ctl_hw_info()"/>
+</entry>
+<entry keyword="structure">
+<topic href="topic/libs/snd_ctl_hw_info_t.html#snd_ctl_hw_info_t" title="snd_ctl_hw_info_t"/>
+</entry>
+</entry>
+<entry keyword="listing">
+<topic href="topic/libs/snd_cards_list.html#snd_cards_list" title="snd_cards_list()"/>
+</entry>
+<entry keyword="name, getting">
+<entry keyword="common">
+<topic href="topic/libs/snd_card_get_name.html#snd_card_get_name" title="snd_card_get_name()"/>
+</entry>
+<entry keyword="long">
+<topic href="topic/libs/snd_card_get_longname.html#snd_card_get_longname" title="snd_card_get_longname()"/>
+</entry>
+</entry>
+<entry keyword="number, getting from name">
+<topic href="topic/libs/snd_card_name.html#snd_card_name" title="snd_card_name()"/>
+</entry>
+</entry>
+<entry keyword="cards ">
+<entry keyword="about">
+<topic href="topic/architecture_CardsDevices.html#CardsDevices" title="Cards and devices"/>
+</entry>
+</entry>
+<entry keyword="Change state">
+<topic href="topic/architecture_StateMachine.html#StateMachine" title="PCM state machine"/>
+<topic href="topic/pcm_PlaybackStates.html#PlaybackStates" title="Playback states"/>
+<topic href="topic/pcm_CaptureStates.html#CaptureStates" title="Capture states"/>
+</entry>
+<entry keyword="control device">
+<entry keyword="callbacks">
+<topic href="topic/libs/snd_ctl_callbacks_t.html#snd_ctl_callbacks_t" title="snd_ctl_callbacks_t"/>
+</entry>
+<entry keyword="closing">
+<topic href="topic/libs/snd_ctl_close.html#snd_ctl_close" title="snd_ctl_close()"/>
+</entry>
+<entry keyword="connection handle">
+<topic href="topic/libs/snd_ctl_open.html#snd_ctl_open" title="snd_ctl_open()"/>
+</entry>
+<entry keyword="file descriptor, getting">
+<topic href="topic/libs/snd_ctl_file_descriptor.html#snd_ctl_file_descriptor" title="snd_ctl_file_descriptor()"/>
+</entry>
+<entry keyword="opening">
+<topic href="topic/libs/snd_ctl_open.html#snd_ctl_open" title="snd_ctl_open()"/>
+</entry>
+<entry keyword="reading from">
+<topic href="topic/libs/snd_ctl_read.html#snd_ctl_read" title="snd_ctl_read()"/>
+</entry>
+</entry>
+<entry keyword="control device ">
+<entry keyword="about">
+<topic href="topic/architecture_ControlDevice.html#ControlDevice" title="Control device"/>
+</entry>
+</entry>
+<entry keyword="data formats ">
+<topic href="topic/architecture_PCMFormats.html#PCMFormats" title="Data formats"/>
+<entry keyword="See formats">

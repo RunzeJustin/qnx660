@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword="` (backquote)">
+<topic href="topic/cmdline_Substitutions.html#Substitutions" title="Substitutions"/>
+</entry>
+<entry keyword="_CS_ARCHITECTURE">
+<topic href="topic/environment_ConfigStrings.html#ConfigStrings" title="Configuration strings"/>
+</entry>
+<entry keyword="_CS_DOMAIN">
+<topic href="topic/environment_ConfigStrings.html#ConfigStrings" title="Configuration strings"/>
+<topic href="topic/qnet_NamingConventions.html#NamingConventions" title="Conventions for naming nodes"/>
+</entry>
+<entry keyword="_CS_HOSTNAME">
+<topic href="topic/environment_ConfigStrings.html#ConfigStrings" title="Configuration strings"/>
+<topic href="topic/qnet_NamingConventions.html#NamingConventions" title="Conventions for naming nodes"/>
+</entry>
+<entry keyword="_CS_HW_PROVIDER">
+<topic href="topic/environment_ConfigStrings.html#ConfigStrings" title="Configuration strings"/>
+</entry>
+<entry keyword="_CS_HW_SERIAL">
+<topic href="topic/environment_ConfigStrings.html#ConfigStrings" title="Configuration strings"/>
+</entry>
+<entry keyword="_CS_LIBPATH">
+<topic href="topic/environment_PATH.html#PATH" title="Setting PATH and LD_LIBRARY_PATH"/>
+<topic href="topic/environment_ConfigStrings.html#ConfigStrings" title="Configuration strings"/>
+</entry>
+<entry keyword="_CS_LOCALE">
+<topic href="topic/environment_ConfigStrings.html#ConfigStrings" title="Configuration strings"/>
+</entry>
+<entry keyword="_CS_MACHINE">
+<topic href="topic/environment_ConfigStrings.html#ConfigStrings" title="Configuration strings"/>
+</entry>
+<entry keyword="_CS_PATH">
+<topic href="topic/environment_PATH.html#PATH" title="Setting PATH and LD_LIBRARY_PATH"/>
+<topic href="topic/environment_ConfigStrings.html#ConfigStrings" title="Configuration strings"/>
+</entry>
+<entry keyword="_CS_RELEASE">
+<topic href="topic/environment_ConfigStrings.html#ConfigStrings" title="Configuration strings"/>
+</entry>
+<entry keyword="_CS_RESOLVE">
+<topic href="topic/tcpip_Introduction.html#Introduction" title="Overview of TCP/IP"/>
+<topic href="topic/environment_ConfigStrings.html#ConfigStrings" title="Configuration strings"/>
+<topic href="topic/tcpip_NameserverInfo.html#NameserverInfo" title="What is the name server information?"/>
+</entry>
+<entry keyword="_CS_SRPC_DOMAIN">
+<topic href="topic/environment_ConfigStrings.html#ConfigStrings" title="Configuration strings"/>
+</entry>
+<entry keyword="_CS_SYSNAME">
+<topic href="topic/environment_ConfigStrings.html#ConfigStrings" title="Configuration strings"/>
+</entry>
+<entry keyword="_CS_TIMEZONE">
+<topic href="topic/environment_TimeZone.html#TimeZone" title="Setting the time zone"/>
+<topic href="topic/environment_ConfigStrings.html#ConfigStrings" title="Configuration strings"/>
+</entry>
+<entry keyword="_CS_VERSION">
+<topic href="topic/environment_ConfigStrings.html#ConfigStrings" title="Configuration strings"/>
+</entry>
+<entry keyword="_IO_READ">
+<topic href="topic/fine_tuning_FDvsStdio.html#FDvsStdio" title="File descriptor vs standard I/O"/>
+</entry>
+<entry keyword="_PC_CHOWN_RESTRICTED">
+<topic href="topic/limits_QueryFSLimits.html#QueryFSLimits" title="Querying filesystem limits"/>
+</entry>
+<entry keyword="_PC_LINK_MAX">
+<topic href="topic/limits_QueryFSLimits.html#QueryFSLimits" title="Querying filesystem limits"/>
+</entry>
+<entry keyword="_PC_MAX_CANON">
+<topic href="topic/limits_QueryFSLimits.html#QueryFSLimits" title="Querying filesystem limits"/>
+</entry>
+<entry keyword="_PC_MAX_INPUT">
+<topic href="topic/limits_QueryFSLimits.html#QueryFSLimits" title="Querying filesystem limits"/>
+</entry>
+<entry keyword="_PC_NAME_MAX">
+<topic href="topic/limits_ConfigLimits.html#ConfigLimits" title="Configurable limits"/>
+<topic href="topic/fsystems_QNX4_filenames.html#QNX4_filenames" title="Filenames"/>
+<topic href="topic/limits_QueryFSLimits.html#QueryFSLimits" title="Querying filesystem limits"/>
+</entry>
+<entry keyword="_PC_NO_TRUNC">
+<topic href="topic/limits_QueryFSLimits.html#QueryFSLimits" title="Querying filesystem limits"/>
+</entry>
+<entry keyword="_PC_PATH_MAX">
+<topic href="topic/limits_QueryFSLimits.html#QueryFSLimits" title="Querying filesystem limits"/>
+</entry>
+<entry keyword="_PC_PIPE_BUF">
+<topic href="topic/limits_QueryFSLimits.html#QueryFSLimits" title="Querying filesystem limits"/>
+</entry>
+<entry keyword="_PC_VDISABLE">
+<topic href="topic/limits_QueryFSLimits.html#QueryFSLimits" title="Querying filesystem limits"/>
+</entry>
+<entry keyword="_SC_OPEN_MAX">
+<topic href="topic/limits_ConfigLimits.html#ConfigLimits" title="Configurable limits"/>
+</entry>
+<entry keyword="-- (end of options)">
+<topic href="topic/cmdline_CommandSyntax.html#CommandSyntax" title="Understanding command syntax"/>
+<topic href="topic/cmdline_Troubleshooting.html#Troubleshooting" title="Troubleshooting"/>
+</entry>
+<entry keyword=";">
+<topic href="topic/cmdline_MultipleCommands.html#MultipleCommands" title="Entering multiple commands"/>
+</entry>
+<entry keyword="!">
+<topic href="topic/cmdline_Substitutions.html#Substitutions" title="Substitutions"/>
+</entry>
+<entry keyword="?">
+<entry keyword="wildcard character">
+<topic href="topic/cmdline_Substitutions.html#Substitutions" title="Substitutions"/>
+</entry>
+</entry>
+<entry keyword=". (current directory)">
+<topic href="topic/lost_data_DIRS.html#DIRS" title="Directories"/>
+<topic href="topic/cmdline_Utilities.html#Utilities" title="Utilities"/>
+<topic href="topic/files_Dot.html#Dot" title="Dot and dot-dot directories"/>
+<topic href="topic/fsystems_Directory_links.html#Directory_links" title="Directory links"/>
+<entry keyword="fabricated by fs-nt.so">
+<topic href="topic/fsystems_NTFS.html#NTFS" title="Windows NT filesystem"/>
+</entry>
+<entry keyword="not supported by">
+<entry keyword="/dev/shmem">
+<topic href="topic/fsystems_RAM.html#RAM" title="/dev/shmem RAM filesystem"/>
+</entry>
+<entry keyword="flash filesystems">
+<topic href="topic/fsystems_Flash.html#Flash" title="Flash filesystems"/>
+</entry>
+</entry>
+</entry>
+<entry keyword=".. (parent directory)">
+<topic href="topic/lost_data_DIRS.html#DIRS" title="Directories"/>
+<topic href="topic/files_Dot.html#Dot" title="Dot and dot-dot directories"/>
+<topic href="topic/fsystems_Directory_links.html#Directory_links" title="Directory links"/>
+<entry keyword="fabricated by fs-nt.so">
+<topic href="topic/fsystems_NTFS.html#NTFS" title="Windows NT filesystem"/>
+</entry>
+<entry keyword="not supported by">
+<entry keyword="/dev/shmem">
+<topic href="topic/fsystems_RAM.html#RAM" title="/dev/shmem RAM filesystem"/>
+</entry>
+<entry keyword="flash filesystems">
+<topic href="topic/fsystems_Flash.html#Flash" title="Flash filesystems"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="... in command syntax">
+<topic href="topic/cmdline_CommandSyntax.html#CommandSyntax" title="Understanding command syntax"/>
+</entry>
+<entry keyword=".altboot">
+<topic href="topic/files_Slash.html#Slash" title="/"/>
+<topic href="topic/lost_data_Root_directory.html#Root_directory" title="Root directory"/>
+<topic href="topic/lost_data_Root_block.html#Root_block" title="Root block"/>
+</entry>
+<entry keyword=".bad_blks">
+<topic href="topic/lost_data_dcheck.html#dcheck" title="dcheck"/>
+</entry>
+<entry keyword=".bitmap">
+<topic href="topic/files_Slash.html#Slash" title="/"/>
+<topic href="topic/lost_data_Root_directory.html#Root_directory" title="Root directory"/>
+<entry keyword="rewriting with chkfsys">
+<topic href="topic/lost_data_chkfsys.html#chkfsys" title="chkfsys"/>
+</entry>
+</entry>
+<entry keyword=".boot">
+<topic href="topic/files_Slash.html#Slash" title="/"/>
+<topic href="topic/lost_data_Root_directory.html#Root_directory" title="Root directory"/>
+<topic href="topic/lost_data_Root_block.html#Root_block" title="Root block"/>
+</entry>
+<entry keyword=".diskroot">
+<topic href="topic/files_Slash.html#Slash" title="/"/>
+</entry>
+<entry keyword=".exrc">
+<topic href="topic/editors_Supported.html#Supported" title="Supported editors"/>
+</entry>
+<entry keyword=".inodes">
+<topic href="topic/lost_data_Links.html#Links" title="Links"/>
+<topic href="topic/files_Slash.html#Slash" title="/"/>
+<topic href="topic/lost_data_Root_directory.html#Root_directory" title="Root directory"/>
+<topic href="topic/fine_tuning_Ordering_metadata_updates.html#Ordering_metadata_updates" title="Ordering the updates to metadata"/>
+<entry keyword="entries">
+<topic href="topic/lost_data_DIRS.html#DIRS" title="Directories"/>
+<topic href="topic/fsystems_LINKSANDINODES.html#LINKSANDINODES" title="Links and inodes"/>
+</entry>
+<entry keyword="pregrowing">
+<topic href="topic/fine_tuning_Filesystems.html#Filesystems" title="Filesystems and block I/O (devb-*) drivers"/>
+</entry>
+</entry>
+<entry keyword=".kshrc">
+<topic href="topic/environment_ksh.html#ksh" title="ksh&apos;s startup file"/>
+<entry keyword="example of">
+<topic href="topic/examples_kshrc.html#kshrc" title=" .kshrc "/>
+</entry>
+<entry keyword="interactive mode">
+<topic href="topic/environment_Troubleshooting.html#Troubleshooting" title="Troubleshooting"/>
+</entry>
+</entry>
+<entry keyword=".lastlogin">
+<topic href="topic/files_etc.html#etc" title="/etc"/>
+</entry>
+<entry keyword=".lock">
+<topic href="topic/printing_lpd.html#lpd" title="lpd—printer daemon"/>
+</entry>
+<entry keyword=".longfilenames">
+<topic href="topic/lost_data_DIRS.html#DIRS" title="Directories"/>
+<topic href="topic/fsystems_QNX4_filenames.html#QNX4_filenames" title="Filenames"/>
+<topic href="topic/fsystems_LINKSANDINODES.html#LINKSANDINODES" title="Links and inodes"/>
+</entry>
+<entry keyword=".profile">
+<topic href="topic/editors_DefaultEditor.html#DefaultEditor" title="Specifying the default editor"/>
+<topic href="topic/environment_profile.html#profile" title="$HOME/.profile"/>
+<entry keyword="example of">
+<topic href="topic/examples_profile.html#profile" title=".profile"/>
+</entry>
+</entry>
+<entry keyword=".pwlock">
+<topic href="topic/accounts_etc_pwlock.html#etc_pwlock" title="/etc/.pwlock"/>
+<topic href="topic/accounts_AccountDatabase.html#AccountDatabase" title="Account database"/>
+<topic href="topic/accounts_Removing.html#Removing" title="Removing accounts"/>
+</entry>
+<entry keyword=".rhosts">
+<topic href="topic/tcpip_Daemons.html#Daemons" title="Running the Internet daemons"/>
+</entry>
+<entry keyword="[]">
+<entry keyword="utility syntax">
+<topic href="topic/cmdline_CommandSyntax.html#CommandSyntax" title="Understanding command syntax"/>
+</entry>
+<entry keyword="wildcard character">
+<topic href="topic/cmdline_Substitutions.html#Substitutions" title="Substitutions"/>
+</entry>
+</entry>
+<entry keyword="{}">
+<topic href="topic/cmdline_Substitutions.html#Substitutions" title="Substitutions"/>
+</entry>
+<entry keyword="*">
+<topic href="topic/cmdline_Substitutions.html#Substitutions" title="Substitutions"/>
+</entry>
+<entry keyword="/">
+<entry keyword="pathname separator">
+<topic href="topic/files_PATHNAMES.html#PATHNAMES" title="Filenames and pathnames"/>
+</entry>
+<entry keyword="root directory">
+<topic href="topic/files_PATHNAMES.html#PATHNAMES" title="Filenames and pathnames"/>
+<topic href="topic/files_DriveLetters.html#DriveLetters" title="No drive letters"/>
+</entry>
+</entry>
+<entry keyword="/ ">
+<entry keyword="root directory">
+<topic href="topic/files_Slash.html#Slash" title="/"/>
+</entry>
+</entry>
+<entry keyword="/dev">
+<topic href="topic/files_Pathname_space_mapping.html#Pathname_space_mapping" title="Pathname-space mapping"/>
+</entry>
+<entry keyword="/etc directory">
+<topic href="topic/files_etc.html#etc" title="/etc"/>
+<entry keyword="See also individual files">

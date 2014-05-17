@@ -1,0 +1,245 @@
+********************************************************************************
+*                          Subversive Release Notes                            *
+*                                                                              *
+* Subversive - a brand new Eclipse Client for Subversion (SVN)                 *
+* See details at http://www.eclipse.org/subversive                             *
+********************************************************************************
+
+Version 1.0.0.I20120601-1700 release date: 01 June 2012
+
+1. What's New
+
+   The version is 1.0.0 graduation release. 
+   
+   Changes comparatively to the previous release version are listed below. The full list of 
+   changes you can find in Change Log.   	
+		
+	Features:
+	 * Add SVN 1.7 support (bug 365627)
+	 * Rename "Commit Templates" preferences node to the "Comments and Input History" (bug 367026)
+	 * Smartcard Login on Windows (MSCAPI Support) (bug 351510)
+	   + special thanks for the contribution to Markus Oberlassnig (ilogs information logistics GmbH) 
+	 * Add SVN 1.7 API support (bug 361257)
+	 * Replace with Revision fails to notice trivial changes on locked files (bug 353875)
+	   + special thanks to Neels Hofmeyr
+	 * New decoration mode for branches and tags [fullpath] (bug 359650)
+	 * UI commit extensions improvement (bug 356025)
+	   + special thanks to Jc Temp
+	 * Create patch to Workspace could default location to current project (bug 356042)
+	 * IRepositoryLocation state listener (bug 356024)
+	   + special thanks to Jc Temp, Eike Stepper
+	 * ISVNConnector calls interception API (bug 356023)
+	   + special thanks to Jc Temp, Eike Stepper, Adrian
+	 * Add "record-only" option to the merge dialog (bug 354996)
+	 * Make SVN: 'Save Authorization Info' operation optional (bug 349111)
+	 * Update Subversive help regarding persistent SVN+SSH connection option (bug 349139)
+	 * Provide a flexible way to traverse resources tree in operation execution context (bug 345170)
+	 * Provide several modes for a branch/tag creation based on the working copy (bug 343073)
+	 * Undo and Redo doesn't work in Commit Dialog (bug 298556)
+	 * Add the svn:mergeinfo property into the SVN Property editor list (bug 339832)
+	 * Improve bug report facilities (bug 337250)
+	 * Allow to branch/tag files and folders in single transaction in the SVN Repositories view (bug 335922)
+	 * Provide API to open the History view on a specific revision range (bug 335421)
+	 * There is no access to the SVN 1.6-related method signatures (bug 333211)
+	 * Allow repository creation with the latest SVN Kit-based connector (bug 333202)
+	 * Add documentation about Revision Graph options dialog (bug 317802)
+	 * [Revision Graph] Allow to hide merge connections by pressing on merge icon (bug 319383)
+	 * Make lighter comment color for selected node in Revision Graph (bug 317699)
+	 * Allow to call revision graph for multi-selection (bug 318719)
+	 * Add help about Properties View contribution in Revision Graph (bug 319109)
+	 * Show nodes info in Properties View in Revision Graph (bug 319104)
+	 * Show example of date in preferences (bug 299908)
+	 * Save revision graph setting in options dialog (bug 317839)
+	 * [Revision Graph] Allow to search revision nodes on graph (bug 319968)
+	 * [Revision Graph] Allow to specify revisions range (bug 319249)
+	 * Support set-depth option (bug 295217)
+	 * Add merge information to revision graph (bug 313134)
+	 
+	Fixes:
+	 * Incorrect console color preferences handling (bug 376929)
+	 * NPE in SVNUtility when repository is unavailable [ID-S1M7B] (bug 377166)
+	 * Correct supported Eclipse Platform version restriction according to the used API (bug 377864)
+	 * "Resource '/.../.svn' does not exist" exception while checking for SVN meta-information [ID-BHMBD] (bug 378922)
+	 * NPE while sharing project using the SVN 1.7 connector [ID-FMF5P] (bug 379628)
+	 * NPE in ScanLocksOperation.createLockFile [ID-OKCDI] (bug 375150)
+	 * "Document is closed" exception while writing to the console [ID-UODT8] (bug 374884)
+	 * Missing Text fields in Commit dialog (bug 375038)
+	 * NPE in EditTreeConflictsPanel due to wrong enablement (bug 373821)
+	 * Class SVNConsole shouldn't extend MessageConsole (bug 373049)
+	 * SVNConsole class shouldn't be initialized at plug-in startup (bug 370374)
+	 * [KeyBindings] SVN Sync and Commit keybindings no longer work (bug 309074)
+	 * Commit UI extension fails to set a commit message prior to opening the dialog (bug 372027)
+	 * org.eclipse.team.svn.ui.compare.ResourceCompareInput.ResourceElement fails to return an InputStream from getContents when compare is invoked against a folder (bug 363845)
+	 * If there were no SVN-related activities on the workspace startup, Subversive can't see that imported projects are linked to SVN (bug 336689)
+	 * Provide "Edit properties conflicts" to edit conflicts on properties (and mark as merged) (bug 364407)
+	 * "Edit Conflicts" action should cover both: property and content conflict cases (bug 370072)
+	 * "Mark As Merged" seemingly has no effect on projects with property conflicts (bug 370071)
+	 * Exception produced on Show Revision Graph for a source folder (bug 369217)
+	 * Move refactoring cause NPE (bug 368325)
+	 * Shift and Enter in the commit message window -annoyingly- always causes a commit (bug 366954)
+	 * Add "path history depth" setting (bug 367027)
+	 * There are Eclipse 3.7-specific API usage due to misleading documentation (bug 364572)
+	 * Subversive doesn't refresh synchronize view after commit (bug 329555)
+	 * JavaHL: Commit across multiple project atomically does not work (bug 362182)
+	 * Collapse All and Expand All buttons are separated in Team Sync view (bug 230868)
+	 * "Subversive JDT ignore recommendations" plug-in deadlocks on Eclipse startup (bug 359199)
+	 * Problem with RevisionComposite_Reverse (bug 363635)
+	   + special thanks to Satoru Yoshida
+	 * Problem with MarkAsMergedAction.tooltip (bug 363634)
+	   + special thanks to Satoru Yoshida
+	 * SVN Compare does not allow new files to be copied (bug 362652)
+	 * NPE while obtaining IProxyData data for the specified host [ID-ELYHN] (bug 362983)
+	 * If there were no SVN-related activities on the workspace startup, Subversive can't see that imported projects are linked to SVN (bug 336689)
+	   + special thanks to Brice Laurencin, Kris De Volder
+	 * ClassCastException in ShowHistoryViewOperation [ID-L8NW8] (bug 362570)
+	 * Team-private members are marked at wrong time while importing the already shared project (bug 361831)
+	   + special thanks to Kris De Volder
+	 * There are no notification about the repository node absence while synchronizing workspace (bug 361829)
+	 * ReplaceWithRemoteOperation ignores cancellation event (bug 359652)
+	 * When updating depth "Recursively" should be the default option (bug 359651)
+	 * SVN: '0x00400113: Show Conflict Editor' operation finished with error: null (bug 358998)
+	 * FileNotFoundException in ReplaceWithLatestRevisionAction [ID-PASE4] (bug 323684)
+	 * Unable to compare files from different branches (bug 356870)
+	 * False warning about tag modification (bug 358068)
+	 * Create branch from revision not work on project (bug 357562)
+	 * NPE in SwitchOperation [ID-LK5LW] (bug 351434)
+	 * NPE in ResourceCompareInput [ID-H92AC] (bug 356872)
+	 * NPE in MarkAsMergedOperation [ID-WZ3PP] (bug 357104)
+	 * Problem during Replace with Latest from repository (temporary path is too long) (bug 297721)
+	 * Changes model initialization shouldn't cause an I/O exception [ID-AI4E7] (bug 355901)
+	 * Class Preferences, methods savePluginPreferences() and getProxyDataForHost() are deprecated (bug 355996)
+	 * GetRemoteFolderChildrenOperation implementation depends on the JDK specific (bug 352947)
+	 * Do not mess svn:externals order (bug 350143)
+	   + special thanks to Julien HENRY
+	 * Duplicate folder name for svn:externals if same destination (bug 353009)
+	   + special thanks to Julien HENRY
+	 * Performance problem with Create Patch (bug 333785)
+	 * Refactor SVN locks support code (bug 354058)
+	 * Data processing error is mistakenly recognized as a bug in the CreatePatchOperation code [ID-W32HV] (bug 354062)
+	 * When i "create patch". The patch file don't encode in utf-8. (bug 284081)
+	 * Missing Resources dialog does not resize correctly (bug 304486)
+	 * JavaHL is independent of Windows, please properly document this (bug 307397)
+	 * Exceptions when eclipse start (bug 302569)
+	 * Validation of the issue number using bugtraq:logregex is broken (bug 300402)
+	 * SetRevisionAuthorNameOperation shouldn't be performed if original (commit, copy etc.) operation failed [ID-WP0UC] (bug 354812)
+	 * Negative revision numbers are not allowed [ID-VBVYH] (bug 296094)
+	 * 'Replace with revision' fails when using javahl16 connector (bug 351370)
+	 * SVN repositories view blocks UI thread (bug 295110)
+	 * Useless reordering in the SVN Repositories View (bug 351649)
+	 * Team Hook does not work while moving versioned files or folders into unmanaged project (bug 254846)
+	 * NPE in CompareEditorInput.setDirty in Eclipse 3.7 [ID-MAMS9] (bug 348787)
+	 * SVNKitconnector may access uninitialized CoreExtensionsManager (bug 351357)
+	 * IllegalArgumentException in AbstractActionOperation [ID-CUA4N] (bug 350077)
+	 * extremely poor refreshLocalResourceImpl performance (bug 259287)
+	 * FileReplaceListener performs time consuming actions at inappropriate time (bug 321542)
+	 * svn perspective launches svnserve which never close (bug 305658)
+	 * Correct french translation for PerformancePreferencePage_enableCache (bug 349138)
+	 * Correct help section regarding latest changes in Merge Dialog behaviour (bug 347143)
+	 * Bug fix: update version number to the actual 1.6.15 (bug 347568)
+	 * Indigo requires license update (bug 346698)
+	 * Sometimes SVN Kit does not throw an exception when repository is inaccessible [ID-VIT54] (bug 347737)
+	 * Deadlock when starting Eclipse with Synch View open [ID-V0QM2] (bug 313866)
+	 * Indigo requires license update (bug 346698)
+	 * Make revision selection dialog more intuitive (automatically include lesser revision changes into the selected range) (bug 319962)
+	 * No way to specify correctly a name for the resources traversal operation (bug 345855)
+	 * Rename Class/Interface causes code garbage with Subversive and keyword substitution (bug 315279)
+	 * MarkAsMergedOperation ignores cancellation event (bug 345169)
+	 * SVNMoveDeleteHook does not report any errors happened while moving resources (bug 344361)
+	 * Unused NLS message (bug 343439)
+	 * Branch/Tag action from the "Team" menu blocks UI thread (bug 342743)
+	 * "Keep resource history" option name in the "Team->Copy To" dialog causes misunderstanding (bug 341723)
+	 * Set Keywords action is enabled for new resources (bug 311665)
+	 * NPE in SVNHistoryPage resource state listener [ID-Q5KRR] (bug 341896)
+	 * Undo Delete does not restore the latest file state but the version before (bug 340318)
+	 * Missing NLS string in plugins.properties (bug 341364)
+	 * UIMonitorUtility is not equipped to handle applications with more than one shell (bug 341271)
+	 * IndexOutOfBoundsException during cache update (bug 315544)
+	 * Correct connectors compatibility ID [ID-D1U3Y] (bug 340527)
+	 * Correct Mylyn integration feature dependencies (bug 340376)
+	 * IllegalStateException in discovery feature when network problem or cancellation occurs [ID-FEJWD] (bug 334408)
+	 * Extract operation fails with exception [ID-BOAKP] (bug 339469)
+	 * "Unrecognized node kind" error while comparing resources [ID-RTYVU] (bug 338876)
+	 * Unhandled EOF exception in Revision Graph [EID-NVOHU] (bug 338485)
+	 * No error dialog appears if commit fails (bug 338641)
+	 * "Find/Check out as": destination folder browser should open location of actual workspace [ID-P1ILO] (bug 334252)
+	 * ResourceContentStorage does not implement equals() (bug 305866)
+	 * Update Subversive help regarding installation and updating workflow (bug 338289)
+	 * Remove Subversive menu in Help (bug 229495)
+	 * The "svnconnector" extension point is broken (bug 336207)
+	 * SWTException in SVNTeamModificationValidator when lock is required (bug 336064)
+	 * Extract operation fails under certain conditions (bug 335079)
+	 * Remove duplicated code parts (bug 333061)
+	 * Pressing Cancel during compare results in invalid GUI message (no differences) (bug 328820)
+	 * Calls to the deprecated function in the SelectPatchFilePage (bug 332775)
+	 * There is a compilation issue in the core plug-in under Eclipse 3.7 (bug 332528)
+	 * Connectors from polarion update site not detected (bug 328104)
+	 * No serialVersionUID for the serializable class ActionIDList (bug 332235)
+	 * Finish to create new SVN repository and share project in single operation fails (bug 330780)
+	 * IWorkspaceRoot.findFilesForLocation() is deprecated (bug 331373)
+	 * IWorkspaceRoot.findContainersForLocation() is deprecated (bug 331188)
+	 * [ID-ZT6S5] "Negative revision numbers are not allowed" error while performing "Mark As Merged" operation (bug 330737)
+	 * Eclipse-LazyStart option is deprecated in Eclipse 3.3 and later versions (bug 331003)
+	 * Lots of warnings in the build.properties files (bug 330843)
+	 * Use Shell from the FileModificationValidationContext if possible (bug 330638)
+	 * Eclipse 3.5 discovery feature connector source code produces compilation errors (bug 330637)
+	 * SVNTeamModificationValidator does not take into account LockProposeUtility.proposeLock(..) returned status (bug 330290)
+	 * Error in menu item title: "Comapre With" (bug 330228)
+	 * Ability to reject incoming changes (make Mark as Merged active) (bug 297821)
+	 * Finish button on "Select Resource" dialog not enabled until a different revision is selected (bug 329756)
+	 * Correct simple share mode option name (bug 329726)
+	 * Wrong French translation for a SVN error (bug 329201)
+	 * Some NLS messages should be removed (bug 329187)
+	 * SWTException when Subversive UI plugin starts in a worker thread (bug 326684)
+	 * No tooltip for clock icon on merge dialog (bug 326074)
+	 * NPE starting target workspace (bug 328149)
+	 * Properties conflict on project makes Subversive totally unusable. (bug 283999)
+	 * Update javahl binaries to 1.6.12 version (bug 326829)
+	 * Subversive does not start correctly under Eclipse 3.5.x with discovery feature enabled (bug 326834)
+	 * Remove SVN 1.4-related connectors from the discovery feature list (bug 326831)
+	 * Discovery feature do not starts under Eclipse 3.6 (bug 326564)
+	 * The conflict editor ignores custom file encoding on the right hand side, uses encoding from container instead (bug 325122)
+	 * Resolving Tree Conflicts - Apply Local Changes doesn't work on 2.2.2 (bug 320843)
+	 * Subversive should not set forcibly svn:mime-type to text/plain (bug 322772)
+	 * NPE in SVNRemoteStorage [ID-AFBM0] (bug 324394)
+	 * Default key binding in editors prevents AT from working properly (bug 316097)
+	 * Commit Comments history depth doesn't have any effect, when i change it to lower value (bug 302571)
+	 * [Revision Graph] Add ... to Show Revision Graph action (bug 319138)
+	 * Handle missing resources in Commit dialog (bug 312874)
+	 * [Revision Graph] Increase vertical offset between neighbor nodes (bug 319133)
+	 * Create patch file filter not working (bug 302937)
+	 * [Revision Graph] Increase graph margin (bug 319129)
+	 * Error when calling SVN Info for moved resource (bug 315545)
+	 * [Revision Graph] Show graph for called resource (bug 319243)
+	 * Error in annotation if there are specified revisions (bug 317612)
+	 * Connector discovery says it's retrieving list from eclipse.org, but connects to community.polarion.com (bug 320955)
+	 * Show History failure - No such revision (bug 312464)
+	 * [Revision Graph] Improve comment presentation (bug 319228)
+	 * [Revision Graph] Improve tooltip presentation (bug 319148)
+	 * Allow to truncate paths in Revision Graph (bug 319029)
+	 * Handle if errors happen during revision info fetching at Revision Graph (bug 317801)
+	 * NPE in create patch (bug 300720)
+	 * Cache directory is empty for revision graph (bug 317266)
+	 * All updates in a merge marked as conflicts (bug 312585)
+	 * [Show History] Error: Retrieval of mergeinfo unsupported (bug 257669) 
+	 * Lock user account with Subversive (bug 314490) 
+	 * Realm credentials are not used in auth prompt (bug 314639) 
+	 * Unable to customize preferences when Subversive is embedded in an eclipse product (bug 311019) 
+	
+	
+2. Information
+
+2.1. System Requirements
+
+   Subversive requires JDK 1.5 or higher and supports following versions of Eclipse:
+    * 3.6
+    * 3.7
+    * 3.8
+    * 4.2
+   
+   Subversive supports 
+    Subversion version 1.4-1.6 with SVN Kit 1.3.7 and JavaHL 1.6.15,
+    Subversion version 1.7 with SVN Kit 1.7.4-v1 and JavaHL 1.7.4, 
+
+2.2 Known issues
+
+	* "Find projects" part of "Find/Checkout As" action could take too much time on slow connections

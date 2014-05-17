@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.qnx.tools.ide.mudflap"
+      label="%featureName"
+      version="5.0.0.v201402230336"
+      provider-name="%providerName"
+      plugin="com.qnx.tools.ide.mudflap">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="com.qnx.tools.ide.mudflap.core"
+         download-size="40"
+         install-size="71"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.mudflap.ui"
+         download-size="93"
+         install-size="181"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.mudflap"
+         download-size="5"
+         install-size="5"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+</feature>

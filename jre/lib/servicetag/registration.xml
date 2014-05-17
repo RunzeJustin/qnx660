@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<registration_data version="1.0">
+   <environment>
+      <hostname>Unknown host</hostname>
+      <hostId/>
+      <osName>Linux</osName>
+      <osVersion>2.6.16.46-0.12-smp</osVersion>
+      <osArchitecture>i386</osArchitecture>
+      <systemModel>i386</systemModel>
+      <systemManufacturer>vmware, inc.</systemManufacturer>
+      <cpuManufacturer>GenuineIntel</cpuManufacturer>
+      <serialNumber>vmware-56 4d 91 1d d2 27 b0 83-25 de c7 5a b6 ad 84 5a</serialNumber>
+   </environment>
+   <registry urn="urn:st:c9030ca6-1368-4358-9b77-c11a015e2fb1" version="1.0">
+      <service_tag>
+         <instance_urn>urn:st:c810dc18-f5cf-42c5-8ca0-29d3e6cffbbd</instance_urn>
+         <product_name>Java SE 6 Runtime Environment</product_name>
+         <product_version>1.6.0_15</product_version>
+         <product_urn>urn:uuid:92d1de8c-1e59-42c6-a280-1c379526bcbc</product_urn>
+         <product_parent_urn>urn:uuid:fdc90b21-018d-4cab-b866-612c7c119ed3</product_parent_urn>
+         <product_parent>Java Platform Standard Edition 6 (Java SE 6)</product_parent>
+         <product_defined_inst_id>id=1.6.0_15-b03 i386,dir=/root/Nilesh/jre1.6.0_15</product_defined_inst_id>
+         <product_vendor>Sun Microsystems</product_vendor>
+         <platform_arch>i386</platform_arch>
+         <timestamp>2009-10-08 23:55:37 GMT</timestamp>
+         <container>global</container>
+         <source>jre-6u15-fcs-bin-b03-linux-i586-02_jul_2009.bin</source>
+         <installer_uid>-1</installer_uid>
+      </service_tag>
+   </registry>
+</registration_data>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.qnx.tools.ide.SystemProfiler"
+      label="%featureName"
+      version="5.0.0.v201402230336"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="com.qnx.tools.ide" version="4.6.0" match="greaterOrEqual"/>
+      <import feature="com.qnx.tools.ide.qde" version="5.0.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="com.qnx.tools.ide.SystemProfiler.core"
+         download-size="340"
+         install-size="685"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.SystemProfiler.ui"
+         download-size="721"
+         install-size="1478"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.SystemProfiler.CPUActivity"
+         download-size="15"
+         install-size="26"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.SystemProfiler.CPUUsage"
+         download-size="34"
+         install-size="65"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.SystemProfiler.Timeline"
+         download-size="27"
+         install-size="56"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.SystemProfiler.neutrino"
+         download-size="309"
+         install-size="650"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.SystemProfiler.views"
+         download-size="16"
+         install-size="28"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.SystemProfiler"
+         download-size="5"
+         install-size="5"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.SystemProfiler.statistics.core"
+         download-size="36"
+         install-size="70"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.SystemProfiler.statistics.ui"
+         download-size="131"
+         install-size="271"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.SystemProfiler.summary"
+         download-size="53"
+         install-size="104"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.SystemProfiler.threadstate"
+         download-size="60"
+         install-size="121"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.SystemProfiler.whybutton"
+         download-size="30"
+         install-size="55"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.SystemProfiler.multicore"
+         download-size="32"
+         install-size="61"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.SystemProfiler.aps"
+         download-size="72"
+         install-size="144"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.addresstranslator"
+         download-size="68"
+         install-size="129"
+         version="5.0.0.v201402230336"/>
+
+   <plugin
+         id="com.qnx.tools.ide.SystemProfiler.addressxlator"
+         download-size="104"
+         install-size="204"
+         version="5.0.0.v201402230336"/>
+
+</feature>

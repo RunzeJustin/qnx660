@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.qnx.tools.ide.coverage"
+      label="%featureName"
+      version="5.0.0.v201402230336"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="com.qnx.tools.ide.qde" version="5.0.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="com.qnx.tools.ide.coverage.core"
+         download-size="218"
+         install-size="446"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.coverage.ui"
+         download-size="267"
+         install-size="539"
+         version="5.0.0.v201402230336"/>
+
+   <plugin
+         id="com.qnx.tools.ide.coverage"
+         download-size="5"
+         install-size="5"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+</feature>

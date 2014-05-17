@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<qnxSystemDefinition>
+  <installation>
+    <base>/opt/qnx660</base>
+    <version>6.6</version>
+    <name>QNX Software Development Platform 6.6</name>
+    <host>/opt/qnx660/host/linux/x86</host>
+    <target>/opt/qnx660/target/qnx6</target>
+  </installation>
+</qnxSystemDefinition>

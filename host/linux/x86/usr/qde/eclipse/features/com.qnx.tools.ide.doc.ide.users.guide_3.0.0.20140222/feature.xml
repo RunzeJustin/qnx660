@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+	id="com.qnx.tools.ide.doc.ide.users.guide"
+	label="%featureName"
+	version="3.0.0.20140222"
+	provider-name="%providerName"
+	plugin="com.qnx.tools.ide.doc.ide.users.guide">
+
+	<description>
+		%description
+	</description>
+
+	<copyright>
+		%copyright
+	</copyright>
+
+	<license url="%licenseURL">
+		%license
+	</license>
+
+	<plugin
+		id="com.qnx.doc.ide.userguide"
+		version="3.0.0.20140222"
+		download-size="0"
+		install-size="0"
+		unpack="true"/>
+</feature>

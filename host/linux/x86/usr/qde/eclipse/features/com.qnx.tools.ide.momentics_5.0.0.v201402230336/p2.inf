@@ -1,0 +1,4 @@
+instructions.configure=\
+org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:https${#58}//www.qnx.com/account/updates/foundry27/ide/5.0/,type:0,name:QNX Momentics Update Site,enabled:true); \
+org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:https${#58}//www.qnx.com/account/updates/foundry27/ide/5.0/,type:1,name:QNX Momentics Update Site,enabled:true); 
+  

@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword="cdpub">
+<entry keyword="command line">
+<topic href="topic/cdpub_usage.html#cdpub_usage" title="Command line for cdpub"/>
+</entry>
+<entry keyword="device control object">
+<topic href="topic/cdpub_device_ctrl.html#cdpub_device_ctrl" title="Device control object"/>
+</entry>
+<entry keyword="device object">
+<topic href="topic/cdpub_device.html#cdpub_device_pps" title="Device object"/>
+</entry>
+<entry keyword="driver object">
+<topic href="topic/cdpub_driver.html#cdpub_driver_pps" title="Driver object"/>
+</entry>
+<entry keyword="mount object">
+<topic href="topic/cdpub_mount.html#cdpub_mount_pps" title="Mount object"/>
+</entry>
+<entry keyword="overview">
+<topic href="topic/cdpub.html#cdpub" title="The cdpub Publisher"/>
+</entry>
+</entry>
+<entry keyword="device drivers">
+<topic href="topic/drivers.html#drivers" title="Role of device drivers and mcd"/>
+</entry>
+<entry keyword="device publishers">
+<entry keyword="device object management">
+<topic href="topic/drivers.html#drivers" title="Role of device drivers and mcd"/>
+</entry>
+<entry keyword="mountpoint management">
+<topic href="topic/drivers.html#drivers" title="Role of device drivers and mcd"/>
+</entry>
+<entry keyword="overview">
+<topic href="topic/overview.html#overview" title="Device Publishers"/>
+</entry>
+<entry keyword="plugins">
+<topic href="topic/plugins.html#plugins" title="Plugins"/>
+<entry keyword="See plugins">
+</entry>
+</entry>
+<entry keyword="PPS objects">
+<topic href="topic/pps_objects.html#pps_objects" title="PPS object types"/>
+</entry>
+</entry>
+<entry keyword="Disabling MOUNT_FSYS rule in mcd configuration file">
+<topic href="topic/usblauncher_mcd.html#usblauncher_mcd" title="Using usblauncher to mount filesystems"/>
+</entry>
+<entry keyword="Disabling usblauncher mounting of filesystems">
+<topic href="topic/usblauncher_mcd.html#usblauncher_mcd" title="Using usblauncher to mount filesystems"/>
+</entry>
+<entry keyword="iAP2">
+<entry keyword="enabling in client mode">
+<topic href="topic/usblauncher_config_supported_applications.html#usblauncher_config_supported_applications" title="Supported third-party applications and protocols"/>
+</entry>
+<entry keyword="launching a driver in host mode">
+<topic href="topic/usblauncher_config_supported_applications.html#usblauncher_config_supported_applications" title="Supported third-party applications and protocols"/>
+</entry>
+<entry keyword="probing a device for its support">
+<topic href="topic/usblauncher_config_supported_applications.html#usblauncher_config_supported_applications" title="Supported third-party applications and protocols"/>
+</entry>
+</entry>
+<entry keyword="io-usb">
+<topic href="topic/usblauncher.html#usblauncher" title="The usblauncher Service"/>
+</entry>
+<entry keyword="io-usb-dcd">
+<topic href="topic/usblauncher.html#usblauncher" title="The usblauncher Service"/>
+</entry>
+<entry keyword="iOSitC">
+<entry keyword="enabling">
+<topic href="topic/usblauncher_config_supported_applications.html#usblauncher_config_supported_applications" title="Supported third-party applications and protocols"/>
+</entry>
+</entry>
+<entry keyword="Lua">
+<entry keyword="language">
+<topic href="topic/usblauncher_config.html#usblauncher_config" title="Configuration files"/>
+</entry>
+</entry>
+<entry keyword="mcd">
+<topic href="topic/drivers.html#drivers" title="Role of device drivers and mcd"/>
+</entry>
+<entry keyword="MirrorLink">
+<topic href="topic/usblauncher_config_supported_applications.html#usblauncher_config_supported_applications" title="Supported third-party applications and protocols"/>
+</entry>
+<entry keyword="mmcsdpub">
+<entry keyword="command line">
+<topic href="topic/mmcsdpub_usage.html#mmcsdpub_usage" title="Command line for mmcsdpub"/>
+</entry>
+<entry keyword="device object">
+<topic href="topic/mmcsdpub_device.html#mmcsdpub_device_pps" title="Device object"/>
+</entry>
+<entry keyword="driver object">
+<topic href="topic/mmcsdpub_driver.html#mmcsdpub_driver_pps" title="Driver object"/>
+</entry>
+<entry keyword="mount object">
+<topic href="topic/mmcsdpub_mount.html#mmcsdpub_mount_pps" title="Mount object"/>
+</entry>
+<entry keyword="overview">
+<topic href="topic/mmcsdpub.html#mmcsdpub" title="The mmcsdpub Publisher"/>
+</entry>
+</entry>
+<entry keyword="Mounting USB device filesystems">
+<topic href="topic/usblauncher_mcd.html#usblauncher_mcd" title="Using usblauncher to mount filesystems"/>
+</entry>
+<entry keyword="OTG support">
+<topic href="topic/usblauncher_otg_support.html#usblauncher_otg_support" title="Support for USB On-The-Go (OTG)"/>
+</entry>
+<entry keyword="plugins">
+<entry keyword="manager">
+<topic href="topic/plugins.html#plugins" title="Plugins"/>
+</entry>
+<entry keyword="ratings">
+<topic href="topic/plugin_ratings.html#plugin_ratings" title="Plugin ratings"/>
+</entry>
+<entry keyword="selection">
+<topic href="topic/plugin_ratings.html#plugin_ratings" title="Plugin ratings"/>
+</entry>
+<entry keyword="support for device publishers">
+<topic href="topic/plugin_ratings.html#plugin_ratings" title="Plugin ratings"/>
+</entry>
+</entry>
+<entry keyword="sending commands to a CD">
+<topic href="topic/cdpub_device_ctrl.html#cdpub_device_ctrl" title="Device control object"/>
+</entry>
+<entry keyword="sending commands to a USB port">
+<topic href="topic/usblauncher_device_ctrl.html#usblauncher_device_ctrl_pps" title="Device control object"/>
+</entry>
+<entry keyword="starting a version of the USB stack">
+<topic href="topic/usblauncher_device_ctrl.html#usblauncher_device_ctrl_pps" title="Device control object"/>
+</entry>
+<entry keyword="starting cdpub">
+<topic href="topic/cdpub_usage.html#cdpub_usage" title="Command line for cdpub"/>
+</entry>
+<entry keyword="starting mmcsdpub">
+<topic href="topic/mmcsdpub_usage.html#mmcsdpub_usage" title="Command line for mmcsdpub"/>
+</entry>
+<entry keyword="starting usblauncher">
+<topic href="topic/usblauncher_usage.html#usblauncher_usage" title="Command line for usblauncher"/>
+</entry>
+<entry keyword="system services required for cdpub">
+<topic href="topic/cdpub.html#cdpub" title="The cdpub Publisher"/>
+</entry>
+<entry keyword="system services required for mmcsdpub">
+<topic href="topic/mmcsdpub.html#mmcsdpub" title="The mmcsdpub Publisher"/>
+</entry>
+<entry keyword="system services required for usblauncher">
+<topic href="topic/usblauncher.html#usblauncher" title="The usblauncher Service"/>
+</entry>
+<entry keyword="USB descriptors">
+<topic href="topic/usblauncher_config_usb_descriptors.html#usblauncher_usb_descriptors" title="USB descriptors"/>
+<entry keyword="class-specific descriptors">
+<topic href="topic/usblauncher_config_usb_descriptors.html#usblauncher_usb_descriptors" title="USB descriptors"/>
+</entry>
+<entry keyword="defining raw bytes">
+<topic href="topic/usblauncher_config_usb_descriptors.html#usblauncher_usb_descriptors" title="USB descriptors"/>
+</entry>
+<entry keyword="descriptor templates">
+<topic href="topic/usblauncher_config_usb_descriptors.html#usblauncher_usb_descriptors" title="USB descriptors"/>
+</entry>
+<entry keyword="levels">
+<topic href="topic/usblauncher_config_usb_descriptors.html#usblauncher_usb_descriptors" title="USB descriptors"/>
+</entry>
+<entry keyword="variables">
+<topic href="topic/usblauncher_config_usb_descriptors.html#usblauncher_usb_descriptors" title="USB descriptors"/>
+</entry>
+</entry>
+<entry keyword="USB device mode">
+<entry keyword="drivers">
+<topic href="topic/usblauncher.html#usblauncher" title="The usblauncher Service"/>
+</entry>
+<entry keyword="stack service">
+<topic href="topic/usblauncher.html#usblauncher" title="The usblauncher Service"/>
+<entry keyword="See io-usb-dcd">

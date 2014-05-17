@@ -1,0 +1,499 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword=" capture_release_frame()">
+<topic href="topic/api/capture_get_frame.html#capture_get_frame" title="capture_get_frame()"/>
+</entry>
+<entry keyword="_capture_context">
+<topic href="topic/api/capture_context_t.html#capture_context_t" title="capture_context_t"/>
+</entry>
+<entry keyword="application-allocated">
+<entry keyword="buffers">
+<topic href="topic/manual/vc_buffer.html#vc_buffer" title="Buffers"/>
+</entry>
+</entry>
+<entry keyword="arrays">
+<entry keyword="set properties">
+<topic href="topic/manual/vc_arrays.html#vc_arrays" title="Properties applied to arrays"/>
+</entry>
+</entry>
+<entry keyword="buffer">
+<entry keyword="dangers of freeing unintentionally">
+<topic href="topic/manual/vc_buffer.html#vc_buffer" title="Buffers"/>
+<topic href="topic/api/capture_create_buffers.html#capture_create_buffers" title="capture_create_buffers()"/>
+</entry>
+<entry keyword="destination">
+<entry keyword="properties">
+<topic href="topic/api/capture_property_dst_.html#capture_property_dst_" title="Destination buffer properties"/>
+</entry>
+<entry keyword="size">
+<topic href="topic/api/capture_property_dst_.html#capture_property_dst_" title="Destination buffer properties"/>
+</entry>
+</entry>
+<entry keyword="getting free for video capture">
+<topic href="topic/api/capture_get_free_buffer.html#capture_get_free_buffer" title="capture_get_free_buffer()"/>
+</entry>
+<entry keyword="injection for delinterlacing">
+<topic href="topic/api/capture_put_buffer.html#capture_put_buffer" title="capture_put_buffer()"/>
+</entry>
+<entry keyword="releasing">
+<topic href="topic/api/capture_release_frame.html#capture_release_frame" title="capture_release_frame()"/>
+</entry>
+<entry keyword="releasing video capture">
+<topic href="topic/api/capture_destroy_context.html#capture_destroy_context" title="capture_destroy_context()"/>
+</entry>
+<entry keyword="source">
+<entry keyword="properties">
+<topic href="topic/api/capture_property_src_.html#capture_property_src_" title="Source buffer properties"/>
+</entry>
+<entry keyword="size">
+<topic href="topic/api/capture_property_src_.html#capture_property_src_" title="Source buffer properties"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="buffers">
+<topic href="topic/manual/vc_buffer.html#vc_buffer" title="Buffers"/>
+<entry keyword="application-allocated">
+<topic href="topic/manual/vc_buffer.html#vc_buffer" title="Buffers"/>
+</entry>
+<entry keyword="constraints when using unstable capture link">
+<topic href="topic/manual/vc_other.html#vc_other" title="Platform-specific considerations"/>
+</entry>
+<entry keyword="creating">
+<topic href="topic/api/capture_create_buffers.html#capture_create_buffers" title="capture_create_buffers()"/>
+</entry>
+<entry keyword="deinterlacing">
+<topic href="topic/api/capture_deinterlace_.html#capture_deinterlace_" title="Deinterlacing properties and enumerated values"/>
+</entry>
+<entry keyword="driver-allocated">
+<topic href="topic/manual/vc_buffer.html#vc_buffer" title="Buffers"/>
+</entry>
+<entry keyword="frame">
+<topic href="topic/manual/vc_buffer.html#vc_buffer" title="Buffers"/>
+</entry>
+<entry keyword="frame metadata">
+<topic href="topic/manual/vc_buffer.html#vc_buffer" title="Buffers"/>
+</entry>
+<entry keyword="freeing">
+<topic href="topic/api/capture_create_buffers.html#capture_create_buffers" title="capture_create_buffers()"/>
+</entry>
+<entry keyword="pointers">
+<topic href="topic/api/capture_property_frame_.html#frame" title="Frame properties"/>
+</entry>
+</entry>
+<entry keyword="bus">
+<entry keyword="data">
+<topic href="topic/api/capture_property_data_.html#data" title="Data bus, and clock and data lane properties"/>
+</entry>
+</entry>
+<entry keyword="capture_context_t">
+<topic href="topic/api/capture_context_t.html#capture_context_t" title="capture_context_t"/>
+<topic href="topic/manual/vc_howto.html#vc_howto" title="Implementing video capture"/>
+</entry>
+<entry keyword="capture_create_buffers()">
+<topic href="topic/api/capture_create_buffers.html#capture_create_buffers" title="capture_create_buffers()"/>
+</entry>
+<entry keyword="capture_create_context()">
+<topic href="topic/api/capture_create_context.html#capture_create_context" title="capture_create_context()"/>
+<topic href="topic/manual/vc_howto.html#vc_howto" title="Implementing video capture"/>
+</entry>
+<entry keyword="capture_destroy_context()">
+<topic href="topic/manual/vc_context.html#vc_context" title="Contexts"/>
+<topic href="topic/api/capture_destroy_context.html#capture_destroy_context" title="capture_destroy_context()"/>
+<topic href="topic/manual/vc_howto.html#vc_howto" title="Implementing video capture"/>
+</entry>
+<entry keyword="CAPTURE_ENABLE">
+<topic href="topic/api/capture_update.html#capture_update" title="capture_update()"/>
+<topic href="topic/manual/vc_howto.html#vc_howto" title="Implementing video capture"/>
+</entry>
+<entry keyword="CAPTURE_FLAG_*">
+<topic href="topic/api/capture_external.html#capture_" title="External source properties"/>
+<topic href="topic/api/capture_.html#capture_" title="Properties"/>
+</entry>
+<entry keyword="CAPTURE_FLAG_EXTERNAL_SOURCE">
+<topic href="topic/api/capture_get_free_buffer.html#capture_get_free_buffer" title="capture_get_free_buffer()"/>
+<topic href="topic/api/capture_put_buffer.html#capture_put_buffer" title="capture_put_buffer()"/>
+</entry>
+<entry keyword="CAPTURE_FLAG_FREE_BUFFER">
+<topic href="topic/api/capture_get_free_buffer.html#capture_get_free_buffer" title="capture_get_free_buffer()"/>
+</entry>
+<entry keyword="CAPTURE_FLAG_LATEST_FRAME">
+<topic href="topic/api/capture_get_frame.html#capture_get_frame" title="capture_get_frame()"/>
+</entry>
+<entry keyword="capture_get_frame()">
+<topic href="topic/api/capture_get_frame.html#capture_get_frame" title="capture_get_frame()"/>
+<topic href="topic/api/capture_get_free_buffer.html#capture_get_free_buffer" title="capture_get_free_buffer()"/>
+</entry>
+<entry keyword="capture_get_free_buffer()">
+<topic href="topic/api/capture_get_frame.html#capture_get_frame" title="capture_get_frame()"/>
+</entry>
+<entry keyword="capture_get_property_i()">
+<topic href="topic/api/capture_get_property_i.html#capture_get_property_i" title="capture_get_property_i()"/>
+</entry>
+<entry keyword="capture_get_property_p()">
+<topic href="topic/api/capture_get_property_p.html#capture_get_property_p" title="capture_get_property_p()"/>
+<topic href="topic/manual/vc_howto.html#vc_howto" title="Implementing video capture"/>
+</entry>
+<entry keyword="capture_is_property()">
+<topic href="topic/api/capture_is_property.html#capture_is_property" title="capture_is_property()"/>
+<topic href="topic/manual/vc_howto.html#vc_howto" title="Implementing video capture"/>
+</entry>
+<entry keyword="CAPTURE_NORM_*">
+<topic href="topic/api/capture_norm_.html#capture_norm_" title="Video standards"/>
+</entry>
+<entry keyword="CAPTURE_PROPERTY">
+<topic href="topic/api/capture_.html#capture_" title="Properties"/>
+</entry>
+<entry keyword="CAPTURE_PROPERTY_*">
+<topic href="topic/manual/vc_howto.html#vc_howto" title="Implementing video capture"/>
+</entry>
+<entry keyword="CAPTURE_PROPERTY_*_BUFFER_">
+<topic href="topic/api/capture_deinterlace_.html#capture_deinterlace_" title="Deinterlacing properties and enumerated values"/>
+</entry>
+<entry keyword="CAPTURE_PROPERTY_CSI2_*">
+<topic href="topic/api/capture_property_data_.html#data" title="Data bus, and clock and data lane properties"/>
+</entry>
+<entry keyword="CAPTURE_PROPERTY_CURRENT_NORM">
+<topic href="topic/api/capture_norm_.html#capture_norm_" title="Video standards"/>
+</entry>
+<entry keyword="CAPTURE_PROPERTY_DATA_*">
+<topic href="topic/api/capture_property_data_.html#data" title="Data bus, and clock and data lane properties"/>
+</entry>
+<entry keyword="CAPTURE_PROPERTY_DEVICE">
+<topic href="topic/manual/vc_howto.html#vc_howto" title="Implementing video capture"/>
+</entry>
+<entry keyword="CAPTURE_PROPERTY_DST_*">
+<topic href="topic/manual/vc_other.html#vc_other" title="Platform-specific considerations"/>
+</entry>
+<entry keyword="CAPTURE_PROPERTY_DST_BUFFERS">
+<topic href="topic/api/capture_get_frame.html#capture_get_frame" title="capture_get_frame()"/>
+</entry>
+<entry keyword="CAPTURE_PROPERTY_FRAME_">
+<topic href="topic/api/capture_property_frame_.html#frame" title="Frame properties"/>
+</entry>
+<entry keyword="CAPTURE_PROPERTY_FRAME_*">
+<topic href="topic/manual/vc_arrays.html#vc_arrays" title="Properties applied to arrays"/>
+<topic href="topic/api/capture_property_frame_.html#frame" title="Frame properties"/>
+</entry>
+<entry keyword="CAPTURE_PROPERTY_INVERT_*">
+<topic href="topic/api/capture_property_polarity_.html#capture_property_polarity_" title="Polarity"/>
+</entry>
+<entry keyword="CAPTURE_PROPERTY_SRC_INDEX">
+<topic href="topic/manual/vc_howto.html#vc_howto" title="Implementing video capture"/>
+</entry>
+<entry keyword="capture_put_buffer()">
+<topic href="topic/api/capture_put_buffer.html#capture_put_buffer" title="capture_put_buffer()"/>
+</entry>
+<entry keyword="capture_release_buffer()">
+<topic href="topic/api/capture_get_frame.html#capture_get_frame" title="capture_get_frame()"/>
+</entry>
+<entry keyword="capture_release_frame()">
+<topic href="topic/api/capture_release_frame.html#capture_release_frame" title="capture_release_frame()"/>
+<topic href="topic/api/capture_get_free_buffer.html#capture_get_free_buffer" title="capture_get_free_buffer()"/>
+</entry>
+<entry keyword="capture_set_property_i()">
+<topic href="topic/manual/vc_howto.html#vc_howto" title="Implementing video capture"/>
+<topic href="topic/api/capture_set_property_p.html#capture_set_property_p" title="capture_set_property_p()"/>
+<topic href="topic/api/capture_set_property_i.html#capture_set_property_i" title="capture_set_property_i()"/>
+<topic href="topic/api/capture_create_buffers.html#capture_create_buffers" title="capture_create_buffers()"/>
+</entry>
+<entry keyword="capture_set_property_p()">
+<topic href="topic/manual/vc_arrays.html#vc_arrays" title="Properties applied to arrays"/>
+<topic href="topic/manual/vc_howto.html#vc_howto" title="Implementing video capture"/>
+<topic href="topic/api/capture_set_property_p.html#capture_set_property_p" title="capture_set_property_p()"/>
+<topic href="topic/api/capture_set_property_i.html#capture_set_property_i" title="capture_set_property_i()"/>
+</entry>
+<entry keyword="CAPTURE_TIMEOUT_INFINITE">
+<topic href="topic/api/capture_get_frame.html#capture_get_frame" title="capture_get_frame()"/>
+</entry>
+<entry keyword="CAPTURE_TIMEOUT_NO_WAIT">
+<topic href="topic/api/capture_get_frame.html#capture_get_frame" title="capture_get_frame()"/>
+</entry>
+<entry keyword="capture_update()">
+<topic href="topic/api/capture_update.html#capture_update" title="capture_update()"/>
+<topic href="topic/manual/vc_howto.html#vc_howto" title="Implementing video capture"/>
+</entry>
+<entry keyword="capture-adv-ext.h">
+<topic href="topic/manual/vc_lib_ref.html#vc_about" title="Header files and libraries "/>
+</entry>
+<entry keyword="capture.h">
+<topic href="topic/manual/vc_lib_ref.html#vc_about" title="Header files and libraries "/>
+</entry>
+<entry keyword="clock">
+<entry keyword="polarity">
+<topic href="topic/api/capture_property_polarity_.html#capture_property_polarity_" title="Polarity"/>
+</entry>
+<entry keyword="properties">
+<topic href="topic/api/capture_property_data_.html#data" title="Data bus, and clock and data lane properties"/>
+</entry>
+</entry>
+<entry keyword="context">
+<topic href="topic/manual/vc_context.html#vc_context" title="Contexts"/>
+<entry keyword="create">
+<topic href="topic/api/capture_create_context.html#capture_create_context" title="capture_create_context()"/>
+</entry>
+<entry keyword="destroy">
+<topic href="topic/api/capture_destroy_context.html#capture_destroy_context" title="capture_destroy_context()"/>
+</entry>
+<entry keyword="pointer">
+<topic href="topic/api/capture_context_t.html#capture_context_t" title="capture_context_t"/>
+</entry>
+</entry>
+<entry keyword="contexts">
+<entry keyword="destroying at exit">
+<topic href="topic/manual/vc_context.html#vc_context" title="Contexts"/>
+</entry>
+</entry>
+<entry keyword="create">
+<entry keyword="context">
+<topic href="topic/api/capture_create_context.html#capture_create_context" title="capture_create_context()"/>
+</entry>
+<entry keyword="video capture buffers">
+<topic href="topic/api/capture_create_buffers.html#capture_create_buffers" title="capture_create_buffers()"/>
+</entry>
+</entry>
+<entry keyword="creating">
+<entry keyword="video capture buffers">
+<topic href="topic/api/capture_is_property.html#capture_is_property" title="capture_is_property()"/>
+</entry>
+</entry>
+<entry keyword="data">
+<entry keyword="bus width">
+<topic href="topic/api/capture_property_data_.html#data" title="Data bus, and clock and data lane properties"/>
+</entry>
+<entry keyword="polarity">
+<topic href="topic/api/capture_property_polarity_.html#capture_property_polarity_" title="Polarity"/>
+</entry>
+</entry>
+<entry keyword="data lane">
+<entry keyword="properties">
+<topic href="topic/api/capture_property_data_.html#data" title="Data bus, and clock and data lane properties"/>
+</entry>
+</entry>
+<entry keyword="decoder">
+<entry keyword="I2C">
+<topic href="topic/api/capture_property_decoder.html#capture_property_decoder" title="I2C decoder path and slave address"/>
+</entry>
+</entry>
+<entry keyword="decoder.c">
+<topic href="topic/manual/vc_lib_ref.html#vc_about" title="Header files and libraries "/>
+</entry>
+<entry keyword="deinterlacing">
+<entry keyword="buffers">
+<topic href="topic/api/capture_deinterlace_.html#capture_deinterlace_" title="Deinterlacing properties and enumerated values"/>
+</entry>
+<entry keyword="frames frome external source">
+<topic href="topic/api/capture_external.html#capture_" title="External source properties"/>
+<topic href="topic/api/capture_get_free_buffer.html#capture_get_free_buffer" title="capture_get_free_buffer()"/>
+<topic href="topic/api/capture_put_buffer.html#capture_put_buffer" title="capture_put_buffer()"/>
+</entry>
+<entry keyword="video">
+<topic href="topic/api/capture_put_buffer.html#capture_put_buffer" title="capture_put_buffer()"/>
+</entry>
+</entry>
+<entry keyword="destroy">
+<entry keyword="context">
+<topic href="topic/api/capture_destroy_context.html#capture_destroy_context" title="capture_destroy_context()"/>
+</entry>
+</entry>
+<entry keyword="device">
+<entry keyword="check properties for video capture">
+<topic href="topic/api/capture_is_property.html#capture_is_property" title="capture_is_property()"/>
+</entry>
+<entry keyword="disconnect video capture">
+<topic href="topic/api/capture_destroy_context.html#capture_destroy_context" title="capture_destroy_context()"/>
+</entry>
+<entry keyword="get video capture properties">
+<topic href="topic/api/capture_get_property_p.html#capture_get_property_p" title="capture_get_property_p()"/>
+</entry>
+<entry keyword="getting video capture properties">
+<topic href="topic/api/capture_get_property_i.html#capture_get_property_i" title="capture_get_property_i()"/>
+</entry>
+<entry keyword="properties for video capture">
+<topic href="topic/api/capture_is_property.html#capture_is_property" title="capture_is_property()"/>
+</entry>
+<entry keyword="update">
+<topic href="topic/api/capture_update.html#capture_update" title="capture_update()"/>
+</entry>
+</entry>
+<entry keyword="disconnect">
+<entry keyword="from device">
+<topic href="topic/api/capture_destroy_context.html#capture_destroy_context" title="capture_destroy_context()"/>
+</entry>
+</entry>
+<entry keyword="driver">
+<entry keyword="get video capture properties">
+<topic href="topic/api/capture_get_property_p.html#capture_get_property_p" title="capture_get_property_p()"/>
+</entry>
+<entry keyword="getting video capture properties">
+<topic href="topic/api/capture_get_property_i.html#capture_get_property_i" title="capture_get_property_i()"/>
+</entry>
+</entry>
+<entry keyword="driver-allocated">
+<entry keyword="buffers">
+<topic href="topic/manual/vc_buffer.html#vc_buffer" title="Buffers"/>
+</entry>
+</entry>
+<entry keyword="dropped">
+<entry keyword="video frames">
+<topic href="topic/api/capture_get_frame.html#capture_get_frame" title="capture_get_frame()"/>
+</entry>
+</entry>
+<entry keyword="exit">
+<entry keyword="destroying video capture contexts">
+<topic href="topic/manual/vc_context.html#vc_context" title="Contexts"/>
+</entry>
+</entry>
+<entry keyword="external source">
+<entry keyword="deinterlace frames">
+<topic href="topic/api/capture_external.html#capture_" title="External source properties"/>
+<topic href="topic/api/capture_get_free_buffer.html#capture_get_free_buffer" title="capture_get_free_buffer()"/>
+<topic href="topic/api/capture_put_buffer.html#capture_put_buffer" title="capture_put_buffer()"/>
+</entry>
+<entry keyword="get frames">
+<topic href="topic/api/capture_external.html#capture_" title="External source properties"/>
+<topic href="topic/api/capture_get_free_buffer.html#capture_get_free_buffer" title="capture_get_free_buffer()"/>
+<topic href="topic/api/capture_put_buffer.html#capture_put_buffer" title="capture_put_buffer()"/>
+</entry>
+</entry>
+<entry keyword="field ID">
+<entry keyword="polarity">
+<topic href="topic/api/capture_property_polarity_.html#capture_property_polarity_" title="Polarity"/>
+</entry>
+</entry>
+<entry keyword="flags">
+<entry keyword="frame">
+<topic href="topic/api/capture_property_frame_.html#frame" title="Frame properties"/>
+</entry>
+</entry>
+<entry keyword="frame">
+<entry keyword="buffers">
+<topic href="topic/manual/vc_buffer.html#vc_buffer" title="Buffers"/>
+</entry>
+<entry keyword="deinterlace from external source">
+<topic href="topic/api/capture_external.html#capture_" title="External source properties"/>
+<topic href="topic/api/capture_get_free_buffer.html#capture_get_free_buffer" title="capture_get_free_buffer()"/>
+<topic href="topic/api/capture_put_buffer.html#capture_put_buffer" title="capture_put_buffer()"/>
+</entry>
+<entry keyword="deinterlacing">
+<topic href="topic/api/capture_put_buffer.html#capture_put_buffer" title="capture_put_buffer()"/>
+</entry>
+<entry keyword="discard setting">
+<topic href="topic/api/capture_.html#capture_" title="Properties"/>
+</entry>
+<entry keyword="flags">
+<topic href="topic/api/capture_property_frame_.html#frame" title="Frame properties"/>
+</entry>
+<entry keyword="getting">
+<topic href="topic/api/capture_get_frame.html#capture_get_frame" title="capture_get_frame()"/>
+</entry>
+<entry keyword="properties">
+<topic href="topic/api/capture_property_frame_.html#frame" title="Frame properties"/>
+</entry>
+<entry keyword="releasing buffer">
+<topic href="topic/api/capture_release_frame.html#capture_release_frame" title="capture_release_frame()"/>
+</entry>
+<entry keyword="size">
+<topic href="topic/api/capture_property_frame_.html#frame" title="Frame properties"/>
+</entry>
+<entry keyword="timecode">
+<topic href="topic/api/capture_property_frame_.html#frame" title="Frame properties"/>
+</entry>
+<entry keyword="timestamp">
+<topic href="topic/api/capture_property_frame_.html#frame" title="Frame properties"/>
+</entry>
+</entry>
+<entry keyword="frames">
+<entry keyword="dropped">
+<topic href="topic/api/capture_get_frame.html#capture_get_frame" title="capture_get_frame()"/>
+</entry>
+</entry>
+<entry keyword="free">
+<entry keyword="video capture buffers">
+<topic href="topic/api/capture_create_buffers.html#capture_create_buffers" title="capture_create_buffers()"/>
+</entry>
+</entry>
+<entry keyword="getting">
+<entry keyword="video frame">
+<topic href="topic/api/capture_get_frame.html#capture_get_frame" title="capture_get_frame()"/>
+</entry>
+</entry>
+<entry keyword="handle">
+<entry keyword="for video capture context">
+<topic href="topic/api/capture_context_t.html#capture_context_t" title="capture_context_t"/>
+<entry keyword="See pointer">
+</entry>
+</entry>
+</entry>
+<entry keyword="hardware">
+<entry keyword="adjustments to accomodate specific behavior">
+<topic href="topic/manual/vc_other.html#vc_other" title="Platform-specific considerations"/>
+</entry>
+</entry>
+<entry keyword="header files">
+<entry keyword="common video capture">
+<topic href="topic/manual/vc_lib_ref.html#vc_about" title="Header files and libraries "/>
+</entry>
+<entry keyword="SOC-specific">
+<topic href="topic/manual/vc_lib_ref.html#vc_about" title="Header files and libraries "/>
+</entry>
+</entry>
+<entry keyword="I2C">
+<entry keyword="decoder">
+<topic href="topic/api/capture_property_decoder.html#capture_property_decoder" title="I2C decoder path and slave address"/>
+</entry>
+</entry>
+<entry keyword="input">
+<entry keyword="set up for video capture">
+<topic href="topic/manual/vc_howto.html#vc_howto" title="Implementing video capture"/>
+</entry>
+</entry>
+<entry keyword="interface">
+<entry keyword="type">
+<topic href="topic/api/capture_.html#capture_" title="Properties"/>
+</entry>
+</entry>
+<entry keyword="inversion">
+<entry keyword="polarity">
+<topic href="topic/api/capture_property_polarity_.html#capture_property_polarity_" title="Polarity"/>
+</entry>
+</entry>
+<entry keyword="Jacinto 5">
+<topic href="topic/manual/vc_other.html#vc_other" title="Platform-specific considerations"/>
+</entry>
+<entry keyword="libcapture-board-*-*.so">
+<topic href="topic/manual/vc_lib_ref.html#vc_about" title="Header files and libraries "/>
+</entry>
+<entry keyword="libcapture-board-*-no-decoder.so">
+<topic href="topic/manual/vc_lib_ref.html#vc_about" title="Header files and libraries "/>
+</entry>
+<entry keyword="libcapture-decoder-*.so">
+<topic href="topic/manual/vc_lib_ref.html#vc_about" title="Header files and libraries "/>
+</entry>
+<entry keyword="libcapture-soc-*.so">
+<topic href="topic/manual/vc_lib_ref.html#vc_about" title="Header files and libraries "/>
+</entry>
+<entry keyword="libcapture.so">
+<topic href="topic/manual/vc_lib_ref.html#vc_about" title="Header files and libraries "/>
+</entry>
+<entry keyword="libraries">
+<entry keyword="video capture">
+<topic href="topic/manual/vc_lib_ref.html#vc_about" title="Header files and libraries "/>
+</entry>
+</entry>
+<entry keyword="memory">
+<entry keyword="clean up">
+<topic href="topic/manual/vc_context.html#vc_context" title="Contexts"/>
+</entry>
+</entry>
+<entry keyword="metatdata">
+<entry keyword="frame buffers">
+<topic href="topic/manual/vc_buffer.html#vc_buffer" title="Buffers"/>
+</entry>
+</entry>
+<entry keyword="MIPI CSI2">
+<topic href="topic/api/capture_property_data_.html#data" title="Data bus, and clock and data lane properties"/>
+<topic href="topic/api/capture_.html#capture_" title="Properties"/>
+</entry>
+<entry keyword="norms">
+<topic href="topic/api/capture_norm_.html#capture_norm_" title="Video standards"/>
+<entry keyword="See standards">

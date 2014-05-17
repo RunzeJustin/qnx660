@@ -1,0 +1,4 @@
+check_version 1 0 include/services
+
+. include/rootdir
+add_co services CO_LOCAL_LIST

@@ -1,0 +1,57 @@
+begin khronos
+
+  begin egl display 1
+  # Software GL libs
+  #  egl-dlls = libEGLsoftgl.so
+  #  glesv1-dlls = libGLESsoftgl.so
+  # SGX Accelerated Libs
+    egl-dlls = [IMG%s] libusc.so libsrv_um.so libpvr2d.so libIMGegl.so
+    glesv1-dlls = libusc.so libsrv_um.so libIMGegl.so libImgGLESv1_CM.so
+    glesv2-dlls = libusc.so libsrv_um.so libIMGegl.so libImgGLESv2.so
+    gpu-dlls = libsrv_um.so libpvr2d.so pvrsrv.so
+    gpu-string = SGX530rev125
+    aperture = 0
+  end egl display
+
+
+  begin wfd device 1
+    # Run "use ./libWFDam335x_g.so" for details on device-specific options.
+
+    #AM335X EVM
+    wfd-dlls = libwfdcfg-am335x-evm_g.so libWFDam335x-evm_g.so
+    #board-auto-detect = true
+  end wfd device
+
+end khronos
+
+begin winmgr
+
+  begin globals
+    blit-config = pvr2d
+    blits-logsize = 4096
+  end globals
+
+  begin display internal
+    # AM335X EVM
+    video-mode = 800 x 480 @ 60
+    background = 0xff
+  end display
+
+  begin class framebuffer
+    display = internal
+    pipeline = 1
+    format = rgbx8888
+  # Use software blitting
+  # usage = sw
+  # Use SGX accelerated blitting  
+    usage = pvr2d
+  end class
+
+  begin mtouch
+	driver = devi
+
+	# AM335X BBB Kit
+	#options = height=768,width=1024  
+  end mtouch
+end winmgr
+

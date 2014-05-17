@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.debug.gdbjtag"
+      label="%featureName"
+      version="7.0.0.v201401291946"
+      provider-name="%providerName"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/tools/cdt/releases/indigo"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.cdt.debug.gdbjtag.core"
+         download-size="75"
+         install-size="159"
+         version="8.1.0.v201401291946"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.debug.gdbjtag.ui"
+         download-size="68"
+         install-size="126"
+         version="7.1.0.v201401291946"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.debug.gdbjtag"
+         download-size="7"
+         install-size="8"
+         version="7.0.0.v201401291946"
+         unpack="false"/>
+
+</feature>

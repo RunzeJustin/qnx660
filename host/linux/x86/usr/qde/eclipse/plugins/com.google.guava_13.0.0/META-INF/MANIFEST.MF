@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Created-By: 1.5.0_12-b04 (Sun Microsystems Inc.)
+Bundle-Name: Guava
+Bundle-ClassPath: guava-13.0.jar
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: Google
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.google.guava
+Export-Package: com.google.common.annotations,com.google.common.base,c
+ om.google.common.base.internal,com.google.common.cache,com.google.com
+ mon.collect,com.google.common.eventbus,com.google.common.hash,com.goo
+ gle.common.io,com.google.common.math,com.google.common.net,com.google
+ .common.primitives,com.google.common.reflect,com.google.common.util.c
+ oncurrent
+Bundle-Version: 13.0.0
+

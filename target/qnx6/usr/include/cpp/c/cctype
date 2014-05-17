@@ -1,0 +1,46 @@
+// cctype standard header
+#ifndef _CCTYPE_
+#define _CCTYPE_
+#include <yvals.h>
+
+#ifdef _STD_USING
+ #undef _STD_USING
+  #include <ctype.h>
+ #define _STD_USING
+
+#else /* _STD_USING */
+ #include <ctype.h>
+#endif /* _STD_USING */
+
+ #ifdef _GLOBAL_USING
+_STD_BEGIN
+using _CSTD isalnum; using _CSTD isalpha; using _CSTD iscntrl;
+using _CSTD isdigit; using _CSTD isgraph; using _CSTD islower;
+using _CSTD isprint; using _CSTD ispunct; using _CSTD isspace;
+using _CSTD isupper; using _CSTD isxdigit; using _CSTD tolower;
+using _CSTD toupper; using _CSTD _Isspace;
+
+ #if _HAS_C9X
+using _CSTD isblank;
+
+ #if _HAS_TR1_DECLARATIONS
+	namespace tr1 {
+using _CSTD isblank;
+	}	// namespace tr1
+ #endif /* _HAS_TR1_DECLARATIONS */
+
+ #endif /* _HAS_C9X */
+_STD_END
+ #endif /* _GLOBAL_USING */
+
+#endif /* _CCTYPE_ */
+
+/*
+ * Copyright (c) 1992-2013 by P.J. Plauger.  ALL RIGHTS RESERVED.
+ * Consult your license regarding permissions and restrictions.
+V6.40:1566 */
+
+#if defined(__QNXNTO__) && defined(__USESRCVERSION)
+#include <sys/srcversion.h>
+__SRCVERSION("$URL$ $Rev: 735298 $")
+#endif

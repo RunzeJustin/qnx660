@@ -1,0 +1,32 @@
+# nto network config file v2.0
+version v2.0
+
+<NC:scene_config>
+	<NC:scene>
+		<NC:scene_name>At Work</NC:scene_name>
+		<NC:device>
+			<NC:device_name>en0</NC:device_name>
+			<NC:device_type>ether</NC:device_type>
+			<NC:device_ipmod>dhcp</NC:device_ipmod>
+		</NC:device>
+		<NC:device>
+			<NC:device_name>wl0</NC:device_name>
+			<NC:device_type>wireless</NC:device_type>
+			<NC:device_wireless>Office Wireless</NC:device_wireless>
+			<NC:device_ipmod>dhcp</NC:device_ipmod>
+		</NC:device>
+	</NC:scene>
+
+	<NC:scene>
+		<NC:scene_name>At Home</NC:scene_name>
+		<NC:hostname>station</NC:hostname>
+		<NC:domain>home.org</NC:domain>
+		<NC:device>
+			<NC:device_name>wl0</NC:device_name>
+			<NC:device_type>wireless</NC:device_type>
+			<NC:device_wireless>HOME WIRELESS</NC:device_wireless>
+			<NC:device_ipmod>script</NC:device_ipmod>
+			<NC:device_script>/usr/local/setupip</NC:device_script>
+		</NC:device>
+	</NC:scene>
+</NC:scene_config>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name="%plugin.name" id="com.qnx.doc.neutrino.addon" version="1.0"
+    provider-name="%plugin.providername">
+
+    <extension point="org.eclipse.help.toc">
+        <toc file="main.xml" primary="false"/>
+    </extension>
+
+    <extension point="org.eclipse.help.index">
+        <index file="index.xml"/>
+    </extension>
+
+    <extension id="com.qnx.doc.neutrino.addon.libhover" name="Neutrino Addon API Documentation"
+        point="org.eclipse.linuxtools.cdt.libhover.library">
+        <library location="output.libhover" name="Neutrino Addon lib ref Documentation" type="C"/>
+    </extension>
+
+</plugin>

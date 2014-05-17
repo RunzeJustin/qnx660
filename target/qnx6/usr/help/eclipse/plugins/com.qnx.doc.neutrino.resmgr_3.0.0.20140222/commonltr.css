@@ -1,0 +1,641 @@
+.unresolved { background-color: skyblue; }
+.noTemplate { background-color: yellow; }
+
+
+
+body {
+	margin-left: 0px;
+	
+}
+
+/* DITA stuff */
+
+.reltasks,.relconcepts,.relinfo,.relref {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	line-height: 15px;
+	margin-left: 0px;
+}
+
+.option {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.keyword.option {
+    font-family: "Courier New", Courier, monospace;
+}
+
+/*[dwh:10.Sep.2013] Addressing item 10 in SRC17600, 
+cmdname styling.*/
+.keyword.cmdname {
+    font-family: "Courier New", Courier, monospace;
+}
+
+/*[dwh:10.Sep.2013] Addressing item 10 in SRC17600, 
+cmdname styling.*/
+.cmdname {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.booktitle {
+	margin: 20px 20px 12px 0px;
+	font-size: 30px;
+	font-family: tahoma, verdana, helvetica, arial, sans-serif;
+	line-height: 36px;	
+	font-weight: normal;
+	color: #6b6b6b;
+	margin-left: 0px;
+	}
+
+.booktitle sup {
+	font-size: 10px;
+	vertical-align:top;
+}
+	
+	
+.topictitle1
+	
+{
+	font: 18px  verdana, tahoma, helvetica, arial, sans-serif;
+	line-height: 24px;
+	font-weight: normal;
+	color: #0183a9;
+	margin-left: 0px;
+	}
+
+
+.note {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding-left: 40px;
+	padding-top:20px;
+	padding-bottom:20px;
+	border: thin;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	background-image: url(images/note.gif);
+	background-position: 0px 20px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+.danger {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding-left: 40px;
+	padding-top:20px;
+	padding-bottom:20px;
+	border: thin;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	background-image: url(images/warning.gif);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+.caution {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding-left: 40px;
+	padding-top:20px;
+	padding-bottom:20px;
+	border: thin;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	background-image: url(images/caution.gif);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.notetitle { display: none }
+
+.tiptitle { display: none }
+
+.dangertitle { display: none}
+
+.cautiontitle { display: none }
+
+.attentiontitle { display: none }
+
+.restrictiontitle { display: none }
+
+.remembertitle { display: none }
+
+.importanttitle { display: none }
+
+
+
+
+
+
+
+
+img
+
+{
+	border: none;
+}
+
+.option {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.h1, h1 {
+	font: 18px  verdana, tahoma, helvetica, arial, sans-serif;
+	line-height: 24px;
+	font-weight: normal;
+	color: #336699;
+	margin-left: 0px;
+	}
+.h2,  h2 {
+	font: 14px  verdana, tahoma, helvetica, arial, sans-serif;
+	line-height: 20px;
+	color: #336699;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	}
+.h3, h3 {
+	font: 13px verdana, tahoma, helvetica, arial, sans-serif;
+	line-height: 13px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	color: #666;
+	margin-left: 0px;
+	}
+.h4, h4 {
+	font: 12px  verdana, tahoma, helvetica, arial, sans-serif;
+	line-height: 19px;
+	font-weight: bold;
+	margin-bottom: 0px;
+		margin-top: 0px;
+	color: #666;
+	margin-left: 0px;
+	}	
+
+	
+td {
+	padding: 5px;
+	margin: 5px;
+	/* background: #fff url('/images/template/bg.gif') repeat-x; */
+	font: 12px verdana, tahoma, helvetica, arial, sans-serif;
+	line-height: 22px;
+	color: #333;
+	margin-left: 0px;
+	}
+	
+.banner {
+		
+		margin-left: -20px;
+		margin-right: -20px;
+	   margin-top: -20px; 
+	}
+	
+	
+ a:link, a:link { color: #5f83a8; }
+ a:visited, a:visited { color: #666; }
+ a:hover, a:hover { color: #006699; }	
+
+.p, .widetext p, div.p {
+	font-family: verdana, tahoma, helvetica, arial, sans-serif;	
+	line-height: 16px;
+	margin-top: 0px;
+	margin-bottom: 12px;
+	margin-left: 0px;
+	margin-right: 0px;
+	}
+ .SUP, .widetext SUP {
+	position: relative;
+	top: 3px;
+	font-size: 9px;
+	}
+
+ .td 
+{
+	text-align: left;
+}
+
+
+/* [dwh:13.Jun.2013] Added rule set to provide styling for ordered 
+   lists in a <choice> element. Temporary fix. */
+ol.ol.choiceol  li {
+    list-style: decimal;
+	margin-left: 10px;
+}
+
+/* [dwh:13.Jun.2013] Added rule set to provide styling for unordered 
+   lists in a <choice> element. Temporary fix. */
+ul.ul.choiceul li {
+    list-style: disc;
+	margin-left: 10px;
+}
+	
+
+ 
+ p+ br + ul {
+ 	
+	margin-top: -15px;
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 0px;
+	}
+	
+ p+ br + ol {
+ 		margin-top: -15px;	
+		margin-left: 20px;
+		padding-left: 20px;
+	}
+	
+	ul {
+	 	
+		margin-top: 0px;
+		list-style: none;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+	
+	
+	ul li {
+		background: transparent url('images/bullet_round.gif') no-repeat 0px 9px;
+		list-style: none;
+		padding-left: 12px;
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+	
+	ul li li {
+		background: transparent url('images/bullet_2.gif') no-repeat 0px 9px;
+		list-style: none;
+		padding-left: 12px;
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+	
+	
+ .li {
+	background: transparent url('images/bullet_round.gif') no-repeat 0px 9px;
+	padding-left: 12px;
+	margin-left: 16px;
+	margin-right: 16px;
+	}
+ .li li {
+	background: transparent url('images/bullet_2.gif') no-repeat 0px 9px;
+	list-style: none;
+	}
+ .li li li, #list3 {
+	background: transparent url('images/bullet_2.gif') no-repeat 0px 9px;
+	
+	}
+ .ol {
+	margin-left: 0px;
+	padding-left: 20px;
+	}
+ .ol li {
+	background: none;
+	margin: 0px 0px 9px 0px;
+	padding-left: 0px;
+	margin-right: 10px;
+
+	}
+
+	div.parentlink {
+		margin-left:0px;
+	}
+	
+	div.familylinks {
+		margin-left:0px;
+	}
+	
+	div.refsyn div {
+	    margin-bottom: 50px;
+	}
+	
+	p {
+		margin-left:0px;
+		line-height: 16px;
+		margin-top: 0px;
+		margin-bottom: 12px;	
+		margin-right: 10px;
+		
+	}
+	
+	div {
+		margin-left:0px;
+		margin-right: 0px;
+	}
+	
+	span {
+		margin-left:0px;
+		
+	}
+	
+	p.copyright-notice {
+		padding-top: 60px;
+		font-weight: bold;
+		color: #333;
+		padding-top: 15px;
+	}
+	
+	div.section {
+		
+		margin-left: 0px; 
+	}
+	
+/*.codeblock {
+	background: #f0f0f0;
+	font-family: courier, monospace;
+	color: brown;
+	margin: 40px;
+	margin-right: 60px;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}*/
+
+/* [dwh:31.Oct.2013] Modified margin and padding for codeblock elements. */
+.codeblock {
+	background: #f0f0f0;
+	font-family: courier, monospace;
+	color: brown;
+	margin: 10px;
+	margin-right: 60px;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.codeph {
+	
+	font-family: courier, monospace;
+	color: brown;
+}
+
+/* Default of italics to set apart figure captions */
+.figcap { 
+	font-style: italic;
+	margin-top: 3px;
+	margin-bottom: 20px;
+	azimuth: center;
+	display:block;
+	
+	 }
+	
+img {
+	margin-bottom:2px;
+}
+	 
+.figdesc { 
+
+font-style: normal;
+ 
+
+}
+
+/* Use @frame to create frames on figures */
+.figborder { border-style: solid; padding-left : 3px; border-width : 2px; padding-right : 3px; margin-top: 1em; border-color : Silver;}
+.figsides { border-left : 2px solid; padding-left : 3px; border-right : 2px solid; padding-right : 3px; margin-top: 1em; border-color : Silver;}
+.figtop { border-top : 2px solid; margin-top: 1em; border-color : Silver;}
+.figbottom { border-bottom : 2px solid; border-color : Silver;}
+.figtopbot { border-top : 2px solid; border-bottom : 2px solid; margin-top: 1em; border-color : Silver;}
+
+
+.ulchildlink {
+	font-family: verdana, tahoma, helvetica, arial, sans-serif;	
+	line-height: 16px;
+	margin-top: 0px;
+	margin-bottom: 12px;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+}
+
+table, th, td {
+    table-layout: auto;
+	margin: 1em;
+    empty-cells: show;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding:5px;
+}
+
+/* [dwh:06.Jun.2013] Added rule set to remove borders from tables and cells
+   that result from the QNXEclipse OutGen transformation of gridlayout code.
+   This is a temporary workaround until support is added to the IDE Eclispe
+   plug-in transform for grid layout outputclasses. */
+table.table.containsgrid, td.entry.containsgrid {
+    table-layout: auto;
+	margin: 1em;
+    empty-cells: show;
+    border-collapse: collapse;
+    border: 0px;
+    padding:5px;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+
+
+/* Simple lists do not get a bullet */
+ul.simple { list-style-type: none }
+
+/* Used on the first column of a table, when rowheader="firstcol" is used */
+.firstcol { font-weight : bold;}
+
+/* Various basic phrase styles */
+.bold { font-weight: bold; }
+.boldItalic { font-weight: bold; font-style: italic; }
+.italic { font-style: italic; }
+.underlined { text-decoration: underline; }
+.uicontrol { font-weight: bold; }
+.parmname { font-weight: bold; }
+.kwd { font-weight: bold; }
+.defkwd { font-weight: bold; text-decoration: underline; }
+.shortcut { text-decoration: underline; }
+.filepath {
+	font-family: courier, monospace;
+	/*background: inherit; PR#119468: Commented out to prevent bullet 
+	images from appearing under the first character of a filepath child 
+	text node.  dwh */
+	
+}
+
+
+
+/* Default of bold for definition list terms */
+.dlterm { 
+	font-weight: bold;
+}
+
+/*[dwh:10.Sep.2013] Addressing item 1 in SRC17600, 
+line height in dd elements.*/
+.dd {
+    display: block;
+    line-height: 16px;
+    margin-bottom: 5px;
+}
+
+.tt {
+	font-family:"Courier New", Courier, monospace;
+}
+
+
+.varname {
+	
+	font-style:italic;
+	font-weight:normal;
+	font-family:"Courier New", Courier, monospace;
+	/*background: inherit; PR#119468: Commented out to prevent bullet 
+	images from appearing under the first character of a varname child 
+	text node.  dwh */
+}
+
+.dtype {
+	
+	font-weight:normal;
+	font-family:"Courier New", Courier, monospace;
+}
+
+.envar {
+	font-weight:bold;
+	font-style:italic;
+	font-family:"Courier New", Courier, monospace;
+}
+
+.key {
+	font-weight:bold;
+	
+}
+
+
+/* Use CSS to expand lists with @compact="no" */
+.dltermexpand { 
+	font-weight: bold; 
+	margin-top: 1em; 
+}
+*[compact="yes"]>li { margin-top: 0em;}
+*[compact="no"]>li { margin-top: .53em;}	
+.liexpand {
+	margin-top: 1em;
+	margin-bottom: 1em;	
+}
+.sliexpand {
+	margin-top: 1em;
+	margin-bottom: 1em;
+
+}
+.dlexpand { 
+	margin-top: 1em; 
+	margin-bottom: 1em; 
+	}
+.ddexpand { 
+	margin-top: 1em; 
+	margin-bottom: 1em; 
+	}
+.stepexpand { 
+	margin-top: 1em; 
+	margin-bottom: 1em; 
+	}
+.substepexpand {
+	margin-top: 1em;
+	margin-bottom: 1em;	
+}
+
+.apiname {
+	font-style:italic;
+}
+.caution>.filepath {
+	font-family: courier, monospace;
+	background: white;
+}
+
+.caution>.varname {
+	font-style:italic;
+	font-weight:normal;
+	font-family:"Courier New", Courier, monospace;
+	background: white;
+}
+
+.caution>.dtype {
+	font-weight:normal;
+	font-family:"Courier New", Courier, monospace;
+	background: white;
+}
+
+.caution>.envar {
+	font-weight:bold;
+	font-style:italic;
+	font-family:"Courier New", Courier, monospace;
+	background: white;
+}
+
+.note>.filepath {
+	font-family: courier, monospace;
+	background: white;
+}
+
+.note>.varname {
+	font-style:italic;
+	font-weight:normal;
+	font-family:"Courier New", Courier, monospace;
+	background: white;
+}
+
+.note>.dtype {
+	font-weight:normal;
+	font-family:"Courier New", Courier, monospace;
+	background: white;
+}
+
+.note>.envar {
+	font-weight:bold;
+	font-style:italic;
+	font-family:"Courier New", Courier, monospace;
+	background: white;
+}
+
+
+.danger>.filepath {
+	font-family: courier, monospace;
+	background: white;
+}
+
+.danger>.varname {
+	font-style:italic;
+	font-weight:normal;
+	font-family:"Courier New", Courier, monospace;
+	background: white;
+}
+
+.danger>.dtype {
+	font-weight:normal;
+	font-family:"Courier New", Courier, monospace;
+	background: white;
+}
+
+.danger>.envar {
+	font-weight:bold;
+	font-style:italic;
+	font-family:"Courier New", Courier, monospace;
+	background: white;
+}
+
+.ullinks {
+	/* visibility:hidden; */
+}

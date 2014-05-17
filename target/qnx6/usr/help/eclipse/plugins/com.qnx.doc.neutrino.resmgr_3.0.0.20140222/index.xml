@@ -1,0 +1,1496 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword="_client_info">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+</entry>
+<entry keyword="_DEVCTL_DATA()">
+<topic href="topic/messages_Sample_IO_DEVCTL.html#Sample_IO_DEVCTL" title="Sample code for handling _IO_DEVCTL messages"/>
+</entry>
+<entry keyword="_DEXTRA_*()">
+<topic href="topic/fsystems_Returning_stat.html#Returning_stat" title="Returning information associated with a directory structure"/>
+</entry>
+<entry keyword="_DTYPE_LSTAT">
+<topic href="topic/fsystems_Returning_stat.html#Returning_stat" title="Returning information associated with a directory structure"/>
+<topic href="topic/read_write_XTYPE.html#XTYPE" title="Handling the xtype member"/>
+</entry>
+<entry keyword="_DTYPE_STAT">
+<topic href="topic/fsystems_Returning_stat.html#Returning_stat" title="Returning information associated with a directory structure"/>
+</entry>
+<entry keyword="_FTYPE_ANY">
+<topic href="topic/skeleton_ClientSide.html#ClientSide" title="Under the client&apos;s covers"/>
+<topic href="topic/skeleton_RegisterName.html#RegisterName" title="Put a name into the namespace"/>
+</entry>
+<entry keyword="_FTYPE_MOUNT">
+<topic href="topic/messages_Mount_resmgr.html#Mount_resmgr" title="Mount in the resource manager"/>
+</entry>
+<entry keyword="_FTYPE_MQUEUE">
+<topic href="topic/skeleton_RegisterName.html#RegisterName" title="Put a name into the namespace"/>
+</entry>
+<entry keyword="_IO_CHMOD">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="_IO_CHOWN">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="_IO_CLOSE">
+<topic href="topic/combine_CombineMsgHandling.html#CombineMsgHandling" title="The library&apos;s combine-message handling"/>
+<topic href="topic/messages_HANDLING_open.html#HANDLING_open" title="Handling open(), dup(), and close() messages"/>
+<topic href="topic/combine_IOConnectCombine.html#IOConnectCombine" title="_IO_CONNECT_COMBINE"/>
+</entry>
+<entry keyword="_IO_CLOSE_DUP">
+<topic href="topic/skeleton_ClientSide.html#ClientSide" title="Under the client&apos;s covers"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="_IO_CLOSE_OCB">
+<topic href="topic/messages_HANDLING_open.html#HANDLING_open" title="Handling open(), dup(), and close() messages"/>
+<topic href="topic/read_write_UPDATINGTIME.html#UPDATINGTIME" title="Updating the time for reads and writes"/>
+</entry>
+<entry keyword="_IO_COMBINE_FLAG">
+<topic href="topic/messages_HANDLING_stat.html#HANDLING_stat" title="Handling stat()"/>
+<topic href="topic/combine_ComponentResponses.html#ComponentResponses" title="Component responses"/>
+</entry>
+<entry keyword="_IO_CONNECT">
+<topic href="topic/messages_HANDLING_open.html#HANDLING_open" title="Handling open(), dup(), and close() messages"/>
+<topic href="topic/skeleton_ResMgrSide.html#ResMgrSide" title="Under the resource manager&apos;s covers"/>
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+<topic href="topic/skeleton_StartMsgLoop.html#StartMsgLoop" title="Start the resource manager message loop"/>
+<topic href="topic/fsystems_HandlingDirs.html#HandlingDirs" title="Handling directories"/>
+<topic href="topic/skeleton_ClientSide.html#ClientSide" title="Under the client&apos;s covers"/>
+<topic href="topic/fsystems_IO_msg.html#IO_msg" title="The _IO_OPEN message for filesystems"/>
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+</entry>
+<entry keyword="_IO_CONNECT_COMBINE">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+<topic href="topic/combine_IOConnectCombine.html#IOConnectCombine" title="_IO_CONNECT_COMBINE"/>
+</entry>
+<entry keyword="_IO_CONNECT_COMBINE_CLOSE">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+<topic href="topic/combine_IOConnectCombineClose.html#IOConnectCombineClose" title="_IO_CONNECT_COMBINE_CLOSE"/>
+</entry>
+<entry keyword="_IO_CONNECT_LINK">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="_IO_CONNECT_MKNOD">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="_IO_CONNECT_MOUNT">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="_IO_CONNECT_OPEN">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="_IO_CONNECT_READLINK">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="_IO_CONNECT_RENAME">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="_IO_CONNECT_UNLINK">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="_IO_DEVCTL">
+<topic href="topic/messages_Sample_IO_DEVCTL.html#Sample_IO_DEVCTL" title="Sample code for handling _IO_DEVCTL messages"/>
+<topic href="topic/combine_IOConnectCombine.html#IOConnectCombine" title="_IO_CONNECT_COMBINE"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/messages_HANDLING_devctl.html#HANDLING_devctl" title="Handling devctl() messages"/>
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+<entry keyword="_IO_DUP">
+<topic href="topic/messages_HANDLING_open.html#HANDLING_open" title="Handling open(), dup(), and close() messages"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="_IO_FDINFO">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="_IO_FLAG_RD">
+<topic href="topic/structures_OCB.html#OCB" title="The iofunc_ocb_t (Open Control Block) structure"/>
+</entry>
+<entry keyword="_IO_FLAG_WR">
+<topic href="topic/structures_OCB.html#OCB" title="The iofunc_ocb_t (Open Control Block) structure"/>
+</entry>
+<entry keyword="_IO_LOCK">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="_IO_LSEEK">
+<topic href="topic/combine_CombineMsgHandling.html#CombineMsgHandling" title="The library&apos;s combine-message handling"/>
+<topic href="topic/combine_ComponentDataAccess.html#ComponentDataAccess" title="Component data access"/>
+<topic href="topic/combine_Atomic_operations.html#Atomic_operations" title="Atomic operations"/>
+<topic href="topic/combine_ComponentResponses.html#ComponentResponses" title="Component responses"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/messages_HANDLING_lseek.html#HANDLING_lseek" title="Handling lseek()"/>
+</entry>
+<entry keyword="_IO_MAX">
+<topic href="topic/skeleton_Server.html#Server" title="The server"/>
+</entry>
+<entry keyword="_IO_MMAP">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="_IO_MSG">
+<topic href="topic/messages_HANDLING_io_msg.html#HANDLING_io_msg" title="Handling out-of-band (_IO_MSG) messages"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+<entry keyword="_io_msg structure">
+<topic href="topic/messages_HANDLING_io_msg.html#HANDLING_io_msg" title="Handling out-of-band (_IO_MSG) messages"/>
+</entry>
+<entry keyword="_IO_NOTIFY">
+<topic href="topic/messages_Sample_IO_NOTIFY.html#Sample_IO_NOTIFY" title="Sample code for handling _IO_NOTIFY messages"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="_IO_OPEN">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+<topic href="topic/fsystems_IO_msg.html#IO_msg" title="The _IO_OPEN message for filesystems"/>
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+</entry>
+<entry keyword="_IO_OPENFD">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="_IO_PATHCONF">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="_IO_READ">
+<topic href="topic/combine_CombineMsgHandling.html#CombineMsgHandling" title="The library&apos;s combine-message handling"/>
+<topic href="topic/fsystems_Returning_stat.html#Returning_stat" title="Returning information associated with a directory structure"/>
+<topic href="topic/fleshing_out_WriteFuncYourself.html#WriteFuncYourself" title="Writing the entire function yourself"/>
+<topic href="topic/combine_Atomic_operations.html#Atomic_operations" title="Atomic operations"/>
+<topic href="topic/skeleton_ResMgrSide.html#ResMgrSide" title="Under the resource manager&apos;s covers"/>
+<topic href="topic/read_write_Sample_IO_READ.html#Sample_IO_READ" title="Sample code for handling _IO_READ messages"/>
+<topic href="topic/read_write_Handlingpread.html#Handlingpread" title="Handling pread*() and pwrite*()"/>
+<topic href="topic/skeleton_StartMsgLoop.html#StartMsgLoop" title="Start the resource manager message loop"/>
+<topic href="topic/combine_ComponentResponses.html#ComponentResponses" title="Component responses"/>
+<topic href="topic/read_write_HANDLING_READ_MSG.html#HANDLING_READ_MSG" title="Handling the _IO_READ message"/>
+<topic href="topic/fsystems_HandlingDirs.html#HandlingDirs" title="Handling directories"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/fsystems_ReturnEntries.html#ReturnEntries" title="Returning directory entries from _IO_READ"/>
+</entry>
+<entry keyword="_IO_SET_READ_NBYTES()">
+<topic href="topic/read_write_ReturnSuccess.html#ReturnSuccess" title="Returning success but with no data"/>
+</entry>
+<entry keyword="_IO_SET_WRITE_NBYTES()">
+<topic href="topic/read_write_ReturnSuccess.html#ReturnSuccess" title="Returning success but with no data"/>
+</entry>
+<entry keyword="_IO_SPACE">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="_IO_STAT">
+<topic href="topic/messages_HANDLING_stat.html#HANDLING_stat" title="Handling stat()"/>
+<topic href="topic/read_write_UPDATINGTIME.html#UPDATINGTIME" title="Updating the time for reads and writes"/>
+<topic href="topic/combine_IOConnectCombine.html#IOConnectCombine" title="_IO_CONNECT_COMBINE"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/overview_DEVICEresmgr.html#DEVICEresmgr" title="Device resource managers"/>
+<topic href="topic/combine_IOConnectCombineClose.html#IOConnectCombineClose" title="_IO_CONNECT_COMBINE_CLOSE"/>
+</entry>
+<entry keyword="_IO_SYNC">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="_IO_UNBLOCK">
+<topic href="topic/combine_CombineMsgHandling.html#CombineMsgHandling" title="The library&apos;s combine-message handling"/>
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+</entry>
+<entry keyword="_IO_UTIME">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="_IO_WRITE">
+<topic href="topic/fleshing_out_WriteFuncYourself.html#WriteFuncYourself" title="Writing the entire function yourself"/>
+<topic href="topic/combine_ComponentDataAccess.html#ComponentDataAccess" title="Component data access"/>
+<topic href="topic/skeleton_ResMgrSide.html#ResMgrSide" title="Under the resource manager&apos;s covers"/>
+<topic href="topic/read_write_Handlingpread.html#Handlingpread" title="Handling pread*() and pwrite*()"/>
+<topic href="topic/skeleton_ClientSide.html#ClientSide" title="Under the client&apos;s covers"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="_IO_XFLAG_DIR_EXTRA_HINT">
+<topic href="topic/fsystems_Returning_stat.html#Returning_stat" title="Returning information associated with a directory structure"/>
+<topic href="topic/read_write_XTYPE.html#XTYPE" title="Handling the xtype member"/>
+</entry>
+<entry keyword="_IO_XTYPE_NONE">
+<topic href="topic/read_write_XTYPE.html#XTYPE" title="Handling the xtype member"/>
+</entry>
+<entry keyword="_IO_XTYPE_OFFSET">
+<topic href="topic/read_write_XTYPE.html#XTYPE" title="Handling the xtype member"/>
+</entry>
+<entry keyword="_IO_XTYPE_READCOND">
+<topic href="topic/read_write_Handlingreadcond.html#Handlingreadcond" title="Handling readcond()"/>
+</entry>
+<entry keyword="_IOFUNC_NFUNCS">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+</entry>
+<entry keyword="_IOMGR_PRIVATE_BASE">
+<topic href="topic/messages_HANDLING_io_msg.html#HANDLING_io_msg" title="Handling out-of-band (_IO_MSG) messages"/>
+</entry>
+<entry keyword="_IOMGR_PRIVATE_MAX">
+<topic href="topic/messages_HANDLING_io_msg.html#HANDLING_io_msg" title="Handling out-of-band (_IO_MSG) messages"/>
+</entry>
+<entry keyword="_MOUNT_OCB">
+<topic href="topic/messages_Mount_resmgr.html#Mount_resmgr" title="Mount in the resource manager"/>
+</entry>
+<entry keyword="_MOUNT_SPEC">
+<topic href="topic/messages_Mount_resmgr.html#Mount_resmgr" title="Mount in the resource manager"/>
+</entry>
+<entry keyword="_msg_info">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+<entry keyword="_NOTIFY_COND_INPUT">
+<topic href="topic/messages_HANDLING_ionotify.html#HANDLING_ionotify" title="Handling ionotify() and select()"/>
+</entry>
+<entry keyword="_NOTIFY_COND_OBAND">
+<topic href="topic/messages_HANDLING_ionotify.html#HANDLING_ionotify" title="Handling ionotify() and select()"/>
+</entry>
+<entry keyword="_NOTIFY_COND_OUTPUT">
+<topic href="topic/messages_HANDLING_ionotify.html#HANDLING_ionotify" title="Handling ionotify() and select()"/>
+</entry>
+<entry keyword="_NOTIFY_CONDE_ERR">
+<topic href="topic/messages_HANDLING_ionotify.html#HANDLING_ionotify" title="Handling ionotify() and select()"/>
+</entry>
+<entry keyword="_NOTIFY_CONDE_HUP">
+<topic href="topic/messages_HANDLING_ionotify.html#HANDLING_ionotify" title="Handling ionotify() and select()"/>
+</entry>
+<entry keyword="_NOTIFY_CONDE_NVAL">
+<topic href="topic/messages_HANDLING_ionotify.html#HANDLING_ionotify" title="Handling ionotify() and select()"/>
+</entry>
+<entry keyword="_NOTIFY_CONDE_PRI">
+<topic href="topic/messages_HANDLING_ionotify.html#HANDLING_ionotify" title="Handling ionotify() and select()"/>
+</entry>
+<entry keyword="_NOTIFY_CONDE_RDBAND">
+<topic href="topic/messages_HANDLING_ionotify.html#HANDLING_ionotify" title="Handling ionotify() and select()"/>
+</entry>
+<entry keyword="_NOTIFY_CONDE_RDNORM">
+<topic href="topic/messages_HANDLING_ionotify.html#HANDLING_ionotify" title="Handling ionotify() and select()"/>
+</entry>
+<entry keyword="_NOTIFY_CONDE_WRBAND">
+<topic href="topic/messages_HANDLING_ionotify.html#HANDLING_ionotify" title="Handling ionotify() and select()"/>
+</entry>
+<entry keyword="_NOTIFY_CONDE_WRNORM">
+<topic href="topic/messages_HANDLING_ionotify.html#HANDLING_ionotify" title="Handling ionotify() and select()"/>
+</entry>
+<entry keyword="_NTO_CHF_UNBLOCK">
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+</entry>
+<entry keyword="_NTO_CI_UNABLE">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+</entry>
+<entry keyword="_NTO_MI_CONSTRAINED">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+</entry>
+<entry keyword="_NTO_MI_ENDIAN_DIFF">
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+<entry keyword="_NTO_MI_UNBLOCK_REQ">
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+</entry>
+<entry keyword="_NTO_SIDE_CHANNEL">
+<topic href="topic/skeleton_ClientSide.html#ClientSide" title="Under the client&apos;s covers"/>
+</entry>
+<entry keyword="_NTO_TCTL_RCM_GET_AND_SET">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+</entry>
+<entry keyword="_RESMGR_DEFAULT">
+<topic href="topic/messages_Sample_IO_DEVCTL.html#Sample_IO_DEVCTL" title="Sample code for handling _IO_DEVCTL messages"/>
+<topic href="topic/read_write_ReturnComesFromLibrary.html#ReturnComesFromLibrary" title="Returning and telling the library to do the default action"/>
+</entry>
+<entry keyword="_RESMGR_ERRNO() macro (deprecated)">
+<topic href="topic/read_write_ReturnWithError.html#ReturnWithError" title="Returning with an error"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_BEFORE">
+<topic href="topic/skeleton_RegisterName.html#RegisterName" title="Put a name into the namespace"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_DIR">
+<topic href="topic/fsystems_HandlingDirs.html#HandlingDirs" title="Handling directories"/>
+<topic href="topic/fsystems_MatchingMountpoint.html#MatchingMountpoint" title="Matching at or below a mountpoint"/>
+<topic href="topic/fsystems_IO_msg.html#IO_msg" title="The _IO_OPEN message for filesystems"/>
+<topic href="topic/messages_Mount_resmgr.html#Mount_resmgr" title="Mount in the resource manager"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_FTYPEONLY">
+<topic href="topic/messages_Mount_resmgr.html#Mount_resmgr" title="Mount in the resource manager"/>
+</entry>
+<entry keyword="_RESMGR_NOREPLY">
+<topic href="topic/read_write_PerformServerReply.html#PerformServerReply" title="Performing the reply in the server"/>
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+<entry keyword="don&apos;t return it from an io_notify handler">
+<topic href="topic/messages_HANDLING_ionotify.html#HANDLING_ionotify" title="Handling ionotify() and select()"/>
+</entry>
+</entry>
+<entry keyword="_RESMGR_NPARTS()">
+<topic href="topic/read_write_ReturnSingleBuffer.html#ReturnSingleBuffer" title="Returning with a single buffer containing data"/>
+<topic href="topic/read_write_ReturnUsingIOV.html#ReturnUsingIOV" title="Returning using an IOV array that points to your data"/>
+<topic href="topic/read_write_ReturnSuccess.html#ReturnSuccess" title="Returning success but with no data"/>
+</entry>
+<entry keyword="_RESMGR_PTR()">
+<topic href="topic/read_write_ReturnSingleBuffer.html#ReturnSingleBuffer" title="Returning with a single buffer containing data"/>
+</entry>
+<entry keyword="_RESMGR_PULSE_ALLOC">
+<topic href="topic/messages_HANDLING_PRIVATE_MSG.html#HANDLING_PRIVATE_MSG" title="Handling private messages and pulses"/>
+</entry>
+<entry keyword="_RESMGR_STATUS()">
+<topic href="topic/messages_HANDLING_stat.html#HANDLING_stat" title="Handling stat()"/>
+<topic href="topic/messages_HANDLING_lseek.html#HANDLING_lseek" title="Handling lseek()"/>
+</entry>
+<entry keyword="/dev/null">
+<topic href="topic/skeleton_SIMPLE_EGS.html#SIMPLE_EGS" title="Simple examples of device resource managers"/>
+</entry>
+<entry keyword="abilities">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+</entry>
+<entry keyword="access()">
+<topic href="topic/combine_ConnectMsgStyles.html#ConnectMsgStyles" title="Connect message types"/>
+<topic href="topic/combine_IOConnectCombine.html#IOConnectCombine" title="_IO_CONNECT_COMBINE"/>
+</entry>
+<entry keyword="architecture">
+<topic href="topic/skeleton_RESMGR_layers.html#RESMGR_layers" title="Layers in a resource manager"/>
+</entry>
+<entry keyword="atomic operations">
+<topic href="topic/combine_Atomic_operations.html#Atomic_operations" title="Atomic operations"/>
+</entry>
+<entry keyword="attribute structure">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<entry keyword="counters">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+<entry keyword="extending">
+<topic href="topic/extend_ExtendingOCBstructures.html#ExtendingOCBstructures" title="Extending the OCB and attribute structures"/>
+</entry>
+<entry keyword="time members">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+</entry>
+<entry keyword="blocking">
+<entry keyword="clients">
+<topic href="topic/read_write_unblocking.html#read_write_unblocking" title="Unblocking if someone closes a file descriptor"/>
+<topic href="topic/read_write_Replying_later.html#Replying_later" title="Leaving the client blocked, replying later"/>
+</entry>
+</entry>
+<entry keyword="ChannelCreate()">
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+</entry>
+<entry keyword="channels">
+<topic href="topic/skeleton_History.html#History" title="A bit of history"/>
+<entry keyword="side">
+<topic href="topic/skeleton_ClientSide.html#ClientSide" title="Under the client&apos;s covers"/>
+</entry>
+</entry>
+<entry keyword="chmod()">
+<topic href="topic/skeleton_SIMPLE_EGS.html#SIMPLE_EGS" title="Simple examples of device resource managers"/>
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/fleshing_out_Default_handling.html#Default_handling" title="Default message handling"/>
+</entry>
+<entry keyword="chown()">
+<topic href="topic/skeleton_SIMPLE_EGS.html#SIMPLE_EGS" title="Simple examples of device resource managers"/>
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/fleshing_out_Default_handling.html#Default_handling" title="Default message handling"/>
+</entry>
+<entry keyword="chsize()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="clients">
+<entry keyword="blocking">
+<topic href="topic/read_write_unblocking.html#read_write_unblocking" title="Unblocking if someone closes a file descriptor"/>
+<topic href="topic/read_write_Replying_later.html#Replying_later" title="Leaving the client blocked, replying later"/>
+</entry>
+<entry keyword="nonblocking">
+<topic href="topic/read_write_Replying_later.html#Replying_later" title="Leaving the client blocked, replying later"/>
+</entry>
+<entry keyword="replying to">
+<topic href="topic/read_write_RETURNandREPLY.html#RETURNandREPLY" title="Methods of returning and replying"/>
+</entry>
+<entry keyword="unblocking">
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+</entry>
+</entry>
+<entry keyword="close()">
+<topic href="topic/messages_HANDLING_open.html#HANDLING_open" title="Handling open(), dup(), and close() messages"/>
+<topic href="topic/combine_Bandwidth_considerations.html#Bandwidth_considerations" title="Bandwidth considerations"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/fleshing_out_Open_dup_close.html#Open_dup_close" title="open(), dup(), and close()"/>
+<topic href="topic/combine_IOConnectCombineClose.html#IOConnectCombineClose" title="_IO_CONNECT_COMBINE_CLOSE"/>
+<topic href="topic/fleshing_out_Default_handling.html#Default_handling" title="Default message handling"/>
+</entry>
+<entry keyword="combine messages">
+<topic href="topic/combine_UsingCombineMsgs.html#UsingCombineMsgs" title="Where combine messages are used"/>
+</entry>
+<entry keyword="connect functions table">
+<topic href="topic/skeleton_InitMsgFuncs.html#InitMsgFuncs" title="Initialize functions used to handle messages"/>
+</entry>
+<entry keyword="connect messages">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="ConnectAttach()">
+<entry keyword="side channels">
+<topic href="topic/skeleton_ClientSide.html#ClientSide" title="Under the client&apos;s covers"/>
+</entry>
+</entry>
+<entry keyword="ConnectClientInfoAble()">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+</entry>
+<entry keyword="connection ID (coid)">
+<topic href="topic/skeleton_ClientSide.html#ClientSide" title="Under the client&apos;s covers"/>
+<topic href="topic/skeleton_History.html#History" title="A bit of history"/>
+<topic href="topic/skeleton_Client.html#Client" title="The client"/>
+</entry>
+<entry keyword="connections">
+<topic href="topic/skeleton_History.html#History" title="A bit of history"/>
+</entry>
+<entry keyword="control messages">
+<topic href="topic/messages_HANDLING_io_msg.html#HANDLING_io_msg" title="Handling out-of-band (_IO_MSG) messages"/>
+</entry>
+<entry keyword="counters">
+<entry keyword="in attribute structure of resource managers">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+</entry>
+<entry keyword="cross-endian support">
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+<entry keyword="database example">
+<topic href="topic/overview_Database_example.html#Database_example" title="Database example"/>
+</entry>
+<entry keyword="devctl()">
+<topic href="topic/combine_IOConnectCombine.html#IOConnectCombine" title="_IO_CONNECT_COMBINE"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/messages_HANDLING_devctl.html#HANDLING_devctl" title="Handling devctl() messages"/>
+<topic href="topic/fleshing_out_Default_handling.html#Default_handling" title="Default message handling"/>
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+<entry keyword="device drivers">
+<topic href="topic/overview.html#overview" title="What Is a Resource Manager?"/>
+</entry>
+<entry keyword="device resource managers">
+<topic href="topic/overview_DEVICEresmgr.html#DEVICEresmgr" title="Device resource managers"/>
+<entry keyword="differences from filesystem resource managers">
+<topic href="topic/fsystems_HandlingDirs.html#HandlingDirs" title="Handling directories"/>
+</entry>
+</entry>
+<entry keyword="directory information, returning">
+<topic href="topic/read_write_XTYPE.html#XTYPE" title="Handling the xtype member"/>
+</entry>
+<entry keyword="dirent_extra_stat">
+<topic href="topic/fsystems_Returning_stat.html#Returning_stat" title="Returning information associated with a directory structure"/>
+</entry>
+<entry keyword="dispatch layer">
+<topic href="topic/skeleton_InitDispatchInterface.html#InitDispatchInterface" title="Initialize the dispatch interface"/>
+<entry keyword="context">
+<topic href="topic/skeleton_Server.html#Server" title="The server"/>
+<entry keyword="reallocated by dispatch_block()">
+<topic href="topic/skeleton_StartMsgLoop.html#StartMsgLoop" title="Start the resource manager message loop"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="dispatch_block()">
+<topic href="topic/skeleton_StartMsgLoop.html#StartMsgLoop" title="Start the resource manager message loop"/>
+<topic href="topic/skeleton_Server.html#Server" title="The server"/>
+<entry keyword="dispatch context, reallocating">
+<topic href="topic/skeleton_StartMsgLoop.html#StartMsgLoop" title="Start the resource manager message loop"/>
+</entry>
+</entry>
+<entry keyword="dispatch_context_alloc()">
+<topic href="topic/skeleton_Server.html#Server" title="The server"/>
+</entry>
+<entry keyword="dispatch_create()">
+<topic href="topic/skeleton_InitDispatchInterface.html#InitDispatchInterface" title="Initialize the dispatch interface"/>
+<topic href="topic/skeleton_Server.html#Server" title="The server"/>
+</entry>
+<entry keyword="dispatch_handler()">
+<topic href="topic/skeleton_Server.html#Server" title="The server"/>
+</entry>
+<entry keyword="dispatch_t">
+<topic href="topic/skeleton_InitDispatchInterface.html#InitDispatchInterface" title="Initialize the dispatch interface"/>
+</entry>
+<entry keyword="dup()">
+<topic href="topic/messages_HANDLING_open.html#HANDLING_open" title="Handling open(), dup(), and close() messages"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/fleshing_out_Open_dup_close.html#Open_dup_close" title="open(), dup(), and close()"/>
+</entry>
+<entry keyword="dup2()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="EAGAIN">
+<topic href="topic/read_write_Replying_later.html#Replying_later" title="Leaving the client blocked, replying later"/>
+</entry>
+<entry keyword="EINTR">
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+</entry>
+<entry keyword="endian-ness">
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+<entry keyword="ENOENT">
+<topic href="topic/messages_Mount_resmgr.html#Mount_resmgr" title="Mount in the resource manager"/>
+</entry>
+<entry keyword="ENOSYS">
+<topic href="topic/skeleton_dispatch_layer.html#dispatch_layer" title="The dispatch layer"/>
+<topic href="topic/messages_HANDLING_io_msg.html#HANDLING_io_msg" title="Handling out-of-band (_IO_MSG) messages"/>
+<topic href="topic/read_write_ReturnComesFromLibrary.html#ReturnComesFromLibrary" title="Returning and telling the library to do the default action"/>
+<topic href="topic/read_write_Unexpected_extended_types.html#Unexpected_extended_types" title="If you aren&apos;t expecting extended types (xtype)"/>
+<topic href="topic/messages_Mount_resmgr.html#Mount_resmgr" title="Mount in the resource manager"/>
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+<entry keyword="EOF">
+<topic href="topic/fleshing_out_WriteFuncYourself.html#WriteFuncYourself" title="Writing the entire function yourself"/>
+</entry>
+<entry keyword="EOK">
+<topic href="topic/combine_ComponentResponses.html#ComponentResponses" title="Component responses"/>
+</entry>
+<entry keyword="errno values, returning">
+<topic href="topic/read_write_ReturnWithError.html#ReturnWithError" title="Returning with an error"/>
+</entry>
+<entry keyword="examples">
+<entry keyword="database">
+<topic href="topic/overview_Database_example.html#Database_example" title="Database example"/>
+</entry>
+<entry keyword="GPS devices">
+<topic href="topic/overview_GPS_example.html#GPS_example" title="GPS devices"/>
+</entry>
+<entry keyword="handling _IO_DEVCTL messages">
+<topic href="topic/messages_Sample_IO_DEVCTL.html#Sample_IO_DEVCTL" title="Sample code for handling _IO_DEVCTL messages"/>
+</entry>
+<entry keyword="I2C (Inter-Integrated Circuit) driver">
+<topic href="topic/overview_I2C_example.html#I2C_example" title="I2C (Inter-Integrated Circuit) driver"/>
+</entry>
+<entry keyword="in the IDE">
+<topic href="topic/skeleton_SIMPLE_EGS.html#SIMPLE_EGS" title="Simple examples of device resource managers"/>
+</entry>
+<entry keyword="multithreaded">
+<topic href="topic/skeleton_SIMPLE_MT_EG.html#SIMPLE_MT_EG" title="Multithreaded device resource manager"/>
+</entry>
+<entry keyword="robot arm">
+<topic href="topic/overview_Robot_example.html#Robot_example" title="Robot arm"/>
+</entry>
+<entry keyword="single-threaded">
+<topic href="topic/skeleton_SIMPLE_ST_EG.html#SIMPLE_ST_EG" title="Single-threaded device resource manager"/>
+</entry>
+<entry keyword="Transparent Distributed Processing (Qnet) statistics">
+<topic href="topic/overview_Qnet_example.html#Qnet_example" title="Transparent Distributed Processing (Qnet) statistics"/>
+</entry>
+</entry>
+<entry keyword="extended type information">
+<topic href="topic/read_write_XTYPE.html#XTYPE" title="Handling the xtype member"/>
+</entry>
+<entry keyword="fchmod()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="fchown()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="fclose()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="fcntl()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="fdatasync()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="fgetc()">
+<topic href="topic/read_write_HANDLING_READ_MSG.html#HANDLING_READ_MSG" title="Handling the _IO_READ message"/>
+</entry>
+<entry keyword="filesystem resource managers">
+<topic href="topic/overview_FILESYSresmgr.html#FILESYSresmgr" title="Filesystem resource managers"/>
+<entry keyword="differences from device resource managers">
+<topic href="topic/fsystems_HandlingDirs.html#HandlingDirs" title="Handling directories"/>
+</entry>
+</entry>
+<entry keyword="flock()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="fopen()">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="fork()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="fpathconf()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/fleshing_out_Default_handling.html#Default_handling" title="Default message handling"/>
+</entry>
+<entry keyword="fread()">
+<topic href="topic/read_write_HANDLING_READ_MSG.html#HANDLING_READ_MSG" title="Handling the _IO_READ message"/>
+</entry>
+<entry keyword="fseek()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/messages_HANDLING_lseek.html#HANDLING_lseek" title="Handling lseek()"/>
+<topic href="topic/fleshing_out_Default_handling.html#Default_handling" title="Default message handling"/>
+</entry>
+<entry keyword="fstat()">
+<topic href="topic/messages_HANDLING_stat.html#HANDLING_stat" title="Handling stat()"/>
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<topic href="topic/combine_Bandwidth_considerations.html#Bandwidth_considerations" title="Bandwidth considerations"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/combine_IOConnectCombineClose.html#IOConnectCombineClose" title="_IO_CONNECT_COMBINE_CLOSE"/>
+<topic href="topic/fleshing_out_Default_handling.html#Default_handling" title="Default message handling"/>
+</entry>
+<entry keyword="fsync()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="ftruncate()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="fwrite()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="GPS devices">
+<topic href="topic/overview_GPS_example.html#GPS_example" title="GPS devices"/>
+</entry>
+<entry keyword="helper functions">
+<topic href="topic/fleshing_out_UsingHelperFuncs.html#UsingHelperFuncs" title="Using the helper functions"/>
+</entry>
+<entry keyword="I/O">
+<entry keyword="functions table">
+<topic href="topic/skeleton_InitMsgFuncs.html#InitMsgFuncs" title="Initialize functions used to handle messages"/>
+</entry>
+<entry keyword="messages">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+</entry>
+<entry keyword="I2C (Inter-Integrated Circuit) driver">
+<topic href="topic/overview_I2C_example.html#I2C_example" title="I2C (Inter-Integrated Circuit) driver"/>
+</entry>
+<entry keyword="IDE, sample resource manager in">
+<topic href="topic/skeleton_SIMPLE_EGS.html#SIMPLE_EGS" title="Simple examples of device resource managers"/>
+</entry>
+<entry keyword="interprocess communication (IPC)">
+<topic href="topic/skeleton_History.html#History" title="A bit of history"/>
+</entry>
+<entry keyword="InterruptAttach()">
+<topic href="topic/signals_HANDLING_INTERRUPTS.html#HANDLING_INTERRUPTS" title="Handling interrupts"/>
+</entry>
+<entry keyword="InterruptAttachEvent()">
+<topic href="topic/signals_HANDLING_INTERRUPTS.html#HANDLING_INTERRUPTS" title="Handling interrupts"/>
+</entry>
+<entry keyword="InterruptWait()">
+<topic href="topic/signals_HANDLING_INTERRUPTS.html#HANDLING_INTERRUPTS" title="Handling interrupts"/>
+<topic href="topic/signals_Sample_interrupts.html#Sample_interrupts" title="Sample code for handling interrupts"/>
+</entry>
+<entry keyword="io_close handler">
+<topic href="topic/combine_IOConnectCombine.html#IOConnectCombine" title="_IO_CONNECT_COMBINE"/>
+<topic href="topic/combine_IOConnectCombineClose.html#IOConnectCombineClose" title="_IO_CONNECT_COMBINE_CLOSE"/>
+</entry>
+<entry keyword="io_close_dup()">
+<topic href="topic/read_write_unblocking.html#read_write_unblocking" title="Unblocking if someone closes a file descriptor"/>
+</entry>
+<entry keyword="io_devctl handler">
+<topic href="topic/combine_IOConnectCombine.html#IOConnectCombine" title="_IO_CONNECT_COMBINE"/>
+</entry>
+<entry keyword="io_lock_ocb handler">
+<topic href="topic/combine_ComponentDataAccess.html#ComponentDataAccess" title="Component data access"/>
+<topic href="topic/combine_IOConnectCombine.html#IOConnectCombine" title="_IO_CONNECT_COMBINE"/>
+<topic href="topic/combine_IOConnectCombineClose.html#IOConnectCombineClose" title="_IO_CONNECT_COMBINE_CLOSE"/>
+</entry>
+<entry keyword="io_lseek handler">
+<topic href="topic/combine_ComponentDataAccess.html#ComponentDataAccess" title="Component data access"/>
+<topic href="topic/messages_HANDLING_lseek.html#HANDLING_lseek" title="Handling lseek()"/>
+</entry>
+<entry keyword="io_lseek_t">
+<topic href="topic/messages_HANDLING_lseek.html#HANDLING_lseek" title="Handling lseek()"/>
+</entry>
+<entry keyword="io_mount_extra_t">
+<topic href="topic/messages_Mount_resmgr.html#Mount_resmgr" title="Mount in the resource manager"/>
+</entry>
+<entry keyword="io_notify handler">
+<topic href="topic/messages_HANDLING_ionotify.html#HANDLING_ionotify" title="Handling ionotify() and select()"/>
+<entry keyword="don&apos;t return _RESMGR_NOREPLY from">
+<topic href="topic/messages_HANDLING_ionotify.html#HANDLING_ionotify" title="Handling ionotify() and select()"/>
+</entry>
+</entry>
+<entry keyword="io_open handler">
+<topic href="topic/skeleton_ResMgrSide.html#ResMgrSide" title="Under the resource manager&apos;s covers"/>
+<topic href="topic/combine_ConnectMsgStyles.html#ConnectMsgStyles" title="Connect message types"/>
+<topic href="topic/fleshing_out_UsingDefaultFuncs.html#UsingDefaultFuncs" title="Using the default functions"/>
+<topic href="topic/combine_IOConnectCombine.html#IOConnectCombine" title="_IO_CONNECT_COMBINE"/>
+<topic href="topic/fsystems_IO_msg.html#IO_msg" title="The _IO_OPEN message for filesystems"/>
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+<topic href="topic/combine_IOConnectCombineClose.html#IOConnectCombineClose" title="_IO_CONNECT_COMBINE_CLOSE"/>
+</entry>
+<entry keyword="io_read handler">
+<topic href="topic/skeleton_iofunc_layer.html#iofunc_layer" title="The iofunc layer"/>
+<topic href="topic/fsystems_TakingOverMoreDevices.html#TakingOverMoreDevices" title="Taking over more than one device"/>
+<topic href="topic/skeleton_ResMgrSide.html#ResMgrSide" title="Under the resource manager&apos;s covers"/>
+<topic href="topic/read_write_Sample_IO_READ.html#Sample_IO_READ" title="Sample code for handling _IO_READ messages"/>
+<topic href="topic/read_write_HANDLING_READ_MSG.html#HANDLING_READ_MSG" title="Handling the _IO_READ message"/>
+<topic href="topic/fsystems_ReturnEntries.html#ReturnEntries" title="Returning directory entries from _IO_READ"/>
+</entry>
+<entry keyword="io_read structure">
+<topic href="topic/read_write_HANDLING_READ_MSG.html#HANDLING_READ_MSG" title="Handling the _IO_READ message"/>
+</entry>
+<entry keyword="io_stat handler">
+<topic href="topic/messages_HANDLING_stat.html#HANDLING_stat" title="Handling stat()"/>
+<topic href="topic/combine_IOConnectCombine.html#IOConnectCombine" title="_IO_CONNECT_COMBINE"/>
+<topic href="topic/combine_IOConnectCombineClose.html#IOConnectCombineClose" title="_IO_CONNECT_COMBINE_CLOSE"/>
+</entry>
+<entry keyword="io_stat_t">
+<topic href="topic/messages_HANDLING_stat.html#HANDLING_stat" title="Handling stat()"/>
+</entry>
+<entry keyword="io_unlock_ocb handler">
+<topic href="topic/combine_ComponentDataAccess.html#ComponentDataAccess" title="Component data access"/>
+<topic href="topic/combine_IOConnectCombine.html#IOConnectCombine" title="_IO_CONNECT_COMBINE"/>
+<topic href="topic/combine_IOConnectCombineClose.html#IOConnectCombineClose" title="_IO_CONNECT_COMBINE_CLOSE"/>
+</entry>
+<entry keyword="io_write handler">
+<topic href="topic/messages_Sample_IO_NOTIFY.html#Sample_IO_NOTIFY" title="Sample code for handling _IO_NOTIFY messages"/>
+<topic href="topic/combine_ComponentDataAccess.html#ComponentDataAccess" title="Component data access"/>
+<topic href="topic/fsystems_TakingOverMoreDevices.html#TakingOverMoreDevices" title="Taking over more than one device"/>
+<topic href="topic/skeleton_ResMgrSide.html#ResMgrSide" title="Under the resource manager&apos;s covers"/>
+<topic href="topic/read_write_Sample_IO_WRITE.html#Sample_IO_WRITE" title="Sample code for handling _IO_WRITE messages"/>
+<topic href="topic/read_write_HANDLING_WRITE_MSG.html#HANDLING_WRITE_MSG" title="Handling the _IO_WRITE message"/>
+</entry>
+<entry keyword="ioctl()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="iofdinfo()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="iofunc_*() shared library">
+<topic href="topic/fleshing_out_Default_handling.html#Default_handling" title="Default message handling"/>
+</entry>
+<entry keyword="IOFUNC_ATTR_ATIME">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<topic href="topic/read_write_UPDATINGTIME.html#UPDATINGTIME" title="Updating the time for reads and writes"/>
+</entry>
+<entry keyword="IOFUNC_ATTR_CTIME">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<topic href="topic/read_write_UPDATINGTIME.html#UPDATINGTIME" title="Updating the time for reads and writes"/>
+</entry>
+<entry keyword="IOFUNC_ATTR_DIRTY_MODE">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+<entry keyword="IOFUNC_ATTR_DIRTY_MTIME">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+<entry keyword="IOFUNC_ATTR_DIRTY_NLINK">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+<entry keyword="IOFUNC_ATTR_DIRTY_OWNER">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+<entry keyword="IOFUNC_ATTR_DIRTY_RDEV">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+<entry keyword="IOFUNC_ATTR_DIRTY_SIZE">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+<entry keyword="IOFUNC_ATTR_DIRTY_TIME">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<topic href="topic/read_write_UPDATINGTIME.html#UPDATINGTIME" title="Updating the time for reads and writes"/>
+</entry>
+<entry keyword="iofunc_attr_init()">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<topic href="topic/skeleton_Server.html#Server" title="The server"/>
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+</entry>
+<entry keyword="iofunc_attr_lock()">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<topic href="topic/fleshing_out_UsingHelperFuncs.html#UsingHelperFuncs" title="Using the helper functions"/>
+<topic href="topic/combine_LockingAttributeStructure.html#LockingAttributeStructure" title="Locking and unlocking the attribute structure"/>
+</entry>
+<entry keyword="IOFUNC_ATTR_MTIME">
+<topic href="topic/read_write_UPDATINGTIME.html#UPDATINGTIME" title="Updating the time for reads and writes"/>
+</entry>
+<entry keyword="IOFUNC_ATTR_PRIVATE">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+<entry keyword="iofunc_attr_t">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<entry keyword="extending">
+<topic href="topic/extend_ExtendingOCBstructures.html#ExtendingOCBstructures" title="Extending the OCB and attribute structures"/>
+</entry>
+</entry>
+<entry keyword="IOFUNC_ATTR_T">
+<topic href="topic/extend_ExtendingOCBstructures.html#ExtendingOCBstructures" title="Extending the OCB and attribute structures"/>
+</entry>
+<entry keyword="iofunc_attr_unlock()">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<topic href="topic/fleshing_out_UsingHelperFuncs.html#UsingHelperFuncs" title="Using the helper functions"/>
+<topic href="topic/combine_LockingAttributeStructure.html#LockingAttributeStructure" title="Locking and unlocking the attribute structure"/>
+</entry>
+<entry keyword="iofunc_check_access()">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+<topic href="topic/fsystems_IO_msg.html#IO_msg" title="The _IO_OPEN message for filesystems"/>
+</entry>
+<entry keyword="iofunc_chmod_default()">
+<topic href="topic/fleshing_out_UsingHelperFuncs.html#UsingHelperFuncs" title="Using the helper functions"/>
+</entry>
+<entry keyword="iofunc_chmod()">
+<topic href="topic/fleshing_out_UsingHelperFuncs.html#UsingHelperFuncs" title="Using the helper functions"/>
+</entry>
+<entry keyword="iofunc_chown_default()">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+<entry keyword="iofunc_client_info_able()">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+</entry>
+<entry keyword="iofunc_func_init()">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/skeleton_InitMsgFuncs.html#InitMsgFuncs" title="Initialize functions used to handle messages"/>
+<topic href="topic/skeleton_Server.html#Server" title="The server"/>
+</entry>
+<entry keyword="iofunc_lock_default()">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+<entry keyword="iofunc_lock()">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+<entry keyword="iofunc_lseek_default()">
+<topic href="topic/messages_HANDLING_lseek.html#HANDLING_lseek" title="Handling lseek()"/>
+</entry>
+<entry keyword="iofunc_lseek()">
+<topic href="topic/messages_HANDLING_lseek.html#HANDLING_lseek" title="Handling lseek()"/>
+</entry>
+<entry keyword="iofunc_mmap_default()">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+<entry keyword="iofunc_mmap()">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+<entry keyword="IOFUNC_MOUNT_32BIT">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+</entry>
+<entry keyword="IOFUNC_MOUNT_FLAGS_PRIVATE">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+</entry>
+<entry keyword="iofunc_mount_t">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+<entry keyword="extending">
+<topic href="topic/extend_ExtendingMountStructure.html#ExtendingMountStructure" title="Extending the mount structure"/>
+</entry>
+</entry>
+<entry keyword="IOFUNC_MOUNT_T">
+<topic href="topic/extend_ExtendingMountStructure.html#ExtendingMountStructure" title="Extending the mount structure"/>
+</entry>
+<entry keyword="iofunc_ocb_attach()">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<topic href="topic/fleshing_out_UsingHelperFuncs.html#UsingHelperFuncs" title="Using the helper functions"/>
+</entry>
+<entry keyword="iofunc_ocb_calloc()">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+<topic href="topic/extend_ExtendingOCBstructures.html#ExtendingOCBstructures" title="Extending the OCB and attribute structures"/>
+</entry>
+<entry keyword="iofunc_ocb_detach()">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+<entry keyword="iofunc_ocb_free()">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+<topic href="topic/extend_ExtendingOCBstructures.html#ExtendingOCBstructures" title="Extending the OCB and attribute structures"/>
+</entry>
+<entry keyword="IOFUNC_OCB_PRIVILEGED">
+<topic href="topic/structures_OCB.html#OCB" title="The iofunc_ocb_t (Open Control Block) structure"/>
+</entry>
+<entry keyword="iofunc_ocb_t">
+<topic href="topic/structures_OCB.html#OCB" title="The iofunc_ocb_t (Open Control Block) structure"/>
+<entry keyword="extending">
+<topic href="topic/extend_ExtendingOCBstructures.html#ExtendingOCBstructures" title="Extending the OCB and attribute structures"/>
+</entry>
+</entry>
+<entry keyword="IOFUNC_OCB_T">
+<topic href="topic/extend_ExtendingOCBstructures.html#ExtendingOCBstructures" title="Extending the OCB and attribute structures"/>
+</entry>
+<entry keyword="iofunc_open_default()">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<topic href="topic/fleshing_out_UsingDefaultFuncs.html#UsingDefaultFuncs" title="Using the default functions"/>
+<topic href="topic/fleshing_out_UsingHelperFuncs.html#UsingHelperFuncs" title="Using the helper functions"/>
+</entry>
+<entry keyword="iofunc_open()">
+<topic href="topic/fleshing_out_UsingHelperFuncs.html#UsingHelperFuncs" title="Using the helper functions"/>
+</entry>
+<entry keyword="IOFUNC_PC_ACL">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+</entry>
+<entry keyword="IOFUNC_PC_CHOWN_RESTRICTED">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+</entry>
+<entry keyword="IOFUNC_PC_LINK_DIR">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+</entry>
+<entry keyword="IOFUNC_PC_NO_TRUNC">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+</entry>
+<entry keyword="IOFUNC_PC_SYNC_IO">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+</entry>
+<entry keyword="iofunc_read_default()">
+<topic href="topic/fleshing_out_WriteFuncYourself.html#WriteFuncYourself" title="Writing the entire function yourself"/>
+</entry>
+<entry keyword="iofunc_read_verify()">
+<topic href="topic/fleshing_out_WriteFuncYourself.html#WriteFuncYourself" title="Writing the entire function yourself"/>
+<entry keyword="indicating nonblocking">
+<topic href="topic/read_write_Replying_later.html#Replying_later" title="Leaving the client blocked, replying later"/>
+</entry>
+</entry>
+<entry keyword="iofunc_stat_default()">
+<topic href="topic/messages_HANDLING_stat.html#HANDLING_stat" title="Handling stat()"/>
+<topic href="topic/fleshing_out_UsingHelperFuncs.html#UsingHelperFuncs" title="Using the helper functions"/>
+</entry>
+<entry keyword="iofunc_stat()">
+<topic href="topic/messages_HANDLING_stat.html#HANDLING_stat" title="Handling stat()"/>
+<topic href="topic/fleshing_out_UsingHelperFuncs.html#UsingHelperFuncs" title="Using the helper functions"/>
+</entry>
+<entry keyword="iofunc_time_update()">
+<topic href="topic/messages_HANDLING_stat.html#HANDLING_stat" title="Handling stat()"/>
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<topic href="topic/read_write_UPDATINGTIME.html#UPDATINGTIME" title="Updating the time for reads and writes"/>
+<topic href="topic/fleshing_out_UsingHelperFuncs.html#UsingHelperFuncs" title="Using the helper functions"/>
+</entry>
+<entry keyword="iofunc_unblock_default()">
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+</entry>
+<entry keyword="iofunc_unblock()">
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+</entry>
+<entry keyword="iofunc_write_default()">
+<topic href="topic/fleshing_out_WriteFuncYourself.html#WriteFuncYourself" title="Writing the entire function yourself"/>
+</entry>
+<entry keyword="iofunc_write_verify()">
+<topic href="topic/fleshing_out_WriteFuncYourself.html#WriteFuncYourself" title="Writing the entire function yourself"/>
+<entry keyword="indicating nonblocking">
+<topic href="topic/read_write_Replying_later.html#Replying_later" title="Leaving the client blocked, replying later"/>
+</entry>
+</entry>
+<entry keyword="ionotify()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="IOV">
+<topic href="topic/fsystems_ReturnEntries.html#ReturnEntries" title="Returning directory entries from _IO_READ"/>
+</entry>
+<entry keyword="IOV array">
+<entry keyword="returning data with">
+<topic href="topic/read_write_ReturnUsingIOV.html#ReturnUsingIOV" title="Returning using an IOV array that points to your data"/>
+</entry>
+<entry keyword="size of, setting">
+<topic href="topic/skeleton_InitResMgrAttr.html#InitResMgrAttr" title="Initialize the resource manager attributes"/>
+</entry>
+</entry>
+<entry keyword="IPC (interprocess communication)">
+<topic href="topic/overview_Native_IPC.html#Native_IPC" title="Communication via native IPC"/>
+<topic href="topic/skeleton_History.html#History" title="A bit of history"/>
+</entry>
+<entry keyword="layers">
+<topic href="topic/skeleton_RESMGR_layers.html#RESMGR_layers" title="Layers in a resource manager"/>
+</entry>
+<entry keyword="link()">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="lockf()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/fleshing_out_Default_handling.html#Default_handling" title="Default message handling"/>
+</entry>
+<entry keyword="lseek()">
+<topic href="topic/structures_OCB.html#OCB" title="The iofunc_ocb_t (Open Control Block) structure"/>
+<topic href="topic/skeleton_SIMPLE_EGS.html#SIMPLE_EGS" title="Simple examples of device resource managers"/>
+<topic href="topic/combine_ComponentDataAccess.html#ComponentDataAccess" title="Component data access"/>
+<topic href="topic/combine_Atomic_operations.html#Atomic_operations" title="Atomic operations"/>
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<topic href="topic/combine_ComponentResponses.html#ComponentResponses" title="Component responses"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/messages_HANDLING_lseek.html#HANDLING_lseek" title="Handling lseek()"/>
+<topic href="topic/fleshing_out_Default_handling.html#Default_handling" title="Default message handling"/>
+</entry>
+<entry keyword="lstat()">
+<topic href="topic/fsystems_Returning_stat.html#Returning_stat" title="Returning information associated with a directory structure"/>
+<topic href="topic/messages_HANDLING_stat.html#HANDLING_stat" title="Handling stat()"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="ltrunc()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="manager IDs">
+<topic href="topic/messages_HANDLING_io_msg.html#HANDLING_io_msg" title="Handling out-of-band (_IO_MSG) messages"/>
+</entry>
+<entry keyword="message_attach()">
+<topic href="topic/messages_CUSTOM_MESSAGES.html#CUSTOM_MESSAGES" title="Custom messages"/>
+<topic href="topic/messages_HANDLING_PRIVATE_MSG.html#HANDLING_PRIVATE_MSG" title="Handling private messages and pulses"/>
+<topic href="topic/skeleton_Server.html#Server" title="The server"/>
+</entry>
+<entry keyword="messages">
+<entry keyword="associating with a handler">
+<topic href="topic/messages_HANDLING_PRIVATE_MSG.html#HANDLING_PRIVATE_MSG" title="Handling private messages and pulses"/>
+</entry>
+<entry keyword="combine">
+<topic href="topic/combine_UsingCombineMsgs.html#UsingCombineMsgs" title="Where combine messages are used"/>
+</entry>
+<entry keyword="connect">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="I/O">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="types">
+<topic href="topic/fleshing_out_Message_types.html#Message_types" title="Message types"/>
+<topic href="topic/skeleton_Server.html#Server" title="The server"/>
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+</entry>
+<entry keyword="mkdir()">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="mkfifo()">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="mknod()">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="mmap_device_io()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="mmap_device_memory()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="mmap()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/fleshing_out_Default_handling.html#Default_handling" title="Default message handling"/>
+</entry>
+<entry keyword="mount structure">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+<entry keyword="extending">
+<topic href="topic/extend_ExtendingMountStructure.html#ExtendingMountStructure" title="Extending the mount structure"/>
+</entry>
+</entry>
+<entry keyword="mount_parse_generic_args()">
+<topic href="topic/messages_mount_utility.html#mount_utility" title="mount utility"/>
+</entry>
+<entry keyword="mount()">
+<topic href="topic/messages_HANDLING_mount.html#HANDLING_mount" title="Handling mount()"/>
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="MsgDeliverEvent()">
+<topic href="topic/messages_HANDLING_PRIVATE_MSG.html#HANDLING_PRIVATE_MSG" title="Handling private messages and pulses"/>
+</entry>
+<entry keyword="MsgInfo()">
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+</entry>
+<entry keyword="MsgRead()">
+<topic href="topic/combine_ComponentDataAccess.html#ComponentDataAccess" title="Component data access"/>
+</entry>
+<entry keyword="MsgReceive()">
+<topic href="topic/multithread_THREADPOOLATTR.html#THREADPOOLATTR" title="Thread pool attributes"/>
+<topic href="topic/messages_HANDLING_PRIVATE_MSG.html#HANDLING_PRIVATE_MSG" title="Handling private messages and pulses"/>
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+<topic href="topic/signals_Sample_interrupts.html#Sample_interrupts" title="Sample code for handling interrupts"/>
+</entry>
+<entry keyword="MsgReply()">
+<topic href="topic/read_write_Replying_later.html#Replying_later" title="Leaving the client blocked, replying later"/>
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+<topic href="topic/skeleton_Message_eg.html#Message_eg" title="Using MsgSend() and MsgReply()"/>
+</entry>
+<entry keyword="MsgReplyv()">
+<topic href="topic/read_write_Replying_later.html#Replying_later" title="Leaving the client blocked, replying later"/>
+</entry>
+<entry keyword="MsgSend()">
+<topic href="topic/read_write_HANDLING_WRITE_MSG.html#HANDLING_WRITE_MSG" title="Handling the _IO_WRITE message"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+<topic href="topic/skeleton_Client.html#Client" title="The client"/>
+<topic href="topic/skeleton_Message_eg.html#Message_eg" title="Using MsgSend() and MsgReply()"/>
+</entry>
+<entry keyword="MsgSendPulse()">
+<topic href="topic/messages_HANDLING_PRIVATE_MSG.html#HANDLING_PRIVATE_MSG" title="Handling private messages and pulses"/>
+</entry>
+<entry keyword="MsgWrite()">
+<topic href="topic/combine_ComponentDataAccess.html#ComponentDataAccess" title="Component data access"/>
+</entry>
+<entry keyword="multithreaded resource managers">
+<topic href="topic/skeleton_SIMPLE_MT_EG.html#SIMPLE_MT_EG" title="Multithreaded device resource manager"/>
+<topic href="topic/multithread_MultiThreadResMgrEx.html#MultiThreadResMgrEx" title="Multithreaded resource manager example"/>
+<topic href="topic/skeleton_threadpool_layer.html#threadpool_layer" title="The thread pool layer"/>
+</entry>
+<entry keyword="munmap()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="mutex">
+<topic href="topic/combine_Atomic_operations.html#Atomic_operations" title="Atomic operations"/>
+</entry>
+<entry keyword="MY_DEVCTL_GETVAL">
+<topic href="topic/messages_Sample_IO_DEVCTL.html#Sample_IO_DEVCTL" title="Sample code for handling _IO_DEVCTL messages"/>
+</entry>
+<entry keyword="MY_DEVCTL_SETGET">
+<topic href="topic/messages_Sample_IO_DEVCTL.html#Sample_IO_DEVCTL" title="Sample code for handling _IO_DEVCTL messages"/>
+</entry>
+<entry keyword="MY_DEVCTL_SETVAL">
+<topic href="topic/messages_Sample_IO_DEVCTL.html#Sample_IO_DEVCTL" title="Sample code for handling _IO_DEVCTL messages"/>
+</entry>
+<entry keyword="native IPC messaging">
+<topic href="topic/overview_Native_IPC.html#Native_IPC" title="Communication via native IPC"/>
+</entry>
+<entry keyword="network">
+<entry keyword="transparency">
+<topic href="topic/overview_Native_IPC.html#Native_IPC" title="Communication via native IPC"/>
+</entry>
+</entry>
+<entry keyword="nonblocking, indicating">
+<topic href="topic/read_write_Replying_later.html#Replying_later" title="Leaving the client blocked, replying later"/>
+</entry>
+<entry keyword="O_DSYNC">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+</entry>
+<entry keyword="O_NONBLOCK">
+<topic href="topic/read_write_Replying_later.html#Replying_later" title="Leaving the client blocked, replying later"/>
+</entry>
+<entry keyword="O_RDONLY">
+<topic href="topic/structures_OCB.html#OCB" title="The iofunc_ocb_t (Open Control Block) structure"/>
+</entry>
+<entry keyword="O_RDWR">
+<topic href="topic/structures_OCB.html#OCB" title="The iofunc_ocb_t (Open Control Block) structure"/>
+</entry>
+<entry keyword="O_RSYNC">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+</entry>
+<entry keyword="O_SYNC">
+<topic href="topic/structures_MountStructure.html#MountStructure" title="The optional iofunc_mount_t (mount) structure"/>
+</entry>
+<entry keyword="O_WRONLY">
+<topic href="topic/structures_OCB.html#OCB" title="The iofunc_ocb_t (Open Control Block) structure"/>
+</entry>
+<entry keyword="OCB (Open Control Block)">
+<topic href="topic/structures_OCB.html#OCB" title="The iofunc_ocb_t (Open Control Block) structure"/>
+<entry keyword="cleaning up">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="extending">
+<topic href="topic/extend_ExtendingOCBstructures.html#ExtendingOCBstructures" title="Extending the OCB and attribute structures"/>
+</entry>
+<entry keyword="locking and unlocking">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="multiple open(), dup(), and close() calls">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/fleshing_out_Open_dup_close.html#Open_dup_close" title="open(), dup(), and close()"/>
+</entry>
+</entry>
+<entry keyword="open()">
+<topic href="topic/messages_HANDLING_open.html#HANDLING_open" title="Handling open(), dup(), and close() messages"/>
+<topic href="topic/skeleton_SIMPLE_EGS.html#SIMPLE_EGS" title="Simple examples of device resource managers"/>
+<topic href="topic/structures.html#structures" title="POSIX-Layer Data Structures"/>
+<topic href="topic/combine_ConnectMsgStyles.html#ConnectMsgStyles" title="Connect message types"/>
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+<topic href="topic/skeleton_StartMsgLoop.html#StartMsgLoop" title="Start the resource manager message loop"/>
+<topic href="topic/combine_Bandwidth_considerations.html#Bandwidth_considerations" title="Bandwidth considerations"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/fleshing_out_Open_dup_close.html#Open_dup_close" title="open(), dup(), and close()"/>
+<topic href="topic/combine_IOConnectCombineClose.html#IOConnectCombineClose" title="_IO_CONNECT_COMBINE_CLOSE"/>
+<topic href="topic/fleshing_out_Default_handling.html#Default_handling" title="Default message handling"/>
+<topic href="topic/skeleton_Client.html#Client" title="The client"/>
+<entry keyword="performed by root">
+<topic href="topic/structures_OCB.html#OCB" title="The iofunc_ocb_t (Open Control Block) structure"/>
+</entry>
+</entry>
+<entry keyword="openfd()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="out-of-band (OOB) data">
+<entry keyword="checking for availability">
+<topic href="topic/messages_HANDLING_ionotify.html#HANDLING_ionotify" title="Handling ionotify() and select()"/>
+</entry>
+<entry keyword="handling messages">
+<topic href="topic/messages_HANDLING_io_msg.html#HANDLING_io_msg" title="Handling out-of-band (_IO_MSG) messages"/>
+</entry>
+</entry>
+<entry keyword="pathconf()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/fleshing_out_Default_handling.html#Default_handling" title="Default message handling"/>
+</entry>
+<entry keyword="pathname">
+<entry keyword="can be taken over by resource manager">
+<topic href="topic/fsystems_HandlingDirs.html#HandlingDirs" title="Handling directories"/>
+</entry>
+<entry keyword="prefix">
+<topic href="topic/fsystems_HandlingDirs.html#HandlingDirs" title="Handling directories"/>
+</entry>
+</entry>
+<entry keyword="permissions">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+</entry>
+<entry keyword="POOL_FLAG_EXIT_SELF">
+<topic href="topic/multithread_ThreadPoolFuncs.html#ThreadPoolFuncs" title="Thread pool functions"/>
+<topic href="topic/skeleton_StartThreads.html#StartThreads" title="Start the threads"/>
+</entry>
+<entry keyword="POOL_FLAG_USE_SELF">
+<topic href="topic/multithread_ThreadPoolFuncs.html#ThreadPoolFuncs" title="Thread pool functions"/>
+</entry>
+<entry keyword="pread(), pread64()">
+<topic href="topic/read_write_XTYPE.html#XTYPE" title="Handling the xtype member"/>
+<topic href="topic/read_write_pread_func.html#pread_func" title="Sample code for handling _IO_READ messages in pread*()"/>
+</entry>
+<entry keyword="privileged processes">
+<topic href="topic/structures_OCB.html#OCB" title="The iofunc_ocb_t (Open Control Block) structure"/>
+</entry>
+<entry keyword="process ID (pid)">
+<topic href="topic/skeleton_History.html#History" title="A bit of history"/>
+</entry>
+<entry keyword="procmgr_ability_create()">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+</entry>
+<entry keyword="procmgr_ability()">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+<topic href="topic/overview.html#overview" title="What Is a Resource Manager?"/>
+</entry>
+<entry keyword="PROCMGR_AID_PATHSPACE">
+<topic href="topic/overview.html#overview" title="What Is a Resource Manager?"/>
+</entry>
+<entry keyword="PROCMGR_AID_RCONSTRAINT">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+</entry>
+<entry keyword="procnto">
+<topic href="topic/overview.html#overview" title="What Is a Resource Manager?"/>
+</entry>
+<entry keyword="pulse_attach()">
+<topic href="topic/messages_CUSTOM_MESSAGES.html#CUSTOM_MESSAGES" title="Custom messages"/>
+<topic href="topic/messages_HANDLING_PRIVATE_MSG.html#HANDLING_PRIVATE_MSG" title="Handling private messages and pulses"/>
+<topic href="topic/skeleton_Client.html#Client" title="The client"/>
+</entry>
+<entry keyword="pulses">
+<entry keyword="and library">
+<topic href="topic/messages_HANDLING_PRIVATE_MSG.html#HANDLING_PRIVATE_MSG" title="Handling private messages and pulses"/>
+</entry>
+<entry keyword="associating with a handler">
+<topic href="topic/messages_HANDLING_PRIVATE_MSG.html#HANDLING_PRIVATE_MSG" title="Handling private messages and pulses"/>
+</entry>
+<entry keyword="why used by resource managers">
+<topic href="topic/messages_HANDLING_PRIVATE_MSG.html#HANDLING_PRIVATE_MSG" title="Handling private messages and pulses"/>
+</entry>
+</entry>
+<entry keyword="pwrite(), pwrite64()">
+<topic href="topic/read_write_XTYPE.html#XTYPE" title="Handling the xtype member"/>
+<topic href="topic/read_write_pwrite_func.html#pwrite_func" title="Sample code for handling _IO_WRITE messages in pwrite*()"/>
+</entry>
+<entry keyword="Qnet statistics">
+<topic href="topic/overview_Qnet_example.html#Qnet_example" title="Transparent Distributed Processing (Qnet) statistics"/>
+</entry>
+<entry keyword="QNX 4 interprocess communication">
+<topic href="topic/skeleton_History.html#History" title="A bit of history"/>
+</entry>
+<entry keyword="RCT (resource constraint thresholds)">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+</entry>
+<entry keyword="read()">
+<topic href="topic/skeleton_SIMPLE_EGS.html#SIMPLE_EGS" title="Simple examples of device resource managers"/>
+<topic href="topic/combine_Atomic_operations.html#Atomic_operations" title="Atomic operations"/>
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<topic href="topic/skeleton_ResMgrSide.html#ResMgrSide" title="Under the resource manager&apos;s covers"/>
+<topic href="topic/skeleton_StartMsgLoop.html#StartMsgLoop" title="Start the resource manager message loop"/>
+<topic href="topic/read_write_HANDLING_READ_MSG.html#HANDLING_READ_MSG" title="Handling the _IO_READ message"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+<entry keyword="nonblocking">
+<topic href="topic/read_write_Replying_later.html#Replying_later" title="Leaving the client blocked, replying later"/>
+</entry>
+</entry>
+<entry keyword="readblock()">
+<topic href="topic/combine_CombineMsgHandling.html#CombineMsgHandling" title="The library&apos;s combine-message handling"/>
+<topic href="topic/combine_Atomic_operations.html#Atomic_operations" title="Atomic operations"/>
+<topic href="topic/combine_ComponentResponses.html#ComponentResponses" title="Component responses"/>
+<topic href="topic/combine_LockingAttributeStructure.html#LockingAttributeStructure" title="Locking and unlocking the attribute structure"/>
+</entry>
+<entry keyword="readcond()">
+<topic href="topic/read_write_XTYPE.html#XTYPE" title="Handling the xtype member"/>
+<topic href="topic/read_write_Handlingreadcond.html#Handlingreadcond" title="Handling readcond()"/>
+</entry>
+<entry keyword="readdir()">
+<topic href="topic/fsystems_Returning_stat.html#Returning_stat" title="Returning information associated with a directory structure"/>
+<topic href="topic/read_write_HANDLING_READ_MSG.html#HANDLING_READ_MSG" title="Handling the _IO_READ message"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="readlink()">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="receive buffer, specifying the minimum size">
+<topic href="topic/skeleton_InitResMgrAttr.html#InitResMgrAttr" title="Initialize the resource manager attributes"/>
+</entry>
+<entry keyword="rename()">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="REPLY-blocked">
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+</entry>
+<entry keyword="resmgr_attach()">
+<topic href="topic/messages_CUSTOM_MESSAGES.html#CUSTOM_MESSAGES" title="Custom messages"/>
+<topic href="topic/skeleton_InitResMgrAttr.html#InitResMgrAttr" title="Initialize the resource manager attributes"/>
+<topic href="topic/extend_ExtendingOCBstructures.html#ExtendingOCBstructures" title="Extending the OCB and attribute structures"/>
+<topic href="topic/fsystems_TakingOverMoreDevices.html#TakingOverMoreDevices" title="Taking over more than one device"/>
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+<topic href="topic/fsystems_HandlingDirs.html#HandlingDirs" title="Handling directories"/>
+<topic href="topic/skeleton_Server.html#Server" title="The server"/>
+<topic href="topic/fsystems_MatchingMountpoint.html#MatchingMountpoint" title="Matching at or below a mountpoint"/>
+<entry keyword="copies the pointer to the table of handler functions">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="IOV array">
+<topic href="topic/read_write_ReturnUsingIOV.html#ReturnUsingIOV" title="Returning using an IOV array that points to your data"/>
+</entry>
+</entry>
+<entry keyword="resmgr_attr_t">
+<topic href="topic/messages_CUSTOM_MESSAGES.html#CUSTOM_MESSAGES" title="Custom messages"/>
+<topic href="topic/skeleton_InitResMgrAttr.html#InitResMgrAttr" title="Initialize the resource manager attributes"/>
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+<entry keyword="resmgr_connect_funcs_t">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+<topic href="topic/messages_Mount_resmgr.html#Mount_resmgr" title="Mount in the resource manager"/>
+</entry>
+<entry keyword="resmgr_context_t">
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+<entry keyword="RESMGR_FLAG_ATTACH_LOCAL">
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+<entry keyword="RESMGR_FLAG_ATTACH_OTHERFUNC">
+<topic href="topic/messages_CUSTOM_MESSAGES.html#CUSTOM_MESSAGES" title="Custom messages"/>
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+<entry keyword="RESMGR_FLAG_CROSS_ENDIAN">
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+<entry keyword="RESMGR_FLAG_NO_DEFAULT_FUNC (not implemented)">
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+<entry keyword="RESMGR_FLAG_RCM">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+<entry keyword="resmgr_io_funcs_t">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+</entry>
+<entry keyword="resmgr_msg_again()">
+<topic href="topic/read_write_Replying_later.html#Replying_later" title="Leaving the client blocked, replying later"/>
+</entry>
+<entry keyword="resmgr_msgread()">
+<topic href="topic/messages_Sample_IO_NOTIFY.html#Sample_IO_NOTIFY" title="Sample code for handling _IO_NOTIFY messages"/>
+<topic href="topic/messages_Sample_IO_DEVCTL.html#Sample_IO_DEVCTL" title="Sample code for handling _IO_DEVCTL messages"/>
+<topic href="topic/combine_ComponentDataAccess.html#ComponentDataAccess" title="Component data access"/>
+<topic href="topic/read_write_pwrite_func.html#pwrite_func" title="Sample code for handling _IO_WRITE messages in pwrite*()"/>
+<topic href="topic/read_write_Sample_IO_WRITE.html#Sample_IO_WRITE" title="Sample code for handling _IO_WRITE messages"/>
+</entry>
+<entry keyword="resmgr_msgwrite()">
+<topic href="topic/combine_ComponentDataAccess.html#ComponentDataAccess" title="Component data access"/>
+<topic href="topic/read_write_ReturnComesFromResMgr.html#ReturnComesFromResMgr" title="Getting the resource manager library to do the reply"/>
+<topic href="topic/read_write_Replying_later.html#Replying_later" title="Leaving the client blocked, replying later"/>
+</entry>
+<entry keyword="resmgr_msgwritev()">
+<topic href="topic/read_write_Replying_later.html#Replying_later" title="Leaving the client blocked, replying later"/>
+</entry>
+<entry keyword="resmgr_open_bind()">
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+</entry>
+<entry keyword="resource constraint mode">
+<topic href="topic/fleshing_out_Attributes.html#Attributes" title="Setting resource manager attributes"/>
+</entry>
+<entry keyword="resource constraint thresholds (RCT)">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+</entry>
+<entry keyword="rewinddir()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/messages_HANDLING_lseek.html#HANDLING_lseek" title="Handling lseek()"/>
+</entry>
+<entry keyword="robot arm example">
+<topic href="topic/overview_Robot_example.html#Robot_example" title="Robot arm"/>
+</entry>
+<entry keyword="sample code">
+<topic href="topic/skeleton_SIMPLE_EGS.html#SIMPLE_EGS" title="Simple examples of device resource managers"/>
+</entry>
+<entry keyword="security">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+</entry>
+<entry keyword="select()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="SEND-blocked">
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+</entry>
+<entry keyword="Send() (QNX 4)">
+<topic href="topic/skeleton_History.html#History" title="A bit of history"/>
+</entry>
+<entry keyword="side channels">
+<topic href="topic/skeleton_ClientSide.html#ClientSide" title="Under the client&apos;s covers"/>
+</entry>
+<entry keyword="SIGEV_INTR">
+<topic href="topic/signals_HANDLING_INTERRUPTS.html#HANDLING_INTERRUPTS" title="Handling interrupts"/>
+<topic href="topic/signals_Sample_interrupts.html#Sample_interrupts" title="Sample code for handling interrupts"/>
+</entry>
+<entry keyword="signals">
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+<entry keyword="causing dispatch_block() to return NULL">
+<topic href="topic/skeleton_StartMsgLoop.html#StartMsgLoop" title="Start the resource manager message loop"/>
+</entry>
+</entry>
+<entry keyword="sopen()">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="spawn*()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="stat structure">
+<topic href="topic/messages_HANDLING_stat.html#HANDLING_stat" title="Handling stat()"/>
+</entry>
+<entry keyword="stat.h">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+<entry keyword="stat()">
+<topic href="topic/fsystems_Returning_stat.html#Returning_stat" title="Returning information associated with a directory structure"/>
+<topic href="topic/messages_HANDLING_stat.html#HANDLING_stat" title="Handling stat()"/>
+<topic href="topic/combine_ConnectMsgStyles.html#ConnectMsgStyles" title="Connect message types"/>
+<topic href="topic/combine_IOConnectCombine.html#IOConnectCombine" title="_IO_CONNECT_COMBINE"/>
+<topic href="topic/combine_Bandwidth_considerations.html#Bandwidth_considerations" title="Bandwidth considerations"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/combine_IOConnectCombineClose.html#IOConnectCombineClose" title="_IO_CONNECT_COMBINE_CLOSE"/>
+<topic href="topic/fleshing_out_Default_handling.html#Default_handling" title="Default message handling"/>
+</entry>
+<entry keyword="strtok()">
+<topic href="topic/fsystems_IO_msg.html#IO_msg" title="The _IO_OPEN message for filesystems"/>
+</entry>
+<entry keyword="THREAD_POOL_PARAM_T">
+<topic href="topic/skeleton_DefineThreadPoolParamT.html#DefineThreadPoolParamT" title="Define THREAD_POOL_PARAM_T"/>
+</entry>
+<entry keyword="ThreadCtl()">
+<topic href="topic/fleshing_out_security.html#fleshing_out_security" title="Security"/>
+</entry>
+<entry keyword="threads">
+<topic href="topic/skeleton_SIMPLE_MT_EG.html#SIMPLE_MT_EG" title="Multithreaded device resource manager"/>
+<topic href="topic/multithread_THREADPOOLATTR.html#THREADPOOLATTR" title="Thread pool attributes"/>
+<topic href="topic/skeleton_threadpool_layer.html#threadpool_layer" title="The thread pool layer"/>
+<entry keyword="locking the attribute structure">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+</entry>
+<entry keyword="time members">
+<entry keyword="in attribute structure of resource managers">
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+</entry>
+</entry>
+<entry keyword="Transparent Distributed Processing statistics">
+<topic href="topic/overview_Qnet_example.html#Qnet_example" title="Transparent Distributed Processing (Qnet) statistics"/>
+</entry>
+<entry keyword="unblocking">
+<topic href="topic/signals_HANDLING_UNBLOCKING.html#HANDLING_UNBLOCKING" title="Handling client unblocking due to signals or timeouts"/>
+</entry>
+<entry keyword="unlink()">
+<topic href="topic/fleshing_out_Connect_messages.html#Connect_messages" title="Connect messages"/>
+</entry>
+<entry keyword="utime()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<topic href="topic/fleshing_out_Default_handling.html#Default_handling" title="Default message handling"/>
+</entry>
+<entry keyword="vfork()">
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+</entry>
+<entry keyword="write()">
+<topic href="topic/skeleton_SIMPLE_EGS.html#SIMPLE_EGS" title="Simple examples of device resource managers"/>
+<topic href="topic/combine_ComponentDataAccess.html#ComponentDataAccess" title="Component data access"/>
+<topic href="topic/combine_Atomic_operations.html#Atomic_operations" title="Atomic operations"/>
+<topic href="topic/structures_AttributeStructure.html#AttributeStructure" title="The iofunc_attr_t (attribute) structure"/>
+<topic href="topic/skeleton_StartMsgLoop.html#StartMsgLoop" title="Start the resource manager message loop"/>
+<topic href="topic/fleshing_out_IO_messages.html#IO_messages" title="I/O messages"/>
+<entry keyword="nonblocking">
+<topic href="topic/read_write_Replying_later.html#Replying_later" title="Leaving the client blocked, replying later"/>
+</entry>
+</entry>
+<entry keyword="writeblock()">
+<topic href="topic/combine_ComponentDataAccess.html#ComponentDataAccess" title="Component data access"/>
+</entry>
+<entry keyword="xtype">
+<topic href="topic/read_write_XTYPE.html#XTYPE" title="Handling the xtype member"/>
+</entry>
+</index>

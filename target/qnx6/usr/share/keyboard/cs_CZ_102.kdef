@@ -1,0 +1,289 @@
+// file cs_CZ_102.kbd
+
+Keyboard "cs_CZ_102" {
+
+	include "altgr.inc"
+	include "common.inc"
+
+
+	KeyType "NumberLettersDead" {
+		NoSym <Ctrl>
+		NoSym <Alt>
+		Unmodified Sym #1
+		<Caps_Lock> Sym #2
+		<Shift> Sym #3
+		<Shift> + <Caps_Lock> Sym #3
+		<AltGr> Deadkey #4
+		<AltGr> + <Shift> Deadkey #4
+		<AltGr> + <Caps_Lock> Deadkey #4
+		<AltGr> + <Caps_Lock> + <Shift> Deadkey #4
+		}
+		
+	KeyType "FourLevelLetter" {
+		NoSym <Ctrl>
+		NoSym <Alt>
+		Unmodified Sym #1
+		<Caps_Lock> Sym #2
+		<Shift> Sym #3
+		<Shift> + <Caps_Lock> Sym #3
+		<AltGr> Sym #4
+		<AltGr> + <Caps_Lock> Sym #4
+		<AltGr> + <Shift> Sym #4
+		<AltGr> + <Shift> + <Caps_Lock> Sym #4
+		}
+
+	KeyType "DeadAndTwoAlive" {
+		NoSym <Ctrl>
+		NoSym <Alt>
+		Unmodified Deadkey #1
+		<Shift> Sym #2
+		<AltGr> Sym #3
+		<AltGr> + <Shift> Sym #3
+		}
+
+	Key '1' {
+		Type "ThreeLevel"
+		Scan  02
+		Syms  '+' '1' '~'
+		}
+	Key '2' {
+		Type "NumberLettersDead"
+		Scan  03
+		Syms  [ecaron] [Ecaron] '2' [combining_caron]
+		}
+	Key '3' {
+		Type "NumberLettersDead"
+		Scan  04
+		Syms  [scaron] [Scaron] '3' '^' // [combining_circumflex]
+		}
+	Key '4' {
+		Type "NumberLettersDead"
+		Scan  05
+		Syms  [ccaron] [Ccaron] '4' [combining_breve]
+		}
+	Key '5' {
+		Type "NumberLettersDead"
+		Scan  06
+		Syms  [rcaron] [Rcaron] '5' [degree] // [combining_abovering]
+		}
+	Key '6' {
+		Type "NumberLettersDead"
+		Scan  07
+		Syms  [zcaron] [Zcaron] '6' [combining_ogonek]
+		}
+	Key '7' {
+		Type "NumberLettersDead"
+		Scan  08
+		Syms  [yacute] [Yacute] '7' '`' // [combining_grave]
+		}
+	Key '8' {
+		Type "NumberLettersDead"
+		Scan  09
+		Syms  [aacute] [Aacute] '8' [combining_abovedot]
+		}
+	Key '9' {
+		Type "NumberLettersDead"
+		Scan  0A
+		Syms  [iacute] [Iacute] '9' ''' // [combining_acute]
+		}
+	Key '0' {
+		Type "NumberLettersDead"
+		Scan  0B
+		Syms  [eacute] [Eacute] '0' [combining_doubleacute]
+		}
+	Key {
+		Type "TwoAliveAndOneDead"
+		Scan  0C
+		Syms  '=' '%' '"' // [combining_diaeresis]
+		}
+	Key ''' {
+		Type "TripleDead"
+		Scan  0D
+		Syms  ''' [combining_caron] [cedilla] // [combining_cedilla]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  10
+		Syms  'q' 'Q' '\'
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  11
+		Syms  'w' 'W' '|'
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  12
+		Syms  'e' 'E' 0x20AC
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  13
+		Syms  'r' 'R'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  14
+		Syms  't' 'T'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  15
+		Syms  'z' 'Z'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  16
+		Syms  'u' 'U'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  17
+		Syms  'i' 'I'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  18
+		Syms  'o' 'O'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  19
+		Syms  'p' 'P'
+		}
+	Key {
+		Type "FourLevelLetter"
+		Scan  1A
+		Syms  [uacute] [Uacute] '/' [division]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  1B
+		Syms  ')' '(' [multiply]
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  1E
+		Syms  'a' 'A'
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  1F
+		Syms  's' 'S' [dstroke]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  20
+		Syms  'd' 'D' [Dstroke]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  21
+		Syms  'f' 'F' '['
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  22
+		Syms  'g' 'G' ']'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  23
+		Syms  'h' 'H'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  24
+		Syms  'j' 'J'
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  25
+		Syms  'k' 'K' [lstroke]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  26
+		Syms  'l' 'L' [Lstroke]
+		}
+	Key {
+		Type "FourLevelLetter"
+		Scan  27
+		Syms  [uringabove] [Uringabove] '"' '$'
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  28
+		Syms  [section] '!' [ssharp]
+		}
+	Key {
+		Type "AliveOrDead"
+		Scan  29
+		Syms  ';' [degree]
+		}
+	Key {
+		Type "DeadAndTwoAlive"
+		Scan  2B
+		Syms  '"' ''' [currency]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  2C
+		Syms  'y' 'Y' '>'
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  2D
+		Syms  'x' 'X' '#'
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  2E
+		Syms  'c' 'C' '&'
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  2F
+		Syms  'v' 'V' '@'
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  30
+		Syms  'b' 'B' '{'
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  31
+		Syms  'n' 'N' '}'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  32
+		Syms  'm' 'M'
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  33
+		Syms  ',' '?' '<'
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  34
+		Syms  '.' ':' '>'
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  35
+		Syms  '-' '_' '*'
+		}
+	Key {
+		Type "NoModsOnly"
+		Scan  39
+		Syms  ' '
+		}
+	Key { // We weren't sure what the 102nd key should do
+		Type "ThreeLevel"
+		Scan  56
+		Syms  '<' '>' '|'
+		}
+	}

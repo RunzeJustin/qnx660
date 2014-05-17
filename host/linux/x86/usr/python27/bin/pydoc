@@ -1,0 +1,5 @@
+#!/home/builder/hudson/workspace/660-Host-Python-2.7/stage/host/linux/x86/usr/python27/bin/python2.7
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

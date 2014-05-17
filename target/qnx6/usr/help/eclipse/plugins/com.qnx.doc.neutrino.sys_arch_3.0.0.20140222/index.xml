@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword=" ClockCycles()">
+<topic href="topic/kernel_Time_correction.html#Time_correction" title="Time correction"/>
+</entry>
+<entry keyword="_CS_DOMAIN">
+<topic href="topic/qnet_Network_naming.html#Network_naming" title="Network naming"/>
+</entry>
+<entry keyword="_CS_HOSTNAME">
+<topic href="topic/qnet_Network_naming.html#Network_naming" title="Network naming"/>
+</entry>
+<entry keyword="_IO_STAT">
+<topic href="topic/resource_DEVICEresmgr.html#DEVICEresmgr" title="Device resource managers"/>
+</entry>
+<entry keyword="_NOTIFY_COND_INPUT">
+<topic href="topic/ipc_IO_notification.html#IO_notification" title="I/O notification"/>
+</entry>
+<entry keyword="_NOTIFY_COND_OBAND">
+<topic href="topic/ipc_IO_notification.html#IO_notification" title="I/O notification"/>
+</entry>
+<entry keyword="_NOTIFY_COND_OUTPUT">
+<topic href="topic/ipc_IO_notification.html#IO_notification" title="I/O notification"/>
+</entry>
+<entry keyword="_NTO_CHF_FIXED_PRIORITY">
+<topic href="topic/ipc_Priority_inheritance_messages.html#Priority_inheritance_messages" title="Priority inheritance and messages"/>
+</entry>
+<entry keyword="_NTO_TCTL_IO">
+<topic href="topic/proc_Defragmenting.html#Defragmenting" title="Defragmenting physical memory"/>
+<topic href="topic/proc_Locking_memory.html#Locking_memory" title="Locking memory"/>
+<topic href="topic/ipc_Signal_summary.html#Signal_summary" title="Summary of signals"/>
+</entry>
+<entry keyword="_NTO_TCTL_RUNMASK">
+<topic href="topic/smp_BMP.html#BMP" title="Bound multiprocessing (BMP)"/>
+</entry>
+<entry keyword="_NTO_TCTL_RUNMASK_GET_AND_SET_INHERIT">
+<topic href="topic/smp_BMP.html#BMP" title="Bound multiprocessing (BMP)"/>
+</entry>
+<entry keyword=".longfilenames">
+<topic href="topic/fsys_Limitations.html#Limitations" title="Filesystem limitations"/>
+</entry>
+<entry keyword="/ directory">
+<topic href="topic/proc_PATHMAN.html#PATHMAN" title="Pathname management"/>
+</entry>
+<entry keyword="/dev">
+<entry keyword="hd*">
+<topic href="topic/fsys_io-blk.html#io-blk" title="io-blk"/>
+</entry>
+<entry keyword="mem">
+<topic href="topic/proc_PATHMAN.html#PATHMAN" title="Pathname management"/>
+</entry>
+<entry keyword="mq and mqueue">
+<topic href="topic/ipc_File_like_interface.html#File_like_interface" title="File-like interface"/>
+</entry>
+<entry keyword="ser*">
+<topic href="topic/char.html#char" title="Character I/O"/>
+</entry>
+<entry keyword="shmem">
+<topic href="topic/fsys_DEVSHMEM.html#DEVSHMEM" title="RAM filesystem"/>
+</entry>
+<entry keyword="zero">
+<topic href="topic/proc_PATHMAN.html#PATHMAN" title="Pathname management"/>
+</entry>
+</entry>
+<entry keyword="/net directory">
+<topic href="topic/qnet_NAMERESOL.html#NAMERESOL" title="Name resolution and lookup"/>
+</entry>
+<entry keyword="/proc">
+<entry keyword="boot">
+<topic href="topic/proc_PATHMAN.html#PATHMAN" title="Pathname management"/>
+</entry>
+<entry keyword="ham">
+<topic href="topic/ham_HAMFS.html#HAMFS" title="HAM as a filesystem"/>
+</entry>
+<entry keyword="pid">
+<topic href="topic/proc_PATHMAN.html#PATHMAN" title="Pathname management"/>
+</entry>
+</entry>
+<entry keyword="/tmp directory">
+<topic href="topic/fsys_DEVSHMEM.html#DEVSHMEM" title="RAM filesystem"/>
+</entry>
+<entry keyword="abort()">
+<topic href="topic/ipc_Signal_summary.html#Signal_summary" title="Summary of signals"/>
+</entry>
+<entry keyword="accept()">
+<topic href="topic/tcpip_SOCK.html#SOCK" title="Socket API"/>
+</entry>
+<entry keyword="actions (HA)">
+<topic href="topic/ham_ACTIONS.html#ACTIONS" title="Actions"/>
+</entry>
+<entry keyword="adaptive partitioning">
+<topic href="topic/adaptive_Partitions.html#Partitions" title="What are partitions?"/>
+<entry keyword="debugging with">
+<topic href="topic/adaptive_Debugging.html#Debugging" title="Debugging"/>
+</entry>
+<entry keyword="partitions">
+<topic href="topic/adaptive_Adaptive.html#Adaptive" title="Why adaptive?"/>
+</entry>
+<entry keyword="thread scheduler">
+<topic href="topic/adaptive_Scheduler.html#Scheduler" title="Adaptive partitioning thread scheduler"/>
+</entry>
+</entry>
+<entry keyword="affinity, processor">
+<topic href="topic/smp_BMP.html#BMP" title="Bound multiprocessing (BMP)"/>
+<topic href="topic/smp_HOWTHESMP.html#HOWTHESMP" title="How the SMP microkernel works"/>
+</entry>
+<entry keyword="alarm()">
+<topic href="topic/kernel_Timers.html#Timers" title="Timers"/>
+</entry>
+<entry keyword="anonymous memory">
+<topic href="topic/ipc_mmap.html#mmap" title="mmap()"/>
+</entry>
+<entry keyword="Apple Macintosh HFS and HFS Plus">
+<topic href="topic/fsys_HFS.html#HFS" title="Apple Macintosh HFS and HFS Plus"/>
+</entry>
+<entry keyword="as_add_containing()">
+<topic href="topic/ipc_Typed_memory_examples.html#Typed_memory_examples" title="Practical examples"/>
+</entry>
+<entry keyword="as_add()">
+<topic href="topic/ipc_Typed_memory_examples.html#Typed_memory_examples" title="Practical examples"/>
+</entry>
+<entry keyword="Asymmetric Multiprocessing (AMP)">
+<topic href="topic/smp_AMP.html#AMP" title="Asymmetric multiprocessing (AMP)"/>
+<topic href="topic/smp.html#smp" title="Multicore Processing"/>
+</entry>
+<entry keyword="asynchronous publishing">
+<topic href="topic/pps.html#pps" title="PPS"/>
+</entry>
+<entry keyword="atomic operations">
+<topic href="topic/kernel_SYNCHRO.html#SYNCHRO" title="Synchronization services"/>
+<topic href="topic/kernel_Sync_atomic.html#Sync_atomic" title="Synchronization via atomic operations"/>
+</entry>
+<entry keyword="attributes structure (resource manager)">
+<topic href="topic/resource_Second_level_default.html#Second_level_default" title="Second-level default message handling"/>
+</entry>
+<entry keyword="autoconnect">
+<topic href="topic/tcpip_AUTOCONNECT.html#AUTOCONNECT" title="/etc/autoconnect"/>
+</entry>
+<entry keyword="AutoIP">
+<topic href="topic/tcpip_AutoIP.html#AutoIP" title="AutoIP"/>
+</entry>
+<entry keyword="background priority (sporadic scheduling)">
+<topic href="topic/kernel_Sporadic_scheduling.html#Sporadic_scheduling" title="Sporadic scheduling"/>
+</entry>
+<entry keyword="barriers">
+<topic href="topic/kernel_SYNCHRO.html#SYNCHRO" title="Synchronization services"/>
+<topic href="topic/kernel_SERVICES.html#SERVICES" title="System services"/>
+<entry keyword="and threads">
+<topic href="topic/kernel_Barriers.html#Barriers" title="Barriers"/>
+</entry>
+</entry>
+<entry keyword="bind()">
+<topic href="topic/tcpip_SOCK.html#SOCK" title="Socket API"/>
+</entry>
+<entry keyword="bindresvport()">
+<topic href="topic/tcpip_SOCK.html#SOCK" title="Socket API"/>
+</entry>
+<entry keyword="block-oriented devices">
+<topic href="topic/char.html#char" title="Character I/O"/>
+</entry>
+<entry keyword="boot processor">
+<topic href="topic/smp_BOOTINGX86.html#BOOTINGX86" title="Booting an x86 SMP system"/>
+</entry>
+<entry keyword="Bound Multiprocessing (BMP)">
+<topic href="topic/smp_BMP.html#BMP" title="Bound multiprocessing (BMP)"/>
+<topic href="topic/smp.html#smp" title="Multicore Processing"/>
+</entry>
+<entry keyword="budgets">
+<entry keyword="CPU">
+<topic href="topic/adaptive_Scheduler.html#Scheduler" title="Adaptive partitioning thread scheduler"/>
+<topic href="topic/adaptive_Partitions.html#Partitions" title="What are partitions?"/>
+</entry>
+<entry keyword="file space (not implemented)">
+<topic href="topic/adaptive_Partitions.html#Partitions" title="What are partitions?"/>
+</entry>
+<entry keyword="memory (not implemented)">
+<topic href="topic/adaptive_Partitions.html#Partitions" title="What are partitions?"/>
+</entry>
+</entry>
+<entry keyword="canonical input mode">
+<topic href="topic/char_Edited_input_mode.html#Edited_input_mode" title="Edited input mode"/>
+</entry>
+<entry keyword="cd command">
+<topic href="topic/proc_Network_root.html#Network_root" title="Network root"/>
+<topic href="topic/proc_cd_note.html#cd_note" title="A note about cd"/>
+</entry>
+<entry keyword="cd command ">
+<topic href="topic/proc_Network_root.html#Network_root" title="Network root"/>
+<entry keyword="See also directories">
+</entry>
+</entry>
+<entry keyword="CD-ROM filesystem">
+<topic href="topic/fsys_CDROMFSYS.html#CDROMFSYS" title="CD-ROM filesystem"/>
+</entry>
+<entry keyword="ChannelCreate()">
+<topic href="topic/ipc_Channels.html#Channels" title="Channels and connections"/>
+<topic href="topic/ipc_Priority_inheritance_messages.html#Priority_inheritance_messages" title="Priority inheritance and messages"/>
+</entry>
+<entry keyword="ChannelDestroy()">
+<topic href="topic/ipc_Channels.html#Channels" title="Channels and connections"/>
+</entry>
+<entry keyword="channels">
+<topic href="topic/ipc_Channels.html#Channels" title="Channels and connections"/>
+</entry>
+<entry keyword="character devices">
+<topic href="topic/char.html#char" title="Character I/O"/>
+</entry>
+<entry keyword="chmod()">
+<topic href="topic/resource_Second_level_default.html#Second_level_default" title="Second-level default message handling"/>
+</entry>
+<entry keyword="chown()">
+<topic href="topic/resource_Second_level_default.html#Second_level_default" title="Second-level default message handling"/>
+</entry>
+<entry keyword="chroot()">
+<topic href="topic/proc_Network_root.html#Network_root" title="Network root"/>
+</entry>
+<entry keyword="CIFS filesystem">
+<topic href="topic/fsys_CIFS.html#CIFS" title="CIFS filesystem"/>
+</entry>
+<entry keyword="clock services">
+<topic href="topic/kernel_CLOCKANDTIMER.html#CLOCKANDTIMER" title="Clock and timer services"/>
+</entry>
+<entry keyword="clock_getcpuclockid()">
+<topic href="topic/kernel_CLOCKANDTIMER.html#CLOCKANDTIMER" title="Clock and timer services"/>
+</entry>
+<entry keyword="clock_getres()">
+<topic href="topic/kernel_CLOCKANDTIMER.html#CLOCKANDTIMER" title="Clock and timer services"/>
+</entry>
+<entry keyword="clock_gettime()">
+<topic href="topic/kernel_CLOCKANDTIMER.html#CLOCKANDTIMER" title="Clock and timer services"/>
+</entry>
+<entry keyword="clock_settime()">
+<topic href="topic/kernel_CLOCKANDTIMER.html#CLOCKANDTIMER" title="Clock and timer services"/>
+</entry>
+<entry keyword="ClockAdjust()">
+<topic href="topic/kernel_CLOCKANDTIMER.html#CLOCKANDTIMER" title="Clock and timer services"/>
+<topic href="topic/kernel_Time_correction.html#Time_correction" title="Time correction"/>
+</entry>
+<entry keyword="ClockCycles()">
+<topic href="topic/kernel_CLOCKANDTIMER.html#CLOCKANDTIMER" title="Clock and timer services"/>
+</entry>
+<entry keyword="ClockId()">
+<topic href="topic/kernel_CLOCKANDTIMER.html#CLOCKANDTIMER" title="Clock and timer services"/>
+</entry>
+<entry keyword="ClockPeriod()">
+<topic href="topic/kernel_CLOCKANDTIMER.html#CLOCKANDTIMER" title="Clock and timer services"/>
+</entry>
+<entry keyword="ClockTime()">
+<topic href="topic/kernel_CLOCKANDTIMER.html#CLOCKANDTIMER" title="Clock and timer services"/>
+</entry>
+<entry keyword="close()">
+<topic href="topic/ipc_Creating_shared_memory.html#Creating_shared_memory" title="Creating a shared-memory object"/>
+<topic href="topic/ipc_Interaction.html#Interaction" title="Interaction with other POSIX APIs"/>
+<topic href="topic/resource_Second_level_default.html#Second_level_default" title="Second-level default message handling"/>
+</entry>
+<entry keyword="COFF (Common Object File Format)">
+<topic href="topic/dll_HOWUSED.html#HOWUSED" title="How shared objects are used"/>
+</entry>
+<entry keyword="combine messages">
+<topic href="topic/resource_Combine_messages.html#Combine_messages" title="Combine messages"/>
+</entry>
+<entry keyword="conditions (HA entity states)">
+<topic href="topic/ham_CONDITIONS.html#CONDITIONS" title="Conditions"/>
+</entry>
+<entry keyword="CONDVAR (thread state)">
+<topic href="topic/kernel_Life_Cycle.html#Life_Cycle" title="Thread life cycle"/>
+</entry>
+<entry keyword="condvars">
+<topic href="topic/kernel_Condvars.html#Condvars" title="Condvars: condition variables"/>
+<topic href="topic/kernel_SYNCHRO.html#SYNCHRO" title="Synchronization services"/>
+<topic href="topic/kernel_IPC_issues.html#IPC_issues" title="IPC issues"/>
+<topic href="topic/kernel_SERVICES.html#SERVICES" title="System services"/>
+<entry keyword="example">
+<topic href="topic/kernel_Condvars.html#Condvars" title="Condvars: condition variables"/>
+</entry>
+<entry keyword="operations">
+<topic href="topic/kernel_Condvars.html#Condvars" title="Condvars: condition variables"/>
+</entry>
+<entry keyword="SMP">
+<topic href="topic/smp_CRITICAL.html#CRITICAL" title="Critical sections"/>
+</entry>
+</entry>
+<entry keyword="confstr()">
+<topic href="topic/qnet_Network_naming.html#Network_naming" title="Network naming"/>
+</entry>
+<entry keyword="connect messages">
+<topic href="topic/resource_MESTYPES.html#MESTYPES" title="Message types"/>
+</entry>
+<entry keyword="connect()">
+<topic href="topic/tcpip_SOCK.html#SOCK" title="Socket API"/>
+</entry>
+<entry keyword="ConnectAttach()">
+<topic href="topic/ipc_Channels.html#Channels" title="Channels and connections"/>
+</entry>
+<entry keyword="ConnectDetach()">
+<topic href="topic/ipc_Channels.html#Channels" title="Channels and connections"/>
+</entry>
+<entry keyword="consoles">
+<entry keyword="physical">
+<topic href="topic/char_CONSOLE.html#CONSOLE" title="Console devices"/>
+</entry>
+<entry keyword="virtual">
+<topic href="topic/char_CONSOLE.html#CONSOLE" title="Console devices"/>
+</entry>
+</entry>
+<entry keyword="cooked input mode">
+<topic href="topic/char_Edited_input_mode.html#Edited_input_mode" title="Edited input mode"/>
+</entry>
+<entry keyword="cooperating processes">
+<entry keyword="FIFOs">
+<topic href="topic/ipc_Pipes_FIFOs.html#Pipes_FIFOs" title="Pipes and FIFOs"/>
+</entry>
+<entry keyword="pipes">
+<topic href="topic/ipc_Pipes_FIFOs.html#Pipes_FIFOs" title="Pipes and FIFOs"/>
+</entry>
+</entry>
+<entry keyword="copy-on-write (COW)">
+<topic href="topic/fsys_COW_filesystem.html#COW_filesystem" title="Copy-on-write filesystem"/>
+</entry>
+<entry keyword="CPU">
+<entry keyword="affinity">
+<topic href="topic/smp_HOWTHESMP.html#HOWTHESMP" title="How the SMP microkernel works"/>
+</entry>
+<entry keyword="usage, budgeting">
+<topic href="topic/adaptive_Scheduler.html#Scheduler" title="Adaptive partitioning thread scheduler"/>
+<topic href="topic/adaptive_Partitions.html#Partitions" title="What are partitions?"/>
+</entry>
+</entry>
+<entry keyword="CPU ">
+<entry keyword="affinity">
+<topic href="topic/smp_BMP.html#BMP" title="Bound multiprocessing (BMP)"/>
+</entry>
+</entry>
+<entry keyword="CRC">
+<topic href="topic/fsys_CRC_error_detection.html#CRC_error_detection" title="CRC error detection"/>
+</entry>
+<entry keyword="critical section">
+<topic href="topic/kernel_Condvars.html#Condvars" title="Condvars: condition variables"/>
+<topic href="topic/kernel_Mutexes.html#Mutexes" title="Mutexes: mutual exclusion locks"/>
+<topic href="topic/kernel_Sync_scheduling.html#Sync_scheduling" title="Synchronization via scheduling policy"/>
+<topic href="topic/kernel_Interrupt_latency.html#Interrupt_latency" title="Interrupt latency"/>
+<entry keyword="defined">
+<topic href="topic/kernel_IPC_issues.html#IPC_issues" title="IPC issues"/>
+</entry>
+<entry keyword="SMP">
+<topic href="topic/smp_CRITICAL.html#CRITICAL" title="Critical sections"/>
+</entry>
+</entry>
+<entry keyword="current working directory">
+<topic href="topic/proc_Network_root.html#Network_root" title="Network root"/>
+<topic href="topic/proc_cd_note.html#cd_note" title="A note about cd"/>
+</entry>
+<entry keyword="dates, valid range of">
+<topic href="topic/kernel_CLOCKANDTIMER.html#CLOCKANDTIMER" title="Clock and timer services"/>
+</entry>
+<entry keyword="DEAD (thread state)">
+<topic href="topic/kernel_Life_Cycle.html#Life_Cycle" title="Thread life cycle"/>
+</entry>
+<entry keyword="deadlock-free systems, rules for">
+<topic href="topic/ipc_Robust.html#Robust" title="Robust implementations with Send/Receive/Reply"/>
+</entry>
+<entry keyword="debugging, using adaptive partitions for">
+<topic href="topic/adaptive_Debugging.html#Debugging" title="Debugging"/>
+</entry>
+<entry keyword="defragmentation of physical memory">
+<topic href="topic/proc_Defragmenting.html#Defragmenting" title="Defragmenting physical memory"/>
+</entry>
+<entry keyword="design goals for QNX Neutrino">
+<topic href="topic/kernel_IMPLEMENT.html#IMPLEMENT" title="The implementation of the QNX Neutrino RTOS"/>
+</entry>
+<entry keyword="design goals for the QNX Neutrino RTOS">
+<topic href="topic/intro.html#intro" title="The Philosophy of the QNX Neutrino RTOS"/>
+</entry>
+<entry keyword="devc-con, devc-con-hid">
+<topic href="topic/char_CONSOLE.html#CONSOLE" title="Console devices"/>
+</entry>
+<entry keyword="devctl()">
+<topic href="topic/char_Device_control.html#Device_control" title="Device control"/>
+<topic href="topic/resource_Second_level_default.html#Second_level_default" title="Second-level default message handling"/>
+</entry>
+<entry keyword="device control">
+<topic href="topic/char_Device_control.html#Device_control" title="Device control"/>
+</entry>
+<entry keyword="device drivers">
+<topic href="topic/resource.html#resource" title="Resource Managers"/>
+<entry keyword="no need to link into kernel">
+<topic href="topic/kernel_Interrupt_calls.html#Interrupt_calls" title="Interrupt calls"/>
+</entry>
+<entry keyword="See also resource managers">

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.qnx.tools.ide.mat"
+      label="%featureName"
+      version="5.0.0.v201402230336"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="com.qnx.tools.ide.qde" version="5.0.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="com.qnx.tools.ide.mat.core"
+         download-size="408"
+         install-size="831"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.mat.ui"
+         download-size="631"
+         install-size="1198"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.derby.core"
+         download-size="3287"
+         install-size="3563"
+         version="10.8.2.2"/>
+
+   <plugin
+         id="com.qnx.tools.ide.mat"
+         download-size="5"
+         install-size="5"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="org.hsqldb.core"
+         download-size="597"
+         install-size="629"
+         version="1.8.0.5"/>
+
+</feature>

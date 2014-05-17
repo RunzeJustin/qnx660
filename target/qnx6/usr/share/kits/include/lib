@@ -1,0 +1,4 @@
+check_version 1 0 include/lib
+
+. include/rootdir
+add_co lib CO_LOCAL_LIST

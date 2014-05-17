@@ -1,0 +1,746 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword="&quot;five nines&quot; metric">
+<topic href="topic/intro.html#intro" title="Introduction"/>
+</entry>
+<entry keyword="action">
+<entry keyword="adding a notify pulse action to an action on failure">
+<topic href="topic/hamapi/ham_action_fail_notify_pulse.html#ham_action_fail_notify_pulse" title="ham_action_fail_notify_pulse(), ham_action_fail_notify_pulse_node()"/>
+</entry>
+<entry keyword="adding a notify signal action to an action on failure">
+<topic href="topic/hamapi/ham_action_fail_notify_signal.html#ham_action_fail_notify_signal" title="ham_action_fail_notify_signal(), ham_action_fail_notify_signal_node()"/>
+</entry>
+<entry keyword="adding a restart">
+<topic href="topic/hamapi/ham_action_restart.html#ham_action_restart" title="ham_action_restart()"/>
+</entry>
+<entry keyword="control">
+<topic href="topic/hamapi/ham_action_control.html#ham_action_control" title="ham_action_control()"/>
+</entry>
+<entry keyword="defined">
+<topic href="topic/hamover_ACTIONS.html#ACTIONS" title="Actions"/>
+</entry>
+<entry keyword="executing a waitfor action on action fail">
+<topic href="topic/hamapi/ham_action_fail_waitfor.html#ham_action_fail_waitfor" title="ham_action_fail_waitfor()"/>
+</entry>
+<entry keyword="executing an external command">
+<topic href="topic/hamapi/ham_action_execute.html#ham_action_execute" title="ham_action_execute()"/>
+</entry>
+<entry keyword="executing an external command on action fail">
+<topic href="topic/hamapi/ham_action_fail_execute.html#ham_action_fail_execute" title="ham_action_fail_execute()"/>
+</entry>
+<entry keyword="inserting delays into a sequence of actions">
+<topic href="topic/hamapi/ham_action_waitfor.html#ham_action_waitfor" title="ham_action_waitfor()"/>
+</entry>
+<entry keyword="log activity">
+<topic href="topic/hamapi/ham_action_log.html#ham_action_log" title="ham_action_log()"/>
+</entry>
+<entry keyword="logging messages on action fail">
+<topic href="topic/hamapi/ham_action_fail_log.html#ham_action_fail_log" title="ham_action_fail_log()"/>
+</entry>
+<entry keyword="removing from a condition">
+<topic href="topic/hamapi/ham_action_remove.html#ham_action_remove" title="ham_action_remove()"/>
+</entry>
+<entry keyword="restart can be associated only with death conditions">
+<topic href="topic/hamapi/ham_action_restart.html#ham_action_restart" title="ham_action_restart()"/>
+</entry>
+<entry keyword="restarting a program">
+<topic href="topic/hamapi/ham_action_restart.html#ham_action_restart" title="ham_action_restart()"/>
+</entry>
+</entry>
+<entry keyword="action_fail">
+<entry keyword="defined">
+<topic href="topic/hamover_ACTION_FAIL.html#ACTION_FAIL" title="Action Fail actions"/>
+</entry>
+</entry>
+<entry keyword="checkpoint">
+<topic href="topic/clientover_EGSTATE.html#EGSTATE" title="State-reconstruction example"/>
+</entry>
+<entry keyword="close()">
+<topic href="topic/clientlib/ha_close.html#ha_close" title="ha_close()"/>
+</entry>
+<entry keyword="code example">
+<entry keyword="compound restart">
+<topic href="topic/examples_COMPOUND.html#COMPOUND" title="Compound restart"/>
+</entry>
+<entry keyword="death/condition notification">
+<topic href="topic/examples_DEATH.html#DEATH" title="Death/condition notification"/>
+</entry>
+<entry keyword="heartbeating clients (liveness detection)">
+<topic href="topic/examples_LIVENESS.html#LIVENESS" title="Heartbeating clients (liveness detection)"/>
+</entry>
+<entry keyword="process starvation">
+<topic href="topic/examples_STARVE.html#STARVE" title="Process starvation"/>
+</entry>
+<entry keyword="simple restart">
+<topic href="topic/examples_SIMPLE.html#SIMPLE" title="Simple restart"/>
+</entry>
+</entry>
+<entry keyword="CONDABNORMALDEATH">
+<topic href="topic/hamover_CONDTYPES.html#CONDTYPES" title="Condition types"/>
+</entry>
+<entry keyword="CONDANY">
+<topic href="topic/hamover_CONDTYPES.html#CONDTYPES" title="Condition types"/>
+</entry>
+<entry keyword="CONDATTACH">
+<topic href="topic/hamover_CONDTYPES.html#CONDTYPES" title="Condition types"/>
+</entry>
+<entry keyword="CONDDEATH">
+<topic href="topic/hamapi/ham_condition.html#ham_condition" title="ham_condition()"/>
+<topic href="topic/hamover_CONDTYPES.html#CONDTYPES" title="Condition types"/>
+</entry>
+<entry keyword="CONDDETACH">
+<topic href="topic/hamapi/ham_condition.html#ham_condition" title="ham_condition()"/>
+<topic href="topic/hamover_CONDTYPES.html#CONDTYPES" title="Condition types"/>
+</entry>
+<entry keyword="CONDHBEATMISSEDHIGH">
+<topic href="topic/hamapi/ham_condition.html#ham_condition" title="ham_condition()"/>
+<topic href="topic/hamover_CONDTYPES.html#CONDTYPES" title="Condition types"/>
+</entry>
+<entry keyword="CONDHBEATMISSEDLOW">
+<topic href="topic/hamapi/ham_condition.html#ham_condition" title="ham_condition()"/>
+<topic href="topic/hamover_CONDTYPES.html#CONDTYPES" title="Condition types"/>
+</entry>
+<entry keyword="condition">
+<entry keyword="associated with a condition raise condition">
+<topic href="topic/hamapi/ham_condition_raise.html#ham_condition_raise" title="ham_condition_raise()"/>
+</entry>
+<entry keyword="defined">
+<topic href="topic/hamover_CONDITIONS.html#CONDITIONS" title="Conditions"/>
+</entry>
+<entry keyword="flags">
+<topic href="topic/hamover_CONDFLAGS.html#CONDFLAGS" title="Condition flags"/>
+</entry>
+<entry keyword="freeing">
+<topic href="topic/hamapi/ham_condition_handle_free.html#ham_condition_handle_free" title="ham_condition_handle_free()"/>
+</entry>
+<entry keyword="removing">
+<topic href="topic/hamapi/ham_condition_remove.html#ham_condition_remove" title="ham_condition_remove()"/>
+</entry>
+<entry keyword="restart">
+<topic href="topic/hamapi/ham_action_restart.html#ham_action_restart" title="ham_action_restart()"/>
+</entry>
+<entry keyword="setting up">
+<topic href="topic/hamapi/ham_condition.html#ham_condition" title="ham_condition()"/>
+</entry>
+<entry keyword="triggered on state change">
+<topic href="topic/hamapi/ham_condition_state.html#ham_condition_state" title="ham_condition_state()"/>
+</entry>
+<entry keyword="types of">
+<topic href="topic/hamapi/ham_condition.html#ham_condition" title="ham_condition()"/>
+<topic href="topic/hamover_CONDTYPES.html#CONDTYPES" title="Condition types"/>
+</entry>
+</entry>
+<entry keyword="CONDRESTART">
+<topic href="topic/hamapi/ham_condition.html#ham_condition" title="ham_condition()"/>
+<topic href="topic/hamover_CONDTYPES.html#CONDTYPES" title="Condition types"/>
+</entry>
+<entry keyword="ConnectAttach()">
+<topic href="topic/clientlib/ha_ReConnectAttach.html#ha_ReConnectAttach" title="ha_ReConnectAttach()"/>
+<topic href="topic/clientlib/ha_ConnectAttach.html#ha_ConnectAttach" title="ha_ConnectAttach(), ha_ConnectAttach_r()"/>
+</entry>
+<entry keyword="ConnectDetach()">
+<topic href="topic/clientlib/ha_ConnectDetach.html#ha_ConnectDetach" title="ha_ConnectDetach(), ha_ConnectDetach_r()"/>
+</entry>
+<entry keyword="connection">
+<entry keyword="attaching a recovery function">
+<topic href="topic/clientlib/ha_attach.html#ha_attach" title="ha_attach()"/>
+</entry>
+<entry keyword="attaching to the HA lib">
+<topic href="topic/clientlib/ha_creat.html#ha_creat" title="ha_creat(), ha_creat64()"/>
+<topic href="topic/clientlib/ha_ConnectAttach.html#ha_ConnectAttach" title="ha_ConnectAttach(), ha_ConnectAttach_r()"/>
+<topic href="topic/clientlib/ha_open.html#ha_open" title="ha_open(), ha_open64()"/>
+</entry>
+<entry keyword="closing">
+<topic href="topic/hamapi/ham_disconnect.html#ham_disconnect" title="ham_disconnect(), ham_disconnect_nd(), ham_disconnect_node()"/>
+<topic href="topic/clientlib/ha_close.html#ha_close" title="ha_close()"/>
+<topic href="topic/clientlib/ha_ConnectDetach.html#ha_ConnectDetach" title="ha_ConnectDetach(), ha_ConnectDetach_r()"/>
+</entry>
+<entry keyword="creating">
+<topic href="topic/clientlib/ha_creat.html#ha_creat" title="ha_creat(), ha_creat64()"/>
+<topic href="topic/clientlib/ha_ConnectAttach.html#ha_ConnectAttach" title="ha_ConnectAttach(), ha_ConnectAttach_r()"/>
+</entry>
+<entry keyword="detaching">
+<topic href="topic/clientlib/ha_fclose.html#ha_fclose" title="ha_fclose()"/>
+<topic href="topic/clientlib/ha_close.html#ha_close" title="ha_close()"/>
+<topic href="topic/clientlib/ha_ConnectDetach.html#ha_ConnectDetach" title="ha_ConnectDetach(), ha_ConnectDetach_r()"/>
+<topic href="topic/clientlib/ha_detach.html#ha_detach" title="ha_detach()"/>
+</entry>
+<entry keyword="duplicating">
+<topic href="topic/clientlib/ha_dup.html#ha_dup" title="ha_dup()"/>
+</entry>
+<entry keyword="opening">
+<topic href="topic/clientlib/ha_open.html#ha_open" title="ha_open(), ha_open64()"/>
+</entry>
+<entry keyword="reopening during recovery">
+<topic href="topic/clientlib/ha_ReConnectAttach.html#ha_ReConnectAttach" title="ha_ReConnectAttach()"/>
+<topic href="topic/clientlib/ha_reopen.html#ha_reopen" title="ha_reopen()"/>
+</entry>
+<entry keyword="setting up">
+<topic href="topic/hamapi/ham_connect.html#ham_connect" title="ham_connect(), ham_connect_nd(), ham_connect_node()"/>
+</entry>
+</entry>
+<entry keyword="creat()">
+<topic href="topic/clientlib/ha_creat.html#ha_creat" title="ha_creat(), ha_creat64()"/>
+</entry>
+<entry keyword="daemon()">
+<topic href="topic/hamover_PROCHAMVIEW.html#PROCHAMVIEW" title="Example of the view shown in /proc/ham"/>
+<topic href="topic/hamover_ENTITIES.html#ENTITIES" title="Entities"/>
+</entry>
+<entry keyword="deadlock">
+<topic href="topic/examples_LIVENESS.html#LIVENESS" title="Heartbeating clients (liveness detection)"/>
+</entry>
+<entry keyword="death">
+<entry keyword="and restart actions">
+<topic href="topic/hamapi/ham_action_restart.html#ham_action_restart" title="ham_action_restart()"/>
+</entry>
+</entry>
+<entry keyword="dumper">
+<topic href="topic/hamover_ENTITIES.html#ENTITIES" title="Entities"/>
+</entry>
+<entry keyword="dup()">
+<topic href="topic/clientlib/ha_dup.html#ha_dup" title="ha_dup()"/>
+</entry>
+<entry keyword="entity">
+<entry keyword="attaching">
+<topic href="topic/hamapi/ham_attach.html#ham_attach" title="ham_attach(), ham_attach_node()"/>
+</entry>
+<entry keyword="control">
+<topic href="topic/hamapi/ham_entity_control.html#ham_entity_control" title="ham_entity_control()"/>
+<topic href="topic/hamapi/ham_condition_control.html#ham_condition_control" title="ham_entity_control()"/>
+</entry>
+<entry keyword="defined">
+<topic href="topic/hamover_ENTITIES.html#ENTITIES" title="Entities"/>
+</entry>
+<entry keyword="detaching">
+<topic href="topic/hamapi/ham_detach_self.html#ham_detach_self" title="ham_detach_self()"/>
+<topic href="topic/hamapi/ham_detach_name.html#ham_detach_name" title="ham_detach_name(), ham_detach_name_node()"/>
+<topic href="topic/hamapi/ham_detach.html#ham_detach" title="ham_detach()"/>
+</entry>
+<entry keyword="externally attached">
+<topic href="topic/hamover_ENTITIES.html#ENTITIES" title="Entities"/>
+</entry>
+<entry keyword="getting a handle to an">
+<topic href="topic/hamapi/ham_entity_handle.html#ham_entity_handle" title="ham_entity_handle(), ham_entity_handle_node()"/>
+</entry>
+<entry keyword="global">
+<topic href="topic/hamover_ENTITIES.html#ENTITIES" title="Entities"/>
+<entry keyword="getting a handle to a">
+<topic href="topic/hamapi/ham_action_handle.html#ham_action_handle" title="ham_action_handle(), ham_action_handle_node()"/>
+<topic href="topic/hamapi/ham_entity_handle.html#ham_entity_handle" title="ham_entity_handle(), ham_entity_handle_node()"/>
+<topic href="topic/hamapi/ham_condition_handle.html#ham_condition_handle" title="ham_condition_handle(), ham_condition_handle_node()"/>
+</entry>
+</entry>
+<entry keyword="handle">
+<topic href="topic/hamapi/ham_condition.html#ham_condition" title="ham_condition()"/>
+</entry>
+<entry keyword="self-attached">
+<topic href="topic/hamapi/ham_detach_self.html#ham_detach_self" title="ham_detach_self()"/>
+<topic href="topic/hamapi/ham_attach_self.html#ham_attach_self" title="ham_attach_self()"/>
+<topic href="topic/hamover_ENTITIES.html#ENTITIES" title="Entities"/>
+<topic href="topic/hamapi/ham_detach.html#ham_detach" title="ham_detach()"/>
+</entry>
+</entry>
+<entry keyword="externally attached entity">
+<topic href="topic/hamover_ENTITIES.html#ENTITIES" title="Entities"/>
+</entry>
+<entry keyword="failure">
+<entry keyword="designing for in order to recover">
+<topic href="topic/intro_SOFTWARE.html#SOFTWARE" title="A software foundation for HA"/>
+</entry>
+</entry>
+<entry keyword="fclose()">
+<topic href="topic/clientlib/ha_fclose.html#ha_fclose" title="ha_fclose()"/>
+</entry>
+<entry keyword="file stream">
+<entry keyword="attaching to the HA lib">
+<topic href="topic/clientlib/ha_fopen.html#ha_fopen" title="ha_fopen()"/>
+</entry>
+<entry keyword="detaching a connection associated with a">
+<topic href="topic/clientlib/ha_fclose.html#ha_fclose" title="ha_fclose()"/>
+</entry>
+</entry>
+<entry keyword="fopen()">
+<topic href="topic/clientlib/ha_fopen.html#ha_fopen" title="ha_fopen()"/>
+</entry>
+<entry keyword="global entity">
+<topic href="topic/hamover_ENTITIES.html#ENTITIES" title="Entities"/>
+<entry keyword="getting a handle to a">
+<topic href="topic/hamapi/ham_action_handle.html#ham_action_handle" title="ham_action_handle(), ham_action_handle_node()"/>
+<topic href="topic/hamapi/ham_entity_handle.html#ham_entity_handle" title="ham_entity_handle(), ham_entity_handle_node()"/>
+<topic href="topic/hamapi/ham_condition_handle.html#ham_condition_handle" title="ham_condition_handle(), ham_condition_handle_node()"/>
+</entry>
+</entry>
+<entry keyword="Guardian (HAM &quot;stand-in&quot;)">
+<topic href="topic/hamover_PROCHAMVIEW.html#PROCHAMVIEW" title="Example of the view shown in /proc/ham"/>
+<topic href="topic/hamover.html#hamover" title="Using the High Availability Manager"/>
+</entry>
+<entry keyword="HA">
+<entry keyword="microkernel architecture inherently suited for">
+<topic href="topic/parts.html#parts" title="What&apos;s in the High Availability Framework?"/>
+</entry>
+</entry>
+<entry keyword="ha_attach()">
+<topic href="topic/clientlib/ha_attach.html#ha_attach" title="ha_attach()"/>
+<topic href="topic/clientlib/ha_fclose.html#ha_fclose" title="ha_fclose()"/>
+<topic href="topic/clientlib/ha_close.html#ha_close" title="ha_close()"/>
+<topic href="topic/clientlib/ha_open.html#ha_open" title="ha_open(), ha_open64()"/>
+</entry>
+<entry keyword="ha_close()">
+<topic href="topic/clientlib/ha_close.html#ha_close" title="ha_close()"/>
+</entry>
+<entry keyword="ha_ConnectAttach_r()">
+<topic href="topic/clientlib/ha_attach.html#ha_attach" title="ha_attach()"/>
+</entry>
+<entry keyword="ha_ConnectAttach()">
+<topic href="topic/clientlib/ha_attach.html#ha_attach" title="ha_attach()"/>
+<topic href="topic/clientlib/ha_ConnectAttach.html#ha_ConnectAttach" title="ha_ConnectAttach(), ha_ConnectAttach_r()"/>
+</entry>
+<entry keyword="ha_ConnectDetach()">
+<topic href="topic/clientlib/ha_ConnectDetach.html#ha_ConnectDetach" title="ha_ConnectDetach(), ha_ConnectDetach_r()"/>
+</entry>
+<entry keyword="ha_creat()">
+<topic href="topic/clientlib/ha_attach.html#ha_attach" title="ha_attach()"/>
+<topic href="topic/clientlib/ha_creat.html#ha_creat" title="ha_creat(), ha_creat64()"/>
+</entry>
+<entry keyword="ha_creat64()">
+<topic href="topic/clientlib/ha_attach.html#ha_attach" title="ha_attach()"/>
+</entry>
+<entry keyword="ha_detach()">
+<topic href="topic/clientlib/ha_fclose.html#ha_fclose" title="ha_fclose()"/>
+<topic href="topic/clientlib/ha_detach.html#ha_detach" title="ha_detach()"/>
+</entry>
+<entry keyword="ha_dup()">
+<topic href="topic/clientlib/ha_dup.html#ha_dup" title="ha_dup()"/>
+</entry>
+<entry keyword="ha_fclose()">
+<topic href="topic/clientlib/ha_fclose.html#ha_fclose" title="ha_fclose()"/>
+</entry>
+<entry keyword="ha_fopen()">
+<topic href="topic/clientlib/ha_attach.html#ha_attach" title="ha_attach()"/>
+<topic href="topic/clientlib/ha_fopen.html#ha_fopen" title="ha_fopen()"/>
+</entry>
+<entry keyword="ha_open()">
+<topic href="topic/clientlib/ha_attach.html#ha_attach" title="ha_attach()"/>
+<topic href="topic/clientlib/ha_open.html#ha_open" title="ha_open(), ha_open64()"/>
+</entry>
+<entry keyword="ha_ReConnectAttach()">
+<topic href="topic/clientlib/ha_attach.html#ha_attach" title="ha_attach()"/>
+<topic href="topic/clientlib/ha_ReConnectAttach.html#ha_ReConnectAttach" title="ha_ReConnectAttach()"/>
+</entry>
+<entry keyword="ha_reopen()">
+<topic href="topic/clientlib/ha_attach.html#ha_attach" title="ha_attach()"/>
+<topic href="topic/clientlib/ha_reopen.html#ha_reopen" title="ha_reopen()"/>
+</entry>
+<entry keyword="HADDFLAGS">
+<topic href="topic/hamapi/ham_entity_control.html#ham_entity_control" title="ham_entity_control()"/>
+<topic href="topic/hamapi/ham_action_control.html#ham_action_control" title="ham_action_control()"/>
+</entry>
+<entry keyword="HAM">
+<entry keyword="as self-monitoring manager">
+<topic href="topic/parts.html#parts" title="What&apos;s in the High Availability Framework?"/>
+</entry>
+<entry keyword="hierarchy">
+<topic href="topic/hamover_HAMHIER.html#HAMHIER" title="HAM hierarchy"/>
+</entry>
+<entry keyword="multistage recovery">
+<topic href="topic/intro_SOFTWARE.html#SOFTWARE" title="A software foundation for HA"/>
+</entry>
+<entry keyword="starting">
+<topic href="topic/hamover_HAMSTARTSTOP.html#HAMSTARTSTOP" title="Starting and stopping a HAM"/>
+</entry>
+<entry keyword="stopping">
+<topic href="topic/hamover_HAMSTOP.html#HAMSTOP" title="Stopping a HAM"/>
+</entry>
+</entry>
+<entry keyword="ham (utility)">
+<topic href="topic/hamover_HAMSTARTSTOP.html#HAMSTARTSTOP" title="Starting and stopping a HAM"/>
+</entry>
+<entry keyword="ham_action_control()">
+<topic href="topic/hamapi/ham_action_control.html#ham_action_control" title="ham_action_control()"/>
+</entry>
+<entry keyword="ham_action_execute()">
+<topic href="topic/hamapi/ham_action_restart.html#ham_action_restart" title="ham_action_restart()"/>
+<topic href="topic/hamapi/ham_action_execute.html#ham_action_execute" title="ham_action_execute()"/>
+</entry>
+<entry keyword="ham_action_fail_execute()">
+<topic href="topic/hamapi/ham_action_fail_execute.html#ham_action_fail_execute" title="ham_action_fail_execute()"/>
+</entry>
+<entry keyword="ham_action_fail_log()">
+<topic href="topic/hamapi/ham_action_fail_log.html#ham_action_fail_log" title="ham_action_fail_log()"/>
+</entry>
+<entry keyword="ham_action_fail_notify_pulse_node()">
+<topic href="topic/hamapi/ham_action_fail_notify_pulse.html#ham_action_fail_notify_pulse" title="ham_action_fail_notify_pulse(), ham_action_fail_notify_pulse_node()"/>
+</entry>
+<entry keyword="ham_action_fail_notify_pulse()">
+<topic href="topic/hamapi/ham_action_fail_notify_pulse.html#ham_action_fail_notify_pulse" title="ham_action_fail_notify_pulse(), ham_action_fail_notify_pulse_node()"/>
+</entry>
+<entry keyword="ham_action_fail_notify_signal_node()">
+<topic href="topic/hamapi/ham_action_fail_notify_signal.html#ham_action_fail_notify_signal" title="ham_action_fail_notify_signal(), ham_action_fail_notify_signal_node()"/>
+</entry>
+<entry keyword="ham_action_fail_notify_signal()">
+<topic href="topic/hamapi/ham_action_fail_notify_signal.html#ham_action_fail_notify_signal" title="ham_action_fail_notify_signal(), ham_action_fail_notify_signal_node()"/>
+</entry>
+<entry keyword="ham_action_fail_waitfor()">
+<topic href="topic/hamapi/ham_action_fail_waitfor.html#ham_action_fail_waitfor" title="ham_action_fail_waitfor()"/>
+</entry>
+<entry keyword="ham_action_handle_free()">
+<topic href="topic/hamapi/ham_action_handle_free.html#ham_action_handle_free" title="ham_action_handle_free()"/>
+</entry>
+<entry keyword="ham_action_handle()">
+<topic href="topic/hamapi/ham_action_handle.html#ham_action_handle" title="ham_action_handle(), ham_action_handle_node()"/>
+</entry>
+<entry keyword="ham_action_heartbeat_healthy()">
+<topic href="topic/hamapi/ham_action_heartbeat_healthy.html#ham_action_heartbeat_healthy" title="ham_action_heartbeat_healthy()"/>
+</entry>
+<entry keyword="ham_action_log()">
+<topic href="topic/hamapi/ham_action_log.html#ham_action_log" title="ham_action_log()"/>
+</entry>
+<entry keyword="ham_action_notify_pulse_node()">
+<topic href="topic/hamapi/ham_action_notify_pulse.html#ham_action_notify_pulse" title="ham_action_notify_pulse(), ham_action_notify_pulse_node()"/>
+</entry>
+<entry keyword="ham_action_notify_pulse()">
+<topic href="topic/hamapi/ham_action_notify_pulse.html#ham_action_notify_pulse" title="ham_action_notify_pulse(), ham_action_notify_pulse_node()"/>
+</entry>
+<entry keyword="ham_action_notify_signal_node()">
+<topic href="topic/hamapi/ham_action_notify_signal.html#ham_action_notify_signal" title="ham_action_notify_signal(), ham_action_notify_signal_node()"/>
+</entry>
+<entry keyword="ham_action_notify_signal()">
+<topic href="topic/hamapi/ham_action_notify_signal.html#ham_action_notify_signal" title="ham_action_notify_signal(), ham_action_notify_signal_node()"/>
+</entry>
+<entry keyword="ham_action_remove()">
+<topic href="topic/hamapi/ham_action_remove.html#ham_action_remove" title="ham_action_remove()"/>
+</entry>
+<entry keyword="ham_action_restart()">
+<topic href="topic/hamapi/ham_action_restart.html#ham_action_restart" title="ham_action_restart()"/>
+</entry>
+<entry keyword="ham_action_waitfor()">
+<topic href="topic/hamapi/ham_action_waitfor.html#ham_action_waitfor" title="ham_action_waitfor()"/>
+</entry>
+<entry keyword="ham_attach_node()">
+<topic href="topic/hamapi/ham_attach.html#ham_attach" title="ham_attach(), ham_attach_node()"/>
+</entry>
+<entry keyword="ham_attach_self()">
+<topic href="topic/hamapi/ham_attach_self.html#ham_attach_self" title="ham_attach_self()"/>
+</entry>
+<entry keyword="ham_attach()">
+<topic href="topic/hamapi/ham_attach.html#ham_attach" title="ham_attach(), ham_attach_node()"/>
+</entry>
+<entry keyword="ham_condition_handle_free()">
+<topic href="topic/hamapi/ham_condition_handle_free.html#ham_condition_handle_free" title="ham_condition_handle_free()"/>
+</entry>
+<entry keyword="ham_condition_handle()">
+<topic href="topic/hamapi/ham_condition_handle.html#ham_condition_handle" title="ham_condition_handle(), ham_condition_handle_node()"/>
+</entry>
+<entry keyword="ham_condition_raise()">
+<topic href="topic/hamapi/ham_condition_raise.html#ham_condition_raise" title="ham_condition_raise()"/>
+</entry>
+<entry keyword="ham_condition_remove()">
+<topic href="topic/hamapi/ham_condition_remove.html#ham_condition_remove" title="ham_condition_remove()"/>
+</entry>
+<entry keyword="ham_condition_state()">
+<topic href="topic/hamapi/ham_condition_state.html#ham_condition_state" title="ham_condition_state()"/>
+</entry>
+<entry keyword="ham_condition()">
+<topic href="topic/hamapi/ham_condition.html#ham_condition" title="ham_condition()"/>
+</entry>
+<entry keyword="ham_connect_nd()">
+<topic href="topic/hamapi/ham_connect.html#ham_connect" title="ham_connect(), ham_connect_nd(), ham_connect_node()"/>
+</entry>
+<entry keyword="ham_connect_node()">
+<topic href="topic/hamapi/ham_connect.html#ham_connect" title="ham_connect(), ham_connect_nd(), ham_connect_node()"/>
+</entry>
+<entry keyword="ham_connect()">
+<topic href="topic/hamapi/ham_connect.html#ham_connect" title="ham_connect(), ham_connect_nd(), ham_connect_node()"/>
+</entry>
+<entry keyword="ham_connect*()">
+<entry keyword="reference counts and">
+<topic href="topic/hamapi/ham_connect.html#ham_connect" title="ham_connect(), ham_connect_nd(), ham_connect_node()"/>
+</entry>
+</entry>
+<entry keyword="ham_detach_name_node()">
+<topic href="topic/hamapi/ham_detach_name.html#ham_detach_name" title="ham_detach_name(), ham_detach_name_node()"/>
+</entry>
+<entry keyword="ham_detach_name()">
+<topic href="topic/hamapi/ham_detach_name.html#ham_detach_name" title="ham_detach_name(), ham_detach_name_node()"/>
+</entry>
+<entry keyword="ham_detach_self()">
+<topic href="topic/hamapi/ham_detach_self.html#ham_detach_self" title="ham_detach_self()"/>
+</entry>
+<entry keyword="ham_detach()">
+<topic href="topic/hamapi/ham_detach.html#ham_detach" title="ham_detach()"/>
+</entry>
+<entry keyword="ham_disconnect_nd()">
+<topic href="topic/hamapi/ham_disconnect.html#ham_disconnect" title="ham_disconnect(), ham_disconnect_nd(), ham_disconnect_node()"/>
+</entry>
+<entry keyword="ham_disconnect_node()">
+<topic href="topic/hamapi/ham_disconnect.html#ham_disconnect" title="ham_disconnect(), ham_disconnect_nd(), ham_disconnect_node()"/>
+</entry>
+<entry keyword="ham_disconnect()">
+<topic href="topic/hamapi/ham_disconnect.html#ham_disconnect" title="ham_disconnect(), ham_disconnect_nd(), ham_disconnect_node()"/>
+<entry keyword="reference counts and">
+<topic href="topic/hamapi/ham_disconnect.html#ham_disconnect" title="ham_disconnect(), ham_disconnect_nd(), ham_disconnect_node()"/>
+</entry>
+</entry>
+<entry keyword="ham_entity_condition_raise()">
+<topic href="topic/hamapi/ham_entity_condition_raise.html#ham_entity_condition_raise" title="ham_entity_condition_raise()"/>
+</entry>
+<entry keyword="ham_entity_condition_state()">
+<topic href="topic/hamapi/ham_entity_condition_state.html#ham_entity_condition_state" title="ham_entity_condition_state()"/>
+</entry>
+<entry keyword="ham_entity_control()">
+<topic href="topic/hamapi/ham_entity_control.html#ham_entity_control" title="ham_entity_control()"/>
+<topic href="topic/hamapi/ham_condition_control.html#ham_condition_control" title="ham_entity_control()"/>
+</entry>
+<entry keyword="ham_entity_handle_free()">
+<topic href="topic/hamapi/ham_entity_handle_free.html#ham_entity_handle_free" title="ham_entity_handle_free()"/>
+</entry>
+<entry keyword="ham_entity_handle()">
+<topic href="topic/hamapi/ham_entity_handle.html#ham_entity_handle" title="ham_entity_handle(), ham_entity_handle_node()"/>
+</entry>
+<entry keyword="ham_entity()">
+<topic href="topic/hamapi/ham_entity.html#ham_entity" title="ham_entity(), ham_entity_node()"/>
+</entry>
+<entry keyword="ham_heartbeat()">
+<topic href="topic/hamapi/ham_heartbeat.html#ham_heartbeat" title="ham_heartbeat()"/>
+</entry>
+<entry keyword="ham_stop()">
+<topic href="topic/hamover_HAMSTOP.html#HAMSTOP" title="Stopping a HAM"/>
+</entry>
+<entry keyword="ham_verbose()">
+<topic href="topic/hamapi/ham_verbose.html#ham_verbose" title="ham__verbose()"/>
+<topic href="topic/hamover_VERBOSITY.html#VERBOSITY" title="Verbosity control"/>
+</entry>
+<entry keyword="hamctrl (utility)">
+<topic href="topic/hamover_HAMSTOP.html#HAMSTOP" title="Stopping a HAM"/>
+<topic href="topic/hamover_VERBOSITY.html#VERBOSITY" title="Verbosity control"/>
+</entry>
+<entry keyword="handle">
+<entry keyword="entity">
+<topic href="topic/hamapi/ham_entity_handle.html#ham_entity_handle" title="ham_entity_handle(), ham_entity_handle_node()"/>
+</entry>
+<entry keyword="freeing">
+<topic href="topic/hamapi/ham_entity_handle_free.html#ham_entity_handle_free" title="ham_entity_handle_free()"/>
+<topic href="topic/hamapi/ham_action_handle_free.html#ham_action_handle_free" title="ham_action_handle_free()"/>
+</entry>
+<entry keyword="functions that expect">
+<topic href="topic/hamapi/ham_action_handle.html#ham_action_handle" title="ham_action_handle(), ham_action_handle_node()"/>
+</entry>
+<entry keyword="getting">
+<topic href="topic/hamapi/ham_action_handle.html#ham_action_handle" title="ham_action_handle(), ham_action_handle_node()"/>
+</entry>
+<entry keyword="getting a condition">
+<topic href="topic/hamapi/ham_condition_handle.html#ham_condition_handle" title="ham_condition_handle(), ham_condition_handle_node()"/>
+</entry>
+<entry keyword="subsequent use of after a call to ham_action_handle()">
+<topic href="topic/hamapi/ham_action_handle.html#ham_action_handle" title="ham_action_handle(), ham_action_handle_node()"/>
+</entry>
+<entry keyword="subsequent use of after a call to ham_condition_handle()">
+<topic href="topic/hamapi/ham_condition_handle.html#ham_condition_handle" title="ham_condition_handle(), ham_condition_handle_node()"/>
+</entry>
+<entry keyword="subsequent use of after a call to ham_entity_handle()">
+<topic href="topic/hamapi/ham_entity_handle.html#ham_entity_handle" title="ham_entity_handle(), ham_entity_handle_node()"/>
+</entry>
+</entry>
+<entry keyword="HAREPLACERECOVERYFN">
+<topic href="topic/clientlib/ha_attach.html#ha_attach" title="ha_attach()"/>
+</entry>
+<entry keyword="HCONDINDEPENDENT">
+<topic href="topic/hamapi/ham_condition.html#ham_condition" title="ham_condition()"/>
+</entry>
+<entry keyword="HCONDNOWAIT">
+<topic href="topic/hamapi/ham_condition.html#ham_condition" title="ham_condition()"/>
+</entry>
+<entry keyword="HDISABLE">
+<topic href="topic/hamapi/ham_entity_control.html#ham_entity_control" title="ham_entity_control()"/>
+<topic href="topic/hamapi/ham_action_control.html#ham_action_control" title="ham_action_control()"/>
+</entry>
+<entry keyword="heartbeat">
+<entry keyword="as a way to detect deadlock">
+<topic href="topic/examples_Process_heartbeat.html#Process_heartbeat" title="The process is made to heartbeat"/>
+</entry>
+<entry keyword="as a way to detect starvation">
+<topic href="topic/examples_Thread_heartbeat.html#Thread_heartbeat" title="Thread 2 is made to heartbeat"/>
+</entry>
+<entry keyword="clients assert &quot;liveness&quot; by sending">
+<topic href="topic/examples_LIVENESS.html#LIVENESS" title="Heartbeating clients (liveness detection)"/>
+</entry>
+<entry keyword="possible delay in receiving">
+<topic href="topic/hamapi/ham_heartbeat.html#ham_heartbeat" title="ham_heartbeat()"/>
+</entry>
+<entry keyword="resetting the state of">
+<topic href="topic/hamapi/ham_action_heartbeat_healthy.html#ham_action_heartbeat_healthy" title="ham_action_heartbeat_healthy()"/>
+</entry>
+<entry keyword="setting interval for">
+<topic href="topic/hamapi/ham_attach_self.html#ham_attach_self" title="ham_attach_self()"/>
+</entry>
+<entry keyword="transmitting">
+<topic href="topic/hamapi/ham_heartbeat.html#ham_heartbeat" title="ham_heartbeat()"/>
+</entry>
+</entry>
+<entry keyword="HENABLE">
+<topic href="topic/hamapi/ham_entity_control.html#ham_entity_control" title="ham_entity_control()"/>
+<topic href="topic/hamapi/ham_action_control.html#ham_action_control" title="ham_action_control()"/>
+</entry>
+<entry keyword="HGETFLAGS">
+<topic href="topic/hamapi/ham_entity_control.html#ham_entity_control" title="ham_entity_control()"/>
+<topic href="topic/hamapi/ham_action_control.html#ham_action_control" title="ham_action_control()"/>
+</entry>
+<entry keyword="HREARMAFTERRESTART">
+<topic href="topic/hamapi/ham_action_heartbeat_healthy.html#ham_action_heartbeat_healthy" title="ham_action_heartbeat_healthy()"/>
+<topic href="topic/hamapi/ham_action_restart.html#ham_action_restart" title="ham_action_restart()"/>
+<topic href="topic/hamapi/ham_condition.html#ham_condition" title="ham_condition()"/>
+<topic href="topic/hamapi/ham_action_notify_pulse.html#ham_action_notify_pulse" title="ham_action_notify_pulse(), ham_action_notify_pulse_node()"/>
+<topic href="topic/hamapi/ham_action_waitfor.html#ham_action_waitfor" title="ham_action_waitfor()"/>
+<entry keyword="caveat regarding">
+<topic href="topic/hamapi/ham_action_notify_signal.html#ham_action_notify_signal" title="ham_action_notify_signal(), ham_action_notify_signal_node()"/>
+</entry>
+</entry>
+<entry keyword="HRECURSE">
+<topic href="topic/hamapi/ham_entity_control.html#ham_entity_control" title="ham_entity_control()"/>
+</entry>
+<entry keyword="HREMOVEFLAGS">
+<topic href="topic/hamapi/ham_entity_control.html#ham_entity_control" title="ham_entity_control()"/>
+<topic href="topic/hamapi/ham_action_control.html#ham_action_control" title="ham_action_control()"/>
+</entry>
+<entry keyword="HSETFLAGS">
+<topic href="topic/hamapi/ham_entity_control.html#ham_entity_control" title="ham_entity_control()"/>
+<topic href="topic/hamapi/ham_action_control.html#ham_action_control" title="ham_action_control()"/>
+</entry>
+<entry keyword="inetd">
+<entry keyword="restarting">
+<topic href="topic/examples_SIMPLE.html#SIMPLE" title="Simple restart"/>
+</entry>
+</entry>
+<entry keyword="message passing">
+<topic href="topic/qnxapproach_INTRINSIC.html#INTRINSIC" title="Intrinsic HA"/>
+</entry>
+<entry keyword="microkernel">
+<topic href="topic/qnxapproach_INTRINSIC.html#INTRINSIC" title="Intrinsic HA"/>
+</entry>
+<entry keyword="MMU">
+<topic href="topic/intro_SOFTWARE.html#SOFTWARE" title="A software foundation for HA"/>
+</entry>
+<entry keyword="MTTR">
+<topic href="topic/qnxapproach_MODULARITY.html#MODULARITY" title="Modularity means granularity"/>
+</entry>
+<entry keyword="open()">
+<topic href="topic/hamapi/ham_connect.html#ham_connect" title="ham_connect(), ham_connect_nd(), ham_connect_node()"/>
+<topic href="topic/clientlib/ha_reopen.html#ha_reopen" title="ha_reopen()"/>
+<topic href="topic/clientlib/ha_open.html#ha_open" title="ha_open(), ha_open64()"/>
+</entry>
+<entry keyword="placeholders">
+<entry keyword="for entity objects">
+<topic href="topic/hamapi/ham_entity.html#ham_entity" title="ham_entity(), ham_entity_node()"/>
+</entry>
+</entry>
+<entry keyword="POSIX process model">
+<topic href="topic/qnxapproach_INTRINSIC.html#INTRINSIC" title="Intrinsic HA"/>
+</entry>
+<entry keyword="postmortem analysis">
+<topic href="topic/examples_Thread_heartbeat.html#Thread_heartbeat" title="Thread 2 is made to heartbeat"/>
+<topic href="topic/examples_Process_heartbeat.html#Process_heartbeat" title="The process is made to heartbeat"/>
+<topic href="topic/intro_SOFTWARE.html#SOFTWARE" title="A software foundation for HA"/>
+</entry>
+<entry keyword="procmgr_daemon()">
+<topic href="topic/hamover_PROCHAMVIEW.html#PROCHAMVIEW" title="Example of the view shown in /proc/ham"/>
+<topic href="topic/hamover_ENTITIES.html#ENTITIES" title="Entities"/>
+</entry>
+<entry keyword="pulse">
+<entry keyword="setting up notification of">
+<topic href="topic/hamapi/ham_action_notify_pulse.html#ham_action_notify_pulse" title="ham_action_notify_pulse(), ham_action_notify_pulse_node()"/>
+</entry>
+</entry>
+<entry keyword="QNX Neutrino">
+<entry keyword="key factors for intrinsic HA">
+<topic href="topic/qnxapproach_INTRINSIC.html#INTRINSIC" title="Intrinsic HA"/>
+</entry>
+<entry keyword="microkernel architecture inherently reduces SPOFs">
+<topic href="topic/intro_SOFTWARE.html#SOFTWARE" title="A software foundation for HA"/>
+</entry>
+</entry>
+<entry keyword="recovery">
+<entry keyword="functions">
+<entry keyword="attaching to a connection">
+<topic href="topic/clientlib/ha_attach.html#ha_attach" title="ha_attach()"/>
+</entry>
+<entry keyword="defined in &lt;ha/types.h&gt;">
+<topic href="topic/clientlib/ha_attach.html#ha_attach" title="ha_attach()"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="restart">
+<entry keyword="action">
+<topic href="topic/hamapi/ham_action_restart.html#ham_action_restart" title="ham_action_restart()"/>
+</entry>
+<entry keyword="condition">
+<topic href="topic/hamapi/ham_action_restart.html#ham_action_restart" title="ham_action_restart()"/>
+</entry>
+</entry>
+<entry keyword="self-attached entity">
+<topic href="topic/hamapi/ham_detach_self.html#ham_detach_self" title="ham_detach_self()"/>
+<topic href="topic/hamapi/ham_attach_self.html#ham_attach_self" title="ham_attach_self()"/>
+<topic href="topic/hamover_ENTITIES.html#ENTITIES" title="Entities"/>
+<topic href="topic/hamapi/ham_detach.html#ham_detach" title="ham_detach()"/>
+</entry>
+<entry keyword="session 1">
+<topic href="topic/hamapi/ham_attach.html#ham_attach" title="ham_attach(), ham_attach_node()"/>
+<topic href="topic/hamapi/ham_attach_self.html#ham_attach_self" title="ham_attach_self()"/>
+<topic href="topic/hamover_ENTITIES.html#ENTITIES" title="Entities"/>
+</entry>
+<entry keyword="signal">
+<entry keyword="setting up notification of">
+<topic href="topic/hamapi/ham_action_notify_signal.html#ham_action_notify_signal" title="ham_action_notify_signal(), ham_action_notify_signal_node()"/>
+</entry>
+</entry>
+<entry keyword="software faults">
+<entry keyword="detecting">
+<topic href="topic/qnxapproach_RESET.html#RESET" title="The reset solution"/>
+</entry>
+<entry keyword="isolating">
+<topic href="topic/intro_SOFTWARE.html#SOFTWARE" title="A software foundation for HA"/>
+</entry>
+<entry keyword="main cause of system failure">
+<topic href="topic/intro_PROBLEM.html#PROBLEM" title="Where&apos;s the problem?"/>
+</entry>
+<entry keyword="traditional ways to handle">
+<topic href="topic/qnxapproach_RESET.html#RESET" title="The reset solution"/>
+</entry>
+</entry>
+<entry keyword="SPOF">
+<topic href="topic/intro_SOFTWARE.html#SOFTWARE" title="A software foundation for HA"/>
+</entry>
+<entry keyword="starting a HAM">
+<topic href="topic/hamover_HAMSTARTSTOP.html#HAMSTARTSTOP" title="Starting and stopping a HAM"/>
+</entry>
+<entry keyword="starvation">
+<entry keyword="condition resulting from mutex problem">
+<topic href="topic/examples_STARVE.html#STARVE" title="Process starvation"/>
+</entry>
+<entry keyword="detected by HAM">
+<topic href="topic/examples_Thread_heartbeat.html#Thread_heartbeat" title="Thread 2 is made to heartbeat"/>
+</entry>
+</entry>
+<entry keyword="stopping a HAM">
+<topic href="topic/hamover_HAMSTOP.html#HAMSTOP" title="Stopping a HAM"/>
+</entry>
+<entry keyword="VERBOSE_GET">
+<topic href="topic/hamapi/ham_verbose.html#ham_verbose" title="ham__verbose()"/>
+</entry>
+<entry keyword="VERBOSE_SET">
+<topic href="topic/hamapi/ham_verbose.html#ham_verbose" title="ham__verbose()"/>
+</entry>
+<entry keyword="VERBOSE_SET_DECR">
+<topic href="topic/hamapi/ham_verbose.html#ham_verbose" title="ham__verbose()"/>
+</entry>
+<entry keyword="VERBOSE_SET_INCR">
+<topic href="topic/hamapi/ham_verbose.html#ham_verbose" title="ham__verbose()"/>
+</entry>
+<entry keyword="verbosity, modifying">
+<topic href="topic/hamapi/ham_verbose.html#ham_verbose" title="ham__verbose()"/>
+<topic href="topic/hamover_VERBOSITY.html#VERBOSITY" title="Verbosity control"/>
+</entry>
+<entry keyword="watchdog">
+<topic href="topic/hamover.html#hamover" title="Using the High Availability Manager"/>
+<topic href="topic/qnxapproach_RESET.html#RESET" title="The reset solution"/>
+</entry>
+</index>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?NLS  TYPE="org.eclipse.help.toc"?>
+<toc label="QNX Software Development Platform" topic="topic/bookset.html">
+
+<topic label="OS Core Components" href="topic/guides.html">
+    <!-- Adaptive Partitioning User's Guide-->
+    <topic label="Adaptive Partitioning User's Guide" href="../com.qnx.doc.adaptivepartitioning.userguide/topic/about_howtouseguide_.html">
+        <link toc="../com.qnx.doc.adaptivepartitioning.userguide/main.xml" />
+    </topic>
+    
+    <!-- Building Embedded Systems -->
+    <topic label="Building Embedded Systems" href="../com.qnx.doc.neutrino.building/topic/about.html">
+        <link toc="../com.qnx.doc.neutrino.building/main.xml" />
+    </topic>
+    
+    <!-- Core Networking Stack User's Guide-->
+    <topic label="Core Networking Stack User's Guide" href="../com.qnx.doc.core_networking.user_guide/topic/about.html">
+        <link toc="../com.qnx.doc.core_networking.user_guide/main.xml" />
+    </topic>
+
+    <!-- Device Publishers Developer's Guide-->
+    <topic label="Device Publishers Developer's Guide" href="../com.qnx.doc.dev_pub.ref_guide/topic/about.html">
+        <link toc="../com.qnx.doc.dev_pub.ref_guide/main.xml" />
+    </topic>
+
+    <!-- High Availability Framework -->
+    <topic label="High Availability Framework Developer's Guide" href="../com.qnx.doc.ham_en.dev_guide/topic/about.html">
+        <link toc="../com.qnx.doc.ham_en.dev_guide/main.xml" />
+    </topic>
+    
+    <!-- Instant Device Activation -->
+    <topic label="Instant Device Activation" href="../com.qnx.doc.ida.user_guide/topic/about.html">
+        <link toc="../com.qnx.doc.ida.user_guide/main.xml" />
+    </topic>
+    
+    <!-- Multicore Processing -->
+    <topic label="Multicore Processing User's Guide" href="../com.qnx.doc.multicore.user_guide/topic/about.html">
+        <link toc="../com.qnx.doc.multicore.user_guide/main.xml" />
+    </topic>
+    
+    <!-- PPS -->
+    <topic label="Persistent Publish/Subscribe Developer's Guide" href="../com.qnx.doc.pps.developer/topic/about.html">
+        <link toc="../com.qnx.doc.pps.developer/main.xml" />
+    </topic>
+    
+    <!-- QDB Dev Guide -->
+    <topic label="QDB Developer's Guide" href="../com.qnx.doc.qdb_en.dev_guide/topic/about.html">
+        <link toc="../com.qnx.doc.qdb_en.dev_guide/main.xml"/>
+    </topic>
+    
+    <!-- SAT -->
+    <topic label="System Analysis Toolkit (SAT) User's Guide" href="../com.qnx.doc.sat.user_guide/topic/about.html">
+        <link toc="../com.qnx.doc.sat.user_guide/main.xml" />
+    </topic>
+    
+    <!-- System Architecture -->
+    <topic label="System Architecture" href="../com.qnx.doc.neutrino.sys_arch/topic/about.html">
+        <link toc="../com.qnx.doc.neutrino.sys_arch/main.xml" />
+    </topic>
+    
+    <!-- Technotes -->
+    <topic label="Technotes" href="../com.qnx.doc.neutrino.technotes/topic/about.html">
+        <link toc="../com.qnx.doc.neutrino.technotes/main.xml" />
+    </topic>
+    
+    <!-- Updating BSPs -->
+    <topic label="QNX SDP 6.6.0 BSPs" href="../com.qnx.doc.bsp_update.guide/topic/about.html">
+        <link toc="../com.qnx.doc.bsp_update.guide/main.xml" />
+    </topic>
+    
+    <!-- User's Guide -->
+    <topic label="User's Guide" href="../com.qnx.doc.neutrino.user_guide/topic/about.html">
+        <link toc="../com.qnx.doc.neutrino.user_guide/main.xml" />
+    </topic>
+    
+</topic>
+
+<topic label="Audio &amp; Graphics API" href="topic/ui.html">
+    <!-- Audio Developer's Guide -->
+    <topic label="Audio Developer's Guide" href="../com.qnx.doc.neutrino.audio/topic/about.html">
+        <link toc="../com.qnx.doc.neutrino.audio/main.xml" />
+    </topic>
+    
+    <!-- Audio Manager Library Reference -->
+    <topic label="Audio Manager Library Reference" href="../com.qnx.doc.audiomanager.lib_ref/topic/manual/audioman_overview.html">
+        <link toc="../com.qnx.doc.audiomanager.lib_ref/main.xml" />
+    </topic>
+    
+    <!-- Gestures Library Reference -->
+    <topic label="Gestures Library Reference" href="../com.qnx.doc.gestures.lib_ref/topic/manual/gesture_overview.html">
+        <link toc="../com.qnx.doc.gestures.lib_ref/main.xml" />
+    </topic>
+    
+    <!-- Glview Library Reference -->
+    <topic label="Glview Library Reference" href="../com.qnx.doc.glview.lib_ref/topic/about_glview_8h.html">
+        <link toc="../com.qnx.doc.glview.lib_ref/main.xml" />
+    </topic>
+    
+    <!-- Image Library Reference -->
+    <topic label="Image Library Reference" href="../com.qnx.doc.libimg.lib_ref/com.qnx.doc.libimg.lib_ref/topic/about.html">
+        <link toc="../com.qnx.doc.libimg.lib_ref/libimg_lib_ref.xml" />
+    </topic>
+        
+    <!-- Input Events Library Reference -->
+    <topic label="Input Events Library Reference" href="../com.qnx.doc.inputevents.lib_ref/topic/manual/cmtouch_touch_events.html">
+        <link toc="../com.qnx.doc.inputevents.lib_ref/main.xml" />
+    </topic>
+    
+    <!-- Screen Dev Guide -->
+    <topic label="Screen Graphics Subsystem Developer's Guide" href="../com.qnx.doc.screen/topic/manual/cscreen_about.html">
+        <link toc="../com.qnx.doc.screen/main.xml" />
+    </topic>
+    
+    <!-- Video Capture -->
+    <topic label="Video Capture Library Reference" href="../com.qnx.doc.video_capture.lib_ref/topic/about.html">
+        <link toc="../com.qnx.doc.video_capture.lib_ref/main.xml" />
+    </topic>
+    
+</topic>
+
+<topic label="Programming" href="topic/programming.html">
+    <!-- Quickstart Guide-->
+    <topic label="A Quickstart Guide" href="../com.qnx.doc.qnxsdp.quickstart/topic/about.html">
+        <link toc="../com.qnx.doc.qnxsdp.quickstart/main.xml" />
+    </topic>
+    
+    <!-- Getting Started with QNX Neutrino -->
+    <topic label="Get Programming with the QNX Neutrino RTOS" href="../com.qnx.doc.neutrino.getting_started/topic/about.html">
+        <link toc="../com.qnx.doc.neutrino.getting_started/main.xml" />
+    </topic>
+    
+    <!-- Programmer's Guide -->
+    <topic label="Programmer's Guide" href="../com.qnx.doc.neutrino.prog/topic/about.html">
+        <link toc="../com.qnx.doc.neutrino.prog/main.xml" />
+    </topic>
+    
+    <!-- Cookbook -->
+    <topic label="The QNX Neutrino Cookbook: Recipes for Programmers" href="../com.qnx.doc.neutrino.cookbook/topic/about.html">
+        <link toc="../com.qnx.doc.neutrino.cookbook/main.xml" />
+    </topic>
+    
+    <!-- Writing a Resource Manager -->
+    <topic label="Writing a Resource Manager" href="../com.qnx.doc.neutrino.resmgr/topic/about.html">
+        <link toc="../com.qnx.doc.neutrino.resmgr/main.xml" />
+    </topic>
+    
+</topic>
+
+<topic label="Utilities &amp; Libraries" href="topic/references.html">
+    <!-- Neutrino Addon Interfaces libref -->
+    <topic label="Addon Interfaces Library Reference" href="../com.qnx.doc.neutrino.addon/topic/about.html">
+        <link toc="../com.qnx.doc.neutrino.addon/main.xml"/>
+    </topic> 
+    
+    <!-- Dinkum -->
+    <topic label="Dinkum C/C++ Libraries" href="../com.qnx.doc.dinkum/topic/bookset.html">
+        <link toc="../com.qnx.doc.dinkum/main.xml"/>
+    </topic>
+    
+    <!-- QED Fullscreen Editor -->  
+    <!-- No longer shipped:
+    <topic label="QED Fullscreen Editor" href="../com.qnx.doc.neutrino.qed_manual/topic/about.html">
+        <link toc="../com.qnx.doc.neutrino.qed_manual/main.xml" />
+    </topic>
+    -->
+    
+    <!-- QNX Neutrino C library reference -->
+    <topic label="QNX Neutrino C Library Reference" href="../com.qnx.doc.neutrino.lib_ref/topic/about.html">
+        <link toc="../com.qnx.doc.neutrino.lib_ref/main.xml"/>
+    </topic>   
+    
+    <!-- String Pattern Library Reference -->
+    <topic label="String Pattern Library Reference" href="../com.qnx.doc.strpattern.lib_ref/topic/overview.html">
+        <link toc="../com.qnx.doc.strpattern.lib_ref/main.xml" />
+    </topic>-->
+    
+   <!-- Neutrino Utilities Reference -->
+    <topic label="Utilities Reference" href="../com.qnx.doc.neutrino.utilities/topic/about.html">
+        <link toc="../com.qnx.doc.neutrino.utilities/main.xml"></link>
+    </topic>
+    
+</topic>
+
+</toc>

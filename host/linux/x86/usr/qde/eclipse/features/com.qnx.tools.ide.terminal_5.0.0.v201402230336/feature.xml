@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.qnx.tools.ide.terminal"
+      label="%featureName"
+      version="5.0.0.v201402230336"
+      provider-name="%providerName"
+      plugin="com.qnx.tools.ide.terminal">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.tm.terminal"
+         version="2.0.0.v201402230336"/>
+
+   <includes
+         id="gnu.io.rxtx"
+         version="2.1.7.4_v20071016-7B57e7UAXMAAqGAGf"/>
+
+   <includes
+         id="org.eclipse.tm.terminal.serial"
+         version="2.0.0.v201402230336"/>
+
+   <includes
+         id="org.eclipse.tm.terminal.ssh"
+         version="2.0.0.v201402230336"/>
+
+   <includes
+         id="org.eclipse.tm.terminal.telnet"
+         version="2.0.0.v201402230336"/>
+
+   <includes
+         id="org.eclipse.tm.terminal.view"
+         version="2.0.0.v201402230336"/>
+
+   <requires>
+      <import feature="com.qnx.tools.ide" version="5.0.0.qualifier"/>
+   </requires>
+
+   <plugin
+         id="com.qnx.tools.ide.terminal"
+         download-size="41"
+         install-size="67"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+</feature>

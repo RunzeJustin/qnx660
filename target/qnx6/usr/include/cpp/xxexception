@@ -1,0 +1,159 @@
+// xxexception internal header for exception_ptr
+#ifndef _XXEXCEPTION_
+#define _XXEXCEPTION_
+
+_X_STD_BEGIN
+typedef void *exception_ptr;	// DUMMY
+
+	// FUNCTIONS FOR exception_ptr
+inline exception_ptr current_exception()	// DUMMY
+	{	// return pointer to current exception
+	return (exception_ptr());
+	}
+
+inline void rethrow_exception(exception_ptr)	// DUMMY
+	{	// rethrow exception
+	int _Zero = 0;
+	if (_Zero)
+		_RERAISE;
+	}
+_X_STD_END
+
+_X_STD_BEGIN
+	// FUNCTION make_exception_ptr
+template<class _Excep> inline
+	exception_ptr make_exception_ptr(_Excep _Ex) _NOEXCEPT
+	{	// copy exception pointer
+	_TRY_BEGIN
+	_RAISE(_Ex);
+	_CATCH_ALL
+	int _Zero = 0;
+	if (_Zero == 0)	// to quiet diagnostics
+		return (current_exception());
+	_CATCH_END
+	return (exception_ptr());	// to quiet diagnostics
+	}
+
+	// CLASS nested_exception
+class nested_exception
+	{	// wraps an exception_ptr
+public:
+	nested_exception() _THROW0()
+		: _Myptr(current_exception())
+		{	// default construct
+		}
+
+ #if _HAS_FUNCTION_DELETE
+	nested_exception(const nested_exception& _Right) = default;
+
+	nested_exception& operator=(
+		const nested_exception& _Right) = default;
+
+//	virtual ~nested_exception() _NOEXCEPT = default;
+	virtual ~nested_exception() _NOEXCEPT
+		{	// delete the object
+		}
+
+ #else /* _HAS_FUNCTION_DELETE */
+	nested_exception(const nested_exception& _Right) _NOEXCEPT
+		: _Myptr(_Right._Myptr)
+		{	// copy construct
+		}
+
+	nested_exception& operator=(
+		const nested_exception& _Right) _NOEXCEPT
+		{	// copy _right
+		_Myptr = _Right._Myptr;
+		return (*this);
+		}
+
+	virtual ~nested_exception() _NOEXCEPT
+		{	// delete the object
+		}
+ #endif /* _HAS_FUNCTION_DELETE */
+
+	exception_ptr nested_ptr() const _NOEXCEPT
+		{	// get stored pointer
+		return (_Myptr);
+		}
+
+	void rethrow_nested() const	// _NO_RETURN
+		{	// rethrow stored exception
+		rethrow_exception(_Myptr);
+		}
+
+private:
+	exception_ptr _Myptr;
+	};
+
+	// TEMPLATE FUNCTION throw_with_nested
+template<class _Ty>
+	struct _Wrapped_with_nested
+		: _Ty, nested_exception
+	{	// wrap _Ty and current_exception()
+	_Wrapped_with_nested(const _Ty _VALREF _Val)
+		: _Ty((_Ty _VALREF)(_Val))
+		{	// construct with _Val
+		}
+	};
+
+template<class _Ty> inline
+	void _Throw_with_nested0(_Ty _VALREF _Val, ...)		// _NO_RETURN
+	{	// throw _Val
+	_THROW1((_Ty _VALREF)(_Val));
+	}
+
+template<class _Ty> inline
+	void _Throw_with_nested0(_Ty _VALREF _Val,
+		const _Wrapped_with_nested<_Ty>*)		// _NO_RETURN
+	{	// throw wrapped object holding _Val and current exception
+	_THROW1(_Wrapped_with_nested<_Ty>((_Ty _VALREF)(_Val)));
+	}
+
+template<class _Ty> inline
+	void _Throw_with_nested(_Ty _VALREF _Val,
+		const volatile void *)	// _NO_RETURN
+	{	// throw wrapped object holding _Val and current exception
+	_Throw_with_nested0(_Val, 0);
+	}
+
+template<class _Ty> inline
+	void _Throw_with_nested(_Ty _VALREF _Val,
+		const volatile nested_exception *)	// _NO_RETURN
+	{	// throw _Val
+	_THROW1((_Ty _VALREF)(_Val));
+	}
+
+template<class _Ty> inline
+	void throw_with_nested(_Ty _VALREF _Val)	// _NO_RETURN
+	{	// throw _Val
+	_Throw_with_nested(_Val, &_Val);
+	}
+
+	// TEMPLATE FUNCTION rethrow_if_nested
+inline void _Rethrow_if_nested(const nested_exception *_Val)
+	{	// throw exception captured by _Val's nested_exception base
+	_Val->rethrow_nested();
+	}
+
+inline void _Rethrow_if_nested(const void *)
+	{	// do nothing: no nested_exception base
+	}
+
+template<class _Ex> inline
+	void rethrow_if_nested(const _Ex& _Val)
+	{	// throw exception captured by _Val's nested_exception base, if any
+	_Rethrow_if_nested(&_Val);
+	}
+_X_STD_END
+#endif /* _XXEXCEPTION_ */
+
+/*
+ * Copyright (c) 1992-2013 by P.J. Plauger.  ALL RIGHTS RESERVED.
+ * Consult your license regarding permissions and restrictions.
+V6.40:1566 */
+
+#if defined(__QNXNTO__) && defined(__USESRCVERSION)
+#include <sys/srcversion.h>
+__SRCVERSION("$URL$ $Rev$")
+#endif

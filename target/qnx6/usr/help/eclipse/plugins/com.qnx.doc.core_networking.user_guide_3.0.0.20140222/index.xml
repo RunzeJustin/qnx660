@@ -1,0 +1,740 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword=" _CS_DOMAIN ">
+<topic href="topic/tdp_TDP_IP.html#TDP_IP" title="Using TDP over IP"/>
+</entry>
+<entry keyword=" AF_INET ">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword=" AF_INET6 ">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword=" BIOCSETIF ">
+<topic href="topic/filtering_BPF.html#BPF" title="Berkeley Packet Filter"/>
+</entry>
+<entry keyword=" brconfig ">
+<topic href="topic/wpa_background_Bridge.html#Bridge" title="Acting as a bridge"/>
+</entry>
+<entry keyword=" delay() and DELAY() ">
+<topic href="topic/drivers_NetBSD_native.html#NetBSD_native" title="Differences between ported NetBSD drivers and native drivers"/>
+</entry>
+<entry keyword=" devn- prefix">
+<topic href="topic/drivers_Types.html#Types" title="Types of network drivers"/>
+</entry>
+<entry keyword=" devnp- prefix">
+<topic href="topic/drivers_Types.html#Types" title="Types of network drivers"/>
+</entry>
+<entry keyword=" devnp-shim.so ">
+<topic href="topic/drivers_Types.html#Types" title="Types of network drivers"/>
+<topic href="topic/drivers_Loading.html#Loading" title="Loading and unloading a driver"/>
+</entry>
+<entry keyword=" dhcp.client ">
+<topic href="topic/wpa_background_TCPIP_ad_hoc.html#TCPIP_ad_hoc" title="Client in infrastructure or ad hoc mode"/>
+</entry>
+<entry keyword=" dhcpd ">
+<topic href="topic/wpa_background_Router.html#Router" title="Configuring an access point as a router"/>
+</entry>
+<entry keyword=" dhcpd.conf ">
+<topic href="topic/wpa_background_Router.html#Router" title="Configuring an access point as a router"/>
+</entry>
+<entry keyword=" dhcpd.leases ">
+<topic href="topic/wpa_background_DHCP_configuration.html#DHCP_configuration" title="DHCP server configuration file"/>
+</entry>
+<entry keyword=" DIOCSTART ">
+<topic href="topic/filtering_pf_firewalls.html#pf_firewalls" title="Packet Filter (pf) module: firewalls and NAT"/>
+</entry>
+<entry keyword=" ETHERMIN ">
+<topic href="topic/drivers_Padding.html#Padding" title="Padding Ethernet packets"/>
+</entry>
+<entry keyword=" gdb ">
+<topic href="topic/drivers_Debugging_with_gdb.html#Debugging_with_gdb" title="Debugging a driver using gdb "/>
+</entry>
+<entry keyword=" gethostbyname() ">
+<topic href="topic/tdp_TDP_IP.html#TDP_IP" title="Using TDP over IP"/>
+</entry>
+<entry keyword=" hostapd ">
+<topic href="topic/wpa_background_WPA_utilities.html#WPA_utilities" title="WPA utilities"/>
+</entry>
+<entry keyword=" hostname ">
+<topic href="topic/tdp_TDP_IP.html#TDP_IP" title="Using TDP over IP"/>
+</entry>
+<entry keyword=" ieee80211_freebsd.c ">
+<topic href="topic/wpa_background_NetBSD_80211.html#NetBSD_80211" title="NetBSD 802.11 layer"/>
+</entry>
+<entry keyword=" ieee80211_netbsd.c ">
+<topic href="topic/wpa_background_NetBSD_80211.html#NetBSD_80211" title="NetBSD 802.11 layer"/>
+</entry>
+<entry keyword=" ifconfig ">
+<entry keyword="commands ">
+<entry keyword=" create ">
+<topic href="topic/wpa_background_Bridge.html#Bridge" title="Acting as a bridge"/>
+</entry>
+<entry keyword=" destroy ">
+<topic href="topic/drivers_Loading.html#Loading" title="Loading and unloading a driver"/>
+</entry>
+<entry keyword=" media ">
+<topic href="topic/wpa_background_WEP.html#WEP" title="WEP access point"/>
+</entry>
+<entry keyword=" mediaopt ">
+<topic href="topic/wpa_background_WEP.html#WEP" title="WEP access point"/>
+<topic href="topic/wpa_background_Using_Wi-Fi.html#Using_Wi-Fi" title="Using Wi-Fi with io-pkt "/>
+</entry>
+<entry keyword=" nwkey ">
+<topic href="topic/wpa_background_Connecting_no_encryption.html#Connecting_no_encryption" title="Using no encryption"/>
+</entry>
+<entry keyword=" scan ">
+<topic href="topic/wpa_background_Using_Wi-Fi.html#Using_Wi-Fi" title="Using Wi-Fi with io-pkt "/>
+</entry>
+<entry keyword=" ssid ">
+<topic href="topic/wpa_background_Connecting_WEP.html#Connecting_WEP" title="Using WEP (Wired Equivalent Privacy) for authentication and encryption"/>
+<topic href="topic/wpa_background_WEP.html#WEP" title="WEP access point"/>
+</entry>
+<entry keyword=" tso4 ">
+<topic href="topic/drivers_TSO.html#TSO" title="Transmit Segmentation Offload (TSO)"/>
+</entry>
+<entry keyword=" up ">
+<topic href="topic/wpa_background_Using_Wi-Fi.html#Using_Wi-Fi" title="Using Wi-Fi with io-pkt "/>
+</entry>
+</entry>
+<entry keyword="detaching drivers">
+<topic href="topic/drivers_Loading.html#Loading" title="Loading and unloading a driver"/>
+</entry>
+</entry>
+<entry keyword=" ifnet ">
+<topic href="topic/filtering_BPF.html#BPF" title="Berkeley Packet Filter"/>
+</entry>
+<entry keyword=" ifreq ">
+<topic href="topic/filtering_BPF.html#BPF" title="Berkeley Packet Filter"/>
+</entry>
+<entry keyword=" ifwatchd ">
+<topic href="topic/utilities_summary.html#utilities_summary" title="Utilities, Managers, and Configuration Files"/>
+</entry>
+<entry keyword=" io-net ">
+<entry keyword="drivers">
+<topic href="topic/drivers_Types.html#Types" title="Types of network drivers"/>
+</entry>
+<entry keyword="migrating to io-pkt ">
+<entry keyword=" nfm-nraw, replacing">
+<topic href="topic/filtering_BPF.html#BPF" title="Berkeley Packet Filter"/>
+</entry>
+</entry>
+<entry keyword="option for mount ">
+<topic href="topic/drivers_Loading.html#Loading" title="Loading and unloading a driver"/>
+</entry>
+<entry keyword="shim layer">
+<topic href="topic/drivers_Types.html#Types" title="Types of network drivers"/>
+<topic href="topic/drivers_Loading.html#Loading" title="Loading and unloading a driver"/>
+</entry>
+</entry>
+<entry keyword=" io-pkt ">
+<entry keyword="architecture">
+<topic href="topic/overview_Architecture.html#Architecture" title="Architecture of io-pkt "/>
+</entry>
+<entry keyword="drivers, loading">
+<topic href="topic/drivers_Loading.html#Loading" title="Loading and unloading a driver"/>
+<topic href="topic/overview_Architecture.html#Architecture" title="Architecture of io-pkt "/>
+</entry>
+<entry keyword="native drivers">
+<topic href="topic/drivers_Types.html#Types" title="Types of network drivers"/>
+<topic href="topic/drivers_NetBSD_native.html#NetBSD_native" title="Differences between ported NetBSD drivers and native drivers"/>
+</entry>
+<entry keyword="protocols, loading">
+<topic href="topic/overview_Architecture.html#Architecture" title="Architecture of io-pkt "/>
+</entry>
+<entry keyword="TCP/IP included in">
+<topic href="topic/overview_Architecture.html#Architecture" title="Architecture of io-pkt "/>
+</entry>
+<entry keyword="threading model">
+<topic href="topic/drivers_Types.html#Types" title="Types of network drivers"/>
+<topic href="topic/overview_Threading.html#Threading" title="Threading model"/>
+<topic href="topic/drivers_NetBSD_native.html#NetBSD_native" title="Differences between ported NetBSD drivers and native drivers"/>
+</entry>
+</entry>
+<entry keyword=" io-pkt-v4-hc ">
+<topic href="topic/security_Hardware_crypto.html#Hardware_crypto" title="Hardware-accelerated crypto"/>
+</entry>
+<entry keyword=" io-pkt-v6-hc ">
+<topic href="topic/security_Hardware_crypto.html#Hardware_crypto" title="Hardware-accelerated crypto"/>
+</entry>
+<entry keyword=" ioctl() ">
+<topic href="topic/filtering_BPF.html#BPF" title="Berkeley Packet Filter"/>
+<topic href="topic/filtering_pf_firewalls.html#pf_firewalls" title="Packet Filter (pf) module: firewalls and NAT"/>
+</entry>
+<entry keyword=" ipfilter ">
+<topic href="topic/filtering_pf_firewalls.html#pf_firewalls" title="Packet Filter (pf) module: firewalls and NAT"/>
+</entry>
+<entry keyword=" LD_LIBRARY_PATH ">
+<topic href="topic/drivers_Loading.html#Loading" title="Loading and unloading a driver"/>
+</entry>
+<entry keyword=" libpcap ">
+<topic href="topic/filtering_BPF.html#BPF" title="Berkeley Packet Filter"/>
+</entry>
+<entry keyword=" lsm-autoip.so ">
+<topic href="topic/wpa_background_TCPIP_ad_hoc.html#TCPIP_ad_hoc" title="Client in infrastructure or ad hoc mode"/>
+</entry>
+<entry keyword=" lsm-pf-v4.so, lsm-pf-v6.so ">
+<topic href="topic/filtering_pf_firewalls.html#pf_firewalls" title="Packet Filter (pf) module: firewalls and NAT"/>
+</entry>
+<entry keyword=" mbuf ">
+<entry keyword="inspecting">
+<topic href="topic/filtering_BPF.html#BPF" title="Berkeley Packet Filter"/>
+</entry>
+</entry>
+<entry keyword=" mod_entry() ">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword=" mount ">
+<topic href="topic/drivers_Loading.html#Loading" title="Loading and unloading a driver"/>
+</entry>
+<entry keyword=" net80211 ">
+<topic href="topic/wpa_background_NetBSD_80211.html#NetBSD_80211" title="NetBSD 802.11 layer"/>
+</entry>
+<entry keyword=" netstat ">
+<topic href="topic/drivers_Troubleshooting.html#Troubleshooting" title="Troubleshooting a driver"/>
+</entry>
+<entry keyword=" nfm-nraw ">
+<topic href="topic/filtering_BPF.html#BPF" title="Berkeley Packet Filter"/>
+</entry>
+<entry keyword=" nicinfo ">
+<entry keyword="NetBSD drivers might not support">
+<topic href="topic/drivers_NetBSD_native.html#NetBSD_native" title="Differences between ported NetBSD drivers and native drivers"/>
+</entry>
+</entry>
+<entry keyword=" pci ">
+<topic href="topic/drivers_Shared_interrupts.html#Shared_interrupts" title="Problems with shared interrupts"/>
+</entry>
+<entry keyword=" pf ">
+<topic href="topic/filtering_pf_firewalls.html#pf_firewalls" title="Packet Filter (pf) module: firewalls and NAT"/>
+</entry>
+<entry keyword=" pf_pfil_attach() ">
+<topic href="topic/filtering_pf_firewalls.html#pf_firewalls" title="Packet Filter (pf) module: firewalls and NAT"/>
+</entry>
+<entry keyword=" pf_test(), pf_test6() ">
+<topic href="topic/filtering_pf_firewalls.html#pf_firewalls" title="Packet Filter (pf) module: firewalls and NAT"/>
+</entry>
+<entry keyword=" pf.conf ">
+<topic href="topic/filtering_pf_firewalls.html#pf_firewalls" title="Packet Filter (pf) module: firewalls and NAT"/>
+</entry>
+<entry keyword=" pfctl ">
+<topic href="topic/filtering_pf_firewalls.html#pf_firewalls" title="Packet Filter (pf) module: firewalls and NAT"/>
+</entry>
+<entry keyword=" pfil hooks ">
+<entry keyword="example">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+</entry>
+<entry keyword=" pfil_add_hook() ">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword=" PFIL_ALL ">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword=" pfil_head_get() ">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword=" pfil_hook_get() ">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword=" PFIL_IFADDR ">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword=" PFIL_IFNET ">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword=" PFIL_IFNET_ATTACH ">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword=" PFIL_IFNET_DETACH ">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword=" PFIL_IN ">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword=" PFIL_OUT ">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword=" pfil_remove_hook() ">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword=" PFIL_TYPE_AF ">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword=" PFIL_TYPE_IFNET ">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword=" racoon ">
+<topic href="topic/security_Preshared_Key.html#Preshared_Key" title="With authentication using the preshared-key method"/>
+</entry>
+<entry keyword=" racoon.conf ">
+<topic href="topic/security_Preshared_Key.html#Preshared_Key" title="With authentication using the preshared-key method"/>
+</entry>
+<entry keyword=" rx_prio_pulse ">
+<topic href="topic/overview_Priorities.html#Priorities" title="Threading priorities"/>
+</entry>
+<entry keyword=" setconf ">
+<topic href="topic/tdp_TDP_IP.html#TDP_IP" title="Using TDP over IP"/>
+</entry>
+<entry keyword=" setkey ">
+<topic href="topic/security_Preshared_Key.html#Preshared_Key" title="With authentication using the preshared-key method"/>
+<topic href="topic/security_Manual.html#Manual" title="Between two boxes manually"/>
+</entry>
+<entry keyword=" sysctl ">
+<entry keyword="settings ">
+<entry keyword=" net.inet.ip.forwarding ">
+<topic href="topic/wpa_background_Router.html#Router" title="Configuring an access point as a router"/>
+</entry>
+</entry>
+</entry>
+<entry keyword=" tcpdump ">
+<topic href="topic/filtering_BPF.html#BPF" title="Berkeley Packet Filter"/>
+</entry>
+<entry keyword=" wiconfig ">
+<topic href="topic/wpa_background_WPA_utilities.html#WPA_utilities" title="WPA utilities"/>
+</entry>
+<entry keyword=" wlanctl ">
+<topic href="topic/wpa_background_WPA_utilities.html#WPA_utilities" title="WPA utilities"/>
+<topic href="topic/wpa_background_Using_Wi-Fi.html#Using_Wi-Fi" title="Using Wi-Fi with io-pkt "/>
+</entry>
+<entry keyword=" wlconfig ">
+<topic href="topic/wpa_background_WPA_utilities.html#WPA_utilities" title="WPA utilities"/>
+</entry>
+<entry keyword=" wpa_cli ">
+<topic href="topic/wpa_background_Using_WPA.html#Using_WPA" title="Connecting with WPA or WPA2"/>
+<topic href="topic/wpa_background_Connecting_wpa_supplicant.html#Connecting_wpa_supplicant" title="Using wpa_supplicant to manage your wireless network connections"/>
+<topic href="topic/wpa_background_Connecting_WEP.html#Connecting_WEP" title="Using WEP (Wired Equivalent Privacy) for authentication and encryption"/>
+<topic href="topic/wpa_background_WPA_utilities.html#WPA_utilities" title="WPA utilities"/>
+</entry>
+<entry keyword=" wpa_passphrase ">
+<topic href="topic/wpa_background_WPA_utilities.html#WPA_utilities" title="WPA utilities"/>
+</entry>
+<entry keyword=" wpa_supplicant ">
+<topic href="topic/wpa_background_Connecting_wpa_supplicant.html#Connecting_wpa_supplicant" title="Using wpa_supplicant to manage your wireless network connections"/>
+<topic href="topic/wpa_background_Connecting.html#Connecting" title="Connecting to a wireless network"/>
+<topic href="topic/wpa_background_Connecting_no_encryption.html#Connecting_no_encryption" title="Using no encryption"/>
+<topic href="topic/wpa_background_WPA_utilities.html#WPA_utilities" title="WPA utilities"/>
+<topic href="topic/wpa_background_Using_Wi-Fi.html#Using_Wi-Fi" title="Using Wi-Fi with io-pkt "/>
+</entry>
+<entry keyword=" wpa_supplicant.conf ">
+<topic href="topic/wpa_background_Using_WPA.html#Using_WPA" title="Connecting with WPA or WPA2"/>
+<topic href="topic/wpa_background_Connecting_wpa_supplicant.html#Connecting_wpa_supplicant" title="Using wpa_supplicant to manage your wireless network connections"/>
+<topic href="topic/wpa_background_Connecting_no_encryption.html#Connecting_no_encryption" title="Using no encryption"/>
+<topic href="topic/wpa_background_Connecting_WEP.html#Connecting_WEP" title="Using WEP (Wired Equivalent Privacy) for authentication and encryption"/>
+</entry>
+<entry keyword="/dev/io-net/">
+<topic href="topic/drivers_io-net_other.html#io-net_other" title="Differences between io-net drivers and other drivers"/>
+<topic href="topic/overview.html#overview" title="Overview"/>
+</entry>
+<entry keyword="802.11 a/b/g Wi-Fi support">
+<topic href="topic/wpa_background_802.11_support.html#support_802.11" title="802.11 a/b/g Wi-Fi Support"/>
+</entry>
+<entry keyword="802.11 layer">
+<entry keyword="debugging information, dumping">
+<topic href="topic/drivers_Debug_info.html#Debug_info" title="Dumping 802.11 debugging information"/>
+</entry>
+</entry>
+<entry keyword="802.11 standard">
+<topic href="topic/wpa_background_Background.html#Background" title="Background on WPA"/>
+</entry>
+<entry keyword="access point, authentication and key-management daemon">
+<topic href="topic/wpa_background_WPA_access_point.html#WPA_access_point" title="WPA access point"/>
+<topic href="topic/wpa_background_WPA_utilities.html#WPA_utilities" title="WPA utilities"/>
+</entry>
+<entry keyword="ad hoc mode">
+<topic href="topic/wpa_background_802.11_support.html#support_802.11" title="802.11 a/b/g Wi-Fi Support"/>
+<topic href="topic/wpa_background_Using_WPA.html#Using_WPA" title="Connecting with WPA or WPA2"/>
+<topic href="topic/wpa_background_Using_Wi-Fi.html#Using_Wi-Fi" title="Using Wi-Fi with io-pkt "/>
+</entry>
+<entry keyword="ad hoc mode ">
+<entry keyword="TCP/IP configuration">
+<topic href="topic/wpa_background_TCPIP_ad_hoc.html#TCPIP_ad_hoc" title="Client in infrastructure or ad hoc mode"/>
+</entry>
+</entry>
+<entry keyword="addresses, watching for additions and deletions">
+<topic href="topic/utilities_summary.html#utilities_summary" title="Utilities, Managers, and Configuration Files"/>
+</entry>
+<entry keyword="AES (Advanced Encryption Standard)">
+<topic href="topic/wpa_background_Using_WPA.html#Using_WPA" title="Connecting with WPA or WPA2"/>
+</entry>
+<entry keyword="architecture of io-pkt ">
+<topic href="topic/overview_Architecture.html#Architecture" title="Architecture of io-pkt "/>
+</entry>
+<entry keyword="Auto IP">
+<topic href="topic/wpa_background_TCPIP_ad_hoc.html#TCPIP_ad_hoc" title="Client in infrastructure or ad hoc mode"/>
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+</entry>
+<entry keyword="base station">
+<topic href="topic/wpa_background_802.11_support.html#support_802.11" title="802.11 a/b/g Wi-Fi Support"/>
+</entry>
+<entry keyword="Berkeley Packet Filter (BPF)">
+<topic href="topic/filtering_BPF.html#BPF" title="Berkeley Packet Filter"/>
+<topic href="topic/filtering.html#filtering" title="Packet Filtering"/>
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+<topic href="topic/overview.html#overview" title="Overview"/>
+<topic href="topic/overview_Architecture.html#Architecture" title="Architecture of io-pkt "/>
+<entry keyword="using ioctl_socket() instead of ioctl()">
+<topic href="topic/filtering.html#filtering" title="Packet Filtering"/>
+</entry>
+</entry>
+<entry keyword="BPF (Berkeley Packet Filter)">
+<topic href="topic/filtering_BPF.html#BPF" title="Berkeley Packet Filter"/>
+<topic href="topic/filtering.html#filtering" title="Packet Filtering"/>
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+<topic href="topic/overview.html#overview" title="Overview"/>
+<topic href="topic/overview_Architecture.html#Architecture" title="Architecture of io-pkt "/>
+<entry keyword="using ioctl_socket() instead of ioctl()">
+<topic href="topic/filtering.html#filtering" title="Packet Filtering"/>
+</entry>
+</entry>
+<entry keyword="brconfig">
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+</entry>
+<entry keyword="bridges">
+<entry keyword="configuring">
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+</entry>
+</entry>
+<entry keyword="bridges ">
+<entry keyword="configuring">
+<topic href="topic/wpa_background_Bridge.html#Bridge" title="Acting as a bridge"/>
+</entry>
+<entry keyword="WAP acting as">
+<topic href="topic/wpa_background_Bridge.html#Bridge" title="Acting as a bridge"/>
+</entry>
+</entry>
+<entry keyword="bridging">
+<topic href="topic/overview_Threading.html#Threading" title="Threading model"/>
+</entry>
+<entry keyword="BSD">
+<entry keyword="porting library">
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+</entry>
+<entry keyword="socket API">
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+</entry>
+<entry keyword="socket application API">
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+</entry>
+</entry>
+<entry keyword="BSS (Basic Service Set)">
+<topic href="topic/wpa_background_802.11_support.html#support_802.11" title="802.11 a/b/g Wi-Fi Support"/>
+<entry keyword="See infrastructure mode">
+<topic href="topic/wpa_background_802.11_support.html#support_802.11" title="802.11 a/b/g Wi-Fi Support"/>
+</entry>
+</entry>
+<entry keyword="checksumming">
+<entry keyword="hardware">
+<topic href="topic/drivers_Jumbo.html#Jumbo" title="Jumbo packets and hardware checksumming"/>
+</entry>
+<entry keyword="loopback">
+<topic href="topic/overview.html#overview" title="Overview"/>
+</entry>
+</entry>
+<entry keyword="components of core networking">
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+</entry>
+<entry keyword="configuration files">
+<entry keyword="dhcpd.conf">
+<topic href="topic/wpa_background_DHCP_configuration.html#DHCP_configuration" title="DHCP server configuration file"/>
+</entry>
+<entry keyword="hostapd.conf">
+<topic href="topic/wpa_background_WPA_access_point.html#WPA_access_point" title="WPA access point"/>
+</entry>
+</entry>
+<entry keyword="configuration files ">
+<entry keyword=" dhcpd.conf ">
+<topic href="topic/wpa_background_Router.html#Router" title="Configuring an access point as a router"/>
+</entry>
+<entry keyword=" pf.conf ">
+<topic href="topic/filtering_pf_firewalls.html#pf_firewalls" title="Packet Filter (pf) module: firewalls and NAT"/>
+</entry>
+<entry keyword=" racoon.conf ">
+<topic href="topic/security_Preshared_Key.html#Preshared_Key" title="With authentication using the preshared-key method"/>
+</entry>
+<entry keyword=" wpa_supplicant.conf ">
+<topic href="topic/wpa_background_Using_WPA.html#Using_WPA" title="Connecting with WPA or WPA2"/>
+<topic href="topic/wpa_background_Connecting_wpa_supplicant.html#Connecting_wpa_supplicant" title="Using wpa_supplicant to manage your wireless network connections"/>
+<topic href="topic/wpa_background_Connecting_no_encryption.html#Connecting_no_encryption" title="Using no encryption"/>
+</entry>
+</entry>
+<entry keyword="consumers">
+<topic href="topic/overview.html#overview" title="Overview"/>
+</entry>
+<entry keyword="conventions">
+<entry keyword="io-pkt name">
+<topic href="topic/overview.html#overview" title="Overview"/>
+</entry>
+</entry>
+<entry keyword="cryptography, hardware-accelerated">
+<topic href="topic/security.html#security" title="IP Security and Hardware Encryption"/>
+<topic href="topic/security_Hardware_crypto.html#Hardware_crypto" title="Hardware-accelerated crypto"/>
+<topic href="topic/overview.html#overview" title="Overview"/>
+<topic href="topic/overview_Architecture.html#Architecture" title="Architecture of io-pkt "/>
+</entry>
+<entry keyword="decryption">
+<topic href="topic/wpa_background_Crypto.html#Crypto" title="Crypto support"/>
+</entry>
+<entry keyword="devctl(), not supported for native drivers">
+<topic href="topic/drivers_io-net_other.html#io-net_other" title="Differences between io-net drivers and other drivers"/>
+</entry>
+<entry keyword="devices">
+<entry keyword="managing">
+<topic href="topic/wpa_background_Device_management.html#Device_management" title="Device management"/>
+</entry>
+</entry>
+<entry keyword="devnp-shim.so">
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+<topic href="topic/overview.html#overview" title="Overview"/>
+</entry>
+<entry keyword="dhcpd">
+<topic href="topic/wpa_background_TCPIP_DHCP.html#TCPIP_DHCP" title="DHCP server on WAP acting as a gateway"/>
+</entry>
+<entry keyword="dhcpd.conf">
+<topic href="topic/wpa_background_DHCP_configuration.html#DHCP_configuration" title="DHCP server configuration file"/>
+</entry>
+<entry keyword="dhcrelay">
+<topic href="topic/wpa_background_TCPIP_DHCP.html#TCPIP_DHCP" title="DHCP server on WAP acting as a gateway"/>
+<topic href="topic/wpa_background_Launching_DHCP_relay.html#Launching_DHCP_relay" title="Launching the DHCP relay agent on your gateway"/>
+</entry>
+<entry keyword="drivers">
+<entry keyword="detaching">
+<topic href="topic/drivers_io-net_other.html#io-net_other" title="Differences between io-net drivers and other drivers"/>
+<topic href="topic/overview.html#overview" title="Overview"/>
+</entry>
+<entry keyword="information about, displaying">
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+<topic href="topic/overview.html#overview" title="Overview"/>
+</entry>
+<entry keyword="interfaces">
+<entry keyword="names">
+<topic href="topic/drivers_io-net_other.html#io-net_other" title="Differences between io-net drivers and other drivers"/>
+<topic href="topic/overview.html#overview" title="Overview"/>
+</entry>
+</entry>
+<entry keyword="legacy io-net">
+<topic href="topic/drivers_io-net_other.html#io-net_other" title="Differences between io-net drivers and other drivers"/>
+</entry>
+<entry keyword="Maximum Transmission Unit (MTU), setting">
+<topic href="topic/drivers_Jumbo.html#Jumbo" title="Jumbo packets and hardware checksumming"/>
+</entry>
+<entry keyword="name space, entries in">
+<topic href="topic/drivers_io-net_other.html#io-net_other" title="Differences between io-net drivers and other drivers"/>
+</entry>
+<entry keyword="name space, no entries in">
+<topic href="topic/overview.html#overview" title="Overview"/>
+</entry>
+<entry keyword="native">
+<topic href="topic/drivers_io-net_other.html#io-net_other" title="Differences between io-net drivers and other drivers"/>
+<entry keyword="devctl(), not supported for">
+<topic href="topic/drivers_io-net_other.html#io-net_other" title="Differences between io-net drivers and other drivers"/>
+</entry>
+<entry keyword="jumbo packets">
+<topic href="topic/drivers_Jumbo.html#Jumbo" title="Jumbo packets and hardware checksumming"/>
+</entry>
+</entry>
+<entry keyword="NetBSD">
+<entry keyword="nicinfo, support for">
+<topic href="topic/overview.html#overview" title="Overview"/>
+</entry>
+</entry>
+<entry keyword="ported NetBSD">
+<topic href="topic/drivers_io-net_other.html#io-net_other" title="Differences between io-net drivers and other drivers"/>
+<entry keyword="support for">
+<topic href="topic/drivers_Types.html#Types" title="Types of network drivers"/>
+</entry>
+</entry>
+<entry keyword="shim layer">
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+<topic href="topic/overview.html#overview" title="Overview"/>
+</entry>
+<entry keyword="troubleshooting">
+<topic href="topic/drivers_Troubleshooting.html#Troubleshooting" title="Troubleshooting a driver"/>
+</entry>
+<entry keyword="verbose output">
+<topic href="topic/drivers_Troubleshooting.html#Troubleshooting" title="Troubleshooting a driver"/>
+</entry>
+<entry keyword="Wi-Fi">
+<entry keyword="not supported by io-pkt-v4">
+<topic href="topic/wpa_background_Using_Wi-Fi.html#Using_Wi-Fi" title="Using Wi-Fi with io-pkt "/>
+</entry>
+</entry>
+<entry keyword="writing">
+<topic href="topic/drivers_New_driver.html#New_driver" title="Writing a new driver"/>
+</entry>
+</entry>
+<entry keyword="drivers ">
+<entry keyword="debugging with gdb ">
+<topic href="topic/drivers_Debugging_with_gdb.html#Debugging_with_gdb" title="Debugging a driver using gdb "/>
+</entry>
+<entry keyword="detaching">
+<topic href="topic/drivers_Loading.html#Loading" title="Loading and unloading a driver"/>
+</entry>
+<entry keyword="legacy io-net ">
+<topic href="topic/drivers_Types.html#Types" title="Types of network drivers"/>
+</entry>
+<entry keyword="loading into io-pkt ">
+<topic href="topic/drivers_Loading.html#Loading" title="Loading and unloading a driver"/>
+<topic href="topic/overview_Architecture.html#Architecture" title="Architecture of io-pkt "/>
+</entry>
+<entry keyword="native">
+<topic href="topic/drivers_Types.html#Types" title="Types of network drivers"/>
+<topic href="topic/drivers_NetBSD_native.html#NetBSD_native" title="Differences between ported NetBSD drivers and native drivers"/>
+</entry>
+<entry keyword="NetBSD ">
+<entry keyword=" nicinfo, support for">
+<topic href="topic/drivers_NetBSD_native.html#NetBSD_native" title="Differences between ported NetBSD drivers and native drivers"/>
+</entry>
+</entry>
+<entry keyword="ported NetBSD">
+<topic href="topic/drivers_Types.html#Types" title="Types of network drivers"/>
+<topic href="topic/drivers_NetBSD_native.html#NetBSD_native" title="Differences between ported NetBSD drivers and native drivers"/>
+</entry>
+<entry keyword="priorities for, specifying">
+<topic href="topic/overview_Threading.html#Threading" title="Threading model"/>
+</entry>
+<entry keyword="shim layer">
+<topic href="topic/drivers_Types.html#Types" title="Types of network drivers"/>
+<topic href="topic/drivers_Loading.html#Loading" title="Loading and unloading a driver"/>
+</entry>
+<entry keyword="wireless, configuring">
+<topic href="topic/wpa_background_WPA_utilities.html#WPA_utilities" title="WPA utilities"/>
+</entry>
+</entry>
+<entry keyword="EAP-TLS (Extensible Authentication Protocol - Transport Layer Security)">
+<topic href="topic/wpa_background_Authentication_methods.html#Authentication_methods" title="Personal-level authentication and Enterprise-level authentication"/>
+</entry>
+<entry keyword="encryption">
+<topic href="topic/wpa_background_Crypto.html#Crypto" title="Crypto support"/>
+</entry>
+<entry keyword="encryption ">
+<entry keyword="implementing for Wi-Fi">
+<topic href="topic/wpa_background_Using_Wi-Fi.html#Using_Wi-Fi" title="Using Wi-Fi with io-pkt "/>
+</entry>
+<entry keyword="using none">
+<topic href="topic/wpa_background_Connecting_no_encryption.html#Connecting_no_encryption" title="Using no encryption"/>
+</entry>
+<entry keyword="WEP, enabling">
+<topic href="topic/wpa_background_WEP.html#WEP" title="WEP access point"/>
+</entry>
+</entry>
+<entry keyword="environment variables ">
+<entry keyword=" LD_LIBRARY_PATH ">
+<topic href="topic/drivers_Loading.html#Loading" title="Loading and unloading a driver"/>
+</entry>
+</entry>
+<entry keyword="Ethernet ">
+<entry keyword="Transparent Distributed Processing over">
+<topic href="topic/tdp_TDP_IP.html#TDP_IP" title="Using TDP over IP"/>
+</entry>
+</entry>
+<entry keyword="Ethernet packets, padding">
+<topic href="topic/drivers_Padding.html#Padding" title="Padding Ethernet packets"/>
+</entry>
+<entry keyword="Ethernet traffic">
+<topic href="topic/overview_Architecture.html#Architecture" title="Architecture of io-pkt "/>
+</entry>
+<entry keyword="events">
+<topic href="topic/overview_Threading.html#Threading" title="Threading model"/>
+</entry>
+<entry keyword="Fast IPsec">
+<topic href="topic/overview.html#overview" title="Overview"/>
+</entry>
+<entry keyword="fast-forwarding">
+<topic href="topic/overview_Threading.html#Threading" title="Threading model"/>
+</entry>
+<entry keyword="filters">
+<topic href="topic/overview.html#overview" title="Overview"/>
+</entry>
+<entry keyword="firewalls">
+<topic href="topic/filtering_PF.html#PF" title="Packet Filter interface"/>
+</entry>
+<entry keyword="FreeBSD">
+<topic href="topic/wpa_background_NetBSD_80211.html#NetBSD_80211" title="NetBSD 802.11 layer"/>
+</entry>
+<entry keyword="ftp">
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+</entry>
+<entry keyword="ftpd">
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+</entry>
+<entry keyword="gateways ">
+<entry keyword="WAP acting as">
+<topic href="topic/wpa_background_Gateway.html#Gateway" title="Acting as a gateway"/>
+</entry>
+</entry>
+<entry keyword="hardware">
+<entry keyword="checksumming">
+<topic href="topic/drivers_Jumbo.html#Jumbo" title="Jumbo packets and hardware checksumming"/>
+</entry>
+</entry>
+<entry keyword="hardware ">
+<entry keyword="events">
+<topic href="topic/overview_Threading.html#Threading" title="Threading model"/>
+</entry>
+</entry>
+<entry keyword="hardware-accelerated cryptography">
+<topic href="topic/security.html#security" title="IP Security and Hardware Encryption"/>
+<topic href="topic/security_Hardware_crypto.html#Hardware_crypto" title="Hardware-accelerated crypto"/>
+<topic href="topic/overview.html#overview" title="Overview"/>
+<topic href="topic/overview_Architecture.html#Architecture" title="Architecture of io-pkt "/>
+</entry>
+<entry keyword="hostapd">
+<topic href="topic/wpa_background_WPA_access_point.html#WPA_access_point" title="WPA access point"/>
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+</entry>
+<entry keyword="hostapd_cli">
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+</entry>
+<entry keyword="hostapd.conf">
+<topic href="topic/wpa_background_WPA_access_point.html#WPA_access_point" title="WPA access point"/>
+</entry>
+<entry keyword="IEEE 802.11 standard">
+<topic href="topic/wpa_background_Background.html#Background" title="Background on WPA"/>
+</entry>
+<entry keyword="if_up">
+<topic href="topic/drivers_io-net_other.html#io-net_other" title="Differences between io-net drivers and other drivers"/>
+</entry>
+<entry keyword="ifconfig">
+<topic href="topic/overview_Components.html#Components" title="Components of core networking"/>
+<entry keyword="commands">
+<entry keyword="destroy">
+<topic href="topic/drivers_io-net_other.html#io-net_other" title="Differences between io-net drivers and other drivers"/>
+<topic href="topic/overview.html#overview" title="Overview"/>
+</entry>
+<entry keyword="ip4csum">
+<topic href="topic/drivers_Jumbo.html#Jumbo" title="Jumbo packets and hardware checksumming"/>
+</entry>
+<entry keyword="mtu">
+<topic href="topic/drivers_Jumbo.html#Jumbo" title="Jumbo packets and hardware checksumming"/>
+</entry>
+<entry keyword="tcp4csum">
+<topic href="topic/drivers_Jumbo.html#Jumbo" title="Jumbo packets and hardware checksumming"/>
+</entry>
+<entry keyword="udp4csum">
+<topic href="topic/drivers_Jumbo.html#Jumbo" title="Jumbo packets and hardware checksumming"/>
+</entry>
+</entry>
+<entry keyword="detaching drivers">
+<topic href="topic/drivers_io-net_other.html#io-net_other" title="Differences between io-net drivers and other drivers"/>
+<topic href="topic/overview.html#overview" title="Overview"/>
+</entry>
+<entry keyword="duplex mode">
+<topic href="topic/drivers_io-net_other.html#io-net_other" title="Differences between io-net drivers and other drivers"/>
+</entry>
+<entry keyword="speed">
+<topic href="topic/drivers_io-net_other.html#io-net_other" title="Differences between io-net drivers and other drivers"/>
+</entry>
+</entry>
+<entry keyword="ifconfig ">
+<entry keyword="commands">
+<entry keyword="mediaopt">
+<topic href="topic/drivers_io-net_other.html#io-net_other" title="Differences between io-net drivers and other drivers"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="IKE daemon (racoon)">
+<topic href="topic/security_Preshared_Key.html#Preshared_Key" title="With authentication using the preshared-key method"/>
+<topic href="topic/security_IPsec_Tools.html#IPsec_Tools" title="IPsec tools"/>
+</entry>
+<entry keyword="Independent Basic Service Set (IBSS)">
+<topic href="topic/wpa_background_802.11_support.html#support_802.11" title="802.11 a/b/g Wi-Fi Support"/>
+<entry keyword="See ad hoc mode">

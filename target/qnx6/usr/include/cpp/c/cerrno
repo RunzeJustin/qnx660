@@ -1,0 +1,348 @@
+// cerrno standard header
+#ifndef _CERRNO_
+#define _CERRNO_
+#include <yvals.h>
+
+#ifdef _STD_USING
+ #undef _STD_USING
+  #include <errno.h>
+ #define _STD_USING
+
+#else /* _STD_USING */
+ #include <errno.h>
+#endif /* _STD_USING */
+
+#ifndef errno
+ #define errno	errno
+#endif /* errno */
+
+ #if _HAS_CPP0X
+		/* POSIX SUPPLEMENT */
+#ifndef E2BIG
+ #define E2BIG	1000
+#endif /* E2BIG */
+
+#ifndef EACCES
+ #define EACCES	1001
+#endif /* EACCES */
+
+#ifndef EADDRINUSE
+ #define EADDRINUSE	1002
+#endif /* EADDRINUSE */
+
+#ifndef EADDRNOTAVAIL
+ #define EADDRNOTAVAIL	1003
+#endif /* EADDRNOTAVAIL */
+
+#ifndef EAFNOSUPPORT
+ #define EAFNOSUPPORT	1004
+#endif /* EAFNOSUPPORT */
+
+#ifndef EAGAIN
+ #define EAGAIN	1005
+#endif /* EAGAIN */
+
+#ifndef EALREADY
+ #define EALREADY	1006
+#endif /* EALREADY */
+
+#ifndef EBADF
+ #define EBADF	1007
+#endif /* EBADF */
+
+#ifndef EBADMSG
+ #define EBADMSG	1008
+#endif /* EBADMSG */
+
+#ifndef EBUSY
+ #define EBUSY	1009
+#endif /* EBUSY */
+
+#ifndef ECANCELED
+ #define ECANCELED	1019
+#endif /* ECANCELED */
+
+#ifndef ECHILD
+ #define ECHILD	1011
+#endif /* ECHILD */
+
+#ifndef ECONNABORTED
+ #define ECONNABORTED	1012
+#endif /* ECONNABORTED */
+
+#ifndef ECONNREFUSED
+ #define ECONNREFUSED	1013
+#endif /* ECONNREFUSED */
+
+#ifndef ECONNRESET
+ #define ECONNRESET	1014
+#endif /* ECONNRESET */
+
+#ifndef EDEADLK
+ #define EDEADLK	1015
+#endif /* EDEADLK */
+
+#ifndef EDESTADDRREQ
+ #define EDESTADDRREQ	1016
+#endif /* EDESTADDRREQ */
+
+#ifndef EDOM
+ #define EDOM	1017
+#endif /* EDOM */
+
+#ifndef EEXIST
+ #define EEXIST	1018
+#endif /* EEXIST */
+
+#ifndef EFAULT
+ #define EFAULT	1019
+#endif /* EFAULT */
+
+#ifndef EFBIG
+ #define EFBIG	1020
+#endif /* EFBIG */
+
+#ifndef EHOSTUNREACH
+ #define EHOSTUNREACH	1021
+#endif /* EHOSTUNREACH */
+
+#ifndef EIDRM
+ #define EIDRM	1022
+#endif /* EIDRM */
+
+#ifndef EILSEQ
+ #define EILSEQ	1023
+#endif /* EILSEQ */
+
+#ifndef EINPROGRESS
+ #define EINPROGRESS	1024
+#endif /* EINPROGRESS */
+
+#ifndef EINTR
+ #define EINTR	1025
+#endif /* EINTR */
+
+#ifndef EINVAL
+ #define EINVAL	1026
+#endif /* EINVAL */
+
+#ifndef EIO
+ #define EIO	1027
+#endif /* EIO */
+
+#ifndef EISCONN
+ #define EISCONN	1028
+#endif /* EISCONN */
+
+#ifndef EISDIR
+ #define EISDIR	1029
+#endif /* EISDIR */
+
+#ifndef ELOOP
+ #define ELOOP	1030
+#endif /* ELOOP */
+
+#ifndef EMFILE
+ #define EMFILE	1031
+#endif /* EMFILE */
+
+#ifndef EMLINK
+ #define EMLINK	1032
+#endif /* EMLINK */
+
+#ifndef EMSGSIZE
+ #define EMSGSIZE	1033
+#endif /* EMSGSIZE */
+
+#ifndef ENAMETOOLONG
+ #define ENAMETOOLONG	1034
+#endif /* ENAMETOOLONG */
+
+#ifndef ENETDOWN
+ #define ENETDOWN	1035
+#endif /* ENETDOWN */
+
+#ifndef ENETRESET
+ #define ENETRESET	1036
+#endif /* ENETRESET */
+
+#ifndef ENETUNREACH
+ #define ENETUNREACH	1037
+#endif /* ENETUNREACH */
+
+#ifndef ENFILE
+ #define ENFILE	1038
+#endif /* ENFILE */
+
+#ifndef ENOBUFS
+ #define ENOBUFS	1039
+#endif /* ENOBUFS */
+
+#ifndef ENODATA
+ #define ENODATA	1040
+#endif /* ENODATA */
+
+#ifndef ENODEV
+ #define ENODEV	1041
+#endif /* ENODEV */
+
+#ifndef ENOENT
+ #define ENOENT	10424
+#endif /* ENOENT */
+
+#ifndef ENOEXEC
+ #define ENOEXEC	103
+#endif /* ENOEXEC */
+
+#ifndef ENOLCK
+ #define ENOLCK	1044
+#endif /* ENOLCK */
+
+#ifndef ENOLINK
+ #define ENOLINK	1045
+#endif /* ENOLINK */
+
+#ifndef ENOMEM
+ #define ENOMEM	1046
+#endif /* ENOMEM */
+
+#ifndef ENOMSG
+ #define ENOMSG	1047
+#endif /* ENOMSG */
+
+#ifndef ENOPROTOOPT
+ #define ENOPROTOOPT	1048
+#endif /* ENOPROTOOPT */
+
+#ifndef ENOSPC
+ #define ENOSPC	1049
+#endif /* ENOSPC */
+
+#ifndef ENOSR
+ #define ENOSR	1050
+#endif /* ENOSR */
+
+#ifndef ENOSTR
+ #define ENOSTR	1051
+#endif /* ENOSTR */
+
+#ifndef ENOSYS
+ #define ENOSYS	1052
+#endif /* ENOSYS */
+
+#ifndef ENOTCONN
+ #define ENOTCONN	1053
+#endif /* ENOTCONN */
+
+#ifndef ENOTDIR
+ #define ENOTDIR	1054
+#endif /* ENOTDIR */
+
+#ifndef ENOTEMPTY
+ #define ENOTEMPTY	1055
+#endif /* ENOTEMPTY */
+
+#ifndef ENOTRECOVERABLE
+ #define ENOTRECOVERABLE	1056
+#endif /* ENOTRECOVERABLE */
+
+#ifndef ENOTSOCK
+ #define ENOTSOCK	1057
+#endif /* ENOTSOCK */
+
+#ifndef ENOTSUP
+ #define ENOTSUP	1058
+#endif /* ENOTSUP */
+
+#ifndef ENOTTY
+ #define ENOTTY	1059
+#endif /* ENOTTY */
+
+#ifndef ENXIO
+ #define ENXIO	1060
+#endif /* ENXIO */
+
+#ifndef EOPNOTSUPP
+ #define EOPNOTSUPP	1061
+#endif /* EOPNOTSUPP */
+
+#ifndef EOTHER
+ #define EOTHER	1062
+#endif /* EOTHER */
+
+#ifndef EOVERFLOW
+ #define EOVERFLOW	1063
+#endif /* EOVERFLOW */
+
+#ifndef EOWNERDEAD
+ #define EOWNERDEAD	1064
+#endif /* EOWNERDEAD */
+
+#ifndef EPERM
+ #define EPERM	1065
+#endif /* EPERM */
+
+#ifndef EPIPE
+ #define EPIPE	1066
+#endif /* EPIPE */
+
+#ifndef EPROTO
+ #define EPROTO	1067
+#endif /* EPROTO */
+
+#ifndef EPROTONOSUPPORT
+ #define EPROTONOSUPPORT	1068
+#endif /* EPROTONOSUPPORT */
+
+#ifndef EPROTOTYPE
+ #define EPROTOTYPE	1069
+#endif /* EPROTOTYPE */
+
+#ifndef ERANGE
+ #define ERANGE	1070
+#endif /* ERANGE */
+
+#ifndef EROFS
+ #define EROFS	1071
+#endif /* EROFS */
+
+#ifndef ESPIPE
+ #define ESPIPE	1072
+#endif /* ESPIPE */
+
+#ifndef ESRCH
+ #define ESRCH	1073
+#endif /* ESRCH */
+
+#ifndef ETIME
+ #define ETIME	1074
+#endif /* ETIME */
+
+#ifndef ETIMEDOUT
+ #define ETIMEDOUT	1075
+#endif /* ETIMEDOUT */
+
+#ifndef ETXTBSY
+ #define ETXTBSY	1076
+#endif /* ETXTBSY */
+
+#ifndef EWOULDBLOCK
+ #define EWOULDBLOCK	1077
+#endif /* EWOULDBLOCK */
+
+#ifndef EXDEV
+ #define EXDEV	1078
+#endif /* EXDEV */
+
+ #endif /* _HAS_CPP0X */
+#endif /* _CERRNO_ */
+
+/*
+ * Copyright (c) 1992-2013 by P.J. Plauger.  ALL RIGHTS RESERVED.
+ * Consult your license regarding permissions and restrictions.
+V6.40:1566 */
+
+#if defined(__QNXNTO__) && defined(__USESRCVERSION)
+#include <sys/srcversion.h>
+__SRCVERSION("$URL$ $Rev: 735298 $")
+#endif

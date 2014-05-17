@@ -1,0 +1,259 @@
+// file de_DE_102.kbd
+
+Keyboard "de_DE_102" {
+
+	include "shiftlk.inc"
+	include "common.inc"
+
+	KeyType "DeadOrAlive" {
+		NoSym <AltGr>
+		Unmodified Deadkey #1
+		<Shift> Sym #2
+		}
+
+	Key {
+		Type "TwoLevel"
+		Scan  02
+		Syms  '1' '!'
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  03
+		Syms  '2' '"' [twosuperior]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  04
+		Syms  '3' [section] [threesuperior]
+		}
+	Key {
+		Type "TwoLevel"
+		Scan  05
+		Syms  '4' '$'
+		}
+	Key {
+		Type "TwoLevel"
+		Scan  06
+		Syms  '5' '%'
+		}
+	Key {
+		Type "TwoLevel"
+		Scan  07
+		Syms  '6' '&'
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  08
+		Syms  '7' '/' '{'
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  09
+		Syms  '8' '(' '['
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  0A
+		Syms  '9' ')' ']'
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  0B
+		Syms  '0' '=' '}'
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  0C
+		Syms  [ssharp] '?' '\'
+		}
+	Key {
+		Type "DoubleDead"
+		Scan  0D
+		Syms  [acute] '`'
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  10
+		Syms  'q' 'Q' '@'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  11
+		Syms  'w' 'W'
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  12
+		Syms  'e' 'E' 20AC
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  13
+		Syms  'r' 'R'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  14
+		Syms  't' 'T'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  15
+		Syms  'z' 'Z'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  16
+		Syms  'u' 'U'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  17
+		Syms  'i' 'I'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  18
+		Syms  'o' 'O'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  19
+		Syms  'p' 'P'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  1A
+		Syms  [udiaeresis] [Udiaeresis]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  1B
+		Syms  '+' '*' '~'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  1E
+		Syms  'a' 'A'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  1F
+		Syms  's' 'S'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  20
+		Syms  'd' 'D'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  21
+		Syms  'f' 'F'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  22
+		Syms  'g' 'G'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  23
+		Syms  'h' 'H'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  24
+		Syms  'j' 'J'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  25
+		Syms  'k' 'K'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  26
+		Syms  'l' 'L'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  27
+		Syms  [odiaeresis] [Odiaeresis]
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  28
+		Syms  [adiaeresis] [Adiaeresis]
+		}
+	Key {
+		Type "DeadOrAlive"
+		Scan  29
+		Syms  '^' [degree]
+		}
+	Key {
+		Type "TwoLevel"
+		Scan  2B
+		Syms  '#' '''
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  2C
+		Syms  'y' 'Y'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  2D
+		Syms  'x' 'X'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  2E
+		Syms  'c' 'C'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  2F
+		Syms  'v' 'V'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  30
+		Syms  'b' 'B'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  31
+		Syms  'n' 'N'
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  32
+		Syms  'm' 'M' [mu]
+		}
+	Key {
+		Type "TwoLevel"
+		Scan  33
+		Syms  ',' ';'
+		}
+	Key {
+		Type "TwoLevel"
+		Scan  34
+		Syms  '.' ':'
+		}
+	Key {
+		Type "TwoLevel"
+		Scan  35
+		Syms  '-' '_'
+		}
+	Key {
+		Type "NoModsOnly"
+		Scan  39
+		Syms  ' '
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  56
+		Syms  '<' '>' '|'
+		}
+	}

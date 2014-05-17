@@ -1,0 +1,1134 @@
+/*
+ *
+ *    This is a sample keyboard definition.
+ *
+ *    The file consists of several kinds of tokens:
+ *
+ *        - Keywords -- they are case-insensitive
+ *        - Strings in double quotes, used for names
+ *        - Hex scan codes
+ *        - Braces {}
+ *        - Modifiers in angle brackets, e.g. <Shift>
+ *        - Unicode symbols.
+ *
+ *    For a Unicode symbol, you can use:
+ *
+ *        - a hex code, e.g. CAFE
+ *        - a UTF-8 multibyte character in single quotes, e.g. 'a' or '''
+ *        - a 8859-1 single byte character in single quotes
+ *        - a symbol name in brackets, e.g. [aacute]
+ *
+ *    Symbol names are defined in <PkKeyDef.h> -- you just need to remove
+ *    the Pk_ prefix.
+ *
+ *    Anywhere in the file you can use an include directive consisting  of
+ *    the INCLUDE keyword and a string that will be used for filename,
+ *    e.g.
+ *
+ *        include "groups.inc"
+ */
+
+Keyboard "sample" {
+    /*
+     *  A keyboard definition consists of the KEYBOARD keyword, an
+     *  optional name, and the "definition body" in braces.
+     *
+     *  The "body" consists of several kinds of sections.  Each section
+     *  begins with a keyword and ends with a body in braces.
+     *
+     *      - key type definition (which may include key definitions)
+     *      - key definition
+     *      - virtual modifier declaration
+     *      - modifier action
+     *      - keyboard LED light list
+     *      - compose sequence list
+     *
+     *  The order of the sections is significant:
+     *
+     *      - a virtual modifier must be declared before it is used
+     *      - a key must be defined after or within its key type
+     *      - modifier actions are executed in the specified order
+     */
+
+    Modifiers {
+        /*
+         *  Two kinds of modifiers are used in the keyboard driver:
+         *
+         *    - standard modifiers are those defined in PkKeyDef.h. They
+         *      are included in key events. You don't need to declare
+         *      standard modifiers -- just find them in PkKeyDef.h,
+         *      remove the "Pk_KM_" prefix, and add angle brackets.
+         *
+         *    - "virtual modifiers," private to the driver. Virtual
+         *      modifiers are your "variables." You use them for actions
+         *      that affect standard modifiers. A virtual modifier must
+         *      be declared in the "Modifiers" section before it can be
+         *      used. Always use angle brackets with modifiers.
+         *
+         *  A modifier can be assigned to a key -- it will then be
+         *  automatically set when the key is pressed and cleared when
+         *  the key is released.  You can also define "actions" that
+         *  specify how modifiers should be set or cleared depending on
+         *  the state or change of other modifiers.
+         *
+         *  Modifiers also control the state of the LED lights on the
+         *  keyboard.
+         *
+         */
+
+        //    Modifiers that will be assigned to modifier keys:
+        <LEFT_SHIFT>
+        <RIGHT_SHIFT>
+        <LEFT_CTRL>
+        <RIGHT_CTRL>
+        <LEFT_ALT>
+        <RIGHT_ALT>
+        <CAPS_LOCK>
+        <SCROLL_LOCK>
+        <NUM_LOCK>     //  It's not the same as <Num_Lock>
+                       //  -- modifiers are case-sensitive
+
+        //    This modifier controls the Caps Lock light:
+        <CAPS_LED>
+
+        //    Some auxiliary flags:
+        <LOCK_SAVE>
+        <ISO_LOCK>
+        }
+
+    KeyType "Unmodified" {
+        /*
+         *  A KeyType section defines a set of keys that react to
+         *  modifiers in a similar way.
+         *
+         *  "Unmodified" is the name of the key type. The name is
+         *  optional.
+         *
+         *  The body of a KeyType section consists of two subsections
+         *  followed by zero or more key definitions.
+         *
+         *  The first subsection lists the modifiers that suppress
+         *  generating any symbols by the key.  For each of those
+         *  modifiers you need to write:
+         *
+         *      NoSym <modifier>
+         *
+         *  In the "Unmodified" key type, the first section is empty.
+         *
+         *  The second section defines mapping between modifiers and the
+         *  index into the symbol table of a key.  If the symbol depends
+         *  on n modifiers, you need to specify an index for each of
+         *  2^n combinations of the modifiers.  You specify a non-empty
+         *  combination by listing the modifiers separated by the plus
+         *  sign.  The empty set of modifiers is specified by the
+         *  UNMODIFIED keyword.
+         *
+         *  After the combination of modifiers, you need to specify the
+         *  index and/or flags for this combination.  You can write one
+         *  of:
+         *      Sym #index
+         *      DeadKey #index
+         *      NoSym
+         *
+         *  The "index" here must be a decimal number (#1 refers to the
+         *  first entry in the symbol table).
+         *
+         *      If you specify Sym, the specified symbol will be
+         *      generated.
+         *
+         *      If you specify NoSym, no symbol will be generated.
+         *
+         *      If you specify DeadKey, the specified symbol will be
+         *      used to start a compose sequence.
+         *
+         *  In this section you can also declare an unused index, e.g.
+         *
+         *      Unused #3
+         *
+         *  This is how you can prevent warnings or force a key type to
+         *  have more symbol entries than are necessary.
+         *
+         *  Although you can define any number of key types, the format
+         *  of the *.kbd file only allows 16 key types.  This means that
+         *  even if you have more, you shouldn't actually use more than
+         *  16, and when you compile your file, you need to specify the
+         *  -t option to the mkkbd program so that the unused types are
+         *  removed.
+         *
+         *  Here we define a key type whose mapping is trivial: the
+         *  symbol doesn't depend on any modifiers, and the symbol table
+         *  for each key has only one entry.  We just need to specify
+         *  the index for the empty combination of modifiers.
+         */
+
+        Unmodified Sym #1
+        /*
+         *  This is what this specification means:
+         *
+         *  The first and only symbol of each key will be used no matter
+         *  what modifiers are active. "Unmodified" means: "use this
+         *  symbol when none of the listed modifiers is active."
+         *
+         *  Once we have defined the mapping, we can define some keys
+         *  that belong to the key type. (Instead of listing them here,
+         *  you can define keys outside of any KeyType section -- there
+         *  is an example below.)
+         */
+
+        Key [Control_L] {
+            /*
+             *  The optional symbol after the KEY keyword is the "cap"
+             *  value.  If you omit it, the first symbol from the symbol
+             *  table will be used. (Note that the resulting *.kbd file
+             *  will be smaller if you design your key types so that the
+             *  key cap is often equal to the first symbol.)
+             *
+             *  For each key, you need to specify its scan code (or more
+             *  than one scan code -- look for the [Pause] key for an
+             *  example) and symbol table.  Optionally, you can specify
+             *  a modifier (if the key is a modifier key) and the key type.
+             *  However, if the key definition is nested in the key type
+             *  definition, you're not allowed to specify a different
+             *  key type.
+             */
+
+            IsMod <LEFT_CTRL>    //  This key is a (virtual) modifier.
+            Scan  1D             //  Scan code (hex) that the key generates
+            Syms  [Control_L]    //  The symbol table (only one entry)
+            }
+        Key {
+            IsMod <LEFT_SHIFT>
+            Scan  2A
+            Syms  [Shift_L]
+            }
+        Key {
+            IsMod <RIGHT_SHIFT>
+            Scan  36
+            Syms  [Shift_R]
+            }
+        Key {
+            IsMod <LEFT_ALT>
+            Scan  38
+            Syms  [Alt_L]
+            }
+        Key {
+            IsMod <CAPS_LOCK>
+            Scan  3A
+            Syms  [Caps_Lock]
+            }
+        Key {
+            //    This key is not a modifier
+            Scan  3B
+            Syms  [F1]
+            }
+        Key {
+            Scan  3C
+            Syms  [F2]
+            }
+        Key {
+            Scan  3D
+            Syms  [F3]
+            }
+        Key {
+            Scan  3E
+            Syms  [F4]
+            }
+        Key {
+            Scan  3F
+            Syms  [F5]
+            }
+        Key {
+            Scan  40
+            Syms  [F6]
+            }
+        Key {
+            Scan  41
+            Syms  [F7]
+            }
+        Key {
+            Scan  42
+            Syms  [F8]
+            }
+        Key {
+            Scan  43
+            Syms  [F9]
+            }
+        Key {
+            Scan  44
+            Syms  [F10]
+            }
+        Key {
+            IsMod <NUM_LOCK>
+            Scan  45
+            Syms  [Num_Lock]
+            }
+        Key {
+            IsMod <SCROLL_LOCK>
+            Scan  46
+            Syms  [Scroll_Lock]
+            }
+        Key {
+            Scan  57
+            Syms  [F11]
+            }
+        Key {
+            Scan  58
+            Syms  [F12]
+            }
+        Key {
+            Scan  E0 5B            //  This key generates two scancodes
+            Syms  [Hyper_L]
+            }
+        Key {
+            Scan  E0 5C
+            Syms  [Hyper_R]
+            }
+        Key {
+            Scan  E0 5D
+            Syms  [Menu]
+            }
+        Key {
+            Scan  E0 50
+            Syms  [Down]
+            }
+        Key {
+            IsMod <RIGHT_ALT>
+            Scan  E0 38
+            Syms  [Alt_R]
+            }
+        Key {
+            IsMod <RIGHT_CTRL>
+            Scan  E0 1D
+            Syms  [Control_R]
+            }
+        Key {
+            Scan  E0 49
+            Syms  [Pg_Up]
+            }
+        Key {
+            Scan  E0 48
+            Syms  [Up]
+            }
+        Key {
+            Scan  E0 53
+            Syms  [Delete]
+            }
+        Key {
+            Scan  E0 4F
+            Syms  [End]
+            }
+        Key {
+            Scan  E0 52
+            Syms  [Insert]
+            }
+        Key {
+            Scan  E0 4B
+            Syms  [Left]
+            }
+        Key {
+            Scan  E0 4D
+            Syms  [Right]
+            }
+        Key {
+            Scan  E0 51
+            Syms  [Pg_Down]
+            }
+        Key {
+            Scan  E0 47
+            Syms  [Home]
+            }
+        }
+
+    KeyType "TwoLevel" {
+        NoSym <Ctrl>            // If at least one of these modifiers is active,
+        NoSym <Alt>             // don't generate a valid symbol
+
+        Unmodified Sym #1
+        <Shift> Sym #2          // If the <Shift> modifier is active,
+                                // use the second symbol.
+                                // Modifiers that aren't listed here
+                                // (e.g. <Caps_Lock>) will be ignored.
+
+        Key {
+            Scan  02
+            Syms  '1' '!'       // The symbol table has two symbols
+            }
+        Key {
+            Scan  03
+            Syms  '2' '@'
+            }
+        Key {
+            Scan  04
+            Syms  '3' '#'
+            }
+        Key {
+            Scan  05
+            Syms  '4' '$'
+            }
+        Key {
+            Scan  06
+            Syms  '5' '%'
+            }
+        Key {
+            Scan  07
+            Syms  '6' '^'
+            }
+        Key {
+            Scan  08
+            Syms  '7' '&'
+            }
+        Key {
+            Scan  09
+            Syms  '8' '*'
+            }
+        Key {
+            Scan  0A
+            Syms  '9' '('
+            }
+        Key {
+            Scan  0B
+            Syms  '0' ')'
+            }
+        Key {
+            Scan  0C
+            Syms  '-' '_'
+            }
+        Key {
+            Scan  0D
+            Syms  '=' '+'
+            }
+        Key {
+            Scan  0F
+            Syms  [Tab] [KP_Tab]
+            }
+        Key {
+            Scan  1A
+            Syms  '[' '{'
+            }
+        Key {
+            Scan  1B
+            Syms  ']' '}'
+            }
+        Key {
+            Scan  27
+            Syms  ';' ':'
+            }
+        Key {
+            Scan  28
+            Syms  ''' '"'
+            }
+        Key {
+            Scan  29
+            Syms  '`' '~'
+            }
+        Key {
+            Scan  2B
+            Syms  '\' '|'
+            }
+        Key {
+            Scan  33
+            Syms  ',' '<'
+            }
+        Key {
+            Scan  34
+            Syms  '.' '>'
+            }
+        Key {
+            Scan  35
+            Syms  '/' '?'
+            }
+        }
+
+    KeyType "Keypad" {
+        //    Here we have more combinations of modifiers:
+        Unmodified Sym #1
+        <Num_Lock> + <Shift> Sym #1
+        <Shift> Sym #2
+        <Num_Lock> Sym #2
+        <Alt> Sym #1
+        <Ctrl> Sym #1
+        <Ctrl> + <Alt> Sym #1
+        <Num_Lock> + <Shift> + <Alt> Sym #1
+        <Num_Lock> + <Shift> + <Ctrl> Sym #1
+        <Num_Lock> + <Shift> + <Ctrl> + <Alt> Sym #1
+        <Shift> + <Alt> NoSym    //    NoSym means "No valid symbol".
+        <Shift> + <Ctrl> NoSym
+        <Shift> + <Ctrl> + <Alt> NoSym
+        <Num_Lock> + <Alt> NoSym
+        <Num_Lock> + <Ctrl> NoSym
+        <Num_Lock> + <Ctrl> + <Alt> NoSym
+
+        Key [KP_7] {    // Here you need to specify the "Cap" value
+                        // because it's different from the first symbol
+            Scan  47
+            Syms  [Home] '7'
+            }
+        Key [KP_8] {
+            Scan  48
+            Syms  [Up] '8'
+            }
+        Key [KP_9] {
+            Scan  49
+            Syms  [Pg_Up] '9'
+            }
+        Key [KP_4] {
+            Scan  4B
+            Syms  [Left] '4'
+            }
+        Key [KP_5] {
+            Scan  4C
+            Syms  [KP_5] '5'
+            }
+        Key [KP_6] {
+            Scan  4D
+            Syms  [Right] '6'
+            }
+        Key [KP_1] {
+            Scan  4F
+            Syms  [End] '1'
+            }
+        Key [KP_2] {
+            Scan  50
+            Syms  [Down] '2'
+            }
+        Key [KP_3] {
+            Scan  51
+            Syms  [Pg_Down] '3'
+            }
+        Key [KP_0] {
+            Scan  52
+            Syms  [Insert] '0'
+            }
+        Key [KP_Decimal] {
+            Scan  53
+            Syms  [Delete] '.'
+            }
+        }
+
+    KeyType "TwoLevelLetter" {   // Letters are sensitive to <Caps_Lock>
+        NoSym <Ctrl>
+        NoSym <Alt>
+        Unmodified Sym #1
+        <Shift> + <Caps_Lock> Sym #1
+        <Shift> Sym #2
+        <Caps_Lock> Sym #2
+
+        Key {
+            Scan  10
+            Syms  'q' 'Q'
+            }
+        Key {
+            Scan  11
+            Syms  'w' 'W'
+            }
+        Key {
+            Scan  12
+            Syms  'e' 'E'
+            }
+        Key {
+            Scan  13
+            Syms  'r' 'R'
+            }
+        Key {
+            Scan  14
+            Syms  't' 'T'
+            }
+        Key {
+            Scan  15
+            Syms  'y' 'Y'
+            }
+        Key {
+            Scan  16
+            Syms  'u' 'U'
+            }
+        Key {
+            Scan  17
+            Syms  'i' 'I'
+            }
+        Key {
+            Scan  18
+            Syms  'o' 'O'
+            }
+        Key {
+            Scan  19
+            Syms  'p' 'P'
+            }
+        Key {
+            Scan  1E
+            Syms  'a' 'A'
+            }
+        Key {
+            Scan  1F
+            Syms  's' 'S'
+            }
+        Key {
+            Scan  20
+            Syms  'd' 'D'
+            }
+        Key {
+            Scan  21
+            Syms  'f' 'F'
+            }
+        Key {
+            Scan  22
+            Syms  'g' 'G'
+            }
+        Key {
+            Scan  23
+            Syms  'h' 'H'
+            }
+        Key {
+            Scan  24
+            Syms  'j' 'J'
+            }
+        Key {
+            Scan  25
+            Syms  'k' 'K'
+            }
+        Key {
+            Scan  26
+            Syms  'l' 'L'
+            }
+        Key {
+            Scan  2C
+            Syms  'z' 'Z'
+            }
+        Key {
+            Scan  2D
+            Syms  'x' 'X'
+            }
+        Key {
+            Scan  2E
+            Syms  'c' 'C'
+            }
+        Key {
+            Scan  2F
+            Syms  'v' 'V'
+            }
+        Key {
+            Scan  30
+            Syms  'b' 'B'
+            }
+        Key {
+            Scan  31
+            Syms  'n' 'N'
+            }
+        Key {
+            Scan  32
+            Syms  'm' 'M'
+            }
+        }
+
+    KeyType "Pause" {
+        NoSym <Shift>
+        NoSym <Alt>
+        Unmodified Sym #1
+        <Ctrl> Sym #2
+        }
+
+    //    You can define a key outside of its key type...
+    Key {
+        Type  "Pause"    // ... but then you must specify a type for the key.
+	Scan  E1 1D 45 E1 9D C5
+	Scan  E0 46 E0 C6   // Note that this key has two sets of scancodes.
+        Syms  [Pause] [Break]
+        }
+
+    KeyType "Print" {
+        NoSym <Shift>
+        NoSym <Ctrl>
+        Unmodified Sym #1
+        <Alt> Sym #2
+
+        Key {
+            Scan  E0 37
+            Syms  [Print] [Help]
+            }
+        }
+
+    KeyType "NoModsOnly" {
+        NoSym <Ctrl>
+        NoSym <Alt>
+        Unmodified Sym #1
+
+        Key {
+            Scan  01
+            Syms  [Escape]
+            }
+        Key {
+            Scan  0E
+            Syms  [BackSpace]
+            }
+        Key {
+            Scan  1C
+            Syms  [Return]
+            }
+        Key [KP_Multiply] {
+            Scan  37
+            Syms  '*'
+            }
+        Key {
+            Scan  39
+            Syms  ' '
+            }
+        Key [KP_Subtract] {
+            Scan  4A
+            Syms  '-'
+            }
+        Key [KP_Add] {
+            Scan  4E
+            Syms  '+'
+            }
+        Key [KP_Enter] {
+            Scan  E0 1C
+            Syms  [Return]
+            }
+        Key [KP_Divide] {
+            Scan  E0 35
+            Syms  '/'
+            }
+        }
+
+    /*
+     *  The DeadScan section declares a sequence of scancodes that
+     *  should be ignored by the driver.  The two sequences defined here
+     *  are the scancodes that a 101+ key keyboard generates for
+     *  compatibility with a 84-key keyboard.
+     */
+
+    DeadScan { E0 2A }
+    DeadScan { E0 36 }
+
+    /*
+     *  This is the list of modifier actions. It defines how modifiers
+     *  control other modifiers.  Whenever a modifier key (i.e. a key
+     *  that has a modifier attached to it) is pressed or released, all
+     *  the actions are executed in the specified order.
+     *
+     *  The actions operate on three sets of modifiers:
+     *
+     *      The "Current" set contains the modifiers that are currently
+     *      set or "down" (the standard modifiers in this set are part
+     *      of the key event that will be emitted).  This set is the
+     *      "permanent memory" of the keyboard driver because it retains
+     *      its value between key events.
+     *
+     *      The "Pressed" set is initialized each time before processing
+     *      the actions.  Initially it contains the modifier of the key
+     *      that has been pressed or is empty if the key has been
+     *      released;
+     *
+     *      The "Released" set is initialized each time before
+     *      processing the actions.  Initially it contains the modifier
+     *      of the key that has been released or is empty if the key has
+     *      been pressed.
+     *
+     *  Each action consists of a set of conditions (possibly empty) and
+     *  an operation.  Each condition tests a bit in one of the three
+     *  modifier sets:
+     *
+     *      Up - the given modifier is not in the current set
+     *      Down - the given modifier is in the current set
+     *      Press - the given modifier is in the "Pressed" set
+     *      Release - the given modifier is in the "Releaseed" set
+     *
+     *  Each operation modifies a bit in one of two sets:
+     *
+     *      Up      - remove the given modifier from all three sets
+     *      Down    - add the given modifier to the current set and
+     *                remove it from the Pressed and Released sets
+     *      Press   - add the given modifier to the Pressed set and
+     *                remove it from the Released set
+     *      Release - add the given modifier to the Released set and
+     *                remove it from the Pressed set
+     */
+
+    Action {
+        if   Up      <Num_Lock>
+        and  Press   <NUM_LOCK>
+        then Press   <Num_Lock>
+        }
+
+    Action {
+        if   Down    <Num_Lock>
+        and  Press   <NUM_LOCK>
+        then Release <Num_Lock>
+        }
+
+    Action {
+        if   Up      <Scroll_Lock>
+        and  Press   <SCROLL_LOCK>
+        then Press   <Scroll_Lock>
+        }
+
+    Action {
+        if   Down    <Scroll_Lock>
+        and  Press   <SCROLL_LOCK>
+        then Release <Scroll_Lock>
+        }
+
+    Action {
+        if   Press   <LEFT_SHIFT>
+        or   Press   <RIGHT_SHIFT>
+        then Press   <Shift>
+        }
+
+    Action {
+        if   Press   <Shift>
+        then Up      <Shift_Lock>
+        }
+
+    Action {
+        if   Press   <LEFT_CTRL>
+        or   Press   <RIGHT_CTRL>
+        then Press   <Ctrl>
+        }
+
+    Action {
+        if   Press   <Ctrl>
+        then Up      <Ctrl_Lock>
+        }
+
+    Action {
+        if   Press   <LEFT_ALT>
+        or   Press   <RIGHT_ALT>
+        then Press   <Alt>
+        }
+
+    Action {
+        if   Press   <Alt>
+        then Up      <Alt_Lock>
+        }
+
+    Action {
+        if   Press   <CAPS_LOCK>
+        and  Down    <Caps_Lock>
+        then Down    <LOCK_SAVE>
+        }
+
+    Action {
+        if   Press   <CAPS_LOCK>
+        and  Up      <Caps_Lock>
+        then Up      <LOCK_SAVE>
+        }
+
+    Action {
+        if   Up      <Caps_Lock>
+        and  Press   <CAPS_LOCK>
+        then Press   <Caps_Lock>
+        }
+
+    Action {
+        if   Down    <Caps_Lock>
+        and  Press   <CAPS_LOCK>
+        then Release <Caps_Lock>
+        }
+
+    Action {
+        // You're not allowed to mix 'and' and 'or' in one Action.
+        if   Press   <Shift>
+        or   Press   <Ctrl>
+        or   Press   <Alt>
+        then Down    <ISO_LOCK>
+        }
+
+    Action {
+        if   Up      <CAPS_LOCK>
+        then Up      <ISO_LOCK>
+        }
+
+    Action {
+        if   Down    <ISO_LOCK>
+        and  Down    <LOCK_SAVE>
+        then Down    <Caps_Lock>
+        }
+
+    Action {
+        if   Down    <ISO_LOCK>
+        and  Up      <LOCK_SAVE>
+        then Up      <Caps_Lock>
+        }
+
+    Action {
+        if   Down    <ISO_LOCK>
+        and  Press   <Shift>
+        then Press   <Shift_Lock>
+        }
+
+    Action {
+        if   Down    <ISO_LOCK>
+        and  Press   <Ctrl>
+        then Press   <Ctrl_Lock>
+        }
+
+    Action {
+        if   Down    <ISO_LOCK>
+        and  Press   <Alt>
+        then Press   <Alt_Lock>
+        }
+
+    Action {
+        if   Up      <Shift_Lock>
+        and  Up      <LEFT_SHIFT>
+        and  Up      <RIGHT_SHIFT>
+        then Up      <Shift>
+        }
+
+    Action {
+        if   Up      <Ctrl_Lock>
+        and  Up      <LEFT_CTRL>
+        and  Up      <RIGHT_CTRL>
+        then Up      <Ctrl>
+        }
+
+    Action {
+        if   Up      <Alt_Lock>
+        and  Up      <LEFT_ALT>
+        and  Up      <RIGHT_ALT>
+        then Up      <Alt>
+        }
+
+    Action {
+        // It the 'if' part is missing, the action is unconditional:
+        then Up      <CAPS_LED>
+        }
+
+    Action {
+        if   Down    <Caps_Lock>
+        or   Down    <Shift_Lock>
+        or   Down    <Ctrl_Lock>
+        or   Down    <Alt_Lock>
+        or   Down    <AltGr_Lock>
+        or   Press   <Caps_Lock>
+        or   Press   <Shift_Lock>
+        or   Press   <Ctrl_Lock>
+        or   Press   <Alt_Lock>
+        or   Press   <AltGr_Lock>
+        then Down    <CAPS_LED>
+        }
+
+    // Here is the list of modifiers that are associated with keyboard lights:
+    Indicators {
+        <Scroll_Lock>
+        <Num_Lock>
+        <CAPS_LED>
+        }
+
+
+    /*
+     *  And the last part is the list of compose sequences. Each
+     *  sequence is defined by the symbol it generates and the list of
+     *  key symbols that activate it.
+     *
+     */
+
+    Compose <Alt> {
+        Sym [combining_grave]  Keys '`'
+        Sym [Agrave]  Keys '`' 'A'
+        Sym [Egrave]  Keys '`' 'E'
+        Sym [Igrave]  Keys '`' 'I'
+        Sym [Ograve]  Keys '`' 'O'
+        Sym [Ugrave]  Keys '`' 'U'
+        Sym [agrave]  Keys '`' 'a'
+        Sym [egrave]  Keys '`' 'e'
+        Sym [igrave]  Keys '`' 'i'
+        Sym [ograve]  Keys '`' 'o'
+        Sym [ugrave]  Keys '`' 'u'
+        Sym '`'  Keys '`' ' '
+        Sym [combining_acute]  Keys [acute]
+        Sym [Aacute]  Keys [acute] 'A'
+        Sym [Eacute]  Keys [acute] 'E'
+        Sym [Iacute]  Keys [acute] 'I'
+        Sym [Oacute]  Keys [acute] 'O'
+        Sym [Uacute]  Keys [acute] 'U'
+        Sym [Yacute]  Keys [acute] 'Y'
+        Sym [aacute]  Keys [acute] 'a'
+        Sym [eacute]  Keys [acute] 'e'
+        Sym [iacute]  Keys [acute] 'i'
+        Sym [oacute]  Keys [acute] 'o'
+        Sym [uacute]  Keys [acute] 'u'
+        Sym [yacute]  Keys [acute] 'y'
+        Sym [acute]  Keys [acute] ' '
+        Sym [Aacute]  Keys ''' 'A'
+        Sym [Eacute]  Keys ''' 'E'
+        Sym [Iacute]  Keys ''' 'I'
+        Sym [Oacute]  Keys ''' 'O'
+        Sym [Uacute]  Keys ''' 'U'
+        Sym [Yacute]  Keys ''' 'Y'
+        Sym [aacute]  Keys ''' 'a'
+        Sym [eacute]  Keys ''' 'e'
+        Sym [iacute]  Keys ''' 'i'
+        Sym [oacute]  Keys ''' 'o'
+        Sym [uacute]  Keys ''' 'u'
+        Sym [yacute]  Keys ''' 'y'
+        Sym '''  Keys ''' ' '
+        Sym [combining_circumflex]  Keys '^'
+        Sym [Acircumflex]  Keys '^' 'A'
+        Sym [Ecircumflex]  Keys '^' 'E'
+        Sym [Icircumflex]  Keys '^' 'I'
+        Sym [Ocircumflex]  Keys '^' 'O'
+        Sym [Ucircumflex]  Keys '^' 'U'
+        Sym [acircumflex]  Keys '^' 'a'
+        Sym [ecircumflex]  Keys '^' 'e'
+        Sym [icircumflex]  Keys '^' 'i'
+        Sym [ocircumflex]  Keys '^' 'o'
+        Sym [ucircumflex]  Keys '^' 'u'
+        Sym '^'  Keys '^' ' '
+        Sym [combining_diaeresis]  Keys [diaeresis]
+        Sym [Adiaeresis]  Keys [diaeresis] 'A'
+        Sym [Ediaeresis]  Keys [diaeresis] 'E'
+        Sym [Idiaeresis]  Keys [diaeresis] 'I'
+        Sym [Odiaeresis]  Keys [diaeresis] 'O'
+        Sym [Udiaeresis]  Keys [diaeresis] 'U'
+        Sym [adiaeresis]  Keys [diaeresis] 'a'
+        Sym [ediaeresis]  Keys [diaeresis] 'e'
+        Sym [idiaeresis]  Keys [diaeresis] 'i'
+        Sym [odiaeresis]  Keys [diaeresis] 'o'
+        Sym [udiaeresis]  Keys [diaeresis] 'u'
+        Sym [ydiaeresis]  Keys [diaeresis] 'y'
+        Sym [diaeresis]  Keys [diaeresis] '"'
+        Sym [Adiaeresis]  Keys '"' 'A'
+        Sym [Ediaeresis]  Keys '"' 'E'
+        Sym [Idiaeresis]  Keys '"' 'I'
+        Sym [Odiaeresis]  Keys '"' 'O'
+        Sym [Udiaeresis]  Keys '"' 'U'
+        Sym [adiaeresis]  Keys '"' 'a'
+        Sym [ediaeresis]  Keys '"' 'e'
+        Sym [idiaeresis]  Keys '"' 'i'
+        Sym [odiaeresis]  Keys '"' 'o'
+        Sym [udiaeresis]  Keys '"' 'u'
+        Sym [ydiaeresis]  Keys '"' 'y'
+        Sym [diaeresis]  Keys '"' '"'
+        Sym [Aring]  Keys '*' 'A'
+        Sym [aring]  Keys '*' 'a'
+        Sym [combining_abovering]  Keys [degree]
+        Sym [Aring]  Keys [degree] 'A'
+        Sym [aring]  Keys [degree] 'a'
+        Sym [combining_tilde]  Keys '~'
+        Sym [Atilde]  Keys '~' 'A'
+        Sym [Ntilde]  Keys '~' 'N'
+        Sym [Otilde]  Keys '~' 'O'
+        Sym [atilde]  Keys '~' 'a'
+        Sym [ntilde]  Keys '~' 'n'
+        Sym [otilde]  Keys '~' 'o'
+        Sym '~'  Keys '~' ' '
+        Sym [Ccedilla]  Keys ',' 'C'
+        Sym [ccedilla]  Keys ',' 'c'
+        Sym [cedilla]  Keys ',' ','
+        Sym [cedilla]  Keys ',' ' '
+        Sym [combining_cedilla]  Keys [cedilla]
+        Sym [Ccedilla]  Keys [cedilla] 'C'
+        Sym [ccedilla]  Keys [cedilla] 'c'
+        Sym [cedilla]  Keys [cedilla] ','
+        Sym [cedilla]  Keys [cedilla] ' '
+        Sym [Acircumflex]  Keys '>' 'A'
+        Sym [Ecircumflex]  Keys '>' 'E'
+        Sym [Icircumflex]  Keys '>' 'I'
+        Sym [Ocircumflex]  Keys '>' 'O'
+        Sym [Ucircumflex]  Keys '>' 'U'
+        Sym [acircumflex]  Keys '>' 'a'
+        Sym [ecircumflex]  Keys '>' 'e'
+        Sym [icircumflex]  Keys '>' 'i'
+        Sym [ocircumflex]  Keys '>' 'o'
+        Sym [ucircumflex]  Keys '>' 'u'
+        Sym [guillemotright]  Keys '>' '>'
+        Sym '^'  Keys '>' ' '
+        Sym [guillemotleft]  Keys '<' '<'
+        Sym [degree]  Keys '0' '^'
+        Sym [onesuperior]  Keys '1' '^'
+        Sym [onehalf]  Keys '1' '2'
+        Sym [onequarter]  Keys '1' '4'
+        Sym [twosuperior]  Keys '2' '^'
+        Sym [threesuperior]  Keys '3' '^'
+        Sym [threequarters]  Keys '3' '4'
+        Sym '@'  Keys 'A' 'A'
+        Sym [ordfeminine]  Keys 'A' '_'
+        Sym [ordfeminine]  Keys 'a' '_'
+        Sym [copyright]  Keys 'C' '0'
+        Sym [copyright]  Keys 'C' 'O'
+        Sym [copyright]  Keys 'C' 'o'
+        Sym [cent]  Keys 'C' '|'
+        Sym [cent]  Keys 'C' '/'
+        Sym [copyright]  Keys 'c' '0'
+        Sym [copyright]  Keys 'c' 'O'
+        Sym [copyright]  Keys 'c' 'o'
+        Sym [cent]  Keys 'c' '|'
+        Sym [cent]  Keys 'c' '/'
+        Sym [ETH]  Keys 'D' '-'
+        Sym [eth]  Keys 'd' '-'
+        Sym [AE]  Keys 'E' 'A'
+        Sym [ae]  Keys 'e' 'a'
+        Sym [THORN]  Keys 'H' 'T'
+        Sym [thorn]  Keys 'h' 't'
+        Sym [sterling]  Keys 'L' '='
+        Sym [sterling]  Keys 'L' '-'
+        Sym [sterling]  Keys 'l' '='
+        Sym [sterling]  Keys 'l' '-'
+        Sym [masculine]  Keys 'O' '_'
+        Sym [masculine]  Keys 'o' '_'
+        Sym [paragraph]  Keys 'P' '!'
+        Sym [paragraph]  Keys 'p' '!'
+        Sym [registered]  Keys 'R' 'O'
+        Sym [section]  Keys 'S' '0'
+        Sym [section]  Keys 'S' '!'
+        Sym [section]  Keys 'S' 'O'
+        Sym [onesuperior]  Keys 'S' '1'
+        Sym [twosuperior]  Keys 'S' '2'
+        Sym [threesuperior]  Keys 'S' '3'
+        Sym [section]  Keys 's' '0'
+        Sym [section]  Keys 's' '!'
+        Sym [ssharp]  Keys 's' 's'
+        Sym [section]  Keys 's' 'o'
+        Sym [onesuperior]  Keys 's' '1'
+        Sym [twosuperior]  Keys 's' '2'
+        Sym [threesuperior]  Keys 's' '3'
+        Sym '|'  Keys 'V' 'L'
+        Sym [brokenbar]  Keys 'V' 'B'
+        Sym '|'  Keys 'v' 'l'
+        Sym [brokenbar]  Keys 'v' 'b'
+        Sym [currency]  Keys 'X' '0'
+        Sym [currency]  Keys 'X' 'o'
+        Sym [currency]  Keys 'X' 'O'
+        Sym [currency]  Keys 'x' '0'
+        Sym [currency]  Keys 'x' 'o'
+        Sym [multiply]  Keys 'x' 'x'
+        Sym [currency]  Keys 'x' 'O'
+        Sym [yen]  Keys 'Y' '='
+        Sym [yen]  Keys 'Y' '-'
+        Sym [yen]  Keys 'y' '='
+        Sym [yen]  Keys 'y' '-'
+        Sym [brokenbar]  Keys '|' '|'
+        Sym [brokenbar]  Keys '!' '^'
+        Sym [exclamdown]  Keys '!' '!'
+        Sym [Atilde]  Keys '-' 'A'
+        Sym [Ntilde]  Keys '-' 'N'
+        Sym [Otilde]  Keys '-' 'O'
+        Sym [atilde]  Keys '-' 'a'
+        Sym [ntilde]  Keys '-' 'n'
+        Sym [otilde]  Keys '-' 'o'
+        Sym [macron]  Keys '-' '^'
+        Sym [division]  Keys '-' ':'
+        Sym [hyphen]  Keys '-' '-'
+        Sym [notsign]  Keys '-' ','
+        Sym '~'  Keys '-' ' '
+        Sym '{'  Keys '(' '-'
+        Sym '['  Keys '(' '('
+        Sym '}'  Keys ')' '-'
+        Sym ']'  Keys ')' ')'
+        Sym [periodcentered]  Keys '.' '^'
+        Sym [periodcentered]  Keys '.' '.'
+        Sym [plusminus]  Keys '+' '-'
+        Sym '#'  Keys '+' '+'
+        Sym [questiondown]  Keys '?' '?'
+        Sym [Ooblique]  Keys '/' 'O'
+        Sym [oslash]  Keys '/' 'o'
+        Sym [mu]  Keys '/' 'U'
+        Sym [mu]  Keys '/' 'u'
+        Sym '|'  Keys '/' '^'
+        Sym '\'  Keys '/' '<'
+        Sym '\'  Keys '/' '/'
+        Sym [nobreakspace]  Keys ' ' ' '
+        Sym [macron]  Keys '_' '_'
+        Sym [macron]  Keys '_' '^'
+        }
+    }

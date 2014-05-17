@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword="algorithm">
+<entry keyword="sort order">
+<topic href="topic/libqdb_cldr_coll_alg.html#coll_alg" title="Sort order algorithm"/>
+</entry>
+</entry>
+<entry keyword="CLDR">
+<topic href="topic/libqdb_cldr.html#libqdb_cldr" title="Customizing language sort orders for libqdb_cldr.so"/>
+</entry>
+<entry keyword="collation">
+<topic href="topic/libqdb_cldr_coll_alg.html#coll_alg" title="Sort order algorithm"/>
+<entry keyword="See sort order">
+</entry>
+</entry>
+<entry keyword="Common Locale Data Repository">
+<topic href="topic/libqdb_cldr.html#libqdb_cldr" title="Customizing language sort orders for libqdb_cldr.so"/>
+<entry keyword="See CLDR">

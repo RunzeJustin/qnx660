@@ -1,0 +1,2088 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword="__KER_* events">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="__KER_MSG_SENDV">
+<topic href="topic/kercall_table_Interpreting.html#Interpreting" title="Interpreting the table"/>
+</entry>
+<entry keyword="__Ring0()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="_NTO_TCTL_IO">
+<topic href="topic/filtering_Setting_up_dynamic.html#Setting_up_dynamic" title="Setting up a dynamic rules filter"/>
+</entry>
+<entry keyword="_NTO_TRACE_ALLOCBUFFER">
+<topic href="topic/datacapture_Buffer_management_TraceEvent.html#Buffer_management_TraceEvent" title="Managing trace buffers"/>
+</entry>
+<entry keyword="_NTO_TRACE_COMM">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="_NTO_TRACE_COMM_* events">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="_NTO_TRACE_CONTROL">
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+</entry>
+<entry keyword="_NTO_TRACE_CONTROL* events">
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+</entry>
+<entry keyword="_NTO_TRACE_CONTROLTIME">
+<topic href="topic/datainterpretation_Timestamps.html#Timestamps" title="Timestamps"/>
+</entry>
+<entry keyword="_NTO_TRACE_DEALLOCBUFFER">
+<topic href="topic/datacapture_Buffer_management_TraceEvent.html#Buffer_management_TraceEvent" title="Managing trace buffers"/>
+</entry>
+<entry keyword="_NTO_TRACE_EMPTY (not currently used)">
+<topic href="topic/events_Classes.html#Classes" title="Classes and events"/>
+</entry>
+<entry keyword="_NTO_TRACE_FIPID">
+<topic href="topic/filtering_Event_handler.html#Event_handler" title="Event handler"/>
+</entry>
+<entry keyword="_NTO_TRACE_FITID">
+<topic href="topic/filtering_Event_handler.html#Event_handler" title="Event handler"/>
+</entry>
+<entry keyword="_NTO_TRACE_FLUSHBUFFER">
+<topic href="topic/datacapture_Buffer_management_TraceEvent.html#Buffer_management_TraceEvent" title="Managing trace buffers"/>
+<topic href="topic/datacapture_Modes_TraceEvent.html#Modes_TraceEvent" title="Modes of operation"/>
+</entry>
+<entry keyword="_NTO_TRACE_FMPID">
+<topic href="topic/filtering_Event_handler.html#Event_handler" title="Event handler"/>
+</entry>
+<entry keyword="_NTO_TRACE_FMTID">
+<topic href="topic/filtering_Event_handler.html#Event_handler" title="Event handler"/>
+</entry>
+<entry keyword="_NTO_TRACE_GETCPU()">
+<topic href="topic/filtering_Event_handler.html#Event_handler" title="Event handler"/>
+</entry>
+<entry keyword="_NTO_TRACE_GETEVENT_C()">
+<topic href="topic/filtering_Event_handler.html#Event_handler" title="Event handler"/>
+</entry>
+<entry keyword="_NTO_TRACE_GETEVENT()">
+<topic href="topic/filtering_Event_handler.html#Event_handler" title="Event handler"/>
+</entry>
+<entry keyword="_NTO_TRACE_INSERTCUSEREVENT">
+<topic href="topic/datacapture_Inserting_events.html#Inserting_events" title="Inserting trace events"/>
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="_NTO_TRACE_INSERTEVENT">
+<topic href="topic/datacapture_Inserting_events.html#Inserting_events" title="Inserting trace events"/>
+</entry>
+<entry keyword="_NTO_TRACE_INSERTSUSEREVENT">
+<topic href="topic/datacapture_Inserting_events.html#Inserting_events" title="Inserting trace events"/>
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="_NTO_TRACE_INSERTUSRSTREVENT">
+<topic href="topic/datacapture_Inserting_events.html#Inserting_events" title="Inserting trace events"/>
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="_NTO_TRACE_INT">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="_NTO_TRACE_INT_HANDLER_ENTER">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="_NTO_TRACE_INT_HANDLER_EXIT">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="_NTO_TRACE_INT* events">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="_NTO_TRACE_INTENTER">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="_NTO_TRACE_INTEXIT">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="_NTO_TRACE_INTFIRST">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="_NTO_TRACE_INTLAST">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="_NTO_TRACE_KERCALL">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="_NTO_TRACE_KERCALLENTER">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+<topic href="topic/kercall_table_Interpreting.html#Interpreting" title="Interpreting the table"/>
+</entry>
+<entry keyword="_NTO_TRACE_KERCALLEXIT">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+<topic href="topic/kercall_table_Interpreting.html#Interpreting" title="Interpreting the table"/>
+</entry>
+<entry keyword="_NTO_TRACE_KERCALLINT">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="_NTO_TRACE_PROC* events">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="_NTO_TRACE_PROCESS">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="_NTO_TRACE_QUERYEVENTS">
+<topic href="topic/datacapture_Buffer_management_TraceEvent.html#Buffer_management_TraceEvent" title="Managing trace buffers"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETALLCLASSESFAST">
+<topic href="topic/datacapture_Wide_fast_TraceEvent.html#Wide_fast_TraceEvent" title="Choosing between wide and fast modes"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETALLCLASSESWIDE">
+<topic href="topic/datacapture_Wide_fast_TraceEvent.html#Wide_fast_TraceEvent" title="Choosing between wide and fast modes"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETCLASSFAST">
+<topic href="topic/datacapture_Wide_fast_TraceEvent.html#Wide_fast_TraceEvent" title="Choosing between wide and fast modes"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETCLASSWIDE">
+<topic href="topic/datacapture_Wide_fast_TraceEvent.html#Wide_fast_TraceEvent" title="Choosing between wide and fast modes"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETEVENT_C()">
+<topic href="topic/filtering_Event_handler.html#Event_handler" title="Event handler"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETEVENT()">
+<topic href="topic/filtering_Event_handler.html#Event_handler" title="Event handler"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETEVENTFAST">
+<topic href="topic/datacapture_Wide_fast_TraceEvent.html#Wide_fast_TraceEvent" title="Choosing between wide and fast modes"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETEVENTWIDE">
+<topic href="topic/datacapture_Wide_fast_TraceEvent.html#Wide_fast_TraceEvent" title="Choosing between wide and fast modes"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETLINEARMODE">
+<topic href="topic/datacapture_Modes_TraceEvent.html#Modes_TraceEvent" title="Modes of operation"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETRINGMODE">
+<topic href="topic/datacapture_Modes_TraceEvent.html#Modes_TraceEvent" title="Modes of operation"/>
+</entry>
+<entry keyword="_NTO_TRACE_START">
+<topic href="topic/datacapture_Modes_TraceEvent.html#Modes_TraceEvent" title="Modes of operation"/>
+<topic href="topic/datacapture_Modes.html#Modes" title="tracelogger&apos;s modes of operation"/>
+<topic href="topic/tutorial-intro_ALL_CLASSES.C.html#ALL_CLASSES.C" title="Gathering all events from all classes"/>
+</entry>
+<entry keyword="_NTO_TRACE_STARTNOSTATE">
+<topic href="topic/datacapture_Modes_TraceEvent.html#Modes_TraceEvent" title="Modes of operation"/>
+<topic href="topic/tutorial-intro_ALL_CLASSES.C.html#ALL_CLASSES.C" title="Gathering all events from all classes"/>
+</entry>
+<entry keyword="_NTO_TRACE_STOP">
+<topic href="topic/datacapture_Modes_TraceEvent.html#Modes_TraceEvent" title="Modes of operation"/>
+<topic href="topic/datacapture_Modes.html#Modes" title="tracelogger&apos;s modes of operation"/>
+</entry>
+<entry keyword="_NTO_TRACE_SYS_* events">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="_NTO_TRACE_SYSTEM">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="_NTO_TRACE_TH* events">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="_NTO_TRACE_THREAD">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="_NTO_TRACE_USER">
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="_NTO_TRACE_USERFIRST">
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="_NTO_TRACE_USERLAST">
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="_NTO_TRACE_VTH* events">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="_NTO_TRACE_VTHREAD">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="_PULSE_CODE_COIDDEATH">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="_PULSE_CODE_DISCONNECT">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="_PULSE_CODE_NET_UNBLOCK">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="_PULSE_CODE_UNBLOCK">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword=".kev extension">
+<topic href="topic/datacapture_File.html#File" title="Specifying where to send the output"/>
+</entry>
+<entry keyword="adaptive partitioning">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+<entry keyword="event data for">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+</entry>
+<entry keyword="Address (IDE event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="ADDRESS (traceprinter event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="APS Bankruptcy (IDE event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="APS Budgets (IDE event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="APS Name (IDE event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="APS_BANKRUPTCY (traceprinter event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="APS_NAME (traceprinter event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="APS_NEW_BUDGET (traceprinter event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="bankruptcy (adaptive partitions)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="Buffer (IDE event label)">
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+</entry>
+<entry keyword="BUFFER (traceprinter event label)">
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+</entry>
+<entry keyword="buffers, kernel">
+<topic href="topic/buffers.html#buffers" title="Kernel Buffer Management"/>
+<topic href="topic/introduction_Components.html#Components" title="Components of the SAT"/>
+<topic href="topic/datainterpretation_Interlacing.html#Interlacing" title="Event interlacing"/>
+<entry keyword="circular linked list">
+<topic href="topic/buffers.html#buffers" title="Kernel Buffer Management"/>
+</entry>
+<entry keyword="events concerning">
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+</entry>
+<entry keyword="flushing">
+<topic href="topic/datacapture_Buffer_management_TraceEvent.html#Buffer_management_TraceEvent" title="Managing trace buffers"/>
+</entry>
+<entry keyword="managing">
+<topic href="topic/datacapture_Buffer_management_TraceEvent.html#Buffer_management_TraceEvent" title="Managing trace buffers"/>
+<topic href="topic/datacapture_Buffer_management_tracelogger.html#Buffer_management_tracelogger" title="Managing trace buffers"/>
+</entry>
+<entry keyword="specifications">
+<topic href="topic/buffers.html#buffers" title="Kernel Buffer Management"/>
+</entry>
+</entry>
+<entry keyword="ChannelConnectAttr()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="ChannelCreate()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="ChannelDestroy()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="circular linked list">
+<topic href="topic/buffers.html#buffers" title="Kernel Buffer Management"/>
+</entry>
+<entry keyword="classes">
+<topic href="topic/events_Classes.html#Classes" title="Classes and events"/>
+<entry keyword="_NTO_TRACE_EMPTY (not currently used)">
+<topic href="topic/events_Classes.html#Classes" title="Classes and events"/>
+</entry>
+<entry keyword="Communication">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Control">
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+</entry>
+<entry keyword="Interrupt">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="Kernel-call">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="Process">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="pseudo">
+<entry keyword="_NTO_TRACE_INT">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="_NTO_TRACE_KERCALL">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+</entry>
+<entry keyword="setting fast or wide mode for">
+<topic href="topic/datacapture_Wide_fast_TraceEvent.html#Wide_fast_TraceEvent" title="Choosing between wide and fast modes"/>
+</entry>
+<entry keyword="System">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="Thread">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="type, extracting from the header">
+<topic href="topic/filtering_Event_handler.html#Event_handler" title="Event handler"/>
+</entry>
+<entry keyword="User">
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="Virtual thread">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+</entry>
+<entry keyword="ClockAdjust()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="ClockId()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="ClockPeriod()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="clocks, importance of synchronizing on multicore systems">
+<topic href="topic/datacapture.html#datacapture" title="Capturing Trace Data"/>
+</entry>
+<entry keyword="ClockTime()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="combine events">
+<topic href="topic/events_Simple_combine.html#Simple_combine" title="Simple and combine events"/>
+<topic href="topic/datainterpretation_Interlacing.html#Interlacing" title="Event interlacing"/>
+<topic href="topic/datainterpretation_Simple_combine.html#Simple_combine" title="Simple and combine events"/>
+<entry keyword="user-defined">
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+</entry>
+<entry keyword="communication, events concerning">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Compaction (IDE event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="COMPACTION (traceprinter event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="Condvar (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="configuring">
+<entry keyword="data capture">
+<topic href="topic/datacapture.html#datacapture" title="Capturing Trace Data"/>
+</entry>
+<entry keyword="instrumented kernel">
+<topic href="topic/datacapture.html#datacapture" title="Capturing Trace Data"/>
+</entry>
+</entry>
+<entry keyword="ConnectAttach()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="ConnectClientInfo()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="ConnectDetach()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="ConnectFlags()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="ConnectServerInfo()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="control of tracing, events concerning">
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+</entry>
+<entry keyword="CPU index, extracting from an event">
+<topic href="topic/filtering_Event_handler.html#Event_handler" title="Event handler"/>
+</entry>
+<entry keyword="Create Process (IDE event label)">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="Create Process Name (IDE event label)">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="Create Thread (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Create VThread (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="critical budgets, exceeding (adaptive partitions)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="CtrlC">
+<topic href="topic/datacapture_Modes.html#Modes" title="tracelogger&apos;s modes of operation"/>
+</entry>
+<entry keyword="custom events">
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="daemon mode">
+<topic href="topic/datacapture_Modes.html#Modes" title="tracelogger&apos;s modes of operation"/>
+</entry>
+<entry keyword="data capture">
+<topic href="topic/introduction_Components.html#Components" title="Components of the SAT"/>
+<topic href="topic/datacapture.html#datacapture" title="Capturing Trace Data"/>
+</entry>
+<entry keyword="data interpretation">
+<topic href="topic/datainterpretation_Using_traceprinter.html#Using_traceprinter" title="Using traceprinter and interpreting the output"/>
+<topic href="topic/datainterpretation_Timestamps.html#Timestamps" title="Timestamps"/>
+<topic href="topic/datainterpretation_traceparser_library.html#traceparser_library" title="The traceparser library"/>
+<topic href="topic/introduction_Components.html#Components" title="Components of the SAT"/>
+<topic href="topic/datainterpretation_Simple_combine.html#Simple_combine" title="Simple and combine events"/>
+</entry>
+<entry keyword="data reduction">
+<topic href="topic/filtering.html#filtering" title="Filtering"/>
+</entry>
+<entry keyword="Dead (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Death Pulse (IDE event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="defragmentation of memory">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="Destroy Process (IDE event label)">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="Destroy Thread (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Destroy VThread (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="Disconnect Pulse (IDE event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="dlopen()">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="dynamic rules filter">
+<topic href="topic/filtering_Dynamic_rules.html#Dynamic_rules" title="The dynamic rules filter"/>
+<topic href="topic/filtering.html#filtering" title="Filtering"/>
+</entry>
+<entry keyword="Enter (IDE event label)">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="Entry (IDE event label)">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="Error (IDE event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="error codes, included in trace event data for kernel calls">
+<topic href="topic/kercall_table_Interpreting.html#Interpreting" title="Interpreting the table"/>
+</entry>
+<entry keyword="event_data_t">
+<topic href="topic/filtering_Event_handler.html#Event_handler" title="Event handler"/>
+</entry>
+<entry keyword="events">
+<topic href="topic/events.html#events" title="Events and the Kernel"/>
+<topic href="topic/datainterpretation_traceevent_t.html#traceevent_t" title="The traceevent_t structure"/>
+<topic href="topic/datainterpretation_Interlacing.html#Interlacing" title="Event interlacing"/>
+<entry keyword="classes">
+<topic href="topic/events_Classes.html#Classes" title="Classes and events"/>
+<entry keyword="Communication">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Control">
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+</entry>
+<entry keyword="Interrupt">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="Kernel calls">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="Process">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="System">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="Thread">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="User">
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="Virtual thread">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+</entry>
+<entry keyword="combine">
+<topic href="topic/events_Simple_combine.html#Simple_combine" title="Simple and combine events"/>
+</entry>
+<entry keyword="data for">
+<topic href="topic/kercall_table.html#kercall_table" title="Current Trace Events and Data"/>
+</entry>
+<entry keyword="getting the number of in a trace buffer">
+<topic href="topic/datacapture_Buffer_management_TraceEvent.html#Buffer_management_TraceEvent" title="Managing trace buffers"/>
+</entry>
+<entry keyword="handlers">
+<entry keyword="adding">
+<topic href="topic/filtering_Setting_up_dynamic.html#Setting_up_dynamic" title="Setting up a dynamic rules filter"/>
+</entry>
+<entry keyword="functions safe to use within">
+<topic href="topic/filtering_Event_handler.html#Event_handler" title="Event handler"/>
+</entry>
+<entry keyword="removing">
+<topic href="topic/filtering_Removing_event_handlers.html#Removing_event_handlers" title="Removing event handlers"/>
+</entry>
+</entry>
+<entry keyword="inserting">
+<topic href="topic/datacapture_Inserting_events.html#Inserting_events" title="Inserting trace events"/>
+</entry>
+<entry keyword="interpreting">
+<topic href="topic/datainterpretation_Simple_combine.html#Simple_combine" title="Simple and combine events"/>
+</entry>
+<entry keyword="setting fast or wide mode for">
+<topic href="topic/datacapture_Wide_fast_TraceEvent.html#Wide_fast_TraceEvent" title="Choosing between wide and fast modes"/>
+</entry>
+<entry keyword="simple">
+<topic href="topic/events_Simple_combine.html#Simple_combine" title="Simple and combine events"/>
+</entry>
+<entry keyword="type, extracting from the header">
+<topic href="topic/filtering_Event_handler.html#Event_handler" title="Event handler"/>
+</entry>
+</entry>
+<entry keyword="examples of tracing">
+<topic href="topic/tutorial-intro.html#tutorial-intro" title="Tutorials"/>
+</entry>
+<entry keyword="Exit (IDE event label)">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="extended daemon mode">
+<topic href="topic/datacapture_Modes.html#Modes" title="tracelogger&apos;s modes of operation"/>
+</entry>
+<entry keyword="fast mode">
+<topic href="topic/events_Fast_wide.html#Fast_wide" title="Fast and wide modes"/>
+<entry keyword="setting with TraceEvent()">
+<topic href="topic/datacapture_Wide_fast_TraceEvent.html#Wide_fast_TraceEvent" title="Choosing between wide and fast modes"/>
+</entry>
+<entry keyword="setting with tracelogger">
+<topic href="topic/datacapture_Wide_fast.html#Wide_fast" title="Choosing between wide and fast modes"/>
+</entry>
+</entry>
+<entry keyword="filters">
+<topic href="topic/datacapture_Filtering_tracelogger.html#Filtering_tracelogger" title="Filtering events"/>
+<topic href="topic/filtering.html#filtering" title="Filtering"/>
+</entry>
+<entry keyword="FUNC_ENTER (traceprinter event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="FUNC_EXIT (traceprinter event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="Function Enter (IDE event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="Function Exit (IDE event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="functions">
+<entry keyword="instrumented for profiling">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="safe to use in an event handler">
+<topic href="topic/filtering_Event_handler.html#Event_handler" title="Event handler"/>
+</entry>
+</entry>
+<entry keyword="Handler Entry (IDE event label)">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="Handler Exit (IDE event label)">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="I/O">
+<entry keyword="privileges, requesting">
+<topic href="topic/filtering_Setting_up_dynamic.html#Setting_up_dynamic" title="Setting up a dynamic rules filter"/>
+</entry>
+</entry>
+<entry keyword="I/O privileges">
+<topic href="topic/filtering_Setting_up_dynamic.html#Setting_up_dynamic" title="Setting up a dynamic rules filter"/>
+</entry>
+<entry keyword="initial state information, suppressing">
+<topic href="topic/tutorial-intro_ALL_CLASSES.C.html#ALL_CLASSES.C" title="Gathering all events from all classes"/>
+</entry>
+<entry keyword="instrumented (for profiling) functions">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="instrumented kernel">
+<topic href="topic/datainterpretation_Timestamps.html#Timestamps" title="Timestamps"/>
+<topic href="topic/buffers.html#buffers" title="Kernel Buffer Management"/>
+<topic href="topic/introduction_Components.html#Components" title="Components of the SAT"/>
+<entry keyword="configuring">
+<topic href="topic/datacapture.html#datacapture" title="Capturing Trace Data"/>
+</entry>
+</entry>
+<entry keyword="Int (IDE event label)">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="INT_CALL (traceprinter event label)">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="INT_ENTR (traceprinter event label)">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="INT_EXIT (traceprinter event label)">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="INT_HANDLER_ENTR (traceprinter event label)">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="INT_HANDLER_EXIT (traceprinter event label)">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="Integrated Development Environment (IDE)">
+<topic href="topic/datainterpretation.html#datainterpretation" title="Interpreting Trace Data"/>
+<topic href="topic/introduction_IDE.html#IDE" title="Integrated Development Environment"/>
+<topic href="topic/datacapture.html#datacapture" title="Capturing Trace Data"/>
+<entry keyword="event labels">
+<entry keyword="Address">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="APS Bankruptcy">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="APS Budgets">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="APS Name">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="Buffer">
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+</entry>
+<entry keyword="Compaction">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="Condvar">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Create Process">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="Create Process Name">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="Create Thread">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Create VThread">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="Dead">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Death Pulse">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Destroy Process">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="Destroy Thread">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Destroy VThread">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="Disconnect Pulse">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Enter">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="Entry">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="Error">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Exit">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="Function Enter">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="Function Exit">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="Handler Entry">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="Handler Exit">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="Int">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="Interrupt">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Join">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="MMap">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="MMap Name">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="MMUnmap">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="Mutex">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="NanoSleep">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="NetReply">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="NetSend">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Path Manager">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="QNet Unblock Pulse">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Ready">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Receive">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Receive Message">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Receive Pulse">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Reply">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Running">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Semaphore">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Send">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Send Message">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Send Pulse">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Sigevent Pulse">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Signal">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SigSuspend">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="SigWaitInfo">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Stack">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Stopped">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="System Log">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="Thread Name">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="Time">
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+</entry>
+<entry keyword="Unblock Pulse">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="User Event">
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="VCondvar">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VDead">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VInterrupt">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VJoin">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VMutex">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VNanosleep">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VNetReply">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VNetSend">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VReady">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VReceive">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VReply">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VRunning">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VSemaphore">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VSend">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VSigSuspend">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VSigWaitInfo">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VStack">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VStopped">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VWaitCtx">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VWaitPage">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VWaitThread">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="WaitCtx">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="WaitPage">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="WaitThread">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+</entry>
+<entry keyword="recognizes the .kev extension">
+<topic href="topic/datacapture_File.html#File" title="Specifying where to send the output"/>
+</entry>
+</entry>
+<entry keyword="interlacing">
+<topic href="topic/datainterpretation_Interlacing.html#Interlacing" title="Event interlacing"/>
+</entry>
+<entry keyword="Interrupt (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="InterruptAttach()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="InterruptDetach()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="InterruptMask()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="interrupts, events concerning">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="InterruptUnmask()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="InterruptWait()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="Join (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="KER_CALL (traceprinter event label)">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="KER_EXIT (traceprinter event label)">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="kernel">
+<entry keyword="calls">
+<entry keyword="ThreadCtl(), ThreadCtl_r()">
+<topic href="topic/filtering_Setting_up_dynamic.html#Setting_up_dynamic" title="Setting up a dynamic rules filter"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="kernel buffers">
+<topic href="topic/buffers.html#buffers" title="Kernel Buffer Management"/>
+<topic href="topic/introduction_Components.html#Components" title="Components of the SAT"/>
+<topic href="topic/datainterpretation_Interlacing.html#Interlacing" title="Event interlacing"/>
+<entry keyword="circular linked list">
+<topic href="topic/buffers.html#buffers" title="Kernel Buffer Management"/>
+</entry>
+<entry keyword="events concerning">
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+</entry>
+<entry keyword="specifications">
+<topic href="topic/buffers.html#buffers" title="Kernel Buffer Management"/>
+</entry>
+</entry>
+<entry keyword="kernel calls">
+<entry keyword="events concerning">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="trace event data on failure">
+<topic href="topic/kercall_table_Interpreting.html#Interpreting" title="Interpreting the table"/>
+</entry>
+</entry>
+<entry keyword="library">
+<topic href="topic/datainterpretation_traceparser_library.html#traceparser_library" title="The traceparser library"/>
+</entry>
+<entry keyword="linear mode">
+<topic href="topic/datacapture_Modes.html#Modes" title="tracelogger&apos;s modes of operation"/>
+</entry>
+<entry keyword="log">
+<topic href="topic/datacapture_File.html#File" title="Specifying where to send the output"/>
+</entry>
+<entry keyword="MAPNAME (traceprinter event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="memory defragmentation">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="memory, tracelogger output in shared">
+<topic href="topic/datacapture_File.html#File" title="Specifying where to send the output"/>
+</entry>
+<entry keyword="messages">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="MMap (IDE event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="MMAP (traceprinter event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="MMap Name (IDE event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="mmap(), mmap64()">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="MMUnmap (IDE event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="MSG_ERROR (traceprinter event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="MsgCurrent()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgDeliverEvent()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgError()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="MsgInfo()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgKeyData()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgRead()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgReadIov()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgReadv()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgReceive()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgReceivePulse()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgReceivePulsev()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgReceivev()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgReply()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgReplyv()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgSend()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+<topic href="topic/kercall_table_Interpreting.html#Interpreting" title="Interpreting the table"/>
+</entry>
+<entry keyword="MsgSendnc()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgSendPulse()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgSendv()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+<topic href="topic/kercall_table_Interpreting.html#Interpreting" title="Interpreting the table"/>
+</entry>
+<entry keyword="MsgSendvnc()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgSendvs()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+<topic href="topic/kercall_table_Interpreting.html#Interpreting" title="Interpreting the table"/>
+</entry>
+<entry keyword="MsgSendvsnc()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgVerifyEvent()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgWrite()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MsgWritev()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="multicore systems">
+<entry keyword="extracting the CPU index from an event">
+<topic href="topic/filtering_Event_handler.html#Event_handler" title="Event handler"/>
+</entry>
+<entry keyword="importance of synchronizing clocks">
+<topic href="topic/datacapture.html#datacapture" title="Capturing Trace Data"/>
+</entry>
+</entry>
+<entry keyword="MUNMAP (traceprinter event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="munmap()">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="Mutex (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="NanoSleep (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="NetCred()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="NetInfoScoid()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="NetReply (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="NetSend (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="NetSignalKill()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="NetUnblock()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="NetVtid()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="normal mode">
+<topic href="topic/datacapture_Modes.html#Modes" title="tracelogger&apos;s modes of operation"/>
+</entry>
+<entry keyword="open()">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="partitions, adaptive">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="path manager">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="Path Manager (IDE event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="PATHMGR_OPEN (traceprinter event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="post-processing filter">
+<topic href="topic/filtering.html#filtering" title="Filtering"/>
+<topic href="topic/filtering_Post_processing.html#Post_processing" title="The post-processing facility"/>
+</entry>
+<entry keyword="PROCCREATE (traceprinter event label)">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="PROCCREATE_NAME (traceprinter event label)">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="PROCDESTROY (traceprinter event label)">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="processes">
+<entry keyword="I/O privileges, requesting">
+<topic href="topic/filtering_Setting_up_dynamic.html#Setting_up_dynamic" title="Setting up a dynamic rules filter"/>
+</entry>
+</entry>
+<entry keyword="processes, events concerning">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="PROCMGR_AID_IO">
+<topic href="topic/filtering_Setting_up_dynamic.html#Setting_up_dynamic" title="Setting up a dynamic rules filter"/>
+</entry>
+<entry keyword="PROCMGR_AID_TRACE">
+<topic href="topic/datacapture_Buffer_management_TraceEvent.html#Buffer_management_TraceEvent" title="Managing trace buffers"/>
+<topic href="topic/filtering_Setting_up_dynamic.html#Setting_up_dynamic" title="Setting up a dynamic rules filter"/>
+</entry>
+<entry keyword="PROCTHREAD_NAME (traceprinter event label)">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="profiling, functions instrumented for">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="pseudo-classes">
+<entry keyword="_NTO_TRACE_INT">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="_NTO_TRACE_KERCALL">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+</entry>
+<entry keyword="pulses">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="qconn">
+<topic href="topic/datacapture.html#datacapture" title="Capturing Trace Data"/>
+</entry>
+<entry keyword="Qnet">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="QNet Unblock Pulse (IDE event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Ready (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="REC_MESSAGE (traceprinter event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="REC_PULSE (traceprinter event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Receive (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Receive Message (IDE event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Receive Pulse (IDE event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Reply (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="REPLY_MESSAGE (traceprinter event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="ring mode">
+<topic href="topic/datacapture_Modes.html#Modes" title="tracelogger&apos;s modes of operation"/>
+</entry>
+<entry keyword="Running (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="SAT">
+<topic href="topic/introduction_Why_needed.html#Why_needed" title="What can the SAT do for you?"/>
+<topic href="topic/introduction.html#introduction" title="Introduction"/>
+<topic href="topic/introduction_Components.html#Components" title="Components of the SAT"/>
+</entry>
+<entry keyword="SCHED_APS_CREATE_PARTITION">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="SCHED_APS_MODIFY_PARTITION">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="SchedGet()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SchedInfo()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SchedSet()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SchedYield()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="Semaphore (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Send (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Send Message (IDE event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Send Pulse (IDE event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="shared memory, tracelogger output in">
+<topic href="topic/datacapture_File.html#File" title="Specifying where to send the output"/>
+</entry>
+<entry keyword="SIGEV_PULSE">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Sigevent Pulse (IDE event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SIGINT">
+<topic href="topic/datacapture_Modes.html#Modes" title="tracelogger&apos;s modes of operation"/>
+</entry>
+<entry keyword="Signal (IDE event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SIGNAL (traceprinter event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SignalAction()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SignalKill()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SignalProcmask()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SignalReturn()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SignalSuspend()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SignalWaitInfo()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SigSuspend (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="SigWaitInfo (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="simple events">
+<topic href="topic/events_Simple_combine.html#Simple_combine" title="Simple and combine events"/>
+<topic href="topic/datainterpretation_Simple_combine.html#Simple_combine" title="Simple and combine events"/>
+<entry keyword="user-defined">
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+</entry>
+<entry keyword="SLOG (traceprinter event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="SND_MESSAGE (traceprinter event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SND_PULSE (traceprinter event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SND_PULSE_DEA (traceprinter event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SND_PULSE_DIS (traceprinter event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SND_PULSE_EXE (traceprinter event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SND_PULSE_QUN (traceprinter event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SND_PULSE_UN (traceprinter event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="Stack (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="state information, suppressing initial">
+<topic href="topic/tutorial-intro_ALL_CLASSES.C.html#ALL_CLASSES.C" title="Gathering all events from all classes"/>
+</entry>
+<entry keyword="states">
+<entry keyword="threads">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="virtual threads">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+</entry>
+<entry keyword="static rules filter">
+<topic href="topic/filtering_Static_rules.html#Static_rules" title="The static rules filter"/>
+<topic href="topic/filtering.html#filtering" title="Filtering"/>
+</entry>
+<entry keyword="Stopped (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="string events, user-defined">
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="structures">
+<topic href="topic/datainterpretation_traceevent_t.html#traceevent_t" title="The traceevent_t structure"/>
+</entry>
+<entry keyword="SyncCondvarSignal()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SyncCondvarWait()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SyncCtl()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SyncDestroy()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SyncMutexLock()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SyncMutexRevive()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SyncMutexUnlock()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SyncSemPost()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SyncSemWait()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="SyncTypeCreate()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="system information, suppressing initial">
+<topic href="topic/tutorial-intro_ALL_CLASSES.C.html#ALL_CLASSES.C" title="Gathering all events from all classes"/>
+</entry>
+<entry keyword="system log">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="System Log (IDE event label)">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="system, events concerning">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="TDP (Transparent Distributed Processing)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="THCONDVAR (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THCREATE (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THDEAD (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THDESTROY (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THINTR (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THJOIN (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THMUTEX (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THNANOSLEEP (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THNET_REPLY (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THNET_SEND (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Thread Name (IDE event label)">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="ThreadCancel()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="ThreadCreate()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="ThreadCtl()">
+<topic href="topic/filtering_Setting_up_dynamic.html#Setting_up_dynamic" title="Setting up a dynamic rules filter"/>
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="ThreadCtl(), ThreadCtl_r()">
+<topic href="topic/filtering_Setting_up_dynamic.html#Setting_up_dynamic" title="Setting up a dynamic rules filter"/>
+</entry>
+<entry keyword="ThreadDestroy()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="ThreadDetach()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="ThreadJoin()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="threads, events concerning">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+<topic href="topic/events_Scenario.html#Scenario" title="Generating events: a typical scenario"/>
+</entry>
+<entry keyword="THREADY (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THRECEIVE (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THREPLY (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THRUNNING (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THSEM (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THSEND (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THSIGSUSPEND (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THSIGWAITINFO (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THSTACK (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THSTOPPED (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THWAITCTX (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THWAITPAGE (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THWAITTHREAD (traceprinter event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="Time (IDE event label)">
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+</entry>
+<entry keyword="TIME (traceprinter event label)">
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+</entry>
+<entry keyword="TimerAlarm()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="TimerCreate()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="TimerDestroy()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="TimerInfo()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="TimerSettime()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="TimerTimeout()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="timestamps">
+<topic href="topic/datainterpretation_Timestamps.html#Timestamps" title="Timestamps"/>
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+<entry keyword="importance of synchronizing on multicore systems">
+<topic href="topic/datacapture.html#datacapture" title="Capturing Trace Data"/>
+</entry>
+</entry>
+<entry keyword="trace_func_enter()">
+<topic href="topic/datacapture_Inserting_events.html#Inserting_events" title="Inserting trace events"/>
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="trace_func_exit()">
+<topic href="topic/datacapture_Inserting_events.html#Inserting_events" title="Inserting trace events"/>
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="trace_here()">
+<topic href="topic/datacapture_Inserting_events.html#Inserting_events" title="Inserting trace events"/>
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="trace_logb()">
+<topic href="topic/datacapture_Inserting_events.html#Inserting_events" title="Inserting trace events"/>
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="trace_logbc()">
+<topic href="topic/datacapture_Inserting_events.html#Inserting_events" title="Inserting trace events"/>
+</entry>
+<entry keyword="trace_logf()">
+<topic href="topic/datacapture_Inserting_events.html#Inserting_events" title="Inserting trace events"/>
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="trace_logi()">
+<topic href="topic/datacapture_Inserting_events.html#Inserting_events" title="Inserting trace events"/>
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="trace_nlogf()">
+<topic href="topic/datacapture_Inserting_events.html#Inserting_events" title="Inserting trace events"/>
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="trace_vnlogf()">
+<topic href="topic/datacapture_Inserting_events.html#Inserting_events" title="Inserting trace events"/>
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="traceevent_t">
+<topic href="topic/datainterpretation_traceevent_t.html#traceevent_t" title="The traceevent_t structure"/>
+</entry>
+<entry keyword="TraceEvent()">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+<entry keyword="controlling tracing with">
+<topic href="topic/datacapture_Modes.html#Modes" title="tracelogger&apos;s modes of operation"/>
+<topic href="topic/datacapture_Using_TraceEvent.html#Using_TraceEvent" title="Using TraceEvent() to control tracing"/>
+<topic href="topic/datacapture.html#datacapture" title="Capturing Trace Data"/>
+</entry>
+<entry keyword="creating user events">
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="examples of use">
+<topic href="topic/tutorial-intro.html#tutorial-intro" title="Tutorials"/>
+</entry>
+<entry keyword="inserting events with">
+<topic href="topic/datacapture_Inserting_events.html#Inserting_events" title="Inserting trace events"/>
+</entry>
+<entry keyword="managing trace buffers">
+<topic href="topic/datacapture_Buffer_management_TraceEvent.html#Buffer_management_TraceEvent" title="Managing trace buffers"/>
+</entry>
+<entry keyword="modes of operation">
+<topic href="topic/datacapture_Modes_TraceEvent.html#Modes_TraceEvent" title="Modes of operation"/>
+</entry>
+<entry keyword="ring mode">
+<topic href="topic/datacapture_Modes.html#Modes" title="tracelogger&apos;s modes of operation"/>
+</entry>
+<entry keyword="wide and fast modes">
+<topic href="topic/datacapture_Wide_fast_TraceEvent.html#Wide_fast_TraceEvent" title="Choosing between wide and fast modes"/>
+</entry>
+</entry>
+<entry keyword="tracelog">
+<topic href="topic/datacapture_File.html#File" title="Specifying where to send the output"/>
+</entry>
+<entry keyword="tracelogger">
+<entry keyword=".kev extension">
+<topic href="topic/datacapture_File.html#File" title="Specifying where to send the output"/>
+</entry>
+<entry keyword="controlling tracing with">
+<topic href="topic/datacapture.html#datacapture" title="Capturing Trace Data"/>
+</entry>
+<entry keyword="directing the output from">
+<topic href="topic/datacapture_File.html#File" title="Specifying where to send the output"/>
+</entry>
+<entry keyword="examples of use">
+<topic href="topic/tutorial-intro.html#tutorial-intro" title="Tutorials"/>
+</entry>
+<entry keyword="filtering">
+<topic href="topic/datacapture_Filtering_tracelogger.html#Filtering_tracelogger" title="Filtering events"/>
+</entry>
+<entry keyword="managing trace buffers">
+<topic href="topic/datacapture_Buffer_management_tracelogger.html#Buffer_management_tracelogger" title="Managing trace buffers"/>
+</entry>
+<entry keyword="modes">
+<topic href="topic/datacapture_Modes.html#Modes" title="tracelogger&apos;s modes of operation"/>
+</entry>
+<entry keyword="running">
+<topic href="topic/datacapture_Running_tracelogger.html#Running_tracelogger" title="Using tracelogger to control tracing"/>
+</entry>
+<entry keyword="wide and fast modes">
+<topic href="topic/datacapture_Wide_fast.html#Wide_fast" title="Choosing between wide and fast modes"/>
+</entry>
+</entry>
+<entry keyword="traceparser_cs_range()">
+<topic href="topic/datainterpretation_traceparser_library.html#traceparser_library" title="The traceparser library"/>
+</entry>
+<entry keyword="traceparser_cs()">
+<topic href="topic/datainterpretation_traceparser_library.html#traceparser_library" title="The traceparser library"/>
+</entry>
+<entry keyword="traceparser_debug()">
+<topic href="topic/datainterpretation_traceparser_library.html#traceparser_library" title="The traceparser library"/>
+</entry>
+<entry keyword="traceparser_destroy()">
+<topic href="topic/datainterpretation_traceparser_library.html#traceparser_library" title="The traceparser library"/>
+</entry>
+<entry keyword="traceparser_get_info()">
+<topic href="topic/datainterpretation_traceparser_library.html#traceparser_library" title="The traceparser library"/>
+</entry>
+<entry keyword="traceparser_init()">
+<topic href="topic/datainterpretation_traceparser_library.html#traceparser_library" title="The traceparser library"/>
+</entry>
+<entry keyword="traceparser()">
+<topic href="topic/datainterpretation_traceparser_library.html#traceparser_library" title="The traceparser library"/>
+</entry>
+<entry keyword="traceprinter">
+<topic href="topic/introduction_Interpretation.html#Interpretation" title="Data interpretation (e.g. traceprinter)"/>
+<entry keyword="as the basis for your own parser">
+<topic href="topic/datainterpretation_Your_own.html#Your_own" title="Building your own parser"/>
+</entry>
+<entry keyword="event labels">
+<entry keyword="ADDRESS">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="APS_BANKRUPTCY">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="APS_NAME">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="APS_NEW_BUDGET">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="BUFFER">
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+</entry>
+<entry keyword="COMPACTION">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="FUNC_ENTER">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="FUNC_EXIT">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="INT_CALL">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="INT_ENTR">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="INT_EXIT">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="INT_HANDLER_ENTR">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="INT_HANDLER_EXIT">
+<topic href="topic/events_Interrupt_class.html#Interrupt_class" title="Interrupt classes: _NTO_TRACE_INTENTER, _NTO_TRACE_INTEXIT, _NTO_TRACE_INT_HANDLER_ENTER, and _NTO_TRACE_INT_HANDLER_EXIT"/>
+</entry>
+<entry keyword="KER_CALL">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="KER_EXIT">
+<topic href="topic/events_Kernel_call_class.html#Kernel_call_class" title="Kernel-call classes: _NTO_TRACE_KERCALLENTER, _NTO_TRACE_KERCALLEXIT, and _NTO_TRACE_KERCALLINT"/>
+</entry>
+<entry keyword="MAPNAME">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="MMAP">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="MSG_ERROR">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="MUNMAP">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="PATHMGR_OPEN">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="PROCCREATE">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="PROCCREATE_NAME">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="PROCDESTROY">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="PROCTHREAD_NAME">
+<topic href="topic/events_Process_class.html#Process_class" title="Process class: _NTO_TRACE_PROCESS"/>
+</entry>
+<entry keyword="REC_MESSAGE">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="REC_PULSE">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="REPLY_MESSAGE">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SIGNAL">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SLOG">
+<topic href="topic/events_System_class.html#System_class" title="System class: _NTO_TRACE_SYSTEM"/>
+</entry>
+<entry keyword="SND_MESSAGE">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SND_PULSE">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SND_PULSE_DEA">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SND_PULSE_DIS">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SND_PULSE_EXE">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SND_PULSE_QUN">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="SND_PULSE_UN">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="THCONDVAR">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THCREATE">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THDEAD">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THDESTROY">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THINTR">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THJOIN">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THMUTEX">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THNANOSLEEP">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THNET_REPLY">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THNET_SEND">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THREADY">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THRECEIVE">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THREPLY">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THRUNNING">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THSEM">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THSEND">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THSIGSUSPEND">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THSIGWAITINFO">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THSTACK">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THSTOPPED">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THWAITCTX">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THWAITPAGE">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="THWAITTHREAD">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="TIME">
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+</entry>
+<entry keyword="USREVENT">
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="VTHCONDVAR">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHCREATE">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHDEAD">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHDESTROY">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHINTR">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHJOIN">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHMUTEX">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHNANOSLEEP">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHNET_REPLY">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHNET_SEND">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHREADY">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHRECEIVE">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHREPLY">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHRUNNING">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHSEM">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHSEND">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHSIGSUSPEND">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHSIGWAITINFO">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHSTACK">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHSTOPPED">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHWAITCTX">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHWAITPAGE">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHWAITTHREAD">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+</entry>
+<entry keyword="interpreting the output">
+<topic href="topic/datainterpretation_Using_traceprinter.html#Using_traceprinter" title="Using traceprinter and interpreting the output"/>
+</entry>
+<entry keyword="post-processing filter">
+<topic href="topic/filtering_Post_processing.html#Post_processing" title="The post-processing facility"/>
+</entry>
+</entry>
+<entry keyword="tracing">
+<entry keyword="control of, events concerning">
+<topic href="topic/events_Control_class.html#Control_class" title="Control class: _NTO_TRACE_CONTROL"/>
+</entry>
+<entry keyword="controlling">
+<topic href="topic/datacapture.html#datacapture" title="Capturing Trace Data"/>
+</entry>
+</entry>
+<entry keyword="Transparent Distributed Processing (TDP)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="tutorials">
+<topic href="topic/tutorial-intro.html#tutorial-intro" title="Tutorials"/>
+</entry>
+<entry keyword="Unblock Pulse (IDE event label)">
+<topic href="topic/events_Communication_class.html#Communication_class" title="Communication class: _NTO_TRACE_COMM"/>
+</entry>
+<entry keyword="User Event (IDE event label)">
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="user-defined events">
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="USREVENT (traceprinter event label)">
+<topic href="topic/events_User_class.html#User_class" title="User class: _NTO_TRACE_USER"/>
+</entry>
+<entry keyword="VCondvar (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VDead (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VInterrupt (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="virtual threads, events concerning">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VJoin (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VMutex (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VNanosleep (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VNetReply (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VNetSend (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VReady (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VReceive (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VReply (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VRunning (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VSemaphore (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VSend (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VSigSuspend (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VSigWaitInfo (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VStack (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VStopped (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHCONDVAR (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHCREATE (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHDEAD (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHDESTROY (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHINTR (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHJOIN (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHMUTEX (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHNANOSLEEP (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHNET_REPLY (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHNET_SEND (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHREADY (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHRECEIVE (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHREPLY (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHRUNNING (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHSEM (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHSEND (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHSIGSUSPEND (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHSIGWAITINFO (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHSTACK (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHSTOPPED (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHWAITCTX (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHWAITPAGE (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VTHWAITTHREAD (traceprinter event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VWaitCtx (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VWaitPage (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="VWaitThread (IDE event label)">
+<topic href="topic/events_VThread_class.html#VThread_class" title="Virtual thread class: _NTO_TRACE_VTHREAD"/>
+</entry>
+<entry keyword="WaitCtx (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="WaitPage (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="WaitThread (IDE event label)">
+<topic href="topic/events_Thread_class.html#Thread_class" title="Thread class: _NTO_TRACE_THREAD"/>
+</entry>
+<entry keyword="wide mode">
+<topic href="topic/events_Fast_wide.html#Fast_wide" title="Fast and wide modes"/>
+<entry keyword="setting with TraceEvent()">
+<topic href="topic/datacapture_Wide_fast_TraceEvent.html#Wide_fast_TraceEvent" title="Choosing between wide and fast modes"/>
+</entry>
+<entry keyword="setting with tracelogger">
+<topic href="topic/datacapture_Wide_fast.html#Wide_fast" title="Choosing between wide and fast modes"/>
+</entry>
+</entry>
+</index>

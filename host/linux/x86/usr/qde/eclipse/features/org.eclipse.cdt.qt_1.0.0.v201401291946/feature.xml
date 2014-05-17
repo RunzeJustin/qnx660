@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.qt"
+      label="%featureName"
+      version="1.0.0.v201401291946"
+      provider-name="Eclipse CDT">
+
+   <description>
+      Support for Qt C++ features.
+   </description>
+
+   <copyright>
+      %description
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.cdt.qt.core"
+         download-size="127"
+         install-size="263"
+         version="1.0.0.v201401291946"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.qt.ui"
+         download-size="52"
+         install-size="101"
+         version="1.0.0.v201401291946"
+         unpack="false"/>
+
+</feature>

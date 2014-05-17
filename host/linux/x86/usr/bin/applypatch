@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ -n "$QNX_HOST" ] 
+then 
+$QNX_HOST/usr/python27/bin/python $QNX_HOST/usr/bin/applypatch.py $*
+else
+echo "QNX_HOST not set!"
+exit 1
+fi

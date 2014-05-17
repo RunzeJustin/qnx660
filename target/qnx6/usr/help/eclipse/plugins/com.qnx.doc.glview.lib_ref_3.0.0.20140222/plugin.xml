@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<?eclipse version="3.0"?> 
+<plugin version="1.0" provider-name="%plugin.providername" name="Glview Library Reference"
+   id="com.qnx.doc.glview.lib_ref">
+
+   <extension point="org.eclipse.help.toc">
+      <toc file="main.xml" primary="true"/>
+   </extension>
+
+   <extension point="org.eclipse.help.index">
+      <index file="index.xml"/>
+   </extension>
+
+   <extension id="com.qnx.doc.glview.lib_ref.libhover" name="QNX API Documentation"
+      point="org.eclipse.linuxtools.cdt.libhover.library">
+      <library location="output.libhover" name="QNX API Documentation" type="C"/>
+   </extension>
+
+</plugin>

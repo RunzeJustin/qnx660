@@ -1,0 +1,155 @@
+###########################################################################
+#
+# QNX Neutrino trunk on an PC BIOS compatible system
+#
+# This is for building a bootable neutrino image with a minimal
+# filesystem. (i.e. only what is in the image)
+#
+# Note that the default image links at 4M. If you have 4M or less,
+# uncomment the line below
+# [image=1m]
+#
+###########################################################################
+
+[virtual=x86,bios +compress] boot = {
+	startup-bios
+	PATH=/proc/boot procnto -vv
+}
+
+[+script] startup-script = {
+# Programs require the runtime linker (ldqnx.so) to be at a fixed location
+	procmgr_symlink ../../proc/boot/libc.so.3 /usr/lib/ldqnx.so.2
+
+# Start up some consoles
+	devc-con -n4 &
+	reopen /dev/con1
+
+	display_msg Welcome to QNX Neutrino trunk on an PC compatible BIOS system 
+
+	slogger &
+
+# Start the pci server
+	seedres	
+	pci-bios &
+	waitfor /dev/pci
+
+# Some common servers
+	pipe &
+	mqueue &
+	devc-ser8250 -e &
+	devc-pty &
+
+# Start a debug server for debugging programs
+	waitfor /dev/ser1
+	[+session] pdebug /dev/ser1 &
+
+# These env variables inherited by all the programs which follow
+    SYSNAME=nto
+    TERM=qansi
+
+# Start some extra shells on other consoles
+	reopen /dev/con2
+	[+session] sh &
+	reopen /dev/con3
+	[+session] sh &
+
+# Start a high priority shell just in case....
+	reopen /dev/con4
+	[pri=25 +session] sh &
+
+# Start the main shell
+	reopen /dev/con1
+	[+session] sh
+#	[+session] login -p
+}
+
+# Cheat and make the /temp point to the shared memory area...
+[type=link] /tmp=/dev/shmem
+
+# Redirect console messages for syslog
+# [type=link] /dev/console=/dev/con1
+
+# We use the "c" shared lib (which also contains the runtime linker)
+libc.so
+
+# uncomment for legacy binary support (Momentics 6.3.2 and earlier)  
+#libc.so.2
+
+# Just incase someone needs floating point...
+fpemu.so.2
+
+# The files above this line can be shared by mutiple processes
+[data=c]
+# Executables must currently be below this line
+
+# Include a console driver
+devc-con
+
+# Include pci server
+pci-bios
+seedres
+
+# Use the "public domain korn shell" as the default shell "sh"
+sh=ksh
+# or use the smaller non-posix "Fat Embedded Shell" as the default shell "sh"
+#sh=fesh
+
+# Other executables
+pdebug
+pipe
+mqueue
+devc-ser8250
+devc-pty
+ls
+cat
+pidin
+uname
+slogger
+sloginfo
+
+###########################################################################
+#
+# Interrupt Assignments
+# ---------------------
+#
+# vector:	0		
+# trigger:	rising edge					
+# device:	8254 (system timer)
+#
+# vector:	1
+# trigger:	rising edge
+# device:	Keyboard
+#
+# vector:	2
+# trigger:	rising edge
+# device:	Cascade from second 8259 controller
+#
+# vector:	3
+# trigger:	rising edge
+# device:	Serial 2
+#
+# vector:	4
+# trigger:	rising edge
+# device:	Serial 1
+#
+# vector:	5-12
+# trigger:	rising edge
+# device:	unassigned
+#
+# vector:	13
+# trigger:	rising edge
+# device:	Coprocessor
+#
+# vector:	14,15	
+# trigger:	rising edge
+# device:	unassigned
+#
+# vector:	0x80000000 (X86_INTR_CLASS_NMI+0) (non-maskable)
+# trigger:	rising edge
+# device:	system board error (SERR# NMI)
+#
+# vector:	0x80000001 (X86_INTR_CLASS_NMI+1) (non-maskable)
+# trigger:	rising edge
+# device:	ISA I/O check error (IOCHK# NMI)
+#
+###########################################################################

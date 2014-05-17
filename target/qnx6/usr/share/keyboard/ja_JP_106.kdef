@@ -1,0 +1,631 @@
+// file ja_JP_106.kbd
+
+Keyboard "ja_JP_106" {
+
+	Modifiers {
+		<LEFT_SHIFT>
+		<RIGHT_SHIFT>
+		<LEFT_CTRL>
+		<RIGHT_CTRL>
+		<LEFT_ALT>
+		<RIGHT_ALT>
+		<CAPS_LOCK>
+		<SCROLL_LOCK>
+		<NUM_LOCK>
+		<LOCK_SAVE>
+		<ISO_LOCK>
+		<CAPS_LED>
+		<KATAKANA>
+		<KATAKANA_LOCK>
+		}
+
+	KeyType "Unmodified" {
+		Unmodified Sym #1
+		}
+
+	KeyType "TwoLevel" {
+		NoSym <Ctrl>
+		NoSym <Alt>
+		Unmodified Sym #1
+		<Shift> Sym #2
+		}
+
+	KeyType "Keypad" {
+		Unmodified Sym #1
+		<Alt> Sym #1
+		<Ctrl> Sym #1
+		<Ctrl> + <Alt> Sym #1
+		<Shift> Sym #2
+		<Shift> + <Alt> Sym #2
+		<Shift> + <Ctrl> Sym #2
+		<Shift> + <Ctrl> + <Alt> Sym #2
+		<Num_Lock> Sym #2
+		<Num_Lock> + <Alt> NoSym
+		<Num_Lock> + <Ctrl> NoSym
+		<Num_Lock> + <Ctrl> + <Alt> NoSym
+		<Num_Lock> + <Shift> Sym #1
+		<Num_Lock> + <Shift> + <Alt> NoSym
+		<Num_Lock> + <Shift> + <Ctrl> NoSym
+		<Num_Lock> + <Shift> + <Ctrl> + <Alt> NoSym
+		}
+
+	KeyType "Pause" {
+		NoSym <Shift>
+		NoSym <Alt>
+		Unmodified Sym #1
+		<Ctrl> Sym #2
+		}
+
+	KeyType "Print" {
+		NoSym <Shift>
+		NoSym <Ctrl>
+		Unmodified Sym #1
+		<Alt> Sym #2
+		}
+
+	KeyType "NoModsOnly" {
+		NoSym <Ctrl>
+		NoSym <Alt>
+		Unmodified Sym #1
+		}
+
+	KeyType "TwoLevelWithAlt" {
+		NoSym <Ctrl>
+		NoSym <Shift>
+		Unmodified Sym #1
+		<Alt> Sym #2
+		}
+
+	KeyType "ThreeLevel" {
+		NoSym <Ctrl>
+		NoSym <Alt>
+		Unmodified Sym #1
+		<Shift> Sym #2
+		<KATAKANA_LOCK> Sym #3
+		<KATAKANA_LOCK> + <Shift> NoSym
+		}
+
+	KeyType "FourLevel" {
+		NoSym <Ctrl>
+		NoSym <Alt>
+		Unmodified Sym #1
+		<Shift> Sym #2
+		<KATAKANA_LOCK> Sym #3
+		<KATAKANA_LOCK> + <Shift> Sym #4
+		}
+
+	KeyType "ThreeLevelLetter" {
+		NoSym <Ctrl>
+		NoSym <Alt>
+		Unmodified Sym #1
+		<Shift> Sym #2
+		<Caps_Lock> Sym #2
+		<Caps_Lock> + <Shift> Sym #1
+		<KATAKANA_LOCK> Sym #3
+		<KATAKANA_LOCK> + <Shift> NoSym 
+		<KATAKANA_LOCK> + <Caps_Lock> NoSym 
+		<KATAKANA_LOCK> + <Caps_Lock> + <Shift> NoSym 
+		}
+
+	KeyType "FourLevelLetter" {
+		NoSym <Ctrl>
+		NoSym <Alt>
+		Unmodified Sym #1
+		<Shift> Sym #2
+		<Caps_Lock> Sym #2
+		<Caps_Lock> + <Shift> Sym #1
+		<KATAKANA_LOCK> Sym #3
+		<KATAKANA_LOCK> + <Shift> Sym #4
+		<KATAKANA_LOCK> + <Caps_Lock> Sym #4
+		<KATAKANA_LOCK> + <Caps_Lock> + <Shift> Sym #3
+		}
+
+	include "common.inc"
+
+	Key {
+		Type "Unmodified"
+		IsMod <RIGHT_ALT>
+		Scan  E0 38
+		Syms  [Alt_R]
+		}
+
+	Key {
+		Type "ThreeLevel"
+		Scan  02
+		Syms  '1' '!' [kana_NU]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  03
+		Syms  '2' '"' [kana_FU]
+		}
+	Key {
+		Type "FourLevel"
+		Scan  04
+		Syms  '3' '#' [kana_A] [kana_a]
+		}
+	Key {
+		Type "FourLevel"
+		Scan  05
+		Syms  '4' '$' [kana_U] [kana_u]
+		}
+	Key {
+		Type "FourLevel"
+		Scan  06
+		Syms  '5' '%' [kana_E] [kana_e]
+		}
+	Key {
+		Type "FourLevel"
+		Scan  07
+		Syms  '6' '&' [kana_O] [kana_o]
+		}
+	Key {
+		Type "FourLevel"
+		Scan  08
+		Syms  '7' ''' [kana_YA] [kana_ya]
+		}
+	Key {
+		Type "FourLevel"
+		Scan  09
+		Syms  '8' '(' [kana_YU] [kana_yu]
+		}
+	Key {
+		Type "FourLevel"
+		Scan  0A
+		Syms  '9' ')' [kana_YO] [kana_yo]
+		}
+	Key {
+		Type "FourLevel"
+		Scan  0B
+		Syms  '0' '~' [kana_WA] [kana_WO]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  0C
+		Syms  '-' '=' [kana_HO]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  0D
+		Syms  '^' '_' [kana_HE]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  10
+		Syms  'q' 'Q' [kana_TA]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  11
+		Syms  'w' 'W' [kana_TE]
+		}
+	Key {
+		Type "FourLevelLetter"
+		Scan  12
+		Syms  'e' 'E' [kana_I] [kana_i]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  13
+		Syms  'r' 'R' [kana_SU]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  14
+		Syms  't' 'T' [kana_KA]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  15
+		Syms  'y' 'Y' [kana_N]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  16
+		Syms  'u' 'U' [kana_NA]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  17
+		Syms  'i' 'I' [kana_NI]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  18
+		Syms  'o' 'O' [kana_RA]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  19
+		Syms  'p' 'P' [kana_SE]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  1A
+		Syms  '@' '`' [voicedsound]
+		}
+	Key {
+		Type "FourLevel"
+		Scan  1B
+		Syms  '[' '{' [semivoicedsound] [kana_openingbracket]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  1E
+		Syms  'a' 'A' [kana_CHI]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  1F
+		Syms  's' 'S' [kana_TO]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  20
+		Syms  'd' 'D' [kana_SHI]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  21
+		Syms  'f' 'F' [kana_HA]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  22
+		Syms  'g' 'G' [kana_KI]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  23
+		Syms  'h' 'H' [kana_KU]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  24
+		Syms  'j' 'J' [kana_MA]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  25
+		Syms  'k' 'K' [kana_NO]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  26
+		Syms  'l' 'L' [kana_RI]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  27
+		Syms  ';' '+' [kana_RE]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  28
+		Syms  ':' '*' [kana_KE]
+		}
+	Key {
+		Type "TwoLevelWithAlt"
+		Scan  29
+		Syms  [Zenkaku_Hankaku] [Kanji]
+		}
+	Key {
+		Type "FourLevel"
+		Scan  2B
+		Syms  ']' '}' [kana_MU] [kana_closingbracket]
+		}
+	Key {
+		Type "FourLevelLetter"
+		Scan  2C
+		Syms  'z' 'Z' [kana_TSU] [kana_tsu]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  2D
+		Syms  'x' 'X' [kana_SA]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  2E
+		Syms  'c' 'C' [kana_SO]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  2F
+		Syms  'v' 'V' [kana_HI]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  30
+		Syms  'b' 'B' [kana_KO]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  31
+		Syms  'n' 'N' [kana_MI]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  32
+		Syms  'm' 'M' [kana_MO]
+		}
+	Key {
+		Type "FourLevel"
+		Scan  33
+		Syms  ',' '<' [kana_NE] [kana_comma]
+		}
+	Key {
+		Type "FourLevel"
+		Scan  34
+		Syms  '.' '>' [kana_RU] [kana_fullstop]
+		}
+	Key {
+		Type "FourLevel"
+		Scan  35
+		Syms  '/' '?' [kana_ME] [kana_conjunctive]
+		}
+	Key {
+		Type "NoModsOnly"
+		Scan  39
+		Syms  ' '
+		}
+	Key {
+		Type "TwoLevelWithAlt"
+		IsMod <KATAKANA>
+		Scan  70
+		Scan  5D // Dev.ansi maps 70 to 5D
+		Syms  [Hiragana_Katakana] [Romaji]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  73
+		Scan  5A // Dev.ansi maps 73 to 5A
+		Syms  '\' '_' [kana_RO]
+		}
+	Key {
+		Type "NoModsOnly"
+		Scan  79
+		Scan  5C // Dev.ansi maps 79 to 5C
+		Syms  [Henkan_Mode]
+		}
+	Key {
+		Type "NoModsOnly"
+		Scan  7B
+		Scan  5B // Dev.ansi maps 7B to 5B
+		Syms  [Muhenkan]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  7D
+		Scan  59 // Dev.ansi maps 7D to 59
+		Syms  [yen] '|' [prolongedsound]
+		}
+
+	Action {
+		if   Up      <Num_Lock>
+		and  Press   <NUM_LOCK>
+		then Press   <Num_Lock>
+		}
+
+	Action {
+		if   Down    <Num_Lock>
+		and  Press   <NUM_LOCK>
+		then Release <Num_Lock>
+		}
+
+	Action {
+		if   Up      <Scroll_Lock>
+		and  Press   <SCROLL_LOCK>
+		then Press   <Scroll_Lock>
+		}
+
+	Action {
+		if   Down    <Scroll_Lock>
+		and  Press   <SCROLL_LOCK>
+		then Release <Scroll_Lock>
+		}
+
+	Action {
+		if   Press   <LEFT_SHIFT>
+		or   Press   <RIGHT_SHIFT>
+		then Press   <Shift>
+		}
+
+	Action {
+		if   Press   <Shift>
+		then Up      <Shift_Lock>
+		}
+
+	Action {
+		if   Press   <LEFT_CTRL>
+		or   Press   <RIGHT_CTRL>
+		then Press   <Ctrl>
+		}
+
+	Action {
+		if   Press   <Ctrl>
+		then Up      <Ctrl_Lock>
+		}
+
+	Action {
+		if   Press   <LEFT_ALT>
+		or   Press   <RIGHT_ALT>
+		then Press   <Alt>
+		}
+
+	Action {
+		if   Press   <Alt>
+		then Up      <Alt_Lock>
+		}
+
+	Action {
+		if   Press   <CAPS_LOCK>
+		and  Up      <Shift>
+		then Up      <CAPS_LOCK>
+		}
+
+	Action {
+		if   Press   <CAPS_LOCK>
+		and  Down    <Caps_Lock>
+		then Down    <LOCK_SAVE>
+		}
+
+	Action {
+		if   Press   <CAPS_LOCK>
+		and  Up      <Caps_Lock>
+		then Up      <LOCK_SAVE>
+		}
+
+	Action {
+		if   Up      <Caps_Lock>
+		and  Press   <CAPS_LOCK>
+		then Press   <Caps_Lock>
+		}
+
+	Action {
+		if   Down    <Caps_Lock>
+		and  Press   <CAPS_LOCK>
+		then Release <Caps_Lock>
+		}
+
+	Action {
+		if   Press   <Shift>
+		or   Press   <Ctrl>
+		or   Press   <Alt>
+		then Down    <ISO_LOCK>
+		}
+
+	Action {
+		if   Up      <CAPS_LOCK>
+		then Up      <ISO_LOCK>
+		}
+
+	Action {
+		if   Down    <ISO_LOCK>
+		and  Down    <LOCK_SAVE>
+		then Down    <Caps_Lock>
+		}
+
+	Action {
+		if   Down    <ISO_LOCK>
+		and  Up      <LOCK_SAVE>
+		then Up      <Caps_Lock>
+		}
+
+	Action {
+		if   Down    <ISO_LOCK>
+		and  Press   <Shift>
+		then Press   <Shift_Lock>
+		}
+
+	Action {
+		if   Down    <ISO_LOCK>
+		and  Press   <Ctrl>
+		then Press   <Ctrl_Lock>
+		}
+
+	Action {
+		if   Down    <ISO_LOCK>
+		and  Press   <Alt>
+		then Press   <Alt_Lock>
+		}
+
+	Action {
+		if   Down    <RIGHT_ALT>
+		and  Press   <KATAKANA>
+		then Press   <KATAKANA_LOCK>
+		}
+
+	Action {
+		if   Press   <RIGHT_ALT>
+		and  Down    <KATAKANA>
+		then Press   <KATAKANA_LOCK>
+		}
+
+	Action {
+		if   Down    <LEFT_ALT>
+		and  Press   <KATAKANA>
+		then Press   <KATAKANA_LOCK>
+		}
+
+	Action {
+		if   Press   <LEFT_ALT>
+		and  Down    <KATAKANA>
+		then Press   <KATAKANA_LOCK>
+		}
+
+
+
+
+
+	Action {
+		if   Down    <RIGHT_ALT>
+		and  Down    <KATAKANA_LOCK>
+		and  Press   <KATAKANA>
+		then Release <KATAKANA_LOCK>
+		}
+
+	Action {
+		if   Press   <RIGHT_ALT>
+		and  Down    <KATAKANA_LOCK>
+		and  Down    <KATAKANA>
+		then Release <KATAKANA_LOCK>
+		}
+
+	Action {
+		if   Down    <LEFT_ALT>
+		and  Down    <KATAKANA_LOCK>
+		and  Press   <KATAKANA>
+		then Release <KATAKANA_LOCK>
+		}
+
+	Action {
+		if   Press   <LEFT_ALT>
+		and  Down    <KATAKANA_LOCK>
+		and  Down    <KATAKANA>
+		then Release <KATAKANA_LOCK>
+		}
+
+	Action {
+		if   Up      <Shift_Lock>
+		and  Up      <LEFT_SHIFT>
+		and  Up      <RIGHT_SHIFT>
+		then Up      <Shift>
+		}
+
+	Action {
+		if   Up      <Ctrl_Lock>
+		and  Up      <LEFT_CTRL>
+		and  Up      <RIGHT_CTRL>
+		then Up      <Ctrl>
+		}
+
+	Action {
+		if   Up      <Alt_Lock>
+		and  Up      <LEFT_ALT>
+		and  Up      <RIGHT_ALT>
+		then Up      <Alt>
+		}
+
+	Action {
+		then Up      <CAPS_LED>
+		}
+
+	Action {
+		if   Down    <Caps_Lock>
+		or   Down    <Shift_Lock>
+		or   Down    <Ctrl_Lock>
+		or   Down    <Alt_Lock>
+		or   Press   <Caps_Lock>
+		or   Press   <Shift_Lock>
+		or   Press   <Ctrl_Lock>
+		or   Press   <Alt_Lock>
+		then Down    <CAPS_LED>
+		}
+
+	Indicators {
+		<Scroll_Lock>
+		<Num_Lock>
+		<CAPS_LED>
+		}
+	}

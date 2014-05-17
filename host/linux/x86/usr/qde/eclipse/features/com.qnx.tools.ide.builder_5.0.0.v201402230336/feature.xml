@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.qnx.tools.ide.builder"
+      label="%featureName"
+      version="5.0.0.v201402230336"
+      provider-name="%providerName"
+      plugin="com.qnx.tools.ide.systembuilder.core">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="com.qnx.tools.ide.qde" version="5.0.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="com.qnx.tools.ide.packages.core"
+         download-size="36"
+         install-size="63"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.emf.core"
+         download-size="157"
+         install-size="236"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.emf.edit"
+         download-size="34"
+         install-size="73"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.makefile.model"
+         download-size="82"
+         install-size="233"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.makefile.model.edit"
+         download-size="43"
+         install-size="77"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.systembuilder.cdt.core"
+         download-size="56"
+         install-size="124"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.systembuilder.core"
+         download-size="435"
+         install-size="955"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.systembuilder.expressions"
+         download-size="55"
+         install-size="148"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.systembuilder.model"
+         download-size="403"
+         install-size="1218"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.systembuilder.model.edit"
+         download-size="260"
+         install-size="487"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.systembuilder.ui"
+         download-size="784"
+         install-size="1695"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+</feature>

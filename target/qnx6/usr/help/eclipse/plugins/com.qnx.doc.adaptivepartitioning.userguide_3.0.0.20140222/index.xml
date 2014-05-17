@@ -1,0 +1,853 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword="_NTO_CHF_FIXED_PRIORITY">
+<topic href="topic/aps_details_Other_schedulers_.html#Adaptivepartitioningthreadschedulerandotherthreadschedulers" title="Adaptive partitioning thread scheduler and other thread schedulers"/>
+<topic href="topic/aps_details_Inheritance_.html#Partitioninheritance" title="Partition inheritance"/>
+</entry>
+<entry keyword="[module=aps]">
+<topic href="topic/set_use_ap_buildimage_.html#Buildinganimage" title="Building an image"/>
+</entry>
+<entry keyword="[sched_aps=…]">
+<topic href="topic/set_use_ap_launchprpart_.html#Launchingaprocessinapartition" title="Launching a process in a partition"/>
+</entry>
+<entry keyword="adaptive partitioning">
+<entry keyword="debugging with">
+<topic href="topic/debugging_Access_.html#Emergencyaccesstothesystem" title="Emergency access to the system"/>
+</entry>
+</entry>
+<entry keyword="adaptive partitioning thread scheduler">
+<entry keyword="about">
+<topic href="topic/ap_overview_Scheduler_.html#Thethreadscheduler" title="The thread scheduler"/>
+</entry>
+</entry>
+<entry keyword="adaptive partitions">
+<topic href="topic/ap_overview_Partitions_.html#Whatarepartitionsandwhatisadaptivepartitioning" title="What are partitions and what is adaptive partitioning?"/>
+</entry>
+<entry keyword="aps">
+<entry keyword="limitations">
+<topic href="topic/system_Practical_limits_.html#Practicallimits" title="Practical limits"/>
+</entry>
+<entry keyword="testing with">
+<topic href="topic/debugging_Other_.html#Usingothermethods" title="Using other methods"/>
+</entry>
+</entry>
+<entry keyword="APS_INIT_DATA()">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="averaging window">
+<topic href="topic/aps_details_Keeping_track_.html#KeepingtrackofCPUtime" title="Keeping track of CPU time"/>
+<topic href="topic/faq_ap_AV_WDOW_.html#Averagingwindow" title="Averaging window"/>
+<entry keyword="size">
+<entry keyword="choosing">
+<topic href="topic/system_Resmgrs_.html#Settingbudgetsforresourcemanagers" title="Setting budgets for resource managers"/>
+<topic href="topic/system_Window_size_.html#Choosingthewindowsize" title="Choosing the window size"/>
+</entry>
+<entry keyword="clock ticks, converting to">
+<topic href="topic/system_Delays_.html#Delayscomparedtopriorityscheduling" title="Delays compared to priority scheduling"/>
+</entry>
+<entry keyword="limits">
+<topic href="topic/system_Practical_limits_.html#Practicallimits" title="Practical limits"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="bankruptcy">
+<topic href="topic/faq_ap_CRI_THR_.html#Criticalthreadsandbankruptcy" title="Critical threads and bankruptcy"/>
+<topic href="topic/aps_details_Bankruptcy_.html#Bankruptcy" title="Bankruptcy"/>
+<entry keyword="testing for">
+<topic href="topic/debugging_Other_.html#Usingothermethods" title="Using other methods"/>
+</entry>
+<entry keyword="trace events">
+<topic href="topic/debugging_Tracing_.html#Instrumentedkerneltraceevents" title="Instrumented kernel trace events"/>
+</entry>
+</entry>
+<entry keyword="behavior ">
+<entry keyword="FIFO thread and partitioning scheduling">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="hyperthreaded processors and partitioning">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="round-robin thread and partitioning scheduling">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="sporadic thread and partitioning scheduling">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+</entry>
+<entry keyword="borrowed time, repaying">
+<topic href="topic/system_Accuracy_.html#Accuracy" title="Accuracy"/>
+<topic href="topic/aps_details_S_FreeTime_.html#Freetime" title="Free time"/>
+</entry>
+<entry keyword="bound multiprocessing (BMP)">
+<topic href="topic/aps_details_Multicore_.html#Usingthethreadschedulerandmulticoretogether" title="Using the thread scheduler and multicore together"/>
+</entry>
+<entry keyword="budget">
+<entry keyword="exceeding">
+<topic href="topic/faq_ap_BUDTS_.html#Budgets" title="Budgets"/>
+</entry>
+<entry keyword="zero-budget">
+<topic href="topic/faq_ap_BUDTS_.html#Budgets" title="Budgets"/>
+</entry>
+</entry>
+<entry keyword="budgeting ">
+<entry keyword="free-time mode">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+</entry>
+<entry keyword="budgets">
+<topic href="topic/faq_ap_BUDTS_.html#Budgets" title="Budgets"/>
+<entry keyword="changing">
+<topic href="topic/debugging_Other_.html#Usingothermethods" title="Using other methods"/>
+<entry keyword="trace events">
+<topic href="topic/debugging_Tracing_.html#Instrumentedkerneltraceevents" title="Instrumented kernel trace events"/>
+</entry>
+</entry>
+<entry keyword="defined">
+<topic href="topic/aps_details_Base_.html#UsingtheThreadScheduler" title="Using the Thread Scheduler"/>
+<topic href="topic/ap_overview_Scheduler_.html#Thethreadscheduler" title="The thread scheduler"/>
+</entry>
+<entry keyword="in trace events">
+<topic href="topic/debugging_Tracing_.html#Instrumentedkerneltraceevents" title="Instrumented kernel trace events"/>
+</entry>
+<entry keyword="resource managers">
+<topic href="topic/system_Resmgrs_.html#Settingbudgetsforresourcemanagers" title="Setting budgets for resource managers"/>
+</entry>
+<entry keyword="zero">
+<entry keyword="preventing">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="setting">
+<topic href="topic/system_Zero_budget_.html#Settingbudgetstozero" title="Setting budgets to zero"/>
+</entry>
+<entry keyword="when to avoid">
+<topic href="topic/system_Resmgrs_.html#Settingbudgetsforresourcemanagers" title="Setting budgets for resource managers"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="budgets ">
+<entry keyword="changing">
+<entry keyword="effect on bankruptcy">
+<topic href="topic/aps_details_Bankruptcy_.html#Bankruptcy" title="Bankruptcy"/>
+</entry>
+</entry>
+<entry keyword="determining">
+<topic href="topic/system_Percentages_.html#ChoosingthepercentageofCPUforeachpartition" title="Choosing the percentage of CPU for each partition"/>
+</entry>
+<entry keyword="setting">
+<topic href="topic/set_use_ap_crtepart_.html#Creatingschedulerpartitions" title="Creating scheduler partitions"/>
+</entry>
+<entry keyword="zero">
+<entry keyword="preventing">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="when to avoid">
+<topic href="topic/system_Zero_budget_.html#Settingbudgetstozero" title="Setting budgets to zero"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="buildfiles, modifying for scheduler partitions">
+<topic href="topic/set_use_ap_buildimage_.html#Buildinganimage" title="Building an image"/>
+</entry>
+<entry keyword="ChannelCreate()">
+<topic href="topic/aps_details_Other_schedulers_.html#Adaptivepartitioningthreadschedulerandotherthreadschedulers" title="Adaptive partitioning thread scheduler and other thread schedulers"/>
+<topic href="topic/aps_details_Inheritance_.html#Partitioninheritance" title="Partition inheritance"/>
+</entry>
+<entry keyword="ClockCycles">
+<topic href="topic/faq_ap_MILLING_.html#Microbilling" title="Microbilling"/>
+<entry keyword="ARM">
+<topic href="topic/faq_ap_MILLING_.html#Microbilling" title="Microbilling"/>
+</entry>
+<entry keyword="other processors">
+<topic href="topic/faq_ap_MILLING_.html#Microbilling" title="Microbilling"/>
+</entry>
+<entry keyword="x86">
+<topic href="topic/faq_ap_MILLING_.html#Microbilling" title="Microbilling"/>
+</entry>
+</entry>
+<entry keyword="ClockPeriod()">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="CPU">
+<entry keyword="microbilling">
+<topic href="topic/faq_ap_MILLING_.html#Microbilling" title="Microbilling"/>
+</entry>
+</entry>
+<entry keyword="CPU usage">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+<entry keyword="accuracy in controlling">
+<topic href="topic/system_Accuracy_.html#Accuracy" title="Accuracy"/>
+</entry>
+<entry keyword="budgeting">
+<topic href="topic/ap_overview_Partitions_.html#Whatarepartitionsandwhatisadaptivepartitioning" title="What are partitions and what is adaptive partitioning?"/>
+</entry>
+<entry keyword="interrupt handlers, billing for">
+<topic href="topic/system_Interactions_.html#Uncontrolledinteractionsbetweenschedulerpartitions" title="Uncontrolled interactions between scheduler partitions"/>
+</entry>
+</entry>
+<entry keyword="critical threads">
+<topic href="topic/aps_details_Critical_threads_.html#Criticalthreads" title="Critical threads"/>
+<topic href="topic/faq_ap_CRI_THR_.html#Criticalthreadsandbankruptcy" title="Critical threads and bankruptcy"/>
+<entry keyword="trace events">
+<topic href="topic/debugging_Tracing_.html#Instrumentedkerneltraceevents" title="Instrumented kernel trace events"/>
+</entry>
+</entry>
+<entry keyword="critical threads ">
+<entry keyword="security">
+<topic href="topic/security_Security_critical_.html#Securityandcriticalthreads" title="Security and critical threads"/>
+</entry>
+</entry>
+<entry keyword="debugging, using adaptive partitions for">
+<topic href="topic/debugging_Access_.html#Emergencyaccesstothesystem" title="Emergency access to the system"/>
+</entry>
+<entry keyword="delays, avoiding">
+<topic href="topic/system_Delays_.html#Delayscomparedtopriorityscheduling" title="Delays compared to priority scheduling"/>
+</entry>
+<entry keyword="deleting ">
+<entry keyword="partitions">
+<topic href="topic/faq_ap_QNX_BEHVR_.html#QNXsystemconsiderations" title="QNX Neutrino system considerations"/>
+</entry>
+</entry>
+<entry keyword="FIFO scheduling">
+<topic href="topic/aps_details_Other_schedulers_.html#Adaptivepartitioningthreadschedulerandotherthreadschedulers" title="Adaptive partitioning thread scheduler and other thread schedulers"/>
+</entry>
+<entry keyword="file space, budgeting (not implemented)">
+<topic href="topic/ap_overview_Partitions_.html#Whatarepartitionsandwhatisadaptivepartitioning" title="What are partitions and what is adaptive partitioning?"/>
+</entry>
+<entry keyword="free time, sharing">
+<topic href="topic/aps_details_S_FreeTime_.html#Freetime" title="Free time"/>
+</entry>
+<entry keyword="free-time mode">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="full-load situations">
+<topic href="topic/aps_details_S_FullLoad_.html#FullLoad" title="Full Load"/>
+</entry>
+<entry keyword="HAS_BUDGET()">
+<topic href="topic/faq_ap_SCH_AGRHM_.html#Schedulingalgorithm" title="Scheduling algorithm"/>
+</entry>
+<entry keyword="highest priority thread">
+<topic href="topic/faq_ap_SCH_AGRHM_.html#Schedulingalgorithm" title="Scheduling algorithm"/>
+</entry>
+<entry keyword="HIGHEST_PRIO()">
+<topic href="topic/faq_ap_SCH_AGRHM_.html#Schedulingalgorithm" title="Scheduling algorithm"/>
+</entry>
+<entry keyword="hyperthreaded processors">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="hyperthreaded systems">
+<topic href="topic/aps_details_Multicore_.html#Usingthethreadschedulerandmulticoretogether" title="Using the thread scheduler and multicore together"/>
+</entry>
+<entry keyword="I/O interrupts">
+<topic href="topic/faq_ap_QNX_BEHVR_.html#QNXsystemconsiderations" title="QNX Neutrino system considerations"/>
+</entry>
+<entry keyword="IDE">
+<entry keyword="latencies, checking">
+<topic href="topic/debugging_IDE_.html#UsingtheQNXIDEtraceevents" title="Using the IDE (trace events)"/>
+</entry>
+<entry keyword="trace events">
+<topic href="topic/debugging_Tracing_.html#Instrumentedkerneltraceevents" title="Instrumented kernel trace events"/>
+</entry>
+</entry>
+<entry keyword="inheritance">
+<topic href="topic/faq_ap_INHRTA_.html#Inheritance" title="Inheritance"/>
+</entry>
+<entry keyword="instrumented kernel">
+<topic href="topic/debugging_Tracing_.html#Instrumentedkerneltraceevents" title="Instrumented kernel trace events"/>
+</entry>
+<entry keyword="Integrated Development Environment">
+<entry keyword="IDE">
+<topic href="topic/debugging_IDE_.html#UsingtheQNXIDEtraceevents" title="Using the IDE (trace events)"/>
+</entry>
+</entry>
+<entry keyword="interrupt handlers">
+<topic href="topic/system_Interactions_.html#Uncontrolledinteractionsbetweenschedulerpartitions" title="Uncontrolled interactions between scheduler partitions"/>
+<entry keyword="automatically marked as critical">
+<topic href="topic/aps_details_Critical_threads_.html#Criticalthreads" title="Critical threads"/>
+</entry>
+</entry>
+<entry keyword="InterruptAttachEvent()">
+<topic href="topic/system_Interactions_.html#Uncontrolledinteractionsbetweenschedulerpartitions" title="Uncontrolled interactions between scheduler partitions"/>
+</entry>
+<entry keyword="io-pkt">
+<topic href="topic/debugging_Access_.html#Emergencyaccesstothesystem" title="Emergency access to the system"/>
+</entry>
+<entry keyword="kernel">
+<topic href="topic/faq_ap_QNX_BEHVR_.html#QNXsystemconsiderations" title="QNX Neutrino system considerations"/>
+<entry keyword="trace events">
+<topic href="topic/debugging_Tracing_.html#Instrumentedkerneltraceevents" title="Instrumented kernel trace events"/>
+</entry>
+</entry>
+<entry keyword="latencies">
+<entry keyword="checking for acceptable">
+<topic href="topic/system_Percentages_.html#ChoosingthepercentageofCPUforeachpartition" title="Choosing the percentage of CPU for each partition"/>
+<topic href="topic/debugging_Other_.html#Usingothermethods" title="Using other methods"/>
+<topic href="topic/debugging_IDE_.html#UsingtheQNXIDEtraceevents" title="Using the IDE (trace events)"/>
+</entry>
+<entry keyword="critical threads">
+<topic href="topic/aps_details_Critical_threads_.html#Criticalthreads" title="Critical threads"/>
+</entry>
+</entry>
+<entry keyword="latencies ">
+<entry keyword="interrupt">
+<topic href="topic/ap_overview_Partitions_.html#Whatarepartitionsandwhatisadaptivepartitioning" title="What are partitions and what is adaptive partitioning?"/>
+</entry>
+<entry keyword="System Management Mode (SMM)">
+<topic href="topic/ap_overview_System_requirements_.html#Systemanduserrequirements" title="System and user requirements"/>
+</entry>
+</entry>
+<entry keyword="MAP_LAZY">
+<topic href="topic/system_Zero_budget_.html#Settingbudgetstozero" title="Setting budgets to zero"/>
+</entry>
+<entry keyword="MAY_RUN_CRITICAL()">
+<topic href="topic/faq_ap_SCH_AGRHM_.html#Schedulingalgorithm" title="Scheduling algorithm"/>
+</entry>
+<entry keyword="microbilling">
+<topic href="topic/aps_details_Keeping_track_.html#KeepingtrackofCPUtime" title="Keeping track of CPU time"/>
+<topic href="topic/faq_ap_MILLING_.html#Microbilling" title="Microbilling"/>
+<entry keyword="accuracy">
+<topic href="topic/faq_ap_MILLING_.html#Microbilling" title="Microbilling"/>
+</entry>
+<entry keyword="ClockCycles">
+<topic href="topic/faq_ap_MILLING_.html#Microbilling" title="Microbilling"/>
+</entry>
+</entry>
+<entry keyword="module=aps">
+<topic href="topic/set_use_ap_buildimage_.html#Buildinganimage" title="Building an image"/>
+</entry>
+<entry keyword="multicore systems">
+<topic href="topic/aps_details_Multicore_.html#Usingthethreadschedulerandmulticoretogether" title="Using the thread scheduler and multicore together"/>
+</entry>
+<entry keyword="mutex partition">
+<topic href="topic/faq_ap_INHRTA_.html#Inheritance" title="Inheritance"/>
+</entry>
+<entry keyword="on">
+<topic href="topic/set_use_ap_launchprpart_.html#Launchingaprocessinapartition" title="Launching a process in a partition"/>
+</entry>
+<entry keyword="OS images, using scheduler partitions in">
+<topic href="topic/set_use_ap_buildimage_.html#Buildinganimage" title="Building an image"/>
+</entry>
+<entry keyword="overhead">
+<topic href="topic/faq_ap_OVERLD_.html#Overhead" title="Overhead"/>
+</entry>
+<entry keyword="partition">
+<entry keyword="bankruptcy">
+<topic href="topic/faq_ap_CRI_THR_.html#Criticalthreadsandbankruptcy" title="Critical threads and bankruptcy"/>
+</entry>
+<entry keyword="critical threads">
+<topic href="topic/faq_ap_CRI_THR_.html#Criticalthreadsandbankruptcy" title="Critical threads and bankruptcy"/>
+</entry>
+<entry keyword="exceeding budget">
+<topic href="topic/faq_ap_BUDTS_.html#Budgets" title="Budgets"/>
+</entry>
+<entry keyword="joining">
+<topic href="topic/faq_ap_JNG_PRTN_.html#Joiningapartition" title="Joining a partition"/>
+</entry>
+<entry keyword="memory overhead">
+<topic href="topic/faq_ap_OVERLD_.html#Overhead" title="Overhead"/>
+</entry>
+<entry keyword="microbilling">
+<topic href="topic/faq_ap_MILLING_.html#Microbilling" title="Microbilling"/>
+</entry>
+<entry keyword="overhead">
+<topic href="topic/faq_ap_OVERLD_.html#Overhead" title="Overhead"/>
+</entry>
+<entry keyword="overhead for processing interrupts">
+<topic href="topic/faq_ap_OVERLD_.html#Overhead" title="Overhead"/>
+</entry>
+</entry>
+<entry keyword="partition ">
+<entry keyword="accuracy limitations">
+<topic href="topic/faq_ap_SCH_AGRHM_.html#Schedulingalgorithm" title="Scheduling algorithm"/>
+</entry>
+<entry keyword="behavior on hyperthreaded processors">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="behavior with FIFO thread">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="behavior with round-robin thread">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="behavior with sporadic thread">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="computing CPU usage">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="deleting">
+<topic href="topic/faq_ap_QNX_BEHVR_.html#QNXsystemconsiderations" title="QNX Neutrino system considerations"/>
+</entry>
+<entry keyword="free-time mode">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="guarantee budget">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="highest priority thread">
+<topic href="topic/faq_ap_SCH_AGRHM_.html#Schedulingalgorithm" title="Scheduling algorithm"/>
+</entry>
+<entry keyword="repaying free time">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="size limitations">
+<topic href="topic/faq_ap_SCH_AGRHM_.html#Schedulingalgorithm" title="Scheduling algorithm"/>
+</entry>
+</entry>
+<entry keyword="partition inheritance">
+<topic href="topic/faq_ap_INHRTA_.html#Inheritance" title="Inheritance"/>
+<entry keyword="how fast?">
+<topic href="topic/faq_ap_INHRTA_.html#Inheritance" title="Inheritance"/>
+</entry>
+<entry keyword="security">
+<topic href="topic/faq_ap_INHRTA_.html#Inheritance" title="Inheritance"/>
+</entry>
+</entry>
+<entry keyword="partitions">
+<entry keyword="budgets">
+<entry keyword="defined">
+<topic href="topic/aps_details_Base_.html#UsingtheThreadScheduler" title="Using the Thread Scheduler"/>
+</entry>
+<entry keyword="zero, preventing">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="zero, setting to">
+<topic href="topic/system_Zero_budget_.html#Settingbudgetstozero" title="Setting budgets to zero"/>
+</entry>
+<entry keyword="zero, when to avoid">
+<topic href="topic/system_Resmgrs_.html#Settingbudgetsforresourcemanagers" title="Setting budgets for resource managers"/>
+</entry>
+</entry>
+<entry keyword="contents of, determining">
+<topic href="topic/system_Number_and_contents_.html#Determiningthenumberofschedulerpartitionsandtheircontents" title="Determining the number of scheduler partitions and their contents"/>
+</entry>
+<entry keyword="defined">
+<topic href="topic/ap_overview_Base_.html#WhatisAdaptivePartitioning" title="What is Adaptive Partitioning?"/>
+</entry>
+<entry keyword="IDs">
+<entry keyword="in trace events">
+<topic href="topic/debugging_Tracing_.html#Instrumentedkerneltraceevents" title="Instrumented kernel trace events"/>
+</entry>
+</entry>
+<entry keyword="interactions between">
+<topic href="topic/system_Interactions_.html#Uncontrolledinteractionsbetweenschedulerpartitions" title="Uncontrolled interactions between scheduler partitions"/>
+</entry>
+<entry keyword="interrupt handlers">
+<topic href="topic/system_Interactions_.html#Uncontrolledinteractionsbetweenschedulerpartitions" title="Uncontrolled interactions between scheduler partitions"/>
+</entry>
+<entry keyword="limitations">
+<topic href="topic/system_Number_and_contents_.html#Determiningthenumberofschedulerpartitionsandtheircontents" title="Determining the number of scheduler partitions and their contents"/>
+</entry>
+<entry keyword="number of, determining">
+<topic href="topic/system_Number_and_contents_.html#Determiningthenumberofschedulerpartitionsandtheircontents" title="Determining the number of scheduler partitions and their contents"/>
+</entry>
+<entry keyword="static">
+<topic href="topic/ap_overview_Partitions_.html#Whatarepartitionsandwhatisadaptivepartitioning" title="What are partitions and what is adaptive partitioning?"/>
+</entry>
+</entry>
+<entry keyword="partitions ">
+<entry keyword="adaptive">
+<topic href="topic/ap_overview_Partitions_.html#Whatarepartitionsandwhatisadaptivepartitioning" title="What are partitions and what is adaptive partitioning?"/>
+</entry>
+<entry keyword="budgets">
+<entry keyword="zero, preventing">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="zero, when to avoid">
+<topic href="topic/system_Zero_budget_.html#Settingbudgetstozero" title="Setting budgets to zero"/>
+</entry>
+</entry>
+<entry keyword="creating">
+<topic href="topic/set_use_ap_crtepart_.html#Creatingschedulerpartitions" title="Creating scheduler partitions"/>
+</entry>
+<entry keyword="free time, sharing">
+<topic href="topic/aps_details_S_FreeTime_.html#Freetime" title="Free time"/>
+</entry>
+<entry keyword="inheritance">
+<topic href="topic/aps_details_Inheritance_.html#Partitioninheritance" title="Partition inheritance"/>
+<entry keyword="preventing">
+<topic href="topic/aps_details_Inheritance_.html#Partitioninheritance" title="Partition inheritance"/>
+</entry>
+</entry>
+<entry keyword="locking">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="processes">
+<entry keyword="displaying current">
+<topic href="topic/set_use_ap_viewparuse_.html#Viewingpartitionuse" title="Viewing partition use"/>
+</entry>
+<entry keyword="starting in">
+<topic href="topic/set_use_ap_launchprpart_.html#Launchingaprocessinapartition" title="Launching a process in a partition"/>
+</entry>
+</entry>
+<entry keyword="System">
+<topic href="topic/set_use_ap_crtepart_.html#Creatingschedulerpartitions" title="Creating scheduler partitions"/>
+</entry>
+<entry keyword="threads">
+<entry keyword="joining">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="processes">
+<entry keyword="partitions">
+<entry keyword="arranging into">
+<topic href="topic/system_Number_and_contents_.html#Determiningthenumberofschedulerpartitionsandtheircontents" title="Determining the number of scheduler partitions and their contents"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="processes ">
+<entry keyword="partitions">
+<entry keyword="displaying current">
+<topic href="topic/set_use_ap_viewparuse_.html#Viewingpartitionuse" title="Viewing partition use"/>
+</entry>
+<entry keyword="starting in">
+<topic href="topic/set_use_ap_launchprpart_.html#Launchingaprocessinapartition" title="Launching a process in a partition"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="processors ">
+<entry keyword="hyperthreaded">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+</entry>
+<entry keyword="procnto">
+<topic href="topic/faq_ap_QNX_BEHVR_.html#QNXsystemconsiderations" title="QNX Neutrino system considerations"/>
+<entry keyword="preventing interrupt handlers from being marked as critical">
+<topic href="topic/aps_details_Critical_threads_.html#Criticalthreads" title="Critical threads"/>
+</entry>
+</entry>
+<entry keyword="procnto ">
+<entry keyword="budget of zero and">
+<topic href="topic/system_Zero_budget_.html#Settingbudgetstozero" title="Setting budgets to zero"/>
+</entry>
+<entry keyword="loading adaptive partitioning module">
+<topic href="topic/set_use_ap_buildimage_.html#Buildinganimage" title="Building an image"/>
+</entry>
+</entry>
+<entry keyword="pulses, partition processed in">
+<topic href="topic/aps_details_Inheritance_.html#Partitioninheritance" title="Partition inheritance"/>
+</entry>
+<entry keyword="qconn">
+<topic href="topic/debugging_Access_.html#Emergencyaccesstothesystem" title="Emergency access to the system"/>
+</entry>
+<entry keyword="rc.local">
+<topic href="topic/set_use_ap_launchprpart_.html#Launchingaprocessinapartition" title="Launching a process in a partition"/>
+<topic href="topic/set_use_ap_crtepart_.html#Creatingschedulerpartitions" title="Creating scheduler partitions"/>
+</entry>
+<entry keyword="realtime behavior (scheduler)">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="realtime behavior with adaptive partitioning">
+<topic href="topic/aps_details_S_FullLoad_.html#FullLoad" title="Full Load"/>
+<topic href="topic/aps_details_Critical_threads_.html#Criticalthreads" title="Critical threads"/>
+<topic href="topic/aps_details_S_Underload_.html#Underload" title="Underload"/>
+</entry>
+<entry keyword="relative fraction free (RFFs)">
+<topic href="topic/faq_ap_SCH_AGRHM_.html#Schedulingalgorithm" title="Scheduling algorithm"/>
+</entry>
+<entry keyword="resource managers">
+<entry keyword="budgets, setting">
+<topic href="topic/system_Resmgrs_.html#Settingbudgetsforresourcemanagers" title="Setting budgets for resource managers"/>
+</entry>
+</entry>
+<entry keyword="RFF">
+<topic href="topic/faq_ap_SCH_AGRHM_.html#Schedulingalgorithm" title="Scheduling algorithm"/>
+</entry>
+<entry keyword="round-robin scheduling">
+<topic href="topic/aps_details_Other_schedulers_.html#Adaptivepartitioningthreadschedulerandotherthreadschedulers" title="Adaptive partitioning thread scheduler and other thread schedulers"/>
+</entry>
+<entry keyword="round-robin thread">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="SCHED_APS_ADD_SECURITY">
+<topic href="topic/system_Zero_budget_.html#Settingbudgetstozero" title="Setting budgets to zero"/>
+<topic href="topic/security_Base_.html#SecurityforSchedulerPartitions" title="Security for Scheduler Partitions"/>
+</entry>
+<entry keyword="SCHED_APS_BNKR_*">
+<topic href="topic/debugging_Other_.html#Usingothermethods" title="Using other methods"/>
+</entry>
+<entry keyword="sched_aps_create_parms">
+<topic href="topic/set_use_ap_crtepart_.html#Creatingschedulerpartitions" title="Creating scheduler partitions"/>
+</entry>
+<entry keyword="SCHED_APS_CREATE_PARTITION">
+<topic href="topic/set_use_ap_launchprpart_.html#Launchingaprocessinapartition" title="Launching a process in a partition"/>
+<topic href="topic/set_use_ap_crtepart_.html#Creatingschedulerpartitions" title="Creating scheduler partitions"/>
+</entry>
+<entry keyword="sched_aps_join_parms">
+<topic href="topic/set_use_ap_launchprpart_.html#Launchingaprocessinapartition" title="Launching a process in a partition"/>
+</entry>
+<entry keyword="SCHED_APS_JOIN_PARTITION">
+<topic href="topic/aps_details_Inheritance_.html#Partitioninheritance" title="Partition inheritance"/>
+</entry>
+<entry keyword="SCHED_APS_SEC_BASIC">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SCHED_APS_SEC_FLEXIBLE">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SCHED_APS_SEC_JOIN_SELF_ONLY">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SCHED_APS_SEC_NONZERO_BUDGETS">
+<topic href="topic/system_Zero_budget_.html#Settingbudgetstozero" title="Setting budgets to zero"/>
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SCHED_APS_SEC_OFF">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SCHED_APS_SEC_PARENT_JOINS">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SCHED_APS_SEC_PARENT_MODIFIES">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SCHED_APS_SEC_PARTITIONS_LOCKED">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SCHED_APS_SEC_RECOMMENDED">
+<topic href="topic/system_Zero_budget_.html#Settingbudgetstozero" title="Setting budgets to zero"/>
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SCHED_APS_SEC_ROOT_JOINS">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SCHED_APS_SEC_ROOT_MAKES_CRITICAL">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SCHED_APS_SEC_ROOT_MAKES_PARTITIONS">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SCHED_APS_SEC_ROOT0_OVERALL">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SCHED_APS_SEC_SYS_JOINS">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SCHED_APS_SEC_SYS_MAKES_CRITICAL">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SCHED_APS_SEC_SYS_MAKES_PARTITIONS">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SchedCtl()">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="SchedCtl() ">
+<entry keyword="data structures, initializing">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+</entry>
+<entry keyword="SchedCtl(), SchedCtl_r()">
+<topic href="topic/set_use_ap_launchprpart_.html#Launchingaprocessinapartition" title="Launching a process in a partition"/>
+<topic href="topic/debugging_Other_.html#Usingothermethods" title="Using other methods"/>
+<topic href="topic/set_use_ap_crtepart_.html#Creatingschedulerpartitions" title="Creating scheduler partitions"/>
+</entry>
+<entry keyword="scheduler ">
+<entry keyword="behavior">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="FIFO">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="free-time mode">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="realtime behavior">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="repaying free time">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+</entry>
+<entry keyword="scheduler security">
+<topic href="topic/security_Base_.html#SecurityforSchedulerPartitions" title="Security for Scheduler Partitions"/>
+</entry>
+<entry keyword="scheduling ">
+<entry keyword="behavior">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="calculating RFFs">
+<topic href="topic/faq_ap_SCH_AGRHM_.html#Schedulingalgorithm" title="Scheduling algorithm"/>
+</entry>
+<entry keyword="ClockCycles()">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="guarantee budget">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="round-robin">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+<entry keyword="sporadic">
+<topic href="topic/faq_ap_SCH_BEH_.html#Schedulingbehavior" title="Scheduling behavior"/>
+</entry>
+</entry>
+<entry keyword="scheduling policies">
+<topic href="topic/aps_details_Other_schedulers_.html#Adaptivepartitioningthreadschedulerandotherthreadschedulers" title="Adaptive partitioning thread scheduler and other thread schedulers"/>
+</entry>
+<entry keyword="security ">
+<entry keyword="critical threads">
+<topic href="topic/security_Security_critical_.html#Securityandcriticalthreads" title="Security and critical threads"/>
+</entry>
+</entry>
+<entry keyword="security, setting">
+<topic href="topic/security_Base_.html#SecurityforSchedulerPartitions" title="Security for Scheduler Partitions"/>
+</entry>
+<entry keyword="SIGEV_CLEAR_CRITICAL()">
+<topic href="topic/aps_details_Critical_threads_.html#Criticalthreads" title="Critical threads"/>
+</entry>
+<entry keyword="SIGEV_GET_TYPE()">
+<topic href="topic/aps_details_Critical_threads_.html#Criticalthreads" title="Critical threads"/>
+</entry>
+<entry keyword="SIGEV_MAKE_CRITICAL()">
+<topic href="topic/aps_details_Critical_threads_.html#Criticalthreads" title="Critical threads"/>
+</entry>
+<entry keyword="sigevent, marking a thread a critical or noncritical">
+<topic href="topic/aps_details_Critical_threads_.html#Criticalthreads" title="Critical threads"/>
+</entry>
+<entry keyword="sporadic scheduling">
+<topic href="topic/aps_details_Other_schedulers_.html#Adaptivepartitioningthreadschedulerandotherthreadschedulers" title="Adaptive partitioning thread scheduler and other thread schedulers"/>
+</entry>
+<entry keyword="static partitions">
+<topic href="topic/ap_overview_Partitions_.html#Whatarepartitionsandwhatisadaptivepartitioning" title="What are partitions and what is adaptive partitioning?"/>
+</entry>
+<entry keyword="symmetric multiprocessing (SMP)">
+<topic href="topic/aps_details_Multicore_.html#Usingthethreadschedulerandmulticoretogether" title="Using the thread scheduler and multicore together"/>
+</entry>
+<entry keyword="system">
+<entry keyword="emergency access to">
+<topic href="topic/debugging_Access_.html#Emergencyaccesstothesystem" title="Emergency access to the system"/>
+</entry>
+</entry>
+<entry keyword="system ">
+<entry keyword="requirements">
+<topic href="topic/ap_overview_System_requirements_.html#Systemanduserrequirements" title="System and user requirements"/>
+</entry>
+</entry>
+<entry keyword="System Management Mode (SMM), turning off">
+<topic href="topic/ap_overview_System_requirements_.html#Systemanduserrequirements" title="System and user requirements"/>
+</entry>
+<entry keyword="System partition">
+<topic href="topic/set_use_ap_crtepart_.html#Creatingschedulerpartitions" title="Creating scheduler partitions"/>
+</entry>
+<entry keyword="System partition ">
+<entry keyword="infinite critical budget">
+<topic href="topic/aps_details_Bankruptcy_.html#Bankruptcy" title="Bankruptcy"/>
+</entry>
+</entry>
+<entry keyword="telnet">
+<topic href="topic/debugging_Access_.html#Emergencyaccesstothesystem" title="Emergency access to the system"/>
+</entry>
+<entry keyword="thread scheduler">
+<entry keyword="avaraging window size">
+<topic href="topic/system_Resmgrs_.html#Settingbudgetsforresourcemanagers" title="Setting budgets for resource managers"/>
+</entry>
+<entry keyword="averaging window size">
+<topic href="topic/system_Window_size_.html#Choosingthewindowsize" title="Choosing the window size"/>
+</entry>
+<entry keyword="determining partitions">
+<topic href="topic/system_Number_and_contents_.html#Determiningthenumberofschedulerpartitionsandtheircontents" title="Determining the number of scheduler partitions and their contents"/>
+</entry>
+<entry keyword="limitations">
+<topic href="topic/system_Number_and_contents_.html#Determiningthenumberofschedulerpartitionsandtheircontents" title="Determining the number of scheduler partitions and their contents"/>
+</entry>
+<entry keyword="zero budget">
+<entry keyword="setting">
+<topic href="topic/system_Zero_budget_.html#Settingbudgetstozero" title="Setting budgets to zero"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="thread scheduler ">
+<entry keyword="creating partitions">
+<topic href="topic/set_use_ap_crtepart_.html#Creatingschedulerpartitions" title="Creating scheduler partitions"/>
+</entry>
+<entry keyword="partitions">
+<topic href="topic/set_use_ap_crtepart_.html#Creatingschedulerpartitions" title="Creating scheduler partitions"/>
+</entry>
+<entry keyword="security">
+<topic href="topic/security_Base_.html#SecurityforSchedulerPartitions" title="Security for Scheduler Partitions"/>
+</entry>
+</entry>
+<entry keyword="threads">
+<entry keyword="critical">
+<entry keyword="trace events">
+<topic href="topic/debugging_Tracing_.html#Instrumentedkerneltraceevents" title="Instrumented kernel trace events"/>
+</entry>
+</entry>
+<entry keyword="partitions">
+<entry keyword="arranging into">
+<topic href="topic/system_Number_and_contents_.html#Determiningthenumberofschedulerpartitionsandtheircontents" title="Determining the number of scheduler partitions and their contents"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="threads ">
+<entry keyword="critical">
+<topic href="topic/aps_details_Critical_threads_.html#Criticalthreads" title="Critical threads"/>
+<entry keyword="security">
+<topic href="topic/security_Security_critical_.html#Securityandcriticalthreads" title="Security and critical threads"/>
+</entry>
+</entry>
+<entry keyword="partitions">
+<entry keyword="joining">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="tick size, changing">
+<topic href="topic/system_Delays_.html#Delayscomparedtopriorityscheduling" title="Delays compared to priority scheduling"/>
+</entry>
+<entry keyword="trace events">
+<entry keyword="IDE, viewing with">
+<topic href="topic/debugging_Tracing_.html#Instrumentedkerneltraceevents" title="Instrumented kernel trace events"/>
+</entry>
+</entry>
+<entry keyword="traceprinter">
+<topic href="topic/debugging_Tracing_.html#Instrumentedkerneltraceevents" title="Instrumented kernel trace events"/>
+</entry>
+<entry keyword="underload situations">
+<topic href="topic/aps_details_S_Underload_.html#Underload" title="Underload"/>
+</entry>
+<entry keyword="window rotation">
+<topic href="topic/faq_ap_AV_WDOW_.html#Averagingwindow" title="Averaging window"/>
+</entry>
+<entry keyword="window rotation algorithm">
+<topic href="topic/faq_ap_AV_WDOW_.html#Averagingwindow" title="Averaging window"/>
+</entry>
+<entry keyword="window, averaging">
+<topic href="topic/aps_details_Keeping_track_.html#KeepingtrackofCPUtime" title="Keeping track of CPU time"/>
+<entry keyword="size">
+<entry keyword="choosing">
+<topic href="topic/system_Resmgrs_.html#Settingbudgetsforresourcemanagers" title="Setting budgets for resource managers"/>
+<topic href="topic/system_Window_size_.html#Choosingthewindowsize" title="Choosing the window size"/>
+</entry>
+<entry keyword="clock ticks, converting to">
+<topic href="topic/system_Delays_.html#Delayscomparedtopriorityscheduling" title="Delays compared to priority scheduling"/>
+</entry>
+<entry keyword="limits">
+<topic href="topic/system_Practical_limits_.html#Practicallimits" title="Practical limits"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="zero-budget">
+<topic href="topic/faq_ap_BUDTS_.html#Budgets" title="Budgets"/>
+</entry>
+<entry keyword="zero-budget partitions">
+<entry keyword="preventing">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="setting">
+<topic href="topic/system_Zero_budget_.html#Settingbudgetstozero" title="Setting budgets to zero"/>
+</entry>
+<entry keyword="when to avoid">
+<topic href="topic/system_Resmgrs_.html#Settingbudgetsforresourcemanagers" title="Setting budgets for resource managers"/>
+</entry>
+</entry>
+<entry keyword="zero-budget partitions ">
+<entry keyword="preventing">
+<topic href="topic/security_SecurityAPS_.html#Managingsecurityforthethreadscheduler" title="Managing security for the thread scheduler"/>
+</entry>
+<entry keyword="when to avoid">
+<topic href="topic/system_Zero_budget_.html#Settingbudgetstozero" title="Setting budgets to zero"/>
+</entry>
+</entry>
+</index>

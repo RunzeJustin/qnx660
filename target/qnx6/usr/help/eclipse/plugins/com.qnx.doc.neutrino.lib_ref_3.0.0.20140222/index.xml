@@ -1,0 +1,2152 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword="__BEGIN_DECLS">
+<topic href="topic/manifests.html#manifests" title="Manifests"/>
+</entry>
+<entry keyword="__BIGENDIAN__">
+<topic href="topic/manifests.html#manifests" title="Manifests"/>
+</entry>
+<entry keyword="__builtin_alloca()">
+<topic href="topic/a/alloca.html#alloca" title="alloca()"/>
+</entry>
+<entry keyword="__cabsargs, __cabsfargs">
+<topic href="topic/c/cabs.html#cabs" title="cabs(), cabsf()"/>
+</entry>
+<entry keyword="__CHAR_SIGNED__">
+<topic href="topic/manifests.html#manifests" title="Manifests"/>
+</entry>
+<entry keyword="__CHAR_UNSIGNED__">
+<topic href="topic/manifests.html#manifests" title="Manifests"/>
+</entry>
+<entry keyword="__DIOF()">
+<topic href="topic/d/devctl.html#devctl" title="devctl()"/>
+</entry>
+<entry keyword="__DION()">
+<topic href="topic/d/devctl.html#devctl" title="devctl()"/>
+</entry>
+<entry keyword="__DIOT()">
+<topic href="topic/d/devctl.html#devctl" title="devctl()"/>
+</entry>
+<entry keyword="__DIOTF()">
+<topic href="topic/d/devctl.html#devctl" title="devctl()"/>
+</entry>
+<entry keyword="__END_DECLS">
+<topic href="topic/manifests.html#manifests" title="Manifests"/>
+</entry>
+<entry keyword="__FILE__">
+<topic href="topic/a/assert.html#assert" title="assert()"/>
+</entry>
+<entry keyword="__INT_BITS__">
+<topic href="topic/manifests.html#manifests" title="Manifests"/>
+</entry>
+<entry keyword="__LINE__">
+<topic href="topic/a/assert.html#assert" title="assert()"/>
+</entry>
+<entry keyword="__LITTLEENDIAN__">
+<topic href="topic/manifests.html#manifests" title="Manifests"/>
+</entry>
+<entry keyword="__LONG_BITS__">
+<topic href="topic/manifests.html#manifests" title="Manifests"/>
+</entry>
+<entry keyword="__OPTIMIZE__">
+<topic href="topic/manifests.html#manifests" title="Manifests"/>
+</entry>
+<entry keyword="__progname">
+<topic href="topic/p/__progname.html#__progname" title="__progname"/>
+</entry>
+<entry keyword="__PTR_BITS__">
+<topic href="topic/manifests.html#manifests" title="Manifests"/>
+</entry>
+<entry keyword="__QNX__">
+<topic href="topic/manifests.html#manifests" title="Manifests"/>
+</entry>
+<entry keyword="__QNXNTO__">
+<topic href="topic/manifests.html#manifests" title="Manifests"/>
+</entry>
+<entry keyword="__res_state">
+<topic href="topic/r/res_init.html#res_init" title="res_init()"/>
+</entry>
+<entry keyword="__signalstub()">
+<topic href="topic/s/signalaction.html#signalaction" title="SignalAction(), SignalAction_r()"/>
+</entry>
+<entry keyword="__tls()">
+<topic href="topic/t/threadcreate.html#threadcreate" title="ThreadCreate(), ThreadCreate_r()"/>
+</entry>
+<entry keyword="_amblksiz">
+<topic href="topic/s/_smalloc.html#_smalloc" title="_smalloc()"/>
+<topic href="topic/m/malloc.html#malloc" title="malloc()"/>
+<topic href="topic/s/sbrk.html#sbrk" title="sbrk()"/>
+<topic href="topic/a/_amblksiz.html#_amblksiz" title="_amblksiz"/>
+</entry>
+<entry keyword="_argc">
+<topic href="topic/a/_argc.html#_argc" title="_argc"/>
+</entry>
+<entry keyword="_argv">
+<topic href="topic/a/_argv.html#_argv" title="_argv"/>
+</entry>
+<entry keyword="_auxv">
+<topic href="topic/a/_auxv.html#_auxv" title="_auxv"/>
+</entry>
+<entry keyword="_btext">
+<topic href="topic/b/_btext.html#_btext" title="_btext"/>
+</entry>
+<entry keyword="_client_able">
+<topic href="topic/c/connectclientinfoable.html#connectclientinfoable" title="ConnectClientInfoAble()"/>
+</entry>
+<entry keyword="_client_info">
+<topic href="topic/c/connectclientinfoext.html#connectclientinfoext" title="ConnectClientInfoExt()"/>
+<topic href="topic/c/connectclientinfo.html#connectclientinfo" title="ConnectClientInfo(), ConnectClientInfo_r()"/>
+</entry>
+<entry keyword="_clockadjust">
+<topic href="topic/c/clockadjust.html#clockadjust" title="ClockAdjust(), ClockAdjust_r()"/>
+</entry>
+<entry keyword="_clockperiod">
+<topic href="topic/c/clockperiod.html#clockperiod" title="ClockPeriod(), ClockPeriod_r()"/>
+</entry>
+<entry keyword="_cmdfd()">
+<topic href="topic/c/_cmdfd.html#_cmdfd" title="_cmdfd()"/>
+</entry>
+<entry keyword="_cmdname()">
+<topic href="topic/c/_cmdname.html#_cmdname" title="_cmdname()"/>
+</entry>
+<entry keyword="_cred_info">
+<topic href="topic/c/connectclientinfoext.html#connectclientinfoext" title="ConnectClientInfoExt()"/>
+<topic href="topic/c/connectclientinfo.html#connectclientinfo" title="ConnectClientInfo(), ConnectClientInfo_r()"/>
+</entry>
+<entry keyword="_CS_ARCHITECTURE">
+<topic href="topic/c/confstr.html#confstr" title="confstr()"/>
+</entry>
+<entry keyword="_CS_DOMAIN">
+<topic href="topic/c/confstr.html#confstr" title="confstr()"/>
+</entry>
+<entry keyword="_CS_HOSTNAME">
+<topic href="topic/s/sethostname.html#sethostname" title="sethostname()"/>
+<topic href="topic/c/confstr.html#confstr" title="confstr()"/>
+<topic href="topic/g/gethostname.html#gethostname" title="gethostname()"/>
+</entry>
+<entry keyword="_CS_HW_PROVIDER">
+<topic href="topic/c/confstr.html#confstr" title="confstr()"/>
+</entry>
+<entry keyword="_CS_HW_SERIAL">
+<topic href="topic/c/confstr.html#confstr" title="confstr()"/>
+</entry>
+<entry keyword="_CS_LIBPATH">
+<topic href="topic/d/dlopen.html#dlopen" title="dlopen()"/>
+<topic href="topic/c/confstr.html#confstr" title="confstr()"/>
+</entry>
+<entry keyword="_CS_LOCALE">
+<topic href="topic/c/confstr.html#confstr" title="confstr()"/>
+</entry>
+<entry keyword="_CS_MACHINE">
+<topic href="topic/c/confstr.html#confstr" title="confstr()"/>
+</entry>
+<entry keyword="_CS_PATH">
+<topic href="topic/c/confstr.html#confstr" title="confstr()"/>
+</entry>
+<entry keyword="_CS_RELEASE">
+<topic href="topic/c/confstr.html#confstr" title="confstr()"/>
+</entry>
+<entry keyword="_CS_RESOLVE">
+<topic href="topic/c/confstr.html#confstr" title="confstr()"/>
+</entry>
+<entry keyword="_CS_SET">
+<topic href="topic/c/confstr.html#confstr" title="confstr()"/>
+</entry>
+<entry keyword="_CS_SRPC_DOMAIN">
+<topic href="topic/c/confstr.html#confstr" title="confstr()"/>
+</entry>
+<entry keyword="_CS_SYSNAME">
+<topic href="topic/c/confstr.html#confstr" title="confstr()"/>
+</entry>
+<entry keyword="_CS_TIMEZONE">
+<topic href="topic/t/tzset.html#tzset" title="tzset()"/>
+<topic href="topic/c/confstr.html#confstr" title="confstr()"/>
+</entry>
+<entry keyword="_CS_VERSION">
+<topic href="topic/c/confstr.html#confstr" title="confstr()"/>
+</entry>
+<entry keyword="_DCMD_ALL">
+<topic href="topic/d/devctl.html#devctl" title="devctl()"/>
+</entry>
+<entry keyword="_DCMD_BLK">
+<topic href="topic/d/devctl.html#devctl" title="devctl()"/>
+</entry>
+<entry keyword="_DCMD_CAM">
+<topic href="topic/d/devctl.html#devctl" title="devctl()"/>
+</entry>
+<entry keyword="_DCMD_CHR">
+<topic href="topic/d/devctl.html#devctl" title="devctl()"/>
+</entry>
+<entry keyword="_DCMD_FSYS">
+<topic href="topic/d/devctl.html#devctl" title="devctl()"/>
+</entry>
+<entry keyword="_DCMD_INPUT">
+<topic href="topic/d/devctl.html#devctl" title="devctl()"/>
+</entry>
+<entry keyword="_DCMD_IP">
+<topic href="topic/d/devctl.html#devctl" title="devctl()"/>
+</entry>
+<entry keyword="_DCMD_MEM">
+<topic href="topic/d/devctl.html#devctl" title="devctl()"/>
+</entry>
+<entry keyword="_DCMD_MISC">
+<topic href="topic/d/devctl.html#devctl" title="devctl()"/>
+</entry>
+<entry keyword="_DCMD_MIXER">
+<topic href="topic/d/devctl.html#devctl" title="devctl()"/>
+</entry>
+<entry keyword="_DCMD_NET">
+<topic href="topic/d/devctl.html#devctl" title="devctl()"/>
+</entry>
+<entry keyword="_DCMD_PROC">
+<topic href="topic/d/devctl.html#devctl" title="devctl()"/>
+</entry>
+<entry keyword="_DEVCTL_DATA()">
+<topic href="topic/i/iofunc_devctl.html#iofunc_devctl" title="iofunc_devctl()"/>
+</entry>
+<entry keyword="_DEXTRA_FIRST()">
+<topic href="topic/r/readdir.html#readdir" title="readdir(), readdir64()"/>
+</entry>
+<entry keyword="_DEXTRA_NEXT()">
+<topic href="topic/r/readdir.html#readdir" title="readdir(), readdir64()"/>
+</entry>
+<entry keyword="_DEXTRA_VALID()">
+<topic href="topic/r/readdir.html#readdir" title="readdir(), readdir64()"/>
+</entry>
+<entry keyword="_DTYPE_LSTAT">
+<topic href="topic/i/iofunc_write_verify.html#iofunc_write_verify" title="iofunc_write_verify()"/>
+<topic href="topic/r/readdir.html#readdir" title="readdir(), readdir64()"/>
+<topic href="topic/i/iofunc_read_verify.html#iofunc_read_verify" title="iofunc_read_verify()"/>
+</entry>
+<entry keyword="_DTYPE_NONE">
+<topic href="topic/r/readdir.html#readdir" title="readdir(), readdir64()"/>
+</entry>
+<entry keyword="_DTYPE_STAT">
+<topic href="topic/r/readdir.html#readdir" title="readdir(), readdir64()"/>
+</entry>
+<entry keyword="_edata">
+<topic href="topic/e/_edata.html#_edata" title="_edata"/>
+</entry>
+<entry keyword="_end">
+<topic href="topic/e/_end.html#_end" title="_end"/>
+</entry>
+<entry keyword="_etext">
+<topic href="topic/e/_etext.html#_etext" title="_etext"/>
+</entry>
+<entry keyword="_exit()">
+<topic href="topic/e/_exit.html#_exit" title="_exit()"/>
+</entry>
+<entry keyword="_fdinfo">
+<topic href="topic/i/iofunc_fdinfo_default.html#iofunc_fdinfo_default" title="iofunc_fdinfo_default()"/>
+<topic href="topic/i/iofunc_fdinfo.html#iofunc_fdinfo" title="iofunc_fdinfo()"/>
+</entry>
+<entry keyword="_FDINFO_FLAG_LOCALPATH">
+<topic href="topic/i/iofunc_fdinfo_default.html#iofunc_fdinfo_default" title="iofunc_fdinfo_default()"/>
+<topic href="topic/i/iofdinfo.html#iofdinfo" title="iofdinfo()"/>
+</entry>
+<entry keyword="_FP_EXC_DENORMAL">
+<topic href="topic/f/fp_exception_mask.html#fp_exception_mask" title="fp_exception_mask()"/>
+<topic href="topic/f/fp_exception_value.html#fp_exception_value" title="fp_exception_value()"/>
+</entry>
+<entry keyword="_FP_EXC_DIVZERO">
+<topic href="topic/f/fp_exception_mask.html#fp_exception_mask" title="fp_exception_mask()"/>
+<topic href="topic/f/fp_exception_value.html#fp_exception_value" title="fp_exception_value()"/>
+</entry>
+<entry keyword="_FP_EXC_INEXACT">
+<topic href="topic/f/fp_exception_mask.html#fp_exception_mask" title="fp_exception_mask()"/>
+<topic href="topic/f/fp_exception_value.html#fp_exception_value" title="fp_exception_value()"/>
+</entry>
+<entry keyword="_FP_EXC_INVALID">
+<topic href="topic/f/fp_exception_mask.html#fp_exception_mask" title="fp_exception_mask()"/>
+<topic href="topic/f/fp_exception_value.html#fp_exception_value" title="fp_exception_value()"/>
+</entry>
+<entry keyword="_FP_EXC_OVERFLOW">
+<topic href="topic/f/fp_exception_mask.html#fp_exception_mask" title="fp_exception_mask()"/>
+<topic href="topic/f/fp_exception_value.html#fp_exception_value" title="fp_exception_value()"/>
+</entry>
+<entry keyword="_FP_EXC_UNDERFLOW">
+<topic href="topic/f/fp_exception_mask.html#fp_exception_mask" title="fp_exception_mask()"/>
+<topic href="topic/f/fp_exception_value.html#fp_exception_value" title="fp_exception_value()"/>
+</entry>
+<entry keyword="_FP_PREC_DOUBLE">
+<topic href="topic/f/fp_precision.html#fp_precision" title="fp_precision()"/>
+</entry>
+<entry keyword="_FP_PREC_DOUBLE_EXTENDED">
+<topic href="topic/f/fp_precision.html#fp_precision" title="fp_precision()"/>
+</entry>
+<entry keyword="_FP_PREC_EXTENDED">
+<topic href="topic/f/fp_precision.html#fp_precision" title="fp_precision()"/>
+</entry>
+<entry keyword="_FP_PREC_FLOAT">
+<topic href="topic/f/fp_precision.html#fp_precision" title="fp_precision()"/>
+</entry>
+<entry keyword="_FP_ROUND_NEAREST">
+<topic href="topic/f/fp_rounding.html#fp_rounding" title="fp_rounding()"/>
+</entry>
+<entry keyword="_FP_ROUND_NEGATIVE">
+<topic href="topic/f/fp_rounding.html#fp_rounding" title="fp_rounding()"/>
+</entry>
+<entry keyword="_FP_ROUND_POSITIVE">
+<topic href="topic/f/fp_rounding.html#fp_rounding" title="fp_rounding()"/>
+</entry>
+<entry keyword="_FP_ROUND_ZERO">
+<topic href="topic/f/fp_rounding.html#fp_rounding" title="fp_rounding()"/>
+</entry>
+<entry keyword="_FTYPE_ANY">
+<topic href="topic/r/resmgr_attach.html#resmgr_attach" title="resmgr_attach()"/>
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+<topic href="topic/i/_io_connect_ftype_reply.html#_io_connect_ftype_reply" title="_io_connect_ftype_reply"/>
+<topic href="topic/i/_io_connect_link_reply.html#_io_connect_link_reply" title="_io_connect_link_reply"/>
+</entry>
+<entry keyword="_FTYPE_LINK">
+<topic href="topic/r/resmgr_attach.html#resmgr_attach" title="resmgr_attach()"/>
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+<topic href="topic/i/_io_connect_ftype_reply.html#_io_connect_ftype_reply" title="_io_connect_ftype_reply"/>
+<topic href="topic/i/_io_connect_link_reply.html#_io_connect_link_reply" title="_io_connect_link_reply"/>
+</entry>
+<entry keyword="_FTYPE_MOUNT">
+<topic href="topic/r/resmgr_attach.html#resmgr_attach" title="resmgr_attach()"/>
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+<topic href="topic/i/_io_connect_ftype_reply.html#_io_connect_ftype_reply" title="_io_connect_ftype_reply"/>
+<topic href="topic/i/_io_connect_link_reply.html#_io_connect_link_reply" title="_io_connect_link_reply"/>
+</entry>
+<entry keyword="_FTYPE_MQUEUE">
+<topic href="topic/r/resmgr_attach.html#resmgr_attach" title="resmgr_attach()"/>
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+<topic href="topic/i/_io_connect_ftype_reply.html#_io_connect_ftype_reply" title="_io_connect_ftype_reply"/>
+<topic href="topic/i/_io_connect_link_reply.html#_io_connect_link_reply" title="_io_connect_link_reply"/>
+</entry>
+<entry keyword="_FTYPE_PIPE">
+<topic href="topic/r/resmgr_attach.html#resmgr_attach" title="resmgr_attach()"/>
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+<topic href="topic/i/_io_connect_ftype_reply.html#_io_connect_ftype_reply" title="_io_connect_ftype_reply"/>
+<topic href="topic/i/_io_connect_link_reply.html#_io_connect_link_reply" title="_io_connect_link_reply"/>
+</entry>
+<entry keyword="_FTYPE_SEM">
+<topic href="topic/r/resmgr_attach.html#resmgr_attach" title="resmgr_attach()"/>
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+<topic href="topic/i/_io_connect_ftype_reply.html#_io_connect_ftype_reply" title="_io_connect_ftype_reply"/>
+<topic href="topic/i/_io_connect_link_reply.html#_io_connect_link_reply" title="_io_connect_link_reply"/>
+</entry>
+<entry keyword="_FTYPE_SHMEM">
+<topic href="topic/r/resmgr_attach.html#resmgr_attach" title="resmgr_attach()"/>
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+<topic href="topic/i/_io_connect_ftype_reply.html#_io_connect_ftype_reply" title="_io_connect_ftype_reply"/>
+<topic href="topic/i/_io_connect_link_reply.html#_io_connect_link_reply" title="_io_connect_link_reply"/>
+</entry>
+<entry keyword="_FTYPE_SOCKET">
+<topic href="topic/r/resmgr_attach.html#resmgr_attach" title="resmgr_attach()"/>
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+<topic href="topic/i/_io_connect_ftype_reply.html#_io_connect_ftype_reply" title="_io_connect_ftype_reply"/>
+<topic href="topic/i/_io_connect_link_reply.html#_io_connect_link_reply" title="_io_connect_link_reply"/>
+</entry>
+<entry keyword="_FTYPE_SYMLINK">
+<topic href="topic/r/resmgr_attach.html#resmgr_attach" title="resmgr_attach()"/>
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+<topic href="topic/i/_io_connect_ftype_reply.html#_io_connect_ftype_reply" title="_io_connect_ftype_reply"/>
+<topic href="topic/i/_io_connect_link_reply.html#_io_connect_link_reply" title="_io_connect_link_reply"/>
+</entry>
+<entry keyword="_input_line_max">
+<topic href="topic/i/input_line.html#input_line" title="input_line()"/>
+</entry>
+<entry keyword="_intr_v86()">
+<topic href="topic/i/_intr_v86.html#_intr_v86" title="_intr_v86()"/>
+</entry>
+<entry keyword="_intrspin_t">
+<topic href="topic/i/interruptunlock.html#interruptunlock" title="InterruptUnlock()"/>
+<topic href="topic/i/interrupthooktrace.html#interrupthooktrace" title="InterruptHookTrace()"/>
+<topic href="topic/i/interruptlock.html#interruptlock" title="InterruptLock()"/>
+<topic href="topic/i/interruptdetach.html#interruptdetach" title="InterruptDetach(), InterruptDetach_r()"/>
+</entry>
+<entry keyword="_IO_ACL_CHK">
+<topic href="topic/i/iofunc_acl.html#iofunc_acl" title="iofunc_acl()"/>
+</entry>
+<entry keyword="_IO_ACL_GET">
+<topic href="topic/i/iofunc_acl.html#iofunc_acl" title="iofunc_acl()"/>
+</entry>
+<entry keyword="_IO_ACL_SET">
+<topic href="topic/i/iofunc_acl.html#iofunc_acl" title="iofunc_acl()"/>
+</entry>
+<entry keyword="_IO_CHMOD">
+<topic href="topic/i/iofunc_chmod_default.html#iofunc_chmod_default" title="iofunc_chmod_default()"/>
+<topic href="topic/i/iofunc_chmod.html#iofunc_chmod" title="iofunc_chmod()"/>
+</entry>
+<entry keyword="_IO_CHOWN">
+<topic href="topic/i/iofunc_chown.html#iofunc_chown" title="iofunc_chown()"/>
+<topic href="topic/i/iofunc_chown_default.html#iofunc_chown_default" title="iofunc_chown_default()"/>
+</entry>
+<entry keyword="_IO_CLOSE">
+<topic href="topic/i/iofunc_close_dup.html#iofunc_close_dup" title="iofunc_close_dup()"/>
+<topic href="topic/i/iofunc_close_dup_default.html#iofunc_close_dup_default" title="iofunc_close_dup_default()"/>
+</entry>
+<entry keyword="_IO_COMBINE_FLAG">
+<topic href="topic/i/iofunc_notify.html#iofunc_notify" title="iofunc_notify()"/>
+<topic href="topic/i/iofunc_chown.html#iofunc_chown" title="iofunc_chown()"/>
+<topic href="topic/i/iofunc_close_dup.html#iofunc_close_dup" title="iofunc_close_dup()"/>
+<topic href="topic/i/iofunc_stat_default.html#iofunc_stat_default" title="iofunc_stat_default()"/>
+<topic href="topic/i/iofunc_fdinfo_default.html#iofunc_fdinfo_default" title="iofunc_fdinfo_default()"/>
+<topic href="topic/i/iofunc_openfd.html#iofunc_openfd" title="iofunc_openfd()"/>
+<topic href="topic/i/iofunc_sync_verify.html#iofunc_sync_verify" title="iofunc_sync_verify()"/>
+<topic href="topic/i/iofunc_utime.html#iofunc_utime" title="iofunc_utime()"/>
+<topic href="topic/i/iofunc_lseek.html#iofunc_lseek" title="iofunc_lseek()"/>
+<topic href="topic/i/iofunc_space_verify.html#iofunc_space_verify" title="iofunc_space_verify()"/>
+<topic href="topic/i/iofunc_write_verify.html#iofunc_write_verify" title="iofunc_write_verify()"/>
+<topic href="topic/i/iofunc_acl.html#iofunc_acl" title="iofunc_acl()"/>
+<topic href="topic/i/iofunc_read_verify.html#iofunc_read_verify" title="iofunc_read_verify()"/>
+<topic href="topic/i/iofunc_devctl.html#iofunc_devctl" title="iofunc_devctl()"/>
+<topic href="topic/i/iofunc_pathconf.html#iofunc_pathconf" title="iofunc_pathconf()"/>
+<topic href="topic/i/iofunc_mmap.html#iofunc_mmap" title="iofunc_mmap()"/>
+<topic href="topic/i/iofunc_chmod.html#iofunc_chmod" title="iofunc_chmod()"/>
+</entry>
+<entry keyword="_io_connect">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+<topic href="topic/i/iofunc_open_default.html#iofunc_open_default" title="iofunc_open_default()"/>
+</entry>
+<entry keyword="_IO_CONNECT_COMBINE">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_COMBINE_CLOSE">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_EFLAG_DIR">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+<topic href="topic/i/_io_connect_link_reply.html#_io_connect_link_reply" title="_io_connect_link_reply"/>
+</entry>
+<entry keyword="_IO_CONNECT_EFLAG_DOT">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+<topic href="topic/i/_io_connect_link_reply.html#_io_connect_link_reply" title="_io_connect_link_reply"/>
+</entry>
+<entry keyword="_IO_CONNECT_EXTRA_LINK">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_EXTRA_MOUNT">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_EXTRA_MOUNT_OCB">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_EXTRA_MQUEUE">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_EXTRA_NONE">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_EXTRA_PROC_SYMLINK">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_EXTRA_RENAME">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_EXTRA_RESMGR_LINK">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_EXTRA_SEM">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_EXTRA_SOCKET">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_EXTRA_SYMLINK">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_io_connect_ftype_reply">
+<topic href="topic/i/_io_connect_ftype_reply.html#_io_connect_ftype_reply" title="_io_connect_ftype_reply"/>
+</entry>
+<entry keyword="_IO_CONNECT_LINK">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_io_connect_link_reply">
+<topic href="topic/i/_io_connect_link_reply.html#_io_connect_link_reply" title="_io_connect_link_reply"/>
+</entry>
+<entry keyword="_IO_CONNECT_MKNOD">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_MOUNT">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_OPEN">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_READLINK">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_RENAME">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+<topic href="topic/i/iofunc_rename.html#iofunc_rename" title="iofunc_rename()"/>
+</entry>
+<entry keyword="_IO_CONNECT_RET_LINK">
+<topic href="topic/i/iofunc_open.html#iofunc_open" title="iofunc_open()"/>
+</entry>
+<entry keyword="_IO_CONNECT_RSVD_UNBLOCK">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_CONNECT_UNLINK">
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+</entry>
+<entry keyword="_IO_DEVCTL">
+<topic href="topic/i/iofunc_devctl_default.html#iofunc_devctl_default" title="iofunc_devctl_default()"/>
+<topic href="topic/i/iofunc_devctl_verify.html#iofunc_devctl_verify" title="iofunc_devctl_verify()"/>
+<topic href="topic/i/iofunc_devctl.html#iofunc_devctl" title="iofunc_devctl()"/>
+</entry>
+<entry keyword="_IO_DEVCTL_VERIFY_ACC_IEXEC">
+<topic href="topic/i/iofunc_devctl_verify.html#iofunc_devctl_verify" title="iofunc_devctl_verify()"/>
+</entry>
+<entry keyword="_IO_DEVCTL_VERIFY_ACC_IREAD">
+<topic href="topic/i/iofunc_devctl_verify.html#iofunc_devctl_verify" title="iofunc_devctl_verify()"/>
+</entry>
+<entry keyword="_IO_DEVCTL_VERIFY_ACC_ISGID">
+<topic href="topic/i/iofunc_devctl_verify.html#iofunc_devctl_verify" title="iofunc_devctl_verify()"/>
+</entry>
+<entry keyword="_IO_DEVCTL_VERIFY_ACC_ISUID">
+<topic href="topic/i/iofunc_devctl_verify.html#iofunc_devctl_verify" title="iofunc_devctl_verify()"/>
+</entry>
+<entry keyword="_IO_DEVCTL_VERIFY_ACC_IWRITE">
+<topic href="topic/i/iofunc_devctl_verify.html#iofunc_devctl_verify" title="iofunc_devctl_verify()"/>
+</entry>
+<entry keyword="_IO_DEVCTL_VERIFY_DIR">
+<topic href="topic/i/iofunc_devctl_verify.html#iofunc_devctl_verify" title="iofunc_devctl_verify()"/>
+</entry>
+<entry keyword="_IO_DEVCTL_VERIFY_LEN">
+<topic href="topic/i/iofunc_devctl_verify.html#iofunc_devctl_verify" title="iofunc_devctl_verify()"/>
+</entry>
+<entry keyword="_IO_DEVCTL_VERIFY_OCB_READ">
+<topic href="topic/i/iofunc_devctl_verify.html#iofunc_devctl_verify" title="iofunc_devctl_verify()"/>
+</entry>
+<entry keyword="_IO_DEVCTL_VERIFY_OCB_WRITE">
+<topic href="topic/i/iofunc_devctl_verify.html#iofunc_devctl_verify" title="iofunc_devctl_verify()"/>
+</entry>
+<entry keyword="_IO_DEVCTL_VERIFY_PRIV">
+<topic href="topic/i/iofunc_devctl_verify.html#iofunc_devctl_verify" title="iofunc_devctl_verify()"/>
+</entry>
+<entry keyword="_IO_FDINFO">
+<topic href="topic/i/iofunc_fdinfo_default.html#iofunc_fdinfo_default" title="iofunc_fdinfo_default()"/>
+<topic href="topic/i/iofunc_fdinfo.html#iofunc_fdinfo" title="iofunc_fdinfo()"/>
+</entry>
+<entry keyword="_IO_FLAG_RD">
+<topic href="topic/i/iofunc_ocb_t.html#iofunc_ocb_t" title="iofunc_ocb_t"/>
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+<topic href="topic/i/iofunc_openfd.html#iofunc_openfd" title="iofunc_openfd()"/>
+<topic href="topic/i/iofunc_sync.html#iofunc_sync" title="iofunc_sync()"/>
+</entry>
+<entry keyword="_IO_FLAG_WR">
+<topic href="topic/i/iofunc_ocb_t.html#iofunc_ocb_t" title="iofunc_ocb_t"/>
+<topic href="topic/i/_io_connect.html#_io_connect" title="_io_connect"/>
+<topic href="topic/i/iofunc_openfd.html#iofunc_openfd" title="iofunc_openfd()"/>
+<topic href="topic/i/iofunc_sync.html#iofunc_sync" title="iofunc_sync()"/>
+</entry>
+<entry keyword="_IO_LOCK">
+<topic href="topic/i/iofunc_lock_default.html#iofunc_lock_default" title="iofunc_lock_default()"/>
+</entry>
+<entry keyword="_IO_LSEEK">
+<topic href="topic/i/iofunc_lseek.html#iofunc_lseek" title="iofunc_lseek()"/>
+<topic href="topic/i/iofunc_lseek_default.html#iofunc_lseek_default" title="iofunc_lseek_default()"/>
+</entry>
+<entry keyword="_IO_MMAP">
+<topic href="topic/i/iofunc_mmap_default.html#iofunc_mmap_default" title="iofunc_mmap_default()"/>
+<topic href="topic/i/iofunc_mmap.html#iofunc_mmap" title="iofunc_mmap()"/>
+</entry>
+<entry keyword="_IO_OPENFD">
+<topic href="topic/i/iofunc_openfd.html#iofunc_openfd" title="iofunc_openfd()"/>
+<topic href="topic/i/iofunc_openfd_default.html#iofunc_openfd_default" title="iofunc_openfd_default()"/>
+</entry>
+<entry keyword="_IO_OPENFD_NONE">
+<topic href="topic/i/iofunc_openfd.html#iofunc_openfd" title="iofunc_openfd()"/>
+</entry>
+<entry keyword="_IO_OPENFD_PIPE">
+<topic href="topic/i/iofunc_openfd.html#iofunc_openfd" title="iofunc_openfd()"/>
+</entry>
+<entry keyword="_IO_OPENFD_RESERVED">
+<topic href="topic/i/iofunc_openfd.html#iofunc_openfd" title="iofunc_openfd()"/>
+</entry>
+<entry keyword="_IO_PATHCONF">
+<topic href="topic/i/iofunc_pathconf_default.html#iofunc_pathconf_default" title="iofunc_pathconf_default()"/>
+<topic href="topic/i/iofunc_pathconf.html#iofunc_pathconf" title="iofunc_pathconf()"/>
+</entry>
+<entry keyword="_IO_READ">
+<topic href="topic/i/iofunc_read_default.html#iofunc_read_default" title="iofunc_read_default()"/>
+<topic href="topic/i/iofunc_read_verify.html#iofunc_read_verify" title="iofunc_read_verify()"/>
+</entry>
+<entry keyword="_IO_SET_CONNECT_RET()">
+<topic href="topic/i/iofunc_open.html#iofunc_open" title="iofunc_open()"/>
+</entry>
+<entry keyword="_IO_SET_PATHCONF_VALUE()">
+<topic href="topic/i/iofunc_pathconf.html#iofunc_pathconf" title="iofunc_pathconf()"/>
+</entry>
+<entry keyword="_IO_SET_READ_NBYTES()">
+<topic href="topic/i/iofunc_read_verify.html#iofunc_read_verify" title="iofunc_read_verify()"/>
+</entry>
+<entry keyword="_IO_SET_WRITE_NBYTES()">
+<topic href="topic/i/iofunc_write_verify.html#iofunc_write_verify" title="iofunc_write_verify()"/>
+</entry>
+<entry keyword="_IO_SPACE">
+<topic href="topic/i/iofunc_space_verify.html#iofunc_space_verify" title="iofunc_space_verify()"/>
+</entry>
+<entry keyword="_IO_STAT">
+<topic href="topic/i/iofunc_stat_default.html#iofunc_stat_default" title="iofunc_stat_default()"/>
+<topic href="topic/i/iofunc_stat.html#iofunc_stat" title="iofunc_stat()"/>
+</entry>
+<entry keyword="_IO_SYNC">
+<topic href="topic/i/iofunc_sync_verify.html#iofunc_sync_verify" title="iofunc_sync_verify()"/>
+<topic href="topic/i/iofunc_sync_default.html#iofunc_sync_default" title="iofunc_sync_default()"/>
+</entry>
+<entry keyword="_IO_UTIME">
+<topic href="topic/i/iofunc_utime.html#iofunc_utime" title="iofunc_utime()"/>
+<topic href="topic/i/iofunc_utime_default.html#iofunc_utime_default" title="iofunc_utime_default()"/>
+</entry>
+<entry keyword="_IO_WRITE">
+<topic href="topic/i/iofunc_write_default.html#iofunc_write_default" title="iofunc_write_default()"/>
+</entry>
+<entry keyword="_IO_XFLAG_BLOCK">
+<topic href="topic/i/iofunc_write_verify.html#iofunc_write_verify" title="iofunc_write_verify()"/>
+<topic href="topic/i/iofunc_read_verify.html#iofunc_read_verify" title="iofunc_read_verify()"/>
+</entry>
+<entry keyword="_IO_XFLAG_DIR_EXTRA_HINT">
+<topic href="topic/i/iofunc_write_verify.html#iofunc_write_verify" title="iofunc_write_verify()"/>
+<topic href="topic/i/iofunc_read_verify.html#iofunc_read_verify" title="iofunc_read_verify()"/>
+</entry>
+<entry keyword="_IO_XFLAG_NONBLOCK">
+<topic href="topic/i/iofunc_write_verify.html#iofunc_write_verify" title="iofunc_write_verify()"/>
+<topic href="topic/i/iofunc_read_verify.html#iofunc_read_verify" title="iofunc_read_verify()"/>
+</entry>
+<entry keyword="_IO_XTYPE_MQUEUE">
+<topic href="topic/i/iofunc_write_verify.html#iofunc_write_verify" title="iofunc_write_verify()"/>
+<topic href="topic/i/iofunc_read_verify.html#iofunc_read_verify" title="iofunc_read_verify()"/>
+</entry>
+<entry keyword="_IO_XTYPE_NONE">
+<topic href="topic/i/iofunc_write_verify.html#iofunc_write_verify" title="iofunc_write_verify()"/>
+<topic href="topic/i/iofunc_read_verify.html#iofunc_read_verify" title="iofunc_read_verify()"/>
+</entry>
+<entry keyword="_IO_XTYPE_OFFSET">
+<topic href="topic/i/iofunc_write_verify.html#iofunc_write_verify" title="iofunc_write_verify()"/>
+<topic href="topic/i/iofunc_read_verify.html#iofunc_read_verify" title="iofunc_read_verify()"/>
+</entry>
+<entry keyword="_IO_XTYPE_READCOND">
+<topic href="topic/i/iofunc_write_verify.html#iofunc_write_verify" title="iofunc_write_verify()"/>
+<topic href="topic/i/iofunc_read_verify.html#iofunc_read_verify" title="iofunc_read_verify()"/>
+</entry>
+<entry keyword="_IO_XTYPE_REGISTRY">
+<topic href="topic/i/iofunc_write_verify.html#iofunc_write_verify" title="iofunc_write_verify()"/>
+<topic href="topic/i/iofunc_read_verify.html#iofunc_read_verify" title="iofunc_read_verify()"/>
+</entry>
+<entry keyword="_IO_XTYPE_TCPIP">
+<topic href="topic/i/iofunc_write_verify.html#iofunc_write_verify" title="iofunc_write_verify()"/>
+<topic href="topic/i/iofunc_read_verify.html#iofunc_read_verify" title="iofunc_read_verify()"/>
+</entry>
+<entry keyword="_IO_XTYPE_TCPIP_MSG">
+<topic href="topic/i/iofunc_write_verify.html#iofunc_write_verify" title="iofunc_write_verify()"/>
+<topic href="topic/i/iofunc_read_verify.html#iofunc_read_verify" title="iofunc_read_verify()"/>
+</entry>
+<entry keyword="_IOFBF">
+<topic href="topic/s/setvbuf.html#setvbuf" title="setvbuf()"/>
+</entry>
+<entry keyword="_IOLBF">
+<topic href="topic/s/setvbuf.html#setvbuf" title="setvbuf()"/>
+</entry>
+<entry keyword="_IONBF">
+<topic href="topic/s/setvbuf.html#setvbuf" title="setvbuf()"/>
+</entry>
+<entry keyword="_itimer">
+<topic href="topic/t/timersettime.html#timersettime" title="TimerSettime(), TimerSettime_r()"/>
+</entry>
+<entry keyword="_MAJOR_BLK_PREFIX">
+<topic href="topic/r/rsrcdbmgr_devno_attach.html#rsrcdbmgr_devno_attach" title="rsrcdbmgr_devno_attach()"/>
+</entry>
+<entry keyword="_MAJOR_CHAR_PREFIX">
+<topic href="topic/r/rsrcdbmgr_devno_attach.html#rsrcdbmgr_devno_attach" title="rsrcdbmgr_devno_attach()"/>
+</entry>
+<entry keyword="_MAJOR_DEV">
+<topic href="topic/r/rsrcdbmgr_devno_attach.html#rsrcdbmgr_devno_attach" title="rsrcdbmgr_devno_attach()"/>
+</entry>
+<entry keyword="_MAJOR_FSYS">
+<topic href="topic/r/rsrcdbmgr_devno_attach.html#rsrcdbmgr_devno_attach" title="rsrcdbmgr_devno_attach()"/>
+</entry>
+<entry keyword="_MAJOR_PATHMGR">
+<topic href="topic/r/rsrcdbmgr_devno_attach.html#rsrcdbmgr_devno_attach" title="rsrcdbmgr_devno_attach()"/>
+</entry>
+<entry keyword="_MFLAG_OCB">
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+<topic href="topic/g/getfsent.html#getfsent" title="getfsent()"/>
+</entry>
+<entry keyword="_MOUNT_AFTER">
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+</entry>
+<entry keyword="_MOUNT_BEFORE">
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+</entry>
+<entry keyword="_MOUNT_ENUMERATE">
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+</entry>
+<entry keyword="_MOUNT_FORCE">
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+<topic href="topic/u/umount.html#umount" title="umount()"/>
+</entry>
+<entry keyword="_MOUNT_IMPLIED">
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/g/getfsent.html#getfsent" title="getfsent()"/>
+</entry>
+<entry keyword="_MOUNT_NOATIME">
+<topic href="topic/s/statvfs.html#statvfs" title="statvfs(), statvfs64()"/>
+<topic href="topic/f/fstatvfs.html#fstatvfs" title="fstatvfs(), fstatvfs64()"/>
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+</entry>
+<entry keyword="_MOUNT_NOCREAT">
+<topic href="topic/s/statvfs.html#statvfs" title="statvfs(), statvfs64()"/>
+<topic href="topic/f/fstatvfs.html#fstatvfs" title="fstatvfs(), fstatvfs64()"/>
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+</entry>
+<entry keyword="_MOUNT_NOEXEC">
+<topic href="topic/s/statvfs.html#statvfs" title="statvfs(), statvfs64()"/>
+<topic href="topic/f/fstatvfs.html#fstatvfs" title="fstatvfs(), fstatvfs64()"/>
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+<topic href="topic/i/iofunc_devctl.html#iofunc_devctl" title="iofunc_devctl()"/>
+</entry>
+<entry keyword="_MOUNT_NOSUID">
+<topic href="topic/s/statvfs.html#statvfs" title="statvfs(), statvfs64()"/>
+<topic href="topic/f/fstatvfs.html#fstatvfs" title="fstatvfs(), fstatvfs64()"/>
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+<topic href="topic/i/iofunc_devctl.html#iofunc_devctl" title="iofunc_devctl()"/>
+</entry>
+<entry keyword="_MOUNT_OFF32">
+<topic href="topic/s/statvfs.html#statvfs" title="statvfs(), statvfs64()"/>
+<topic href="topic/f/fstatvfs.html#fstatvfs" title="fstatvfs(), fstatvfs64()"/>
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+</entry>
+<entry keyword="_MOUNT_OPAQUE">
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+</entry>
+<entry keyword="_MOUNT_READONLY">
+<topic href="topic/s/statvfs.html#statvfs" title="statvfs(), statvfs64()"/>
+<topic href="topic/f/fstatvfs.html#fstatvfs" title="fstatvfs(), fstatvfs64()"/>
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+<topic href="topic/i/iofunc_devctl.html#iofunc_devctl" title="iofunc_devctl()"/>
+</entry>
+<entry keyword="_MOUNT_REMOUNT">
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+</entry>
+<entry keyword="_MOUNT_UNMOUNT">
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+</entry>
+<entry keyword="_msg_info">
+<topic href="topic/m/msginfo.html#msginfo" title="MsgInfo(), MsgInfo_r()"/>
+<topic href="topic/m/_msg_info.html#_msg_info" title="_msg_info"/>
+</entry>
+<entry keyword="_NOTIFY_ACTION_POLL">
+<topic href="topic/i/ionotify.html#ionotify" title="ionotify()"/>
+</entry>
+<entry keyword="_NOTIFY_ACTION_POLLARM">
+<topic href="topic/i/ionotify.html#ionotify" title="ionotify()"/>
+</entry>
+<entry keyword="_NOTIFY_ACTION_TRANARM">
+<topic href="topic/i/ionotify.html#ionotify" title="ionotify()"/>
+</entry>
+<entry keyword="_NOTIFY_COND_EXTEN">
+<topic href="topic/i/iofunc_notify.html#iofunc_notify" title="iofunc_notify()"/>
+</entry>
+<entry keyword="_NOTIFY_COND_INPUT">
+<topic href="topic/i/iofunc_notify.html#iofunc_notify" title="iofunc_notify()"/>
+<topic href="topic/i/ionotify.html#ionotify" title="ionotify()"/>
+</entry>
+<entry keyword="_NOTIFY_COND_MASK">
+<topic href="topic/i/ionotify.html#ionotify" title="ionotify()"/>
+</entry>
+<entry keyword="_NOTIFY_COND_OBAND">
+<topic href="topic/i/iofunc_notify.html#iofunc_notify" title="iofunc_notify()"/>
+<topic href="topic/i/ionotify.html#ionotify" title="ionotify()"/>
+</entry>
+<entry keyword="_NOTIFY_COND_OUTPUT">
+<topic href="topic/i/iofunc_notify.html#iofunc_notify" title="iofunc_notify()"/>
+<topic href="topic/i/ionotify.html#ionotify" title="ionotify()"/>
+</entry>
+<entry keyword="_NOTIFY_CONDE_ERR">
+<topic href="topic/i/iofunc_notify.html#iofunc_notify" title="iofunc_notify()"/>
+<topic href="topic/i/ionotify.html#ionotify" title="ionotify()"/>
+</entry>
+<entry keyword="_NOTIFY_CONDE_HUP">
+<topic href="topic/i/iofunc_notify.html#iofunc_notify" title="iofunc_notify()"/>
+<topic href="topic/i/ionotify.html#ionotify" title="ionotify()"/>
+</entry>
+<entry keyword="_NOTIFY_CONDE_NVAL">
+<topic href="topic/i/iofunc_notify.html#iofunc_notify" title="iofunc_notify()"/>
+<topic href="topic/i/ionotify.html#ionotify" title="ionotify()"/>
+</entry>
+<entry keyword="_NOTIFY_CONDE_PRI">
+<topic href="topic/i/iofunc_notify.html#iofunc_notify" title="iofunc_notify()"/>
+<topic href="topic/i/ionotify.html#ionotify" title="ionotify()"/>
+</entry>
+<entry keyword="_NOTIFY_CONDE_RDBAND">
+<topic href="topic/i/iofunc_notify.html#iofunc_notify" title="iofunc_notify()"/>
+<topic href="topic/i/ionotify.html#ionotify" title="ionotify()"/>
+</entry>
+<entry keyword="_NOTIFY_CONDE_RDNORM">
+<topic href="topic/i/iofunc_notify.html#iofunc_notify" title="iofunc_notify()"/>
+<topic href="topic/i/ionotify.html#ionotify" title="ionotify()"/>
+</entry>
+<entry keyword="_NOTIFY_CONDE_WRBAND">
+<topic href="topic/i/iofunc_notify.html#iofunc_notify" title="iofunc_notify()"/>
+<topic href="topic/i/ionotify.html#ionotify" title="ionotify()"/>
+</entry>
+<entry keyword="_NOTIFY_CONDE_WRNORM">
+<topic href="topic/i/iofunc_notify.html#iofunc_notify" title="iofunc_notify()"/>
+<topic href="topic/i/ionotify.html#ionotify" title="ionotify()"/>
+</entry>
+<entry keyword="_NOTIFY_DATA_MASK">
+<topic href="topic/i/ionotify.html#ionotify" title="ionotify()"/>
+</entry>
+<entry keyword="_NTO_CHF_COID_DISCONNECT">
+<topic href="topic/c/channelcreate.html#channelcreate" title="ChannelCreate(), ChannelCreate_r()"/>
+<topic href="topic/n/name_attach.html#name_attach" title="name_attach()"/>
+</entry>
+<entry keyword="_NTO_CHF_DISCONNECT">
+<topic href="topic/c/channelcreate.html#channelcreate" title="ChannelCreate(), ChannelCreate_r()"/>
+<topic href="topic/n/name_attach.html#name_attach" title="name_attach()"/>
+</entry>
+<entry keyword="_NTO_CHF_FIXED_PRIORITY">
+<topic href="topic/c/channelcreate.html#channelcreate" title="ChannelCreate(), ChannelCreate_r()"/>
+<topic href="topic/m/msgcurrent.html#msgcurrent" title="MsgCurrent(), MsgCurrent_r()"/>
+</entry>
+<entry keyword="_NTO_CHF_NET_MSG">
+<topic href="topic/c/channelcreate.html#channelcreate" title="ChannelCreate(), ChannelCreate_r()"/>
+</entry>
+<entry keyword="_NTO_CHF_PRIVATE">
+<topic href="topic/c/channelcreate.html#channelcreate" title="ChannelCreate(), ChannelCreate_r()"/>
+<topic href="topic/c/connectattach.html#connectattach" title="ConnectAttach(), ConnectAttach_r()"/>
+<topic href="topic/p/procmgr_ability.html#procmgr_ability" title="procmgr_ability()"/>
+</entry>
+<entry keyword="_NTO_CHF_REPLY_LEN">
+<topic href="topic/c/channelcreate.html#channelcreate" title="ChannelCreate(), ChannelCreate_r()"/>
+<topic href="topic/m/_msg_info.html#_msg_info" title="_msg_info"/>
+</entry>
+<entry keyword="_NTO_CHF_SENDER_LEN">
+<topic href="topic/c/channelcreate.html#channelcreate" title="ChannelCreate(), ChannelCreate_r()"/>
+<topic href="topic/m/_msg_info.html#_msg_info" title="_msg_info"/>
+</entry>
+<entry keyword="_NTO_CHF_THREAD_DEATH">
+<topic href="topic/c/channelcreate.html#channelcreate" title="ChannelCreate(), ChannelCreate_r()"/>
+</entry>
+<entry keyword="_NTO_CHF_UNBLOCK">
+<topic href="topic/c/channelcreate.html#channelcreate" title="ChannelCreate(), ChannelCreate_r()"/>
+<topic href="topic/n/name_attach.html#name_attach" title="name_attach()"/>
+<topic href="topic/m/_msg_info.html#_msg_info" title="_msg_info"/>
+</entry>
+<entry keyword="_NTO_CI_BKGND_PGRP">
+<topic href="topic/c/connectclientinfoext.html#connectclientinfoext" title="ConnectClientInfoExt()"/>
+<topic href="topic/c/connectclientinfo.html#connectclientinfo" title="ConnectClientInfo(), ConnectClientInfo_r()"/>
+</entry>
+<entry keyword="_NTO_CI_ENDIAN_BIG">
+<topic href="topic/c/connectclientinfoext.html#connectclientinfoext" title="ConnectClientInfoExt()"/>
+<topic href="topic/c/connectclientinfo.html#connectclientinfo" title="ConnectClientInfo(), ConnectClientInfo_r()"/>
+</entry>
+<entry keyword="_NTO_CI_FULL_GROUPS">
+<topic href="topic/c/connectclientinfoext.html#connectclientinfoext" title="ConnectClientInfoExt()"/>
+<topic href="topic/c/connectclientinfo.html#connectclientinfo" title="ConnectClientInfo(), ConnectClientInfo_r()"/>
+</entry>
+<entry keyword="_NTO_CI_ORPHAN_PGRP">
+<topic href="topic/c/connectclientinfoext.html#connectclientinfoext" title="ConnectClientInfoExt()"/>
+<topic href="topic/c/connectclientinfo.html#connectclientinfo" title="ConnectClientInfo(), ConnectClientInfo_r()"/>
+</entry>
+<entry keyword="_NTO_CI_STOPPED">
+<topic href="topic/c/connectclientinfoext.html#connectclientinfoext" title="ConnectClientInfoExt()"/>
+<topic href="topic/c/connectclientinfo.html#connectclientinfo" title="ConnectClientInfo(), ConnectClientInfo_r()"/>
+</entry>
+<entry keyword="_NTO_CI_UNABLE">
+<topic href="topic/c/connectclientinfoext.html#connectclientinfoext" title="ConnectClientInfoExt()"/>
+<topic href="topic/c/connectclientinfo.html#connectclientinfo" title="ConnectClientInfo(), ConnectClientInfo_r()"/>
+</entry>
+<entry keyword="_NTO_CLIENTINFO_GETGROUPS">
+<topic href="topic/c/connectclientinfoable.html#connectclientinfoable" title="ConnectClientInfoAble()"/>
+<topic href="topic/c/connectclientinfoext.html#connectclientinfoext" title="ConnectClientInfoExt()"/>
+<topic href="topic/i/iofunc_client_info_able.html#iofunc_client_info_able" title="iofunc_client_info_able()"/>
+<topic href="topic/i/iofunc_client_info_ext.html#iofunc_client_info_ext" title="iofunc_client_info_ext()"/>
+</entry>
+<entry keyword="_NTO_COF_ASYNC">
+<topic href="topic/c/connectserverinfo.html#connectserverinfo" title="ConnectServerInfo(), ConnectServerInfo_r()"/>
+</entry>
+<entry keyword="_NTO_COF_CLOEXEC">
+<topic href="topic/c/connectserverinfo.html#connectserverinfo" title="ConnectServerInfo(), ConnectServerInfo_r()"/>
+<topic href="topic/c/connectattach.html#connectattach" title="ConnectAttach(), ConnectAttach_r()"/>
+<topic href="topic/c/connectflags.html#connectflags" title="ConnectFlags(), ConnectFlags_r()"/>
+</entry>
+<entry keyword="_NTO_COF_DEAD">
+<topic href="topic/c/connectserverinfo.html#connectserverinfo" title="ConnectServerInfo(), ConnectServerInfo_r()"/>
+</entry>
+<entry keyword="_NTO_COF_GLOBAL">
+<topic href="topic/c/connectserverinfo.html#connectserverinfo" title="ConnectServerInfo(), ConnectServerInfo_r()"/>
+</entry>
+<entry keyword="_NTO_COF_INSECURE">
+<topic href="topic/m/msgdeliverevent.html#msgdeliverevent" title="MsgDeliverEvent(), MsgDeliverEvent_r()"/>
+<topic href="topic/c/connectflags.html#connectflags" title="ConnectFlags(), ConnectFlags_r()"/>
+</entry>
+<entry keyword="_NTO_COF_NONBLOCK">
+<topic href="topic/c/connectserverinfo.html#connectserverinfo" title="ConnectServerInfo(), ConnectServerInfo_r()"/>
+</entry>
+<entry keyword="_NTO_COF_NOSHARE">
+<topic href="topic/c/connectserverinfo.html#connectserverinfo" title="ConnectServerInfo(), ConnectServerInfo_r()"/>
+</entry>
+<entry keyword="_NTO_IC_LATENCY">
+<topic href="topic/i/interruptcharacteristic.html#interruptcharacteristic" title="InterruptCharacteristic(), InterruptCharacteristic_r()"/>
+</entry>
+<entry keyword="_NTO_INTR_CLASS_EXTERNAL">
+<topic href="topic/i/interruptattach.html#interruptattach" title="InterruptAttach(), InterruptAttach_r()"/>
+</entry>
+<entry keyword="_NTO_INTR_CLASS_SYNTHETIC">
+<topic href="topic/i/interruptattach.html#interruptattach" title="InterruptAttach(), InterruptAttach_r()"/>
+</entry>
+<entry keyword="_NTO_INTR_FLAGS_END">
+<topic href="topic/i/interruptattachevent.html#interruptattachevent" title="InterruptAttachEvent(), InterruptAttachEvent_r()"/>
+<topic href="topic/i/interrupthooktrace.html#interrupthooktrace" title="InterruptHookTrace()"/>
+<topic href="topic/i/interrupthookidle.html#interrupthookidle" title="InterruptHookIdle()"/>
+<topic href="topic/i/interruptattach.html#interruptattach" title="InterruptAttach(), InterruptAttach_r()"/>
+</entry>
+<entry keyword="_NTO_INTR_FLAGS_PROCESS">
+<topic href="topic/i/interruptattachevent.html#interruptattachevent" title="InterruptAttachEvent(), InterruptAttachEvent_r()"/>
+<topic href="topic/i/interrupthookidle.html#interrupthookidle" title="InterruptHookIdle()"/>
+<topic href="topic/i/interruptattach.html#interruptattach" title="InterruptAttach(), InterruptAttach_r()"/>
+</entry>
+<entry keyword="_NTO_INTR_FLAGS_TRK_MSK">
+<topic href="topic/i/interrupthookidle.html#interrupthookidle" title="InterruptHookIdle()"/>
+<topic href="topic/i/interruptattach.html#interruptattach" title="InterruptAttach(), InterruptAttach_r()"/>
+</entry>
+<entry keyword="_NTO_INTR_SPARE">
+<topic href="topic/i/interruptattach.html#interruptattach" title="InterruptAttach(), InterruptAttach_r()"/>
+</entry>
+<entry keyword="_NTO_KEYDATA_CALCULATE">
+<topic href="topic/m/msgkeydata.html#msgkeydata" title="MsgKeyData(), MsgKeyData_r()"/>
+</entry>
+<entry keyword="_NTO_KEYDATA_VERIFY">
+<topic href="topic/m/msgkeydata.html#msgkeydata" title="MsgKeyData(), MsgKeyData_r()"/>
+</entry>
+<entry keyword="_NTO_MI_CONSTRAINED">
+<topic href="topic/m/_msg_info.html#_msg_info" title="_msg_info"/>
+</entry>
+<entry keyword="_NTO_MI_ENDIAN_BIG">
+<topic href="topic/m/_msg_info.html#_msg_info" title="_msg_info"/>
+</entry>
+<entry keyword="_NTO_MI_ENDIAN_DIFF">
+<topic href="topic/m/_msg_info.html#_msg_info" title="_msg_info"/>
+</entry>
+<entry keyword="_NTO_MI_NET_CRED_DIRTY">
+<topic href="topic/m/_msg_info.html#_msg_info" title="_msg_info"/>
+</entry>
+<entry keyword="_NTO_MI_UNBLOCK_REQ">
+<topic href="topic/m/_msg_info.html#_msg_info" title="_msg_info"/>
+</entry>
+<entry keyword="_NTO_RESET_OVERRUNS">
+<topic href="topic/t/timerinfo.html#timerinfo" title="TimerInfo(), TimerInfo_r()"/>
+</entry>
+<entry keyword="_NTO_SCTL_GETPRIOCEILING">
+<topic href="topic/s/syncctl.html#syncctl" title="SyncCtl(), SyncCtl_r()"/>
+</entry>
+<entry keyword="_NTO_SCTL_SETEVENT">
+<topic href="topic/s/syncctl.html#syncctl" title="SyncCtl(), SyncCtl_r()"/>
+</entry>
+<entry keyword="_NTO_SCTL_SETPRIOCEILING">
+<topic href="topic/s/syncctl.html#syncctl" title="SyncCtl(), SyncCtl_r()"/>
+</entry>
+<entry keyword="_NTO_SIDE_CHANNEL">
+<topic href="topic/c/connectattach.html#connectattach" title="ConnectAttach(), ConnectAttach_r()"/>
+</entry>
+<entry keyword="_NTO_SYNC_COND">
+<topic href="topic/s/synctypecreate.html#synctypecreate" title="SyncTypeCreate(), SyncTypeCreate_r()"/>
+</entry>
+<entry keyword="_NTO_SYNC_MUTEX_FREE">
+<topic href="topic/s/synctypecreate.html#synctypecreate" title="SyncTypeCreate(), SyncTypeCreate_r()"/>
+</entry>
+<entry keyword="_NTO_SYNC_SEM">
+<topic href="topic/s/synctypecreate.html#synctypecreate" title="SyncTypeCreate(), SyncTypeCreate_r()"/>
+</entry>
+<entry keyword="_NTO_TCTL_ALIGN_FAULT">
+<topic href="topic/t/threadctl.html#threadctl" title="ThreadCtl(), ThreadCtl_r()"/>
+</entry>
+<entry keyword="_NTO_TCTL_IO">
+<topic href="topic/i/interruptunmask.html#interruptunmask" title="InterruptUnmask()"/>
+<topic href="topic/i/interruptunlock.html#interruptunlock" title="InterruptUnlock()"/>
+<topic href="topic/c/cache_flush.html#cache_flush" title="CACHE_FLUSH()"/>
+<topic href="topic/t/threadctl.html#threadctl" title="ThreadCtl(), ThreadCtl_r()"/>
+<topic href="topic/i/interruptattachevent.html#interruptattachevent" title="InterruptAttachEvent(), InterruptAttachEvent_r()"/>
+<topic href="topic/i/interrupthooktrace.html#interrupthooktrace" title="InterruptHookTrace()"/>
+<topic href="topic/i/interruptenable.html#interruptenable" title="InterruptEnable()"/>
+<topic href="topic/i/interruptdisable.html#interruptdisable" title="InterruptDisable()"/>
+<topic href="topic/i/interruptlock.html#interruptlock" title="InterruptLock()"/>
+<topic href="topic/i/interruptdetach.html#interruptdetach" title="InterruptDetach(), InterruptDetach_r()"/>
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+<topic href="topic/p/procmgr_ability.html#procmgr_ability" title="procmgr_ability()"/>
+<topic href="topic/s/signalaction.html#signalaction" title="SignalAction(), SignalAction_r()"/>
+<topic href="topic/c/cache_inval.html#cache_inval" title="CACHE_INVAL()"/>
+<topic href="topic/i/interruptmask.html#interruptmask" title="InterruptMask()"/>
+<topic href="topic/i/interruptcharacteristic.html#interruptcharacteristic" title="InterruptCharacteristic(), InterruptCharacteristic_r()"/>
+<topic href="topic/i/interruptattach.html#interruptattach" title="InterruptAttach(), InterruptAttach_r()"/>
+</entry>
+<entry keyword="_NTO_TCTL_IO_PRIV">
+<topic href="topic/t/threadctl.html#threadctl" title="ThreadCtl(), ThreadCtl_r()"/>
+<topic href="topic/p/procmgr_ability.html#procmgr_ability" title="procmgr_ability()"/>
+</entry>
+<entry keyword="_NTO_TCTL_NAME">
+<topic href="topic/t/threadctl.html#threadctl" title="ThreadCtl(), ThreadCtl_r()"/>
+</entry>
+<entry keyword="_NTO_TCTL_ONE_THREAD_CONT">
+<topic href="topic/t/threadctl.html#threadctl" title="ThreadCtl(), ThreadCtl_r()"/>
+</entry>
+<entry keyword="_NTO_TCTL_ONE_THREAD_HOLD">
+<topic href="topic/t/threadctl.html#threadctl" title="ThreadCtl(), ThreadCtl_r()"/>
+</entry>
+<entry keyword="_NTO_TCTL_RCM_GET_AND_SET">
+<topic href="topic/t/threadctl.html#threadctl" title="ThreadCtl(), ThreadCtl_r()"/>
+</entry>
+<entry keyword="_NTO_TCTL_RUNMASK">
+<topic href="topic/t/threadctl.html#threadctl" title="ThreadCtl(), ThreadCtl_r()"/>
+</entry>
+<entry keyword="_NTO_TCTL_RUNMASK_GET_AND_SET">
+<topic href="topic/t/threadctl.html#threadctl" title="ThreadCtl(), ThreadCtl_r()"/>
+</entry>
+<entry keyword="_NTO_TCTL_RUNMASK_GET_AND_SET_INHERIT">
+<topic href="topic/t/threadctl.html#threadctl" title="ThreadCtl(), ThreadCtl_r()"/>
+</entry>
+<entry keyword="_NTO_TCTL_THREADS_CONT">
+<topic href="topic/t/threadctl.html#threadctl" title="ThreadCtl(), ThreadCtl_r()"/>
+</entry>
+<entry keyword="_NTO_TCTL_THREADS_HOLD">
+<topic href="topic/t/threadctl.html#threadctl" title="ThreadCtl(), ThreadCtl_r()"/>
+</entry>
+<entry keyword="_NTO_THREAD_NAME_MAX">
+<topic href="topic/p/pthread_setname_np.html#pthread_setname_np" title="pthread_setname_np()"/>
+</entry>
+<entry keyword="_NTO_TI_ABSOLUTE">
+<topic href="topic/t/timerinfo.html#timerinfo" title="TimerInfo(), TimerInfo_r()"/>
+</entry>
+<entry keyword="_NTO_TI_ACTIVE">
+<topic href="topic/t/timerinfo.html#timerinfo" title="TimerInfo(), TimerInfo_r()"/>
+</entry>
+<entry keyword="_NTO_TI_EXPIRED">
+<topic href="topic/t/timerinfo.html#timerinfo" title="TimerInfo(), TimerInfo_r()"/>
+</entry>
+<entry keyword="_NTO_TI_PRECISE">
+<topic href="topic/t/timerinfo.html#timerinfo" title="TimerInfo(), TimerInfo_r()"/>
+</entry>
+<entry keyword="_NTO_TI_REPORT_TOLERANCE">
+<topic href="topic/t/timerinfo.html#timerinfo" title="TimerInfo(), TimerInfo_r()"/>
+</entry>
+<entry keyword="_NTO_TIMEOUT_CONDVAR">
+<topic href="topic/t/timertimeout.html#timertimeout" title="TimerTimeout(), TimerTimeout_r()"/>
+</entry>
+<entry keyword="_NTO_TIMEOUT_INTR">
+<topic href="topic/t/timertimeout.html#timertimeout" title="TimerTimeout(), TimerTimeout_r()"/>
+</entry>
+<entry keyword="_NTO_TIMEOUT_JOIN">
+<topic href="topic/t/timertimeout.html#timertimeout" title="TimerTimeout(), TimerTimeout_r()"/>
+</entry>
+<entry keyword="_NTO_TIMEOUT_MUTEX">
+<topic href="topic/t/timertimeout.html#timertimeout" title="TimerTimeout(), TimerTimeout_r()"/>
+</entry>
+<entry keyword="_NTO_TIMEOUT_RECEIVE">
+<topic href="topic/t/timertimeout.html#timertimeout" title="TimerTimeout(), TimerTimeout_r()"/>
+</entry>
+<entry keyword="_NTO_TIMEOUT_REPLY">
+<topic href="topic/t/timertimeout.html#timertimeout" title="TimerTimeout(), TimerTimeout_r()"/>
+</entry>
+<entry keyword="_NTO_TIMEOUT_SEM">
+<topic href="topic/t/timertimeout.html#timertimeout" title="TimerTimeout(), TimerTimeout_r()"/>
+</entry>
+<entry keyword="_NTO_TIMEOUT_SEND">
+<topic href="topic/t/timertimeout.html#timertimeout" title="TimerTimeout(), TimerTimeout_r()"/>
+</entry>
+<entry keyword="_NTO_TIMEOUT_SIGSUSPEND">
+<topic href="topic/t/timertimeout.html#timertimeout" title="TimerTimeout(), TimerTimeout_r()"/>
+</entry>
+<entry keyword="_NTO_TIMEOUT_SIGWAITINFO">
+<topic href="topic/t/timertimeout.html#timertimeout" title="TimerTimeout(), TimerTimeout_r()"/>
+</entry>
+<entry keyword="_NTO_TIMER_SEARCH">
+<topic href="topic/t/timerinfo.html#timerinfo" title="TimerInfo(), TimerInfo_r()"/>
+</entry>
+<entry keyword="_NTO_TRACE_ADDALLCLASSES">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_ADDCLASS">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_ADDCLASSEVHANDLER">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_ADDEVENT">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_ADDEVENTHANDLER">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_ALLOCBUFFER">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_CLRCLASSPID">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_CLRCLASSTID">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_CLREVENTPID">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_CLREVENTTID">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_DEALLOCBUFFER">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_DELALLCLASSES">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_DELCLASS">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_DELCLASSEVHANDLER">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_DELEVENT">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_DELEVENTHANDLER">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_FIPID">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_FITID">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_FLUSHBUFFER">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_FMPID">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_FMTID">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_GETCPU()">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_GETEVENT_C()">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_GETEVENT()">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_INSERTCUSEREVENT">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_INSERTEVENT">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_INSERTSUSEREVENT">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_INSERTUSRSTREVENT">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_QUERYEVENTS">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETALLCLASSESFAST">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETALLCLASSESWIDE">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETBUFFER">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETCLASSFAST">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETCLASSPID">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETCLASSTID">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETCLASSWIDE">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETEVENT_C()">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETEVENT()">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETEVENTFAST">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETEVENTPID">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETEVENTTID">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETEVENTWIDE">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETLINEARMODE">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SETRINGMODE">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_START">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_STARTNOSTATE">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_STOP">
+<topic href="topic/t/traceevent.html#traceevent" title="TraceEvent()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SYS_ADDRESS">
+<topic href="topic/t/trace_here.html#trace_here" title="trace_here()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SYS_FUNC_EXIT">
+<topic href="topic/t/trace_func_exit.html#trace_func_exit" title="trace_func_exit()"/>
+<topic href="topic/t/trace_func_enter.html#trace_func_enter" title="trace_func_enter()"/>
+</entry>
+<entry keyword="_NTO_TRACE_SYSTEM">
+<topic href="topic/t/trace_func_exit.html#trace_func_exit" title="trace_func_exit()"/>
+<topic href="topic/t/trace_here.html#trace_here" title="trace_here()"/>
+<topic href="topic/t/trace_func_enter.html#trace_func_enter" title="trace_func_enter()"/>
+</entry>
+<entry keyword="_NTO_TRACE_USER">
+<topic href="topic/t/trace_vnlogf.html#trace_vnlogf" title="trace_vnlogf()"/>
+<topic href="topic/t/trace_logb.html#trace_logb" title="trace_logb()"/>
+<topic href="topic/t/trace_logf.html#trace_logf" title="trace_logf()"/>
+<topic href="topic/t/trace_logi.html#trace_logi" title="trace_logi()"/>
+<topic href="topic/t/trace_nlogf.html#trace_nlogf" title="trace_nlogf()"/>
+</entry>
+<entry keyword="_NTO_TRACE_USERFIRST">
+<topic href="topic/t/trace_vnlogf.html#trace_vnlogf" title="trace_vnlogf()"/>
+<topic href="topic/t/trace_logb.html#trace_logb" title="trace_logb()"/>
+<topic href="topic/t/trace_logf.html#trace_logf" title="trace_logf()"/>
+<topic href="topic/t/trace_logi.html#trace_logi" title="trace_logi()"/>
+<topic href="topic/t/trace_nlogf.html#trace_nlogf" title="trace_nlogf()"/>
+</entry>
+<entry keyword="_NTO_TRACE_USERLAST">
+<topic href="topic/t/trace_vnlogf.html#trace_vnlogf" title="trace_vnlogf()"/>
+<topic href="topic/t/trace_logb.html#trace_logb" title="trace_logb()"/>
+<topic href="topic/t/trace_logf.html#trace_logf" title="trace_logf()"/>
+<topic href="topic/t/trace_logi.html#trace_logi" title="trace_logi()"/>
+<topic href="topic/t/trace_nlogf.html#trace_nlogf" title="trace_nlogf()"/>
+</entry>
+<entry keyword="_NTO_VERSION">
+<topic href="topic/manifests.html#manifests" title="Manifests"/>
+</entry>
+<entry keyword="_PATH_UTMP">
+<topic href="topic/e/endutent.html#endutent" title="endutent()"/>
+</entry>
+<entry keyword="_PC_ASYNC_IO">
+<topic href="topic/f/fpathconf.html#fpathconf" title="fpathconf()"/>
+<topic href="topic/p/pathconf.html#pathconf" title="pathconf()"/>
+</entry>
+<entry keyword="_PC_CHOWN_RESTRICTED">
+<topic href="topic/f/fpathconf.html#fpathconf" title="fpathconf()"/>
+<topic href="topic/p/pathconf.html#pathconf" title="pathconf()"/>
+</entry>
+<entry keyword="_PC_LINK_DIR">
+<topic href="topic/f/fpathconf.html#fpathconf" title="fpathconf()"/>
+<topic href="topic/p/pathconf.html#pathconf" title="pathconf()"/>
+</entry>
+<entry keyword="_PC_LINK_MAX">
+<topic href="topic/f/fpathconf.html#fpathconf" title="fpathconf()"/>
+<topic href="topic/p/pathconf.html#pathconf" title="pathconf()"/>
+</entry>
+<entry keyword="_PC_MAX_CANON">
+<topic href="topic/f/fpathconf.html#fpathconf" title="fpathconf()"/>
+<topic href="topic/p/pathconf.html#pathconf" title="pathconf()"/>
+</entry>
+<entry keyword="_PC_MAX_INPUT">
+<topic href="topic/f/fpathconf.html#fpathconf" title="fpathconf()"/>
+<topic href="topic/p/pathconf.html#pathconf" title="pathconf()"/>
+</entry>
+<entry keyword="_PC_NAME_MAX">
+<topic href="topic/f/fpathconf.html#fpathconf" title="fpathconf()"/>
+<topic href="topic/p/pathconf.html#pathconf" title="pathconf()"/>
+</entry>
+<entry keyword="_PC_NO_TRUNC">
+<topic href="topic/f/fpathconf.html#fpathconf" title="fpathconf()"/>
+<topic href="topic/p/pathconf.html#pathconf" title="pathconf()"/>
+</entry>
+<entry keyword="_PC_PATH_MAX">
+<topic href="topic/f/fpathconf.html#fpathconf" title="fpathconf()"/>
+<topic href="topic/p/pathconf.html#pathconf" title="pathconf()"/>
+</entry>
+<entry keyword="_PC_PIPE_BUF">
+<topic href="topic/f/fpathconf.html#fpathconf" title="fpathconf()"/>
+<topic href="topic/p/pathconf.html#pathconf" title="pathconf()"/>
+</entry>
+<entry keyword="_PC_PRIO_IO">
+<topic href="topic/f/fpathconf.html#fpathconf" title="fpathconf()"/>
+<topic href="topic/p/pathconf.html#pathconf" title="pathconf()"/>
+</entry>
+<entry keyword="_PC_SYNC_IO">
+<topic href="topic/f/fpathconf.html#fpathconf" title="fpathconf()"/>
+<topic href="topic/p/pathconf.html#pathconf" title="pathconf()"/>
+</entry>
+<entry keyword="_PC_VDISABLE">
+<topic href="topic/f/fpathconf.html#fpathconf" title="fpathconf()"/>
+<topic href="topic/p/pathconf.html#pathconf" title="pathconf()"/>
+<topic href="topic/t/termios.html#termios" title="termios"/>
+</entry>
+<entry keyword="_PCCARD_ARM_INSERT_REMOVE">
+<topic href="topic/p/pccard_arm.html#pccard_arm" title="pccard_arm()"/>
+</entry>
+<entry keyword="_PCCARD_DEV_AIMS">
+<topic href="topic/p/pccard_arm.html#pccard_arm" title="pccard_arm()"/>
+</entry>
+<entry keyword="_PCCARD_DEV_ALL">
+<topic href="topic/p/pccard_arm.html#pccard_arm" title="pccard_arm()"/>
+</entry>
+<entry keyword="_PCCARD_DEV_FIXED_DISK">
+<topic href="topic/p/pccard_arm.html#pccard_arm" title="pccard_arm()"/>
+</entry>
+<entry keyword="_PCCARD_DEV_GPIB">
+<topic href="topic/p/pccard_arm.html#pccard_arm" title="pccard_arm()"/>
+</entry>
+<entry keyword="_PCCARD_DEV_MEMORY">
+<topic href="topic/p/pccard_arm.html#pccard_arm" title="pccard_arm()"/>
+</entry>
+<entry keyword="_PCCARD_DEV_NETWORK">
+<topic href="topic/p/pccard_arm.html#pccard_arm" title="pccard_arm()"/>
+</entry>
+<entry keyword="_PCCARD_DEV_PARALLEL">
+<topic href="topic/p/pccard_arm.html#pccard_arm" title="pccard_arm()"/>
+</entry>
+<entry keyword="_PCCARD_DEV_SCSI">
+<topic href="topic/p/pccard_arm.html#pccard_arm" title="pccard_arm()"/>
+</entry>
+<entry keyword="_PCCARD_DEV_SERIAL">
+<topic href="topic/p/pccard_arm.html#pccard_arm" title="pccard_arm()"/>
+</entry>
+<entry keyword="_PCCARD_DEV_SOUND">
+<topic href="topic/p/pccard_arm.html#pccard_arm" title="pccard_arm()"/>
+</entry>
+<entry keyword="_PCCARD_DEV_VIDEO">
+<topic href="topic/p/pccard_arm.html#pccard_arm" title="pccard_arm()"/>
+</entry>
+<entry keyword="_pccard_info">
+<topic href="topic/p/pccard_info.html#pccard_info" title="pccard_info()"/>
+</entry>
+<entry keyword="_PCCARD_MEMTYPE_ATTRIBUTE">
+<topic href="topic/p/pccard_raw_read.html#pccard_raw_read" title="pccard_raw_read()"/>
+</entry>
+<entry keyword="_PCCARD_MEMTYPE_COMMON">
+<topic href="topic/p/pccard_raw_read.html#pccard_raw_read" title="pccard_raw_read()"/>
+</entry>
+<entry keyword="_POSIX_AIO_MAX">
+<topic href="topic/l/lio_listio.html#lio_listio" title="lio_listio(), lio_listio64()"/>
+</entry>
+<entry keyword="_POSIX_CHOWN_RESTRICTED">
+<topic href="topic/c/chown.html#chown" title="chown()"/>
+<topic href="topic/l/lchown.html#lchown" title="lchown()"/>
+<topic href="topic/f/fchown.html#fchown" title="fchown()"/>
+</entry>
+<entry keyword="_POSIX_LOGIN_NAME_MAX">
+<topic href="topic/g/getlogin_r.html#getlogin_r" title="getlogin_r()"/>
+</entry>
+<entry keyword="_POSIX_THREAD_SAFE_FUNCTIONS">
+<topic href="topic/g/getgrgid_r.html#getgrgid_r" title="getgrgid_r()"/>
+<topic href="topic/g/getlogin_r.html#getlogin_r" title="getlogin_r()"/>
+</entry>
+<entry keyword="_pulse">
+<topic href="topic/p/_pulse.html#_pulse" title="_pulse"/>
+</entry>
+<entry keyword="_PULSE_CODE_COIDDEATH">
+<topic href="topic/p/_pulse.html#_pulse" title="_pulse"/>
+<topic href="topic/c/channelcreate.html#channelcreate" title="ChannelCreate(), ChannelCreate_r()"/>
+</entry>
+<entry keyword="_PULSE_CODE_DISCONNECT">
+<topic href="topic/p/_pulse.html#_pulse" title="_pulse"/>
+<topic href="topic/c/channelcreate.html#channelcreate" title="ChannelCreate(), ChannelCreate_r()"/>
+</entry>
+<entry keyword="_PULSE_CODE_MAXAVAIL">
+<topic href="topic/p/_pulse.html#_pulse" title="_pulse"/>
+<topic href="topic/s/sigevent.html#sigevent" title="sigevent"/>
+<topic href="topic/m/msgsendpulse.html#msgsendpulse" title="MsgSendPulse(), MsgSendPulse_r()"/>
+</entry>
+<entry keyword="_PULSE_CODE_MINAVAIL">
+<topic href="topic/p/_pulse.html#_pulse" title="_pulse"/>
+<topic href="topic/s/sigevent.html#sigevent" title="sigevent"/>
+<topic href="topic/m/msgsendpulse.html#msgsendpulse" title="MsgSendPulse(), MsgSendPulse_r()"/>
+</entry>
+<entry keyword="_PULSE_CODE_NET_ACK">
+<topic href="topic/p/_pulse.html#_pulse" title="_pulse"/>
+</entry>
+<entry keyword="_PULSE_CODE_NET_DETACH">
+<topic href="topic/p/_pulse.html#_pulse" title="_pulse"/>
+</entry>
+<entry keyword="_PULSE_CODE_NET_UNBLOCK">
+<topic href="topic/p/_pulse.html#_pulse" title="_pulse"/>
+</entry>
+<entry keyword="_PULSE_CODE_THREADDEATH">
+<topic href="topic/p/_pulse.html#_pulse" title="_pulse"/>
+<topic href="topic/c/channelcreate.html#channelcreate" title="ChannelCreate(), ChannelCreate_r()"/>
+<topic href="topic/d/dispatch_handler.html#dispatch_handler" title="dispatch_handler()"/>
+</entry>
+<entry keyword="_PULSE_CODE_UNBLOCK">
+<topic href="topic/p/_pulse.html#_pulse" title="_pulse"/>
+<topic href="topic/c/channelcreate.html#channelcreate" title="ChannelCreate(), ChannelCreate_r()"/>
+</entry>
+<entry keyword="_PULSE_SUBTYPE">
+<topic href="topic/p/_pulse.html#_pulse" title="_pulse"/>
+</entry>
+<entry keyword="_PULSE_TYPE">
+<topic href="topic/p/_pulse.html#_pulse" title="_pulse"/>
+</entry>
+<entry keyword="_RESMGR_CONNECT_NFUNCS">
+<topic href="topic/i/iofunc_func_init.html#iofunc_func_init" title="iofunc_func_init()"/>
+</entry>
+<entry keyword="_RESMGR_DEFAULT">
+<topic href="topic/i/iofunc_unblock.html#iofunc_unblock" title="iofunc_unblock()"/>
+</entry>
+<entry keyword="_RESMGR_DETACH_ALL">
+<topic href="topic/r/resmgr_detach.html#resmgr_detach" title="resmgr_detach()"/>
+</entry>
+<entry keyword="_RESMGR_DETACH_CLOSE">
+<topic href="topic/r/resmgr_detach.html#resmgr_detach" title="resmgr_detach()"/>
+</entry>
+<entry keyword="_RESMGR_DETACH_PATHNAME">
+<topic href="topic/r/resmgr_detach.html#resmgr_detach" title="resmgr_detach()"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_AFTER">
+<topic href="topic/r/resmgr_attach.html#resmgr_attach" title="resmgr_attach()"/>
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_BEFORE">
+<topic href="topic/r/resmgr_attach.html#resmgr_attach" title="resmgr_attach()"/>
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_DIR">
+<topic href="topic/r/resmgr_attach.html#resmgr_attach" title="resmgr_attach()"/>
+<topic href="topic/r/resmgr_pathname.html#resmgr_pathname" title="resmgr_pathname()"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_FTYPEALL">
+<topic href="topic/r/resmgr_attach.html#resmgr_attach" title="resmgr_attach()"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_FTYPEONLY">
+<topic href="topic/r/resmgr_attach.html#resmgr_attach" title="resmgr_attach()"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_OPAQUE">
+<topic href="topic/r/resmgr_attach.html#resmgr_attach" title="resmgr_attach()"/>
+<topic href="topic/m/mount_parse_generic_args.html#mount_parse_generic_args" title="mount_parse_generic_args()"/>
+<topic href="topic/m/mount.html#mount" title="mount()"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_SELF">
+<topic href="topic/r/resmgr_attach.html#resmgr_attach" title="resmgr_attach()"/>
+</entry>
+<entry keyword="_RESMGR_IO_NFUNCS">
+<topic href="topic/i/iofunc_func_init.html#iofunc_func_init" title="iofunc_func_init()"/>
+</entry>
+<entry keyword="_RESMGR_NOREPLY">
+<topic href="topic/i/iofunc_unblock.html#iofunc_unblock" title="iofunc_unblock()"/>
+</entry>
+<entry keyword="_RESMGR_NPARTS()">
+<topic href="topic/r/_resmgr_nparts.html#_resmgr_nparts" title="_RESMGR_NPARTS()"/>
+</entry>
+<entry keyword="_RESMGR_PATHNAME_LOCALPATH">
+<topic href="topic/r/resmgr_pathname.html#resmgr_pathname" title="resmgr_pathname()"/>
+</entry>
+<entry keyword="_RESMGR_PTR()">
+<topic href="topic/r/_resmgr_ptr.html#_resmgr_ptr" title="_RESMGR_PTR()"/>
+</entry>
+<entry keyword="_RESMGR_STATUS()">
+<topic href="topic/r/_resmgr_status.html#_resmgr_status" title="_RESMGR_STATUS()"/>
+</entry>
+<entry keyword="_SC_AIO_PRIO_DELTA_MAX">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+</entry>
+<entry keyword="_SC_ARG_MAX">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+</entry>
+<entry keyword="_SC_CHILD_MAX">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+</entry>
+<entry keyword="_SC_CLK_TCK">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+</entry>
+<entry keyword="_SC_DELAYTIMER_MAX">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+</entry>
+<entry keyword="_SC_GETGR_R_SIZE_MAX">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+<topic href="topic/g/getgrgid_r.html#getgrgid_r" title="getgrgid_r()"/>
+</entry>
+<entry keyword="_SC_GETPW_R_SIZE_MAX">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+<topic href="topic/g/getspent.html#getspent" title="getspent(), getspent_r()"/>
+<topic href="topic/g/getpwnam_r.html#getpwnam_r" title="getpwnam_r()"/>
+<topic href="topic/g/getpwent_r.html#getpwent_r" title="getpwent_r()"/>
+<topic href="topic/g/getpwuid_r.html#getpwuid_r" title="getpwuid_r()"/>
+<topic href="topic/g/getspnam.html#getspnam" title="getspnam(), getspnam_r()"/>
+</entry>
+<entry keyword="_SC_JOB_CONTROL">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+</entry>
+<entry keyword="_SC_NGROUPS_MAX">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+<topic href="topic/s/setgroups.html#setgroups" title="setgroups()"/>
+<topic href="topic/g/getgroups.html#getgroups" title="getgroups()"/>
+</entry>
+<entry keyword="_SC_OPEN_MAX">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+</entry>
+<entry keyword="_SC_PAGESIZE">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+<topic href="topic/p/pthread_attr_setguardsize.html#pthread_attr_setguardsize" title="pthread_attr_setguardsize()"/>
+<topic href="topic/g/getpagesize.html#getpagesize" title="getpagesize()"/>
+<topic href="topic/p/pthread_attr_setstackprealloc.html#pthread_attr_setstackprealloc" title="pthread_attr_setstackprealloc()"/>
+</entry>
+<entry keyword="_SC_RCT_MEM">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+</entry>
+<entry keyword="_SC_RCT_SCOID">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+</entry>
+<entry keyword="_SC_SAVED_IDS">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+</entry>
+<entry keyword="_SC_SEM_NSEMS_MAX">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+</entry>
+<entry keyword="_SC_SIGQUEUE_MAX">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+</entry>
+<entry keyword="_SC_THREAD_STACK_MIN">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+</entry>
+<entry keyword="_SC_TZNAME_MAX">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+</entry>
+<entry keyword="_SC_VERSION">
+<topic href="topic/s/sysconf.html#sysconf" title="sysconf()"/>
+</entry>
+<entry keyword="_scalloc()">
+<topic href="topic/s/_scalloc.html#_scalloc" title="_scalloc()"/>
+</entry>
+<entry keyword="_sched_info">
+<topic href="topic/s/schedinfo.html#schedinfo" title="SchedInfo(), SchedInfo_r()"/>
+</entry>
+<entry keyword="_server_info">
+<topic href="topic/c/connectserverinfo.html#connectserverinfo" title="ConnectServerInfo(), ConnectServerInfo_r()"/>
+</entry>
+<entry keyword="_sfree()">
+<topic href="topic/s/_sfree.html#_sfree" title="_sfree()"/>
+</entry>
+<entry keyword="_SIGMAX">
+<topic href="topic/s/signalaction.html#signalaction" title="SignalAction(), SignalAction_r()"/>
+</entry>
+<entry keyword="_SIGMIN">
+<topic href="topic/s/signalaction.html#signalaction" title="SignalAction(), SignalAction_r()"/>
+</entry>
+<entry keyword="_sleepon_broadcast()">
+<topic href="topic/s/_sleepon_broadcast.html#_sleepon_broadcast" title="_sleepon_broadcast()"/>
+</entry>
+<entry keyword="_sleepon_destroy()">
+<topic href="topic/s/_sleepon_destroy.html#_sleepon_destroy" title="_sleepon_destroy()"/>
+</entry>
+<entry keyword="_sleepon_init()">
+<topic href="topic/s/_sleepon_init.html#_sleepon_init" title="_sleepon_init()"/>
+</entry>
+<entry keyword="_sleepon_lock()">
+<topic href="topic/s/_sleepon_lock.html#_sleepon_lock" title="_sleepon_lock()"/>
+</entry>
+<entry keyword="_sleepon_signal()">
+<topic href="topic/s/_sleepon_signal.html#_sleepon_signal" title="_sleepon_signal()"/>
+</entry>
+<entry keyword="_sleepon_unlock()">
+<topic href="topic/s/_sleepon_unlock.html#_sleepon_unlock" title="_sleepon_unlock()"/>
+</entry>
+<entry keyword="_sleepon_wait()">
+<topic href="topic/s/_sleepon_wait.html#_sleepon_wait" title="_sleepon_wait()"/>
+</entry>
+<entry keyword="_SLOG_CRITICAL">
+<topic href="topic/s/slogf.html#slogf" title="slogf()"/>
+</entry>
+<entry keyword="_SLOG_DEBUG1">
+<topic href="topic/s/slogf.html#slogf" title="slogf()"/>
+</entry>
+<entry keyword="_SLOG_DEBUG2">
+<topic href="topic/s/slogf.html#slogf" title="slogf()"/>
+</entry>
+<entry keyword="_SLOG_ERROR">
+<topic href="topic/s/slogf.html#slogf" title="slogf()"/>
+</entry>
+<entry keyword="_SLOG_INFO">
+<topic href="topic/s/slogf.html#slogf" title="slogf()"/>
+</entry>
+<entry keyword="_SLOG_NOTICE">
+<topic href="topic/s/slogf.html#slogf" title="slogf()"/>
+</entry>
+<entry keyword="_SLOG_SETCODE()">
+<topic href="topic/v/vslogf.html#vslogf" title="vslogf()"/>
+<topic href="topic/s/slogf.html#slogf" title="slogf()"/>
+</entry>
+<entry keyword="_SLOG_SHUTDOWN">
+<topic href="topic/s/slogf.html#slogf" title="slogf()"/>
+</entry>
+<entry keyword="_SLOG_WARNING">
+<topic href="topic/s/slogf.html#slogf" title="slogf()"/>
+</entry>
+<entry keyword="_smalloc()">
+<topic href="topic/s/_smalloc.html#_smalloc" title="_smalloc()"/>
+</entry>
+<entry keyword="_srealloc()">
+<topic href="topic/s/_srealloc.html#_srealloc" title="_srealloc()"/>
+</entry>
+<entry keyword="_SYS_GETPAGESIZES_HIGHUSAGE">
+<topic href="topic/g/getpagesizes.html#getpagesizes" title="getpagesizes(), getpagesizes64()"/>
+</entry>
+<entry keyword="_syspage_ptr">
+<topic href="topic/s/_syspage_ptr.html#_syspage_ptr" title="_syspage_ptr"/>
+</entry>
+<entry keyword="_thread_attr">
+<topic href="topic/t/threadcreate.html#threadcreate" title="ThreadCreate(), ThreadCreate_r()"/>
+</entry>
+<entry keyword="_thread_local_storage">
+<topic href="topic/t/threadcreate.html#threadcreate" title="ThreadCreate(), ThreadCreate_r()"/>
+</entry>
+<entry keyword="_thread_name">
+<topic href="topic/t/threadctl.html#threadctl" title="ThreadCtl(), ThreadCtl_r()"/>
+</entry>
+<entry keyword="_timer_info">
+<topic href="topic/t/timerinfo.html#timerinfo" title="TimerInfo(), TimerInfo_r()"/>
+</entry>
+<entry keyword="_TRACE_GET_BUFFNUM()">
+<topic href="topic/i/interrupthooktrace.html#interrupthooktrace" title="InterruptHookTrace()"/>
+</entry>
+<entry keyword="_TRACE_GET_BUFFSEQ()">
+<topic href="topic/i/interrupthooktrace.html#interrupthooktrace" title="InterruptHookTrace()"/>
+</entry>
+<entry keyword="_TRACEPARSER_DEBUG_*">
+<topic href="topic/t/traceparser_debug.html#traceparser_debug" title="traceparser_debug()"/>
+</entry>
+<entry keyword="_TRACEPARSER_INFO_*">
+<topic href="topic/t/traceparser_get_info.html#traceparser_get_info" title="traceparser_get_info()"/>
+</entry>
+<entry keyword="-fno-builtin">
+<topic href="topic/a/alloca.html#alloca" title="alloca()"/>
+</entry>
+<entry keyword=".rhosts">
+<topic href="topic/i/iruserok.html#iruserok" title="iruserok(), iruserok_sa()"/>
+<topic href="topic/r/ruserok.html#ruserok" title="ruserok()"/>
+</entry>
+<entry keyword="/dev/name/global">
+<topic href="topic/n/name_attach.html#name_attach" title="name_attach()"/>
+</entry>
+<entry keyword="/dev/name/local">
+<topic href="topic/n/name_attach.html#name_attach" title="name_attach()"/>
+</entry>
+<entry keyword="/dev/zero">
+<topic href="topic/m/mmap.html#mmap" title="mmap(), mmap64()"/>
+</entry>
+<entry keyword="/etc/autoconnect">
+<topic href="topic/n/nbaconnect.html#nbaconnect" title="nbaconnect()"/>
+</entry>
+<entry keyword="/etc/hosts">
+<topic href="topic/g/gethostent_r.html#gethostent_r" title="gethostent_r()"/>
+<topic href="topic/g/gethostbyname_r.html#gethostbyname_r" title="gethostbyname_r()"/>
+<topic href="topic/g/gethostbyaddr_r.html#gethostbyaddr_r" title="gethostbyaddr_r()"/>
+<topic href="topic/h/hostent.html#hostent" title="hostent"/>
+<topic href="topic/e/endhostent.html#endhostent" title="endhostent()"/>
+<topic href="topic/g/gethostbyaddr.html#gethostbyaddr" title="gethostbyaddr()"/>
+<topic href="topic/g/gethostent.html#gethostent" title="gethostent()"/>
+<topic href="topic/g/gethostbyname.html#gethostbyname" title="gethostbyname(), gethostbyname2()"/>
+</entry>
+<entry keyword="/etc/hosts.equiv">
+<topic href="topic/i/iruserok.html#iruserok" title="iruserok(), iruserok_sa()"/>
+<topic href="topic/r/ruserok.html#ruserok" title="ruserok()"/>
+</entry>
+<entry keyword="/etc/networks">
+<topic href="topic/g/getnetent.html#getnetent" title="getnetent()"/>
+<topic href="topic/g/getnetbyname.html#getnetbyname" title="getnetbyname()"/>
+<topic href="topic/g/getnetbyaddr.html#getnetbyaddr" title="getnetbyaddr()"/>
+<topic href="topic/n/netent.html#netent" title="netent"/>
+<topic href="topic/s/setnetent.html#setnetent" title="setnetent()"/>
+</entry>
+<entry keyword="/etc/protocols">
+<topic href="topic/e/endprotoent.html#endprotoent" title="endprotoent()"/>
+<topic href="topic/g/getprotobynumber.html#getprotobynumber" title="getprotobynumber()"/>
+<topic href="topic/g/getprotobyname.html#getprotobyname" title="getprotobyname()"/>
+<topic href="topic/s/setprotoent.html#setprotoent" title="setprotoent()"/>
+<topic href="topic/g/getprotoent.html#getprotoent" title="getprotoent()"/>
+<topic href="topic/p/protoent.html#protoent" title="protoent"/>
+</entry>
+<entry keyword="/etc/resolv.conf">
+<topic href="topic/r/res_init.html#res_init" title="res_init()"/>
+<topic href="topic/r/res_search.html#res_search" title="res_search()"/>
+<topic href="topic/r/res_mkquery.html#res_mkquery" title="res_mkquery()"/>
+<topic href="topic/r/res_send.html#res_send" title="res_send()"/>
+<topic href="topic/r/res_query.html#res_query" title="res_query()"/>
+<topic href="topic/r/res_querydomain.html#res_querydomain" title="res_querydomain()"/>
+</entry>
+<entry keyword="/etc/services">
+<topic href="topic/s/servent.html#servent" title="servent"/>
+<topic href="topic/s/setservent.html#setservent" title="setservent()"/>
+<topic href="topic/g/getservbyname.html#getservbyname" title="getservbyname()"/>
+<topic href="topic/g/getservbyport.html#getservbyport" title="getservbyport()"/>
+<topic href="topic/e/endservent.html#endservent" title="endservent()"/>
+<topic href="topic/g/getservent.html#getservent" title="getservent()"/>
+</entry>
+<entry keyword="&lt;ftw.h&gt;">
+<topic href="topic/n/nftw.html#nftw" title="nftw(), nftw64()"/>
+</entry>
+<entry keyword="64-bit addressing, processes and">
+<topic href="topic/s/spawn.html#spawn" title="spawn()"/>
+<topic href="topic/p/posix_spawn.html#posix_spawn" title="posix_spawn(), posix_spawnp()"/>
+</entry>
+<entry keyword="8-bit characters, reading">
+<topic href="topic/m/modem_read.html#modem_read" title="modem_read()"/>
+</entry>
+<entry keyword="8086 mode, virtual">
+<topic href="topic/i/_intr_v86.html#_intr_v86" title="_intr_v86()"/>
+</entry>
+<entry keyword="abort()">
+<topic href="topic/a/abort.html#abort" title="abort()"/>
+</entry>
+<entry keyword="abs()">
+<topic href="topic/a/abs.html#abs" title="abs()"/>
+</entry>
+<entry keyword="absolute values">
+<entry keyword="complex number">
+<topic href="topic/c/cabs.html#cabs" title="cabs(), cabsf()"/>
+</entry>
+<entry keyword="floating point">
+<topic href="topic/f/fabs.html#fabs" title="fabs(), fabsf()"/>
+</entry>
+<entry keyword="integer">
+<topic href="topic/a/abs.html#abs" title="abs()"/>
+</entry>
+<entry keyword="long integer">
+<topic href="topic/l/labs.html#labs" title="labs()"/>
+</entry>
+<entry keyword="long long integer">
+<topic href="topic/l/llabs.html#llabs" title="llabs()"/>
+</entry>
+</entry>
+<entry keyword="accept()">
+<topic href="topic/a/accept.html#accept" title="accept()"/>
+<topic href="topic/socksappendix_SOCKSEXPECTS.html#SOCKSEXPECTS" title="What SOCKS expects"/>
+<topic href="topic/t/tcp_proto.html#tcp_proto" title="TCP"/>
+</entry>
+<entry keyword="access control lists (ACLs)">
+<entry keyword="copying">
+<topic href="topic/a/acl_copy_ext.html#acl_copy_ext" title="acl_copy_ext()"/>
+<topic href="topic/a/acl_copy_int.html#acl_copy_int" title="acl_copy_int()"/>
+</entry>
+<entry keyword="creating from text">
+<topic href="topic/a/acl_from_text.html#acl_from_text" title="acl_from_text()"/>
+</entry>
+<entry keyword="duplicating">
+<topic href="topic/a/acl_dup.html#acl_dup" title="acl_dup()"/>
+</entry>
+<entry keyword="entries">
+<entry keyword="copying">
+<topic href="topic/a/acl_copy_entry.html#acl_copy_entry" title="acl_copy_entry()"/>
+</entry>
+<entry keyword="creating">
+<topic href="topic/a/acl_create_entry.html#acl_create_entry" title="acl_create_entry()"/>
+</entry>
+<entry keyword="deleting">
+<topic href="topic/a/acl_delete_entry.html#acl_delete_entry" title="acl_delete_entry()"/>
+</entry>
+<entry keyword="getting">
+<topic href="topic/a/acl_get_entry.html#acl_get_entry" title="acl_get_entry()"/>
+</entry>
+</entry>
+<entry keyword="freeing">
+<topic href="topic/a/acl_free.html#acl_free" title="acl_free()"/>
+</entry>
+<entry keyword="getting">
+<topic href="topic/a/acl_get_fd.html#acl_get_fd" title="acl_get_fd()"/>
+<topic href="topic/a/acl_get_file.html#acl_get_file" title="acl_get_file()"/>
+</entry>
+<entry keyword="group class mask">
+<entry keyword="calculating">
+<topic href="topic/a/acl_calc_mask.html#acl_calc_mask" title="acl_calc_mask()"/>
+</entry>
+</entry>
+<entry keyword="initializing">
+<topic href="topic/a/acl_init.html#acl_init" title="acl_init()"/>
+</entry>
+<entry keyword="permission set">
+<entry keyword="adding">
+<topic href="topic/a/acl_add_perm.html#acl_add_perm" title="acl_add_perm()"/>
+</entry>
+</entry>
+<entry keyword="permissions">
+<entry keyword="clearing">
+<topic href="topic/a/acl_clear_perms.html#acl_clear_perms" title="acl_clear_perms()"/>
+</entry>
+<entry keyword="deleting">
+<topic href="topic/a/acl_delete_perm.html#acl_delete_perm" title="acl_delete_perm()"/>
+</entry>
+<entry keyword="getting">
+<topic href="topic/a/acl_get_permset.html#acl_get_permset" title="acl_get_permset()"/>
+</entry>
+<entry keyword="setting">
+<topic href="topic/a/acl_set_permset.html#acl_set_permset" title="acl_set_permset()"/>
+</entry>
+</entry>
+<entry keyword="qualifiers">
+<entry keyword="getting">
+<topic href="topic/a/acl_get_qualifier.html#acl_get_qualifier" title="acl_get_qualifier()"/>
+</entry>
+<entry keyword="setting">
+<topic href="topic/a/acl_set_qualifier.html#acl_set_qualifier" title="acl_set_qualifier()"/>
+</entry>
+</entry>
+<entry keyword="setting">
+<topic href="topic/a/acl_set_fd.html#acl_set_fd" title="acl_set_fd()"/>
+<topic href="topic/a/acl_set_file.html#acl_set_file" title="acl_set_file()"/>
+</entry>
+<entry keyword="size of">
+<topic href="topic/a/acl_size.html#acl_size" title="acl_size()"/>
+</entry>
+<entry keyword="tag type">
+<entry keyword="getting">
+<topic href="topic/a/acl_get_tag_type.html#acl_get_tag_type" title="acl_get_tag_type()"/>
+</entry>
+<entry keyword="setting">
+<topic href="topic/a/acl_set_tag_type.html#acl_set_tag_type" title="acl_set_tag_type()"/>
+</entry>
+</entry>
+<entry keyword="text form">
+<topic href="topic/a/acl_to_text.html#acl_to_text" title="acl_to_text()"/>
+</entry>
+<entry keyword="validating">
+<topic href="topic/i/iofunc_acl.html#iofunc_acl" title="iofunc_acl()"/>
+<topic href="topic/a/acl_valid.html#acl_valid" title="acl_valid()"/>
+<topic href="topic/i/iofunc_acl_default.html#iofunc_acl_default" title="iofunc_acl_default()"/>
+</entry>
+</entry>
+<entry keyword="access()">
+<topic href="topic/a/access.html#access" title="access()"/>
+</entry>
+<entry keyword="ACCOUNTING">
+<topic href="topic/u/utmp.html#utmp" title="utmp"/>
+</entry>
+<entry keyword="acl_add_perm()">
+<topic href="topic/a/acl_add_perm.html#acl_add_perm" title="acl_add_perm()"/>
+</entry>
+<entry keyword="acl_calc_mask()">
+<topic href="topic/a/acl_calc_mask.html#acl_calc_mask" title="acl_calc_mask()"/>
+</entry>
+<entry keyword="acl_clear_perms()">
+<topic href="topic/a/acl_clear_perms.html#acl_clear_perms" title="acl_clear_perms()"/>
+</entry>
+<entry keyword="acl_copy_entry()">
+<topic href="topic/a/acl_copy_entry.html#acl_copy_entry" title="acl_copy_entry()"/>
+</entry>
+<entry keyword="acl_copy_ext()">
+<topic href="topic/a/acl_copy_ext.html#acl_copy_ext" title="acl_copy_ext()"/>
+</entry>
+<entry keyword="acl_copy_int()">
+<topic href="topic/a/acl_copy_int.html#acl_copy_int" title="acl_copy_int()"/>
+</entry>
+<entry keyword="acl_create_entry()">
+<topic href="topic/a/acl_create_entry.html#acl_create_entry" title="acl_create_entry()"/>
+</entry>
+<entry keyword="acl_delete_entry()">
+<topic href="topic/a/acl_delete_entry.html#acl_delete_entry" title="acl_delete_entry()"/>
+</entry>
+<entry keyword="acl_delete_perm()">
+<topic href="topic/a/acl_delete_perm.html#acl_delete_perm" title="acl_delete_perm()"/>
+</entry>
+<entry keyword="acl_dup()">
+<topic href="topic/a/acl_dup.html#acl_dup" title="acl_dup()"/>
+</entry>
+<entry keyword="ACL_EXECUTE">
+<topic href="topic/a/acl_delete_perm.html#acl_delete_perm" title="acl_delete_perm()"/>
+<topic href="topic/a/acl_add_perm.html#acl_add_perm" title="acl_add_perm()"/>
+</entry>
+<entry keyword="ACL_FIRST_ENTRY">
+<topic href="topic/a/acl_get_entry.html#acl_get_entry" title="acl_get_entry()"/>
+</entry>
+<entry keyword="acl_free()">
+<topic href="topic/a/acl_free.html#acl_free" title="acl_free()"/>
+</entry>
+<entry keyword="acl_from_text()">
+<topic href="topic/a/acl_from_text.html#acl_from_text" title="acl_from_text()"/>
+</entry>
+<entry keyword="acl_get_entry()">
+<topic href="topic/a/acl_get_entry.html#acl_get_entry" title="acl_get_entry()"/>
+</entry>
+<entry keyword="acl_get_fd()">
+<topic href="topic/a/acl_get_fd.html#acl_get_fd" title="acl_get_fd()"/>
+</entry>
+<entry keyword="acl_get_file()">
+<topic href="topic/a/acl_get_file.html#acl_get_file" title="acl_get_file()"/>
+</entry>
+<entry keyword="acl_get_permset()">
+<topic href="topic/a/acl_get_permset.html#acl_get_permset" title="acl_get_permset()"/>
+</entry>
+<entry keyword="acl_get_qualifier()">
+<topic href="topic/a/acl_get_qualifier.html#acl_get_qualifier" title="acl_get_qualifier()"/>
+</entry>
+<entry keyword="acl_get_tag_type()">
+<topic href="topic/a/acl_get_tag_type.html#acl_get_tag_type" title="acl_get_tag_type()"/>
+</entry>
+<entry keyword="ACL_GROUP">
+<topic href="topic/a/acl_valid.html#acl_valid" title="acl_valid()"/>
+<topic href="topic/a/acl_set_tag_type.html#acl_set_tag_type" title="acl_set_tag_type()"/>
+<topic href="topic/a/acl_get_tag_type.html#acl_get_tag_type" title="acl_get_tag_type()"/>
+</entry>
+<entry keyword="ACL_GROUP_OBJ">
+<topic href="topic/a/acl_valid.html#acl_valid" title="acl_valid()"/>
+<topic href="topic/a/acl_set_tag_type.html#acl_set_tag_type" title="acl_set_tag_type()"/>
+<topic href="topic/a/acl_get_tag_type.html#acl_get_tag_type" title="acl_get_tag_type()"/>
+</entry>
+<entry keyword="acl_init()">
+<topic href="topic/a/acl_init.html#acl_init" title="acl_init()"/>
+</entry>
+<entry keyword="ACL_MASK">
+<topic href="topic/a/acl_valid.html#acl_valid" title="acl_valid()"/>
+<topic href="topic/a/acl_set_tag_type.html#acl_set_tag_type" title="acl_set_tag_type()"/>
+<topic href="topic/a/acl_get_tag_type.html#acl_get_tag_type" title="acl_get_tag_type()"/>
+</entry>
+<entry keyword="ACL_NEXT_ENTRY">
+<topic href="topic/a/acl_get_entry.html#acl_get_entry" title="acl_get_entry()"/>
+</entry>
+<entry keyword="ACL_OTHER">
+<topic href="topic/a/acl_valid.html#acl_valid" title="acl_valid()"/>
+<topic href="topic/a/acl_set_tag_type.html#acl_set_tag_type" title="acl_set_tag_type()"/>
+<topic href="topic/a/acl_get_tag_type.html#acl_get_tag_type" title="acl_get_tag_type()"/>
+</entry>
+<entry keyword="ACL_READ">
+<topic href="topic/a/acl_delete_perm.html#acl_delete_perm" title="acl_delete_perm()"/>
+<topic href="topic/a/acl_add_perm.html#acl_add_perm" title="acl_add_perm()"/>
+</entry>
+<entry keyword="acl_set_fd()">
+<topic href="topic/a/acl_set_fd.html#acl_set_fd" title="acl_set_fd()"/>
+</entry>
+<entry keyword="acl_set_file()">
+<topic href="topic/a/acl_set_file.html#acl_set_file" title="acl_set_file()"/>
+</entry>
+<entry keyword="acl_set_permset()">
+<topic href="topic/a/acl_set_permset.html#acl_set_permset" title="acl_set_permset()"/>
+</entry>
+<entry keyword="acl_set_qualifier()">
+<topic href="topic/a/acl_set_qualifier.html#acl_set_qualifier" title="acl_set_qualifier()"/>
+</entry>
+<entry keyword="acl_set_tag_type()">
+<topic href="topic/a/acl_set_tag_type.html#acl_set_tag_type" title="acl_set_tag_type()"/>
+</entry>
+<entry keyword="acl_size()">
+<topic href="topic/a/acl_size.html#acl_size" title="acl_size()"/>
+</entry>
+<entry keyword="acl_to_text()">
+<topic href="topic/a/acl_to_text.html#acl_to_text" title="acl_to_text()"/>
+</entry>
+<entry keyword="ACL_TYPE_ACCESS">
+<topic href="topic/a/acl_set_file.html#acl_set_file" title="acl_set_file()"/>
+<topic href="topic/a/acl_get_file.html#acl_get_file" title="acl_get_file()"/>
+</entry>
+<entry keyword="ACL_USER">
+<topic href="topic/a/acl_valid.html#acl_valid" title="acl_valid()"/>
+<topic href="topic/a/acl_set_tag_type.html#acl_set_tag_type" title="acl_set_tag_type()"/>
+<topic href="topic/a/acl_get_tag_type.html#acl_get_tag_type" title="acl_get_tag_type()"/>
+</entry>
+<entry keyword="ACL_USER_OBJ">
+<topic href="topic/a/acl_valid.html#acl_valid" title="acl_valid()"/>
+<topic href="topic/a/acl_set_tag_type.html#acl_set_tag_type" title="acl_set_tag_type()"/>
+<topic href="topic/a/acl_get_tag_type.html#acl_get_tag_type" title="acl_get_tag_type()"/>
+</entry>
+<entry keyword="acl_valid()">
+<topic href="topic/a/acl_valid.html#acl_valid" title="acl_valid()"/>
+</entry>
+<entry keyword="ACL_WRITE">
+<topic href="topic/a/acl_delete_perm.html#acl_delete_perm" title="acl_delete_perm()"/>
+<topic href="topic/a/acl_add_perm.html#acl_add_perm" title="acl_add_perm()"/>
+</entry>
+<entry keyword="acos(), acosf(), acosl()">
+<topic href="topic/a/acos.html#acos" title="acos(), acosf(), acosl()"/>
+</entry>
+<entry keyword="acosh(), acoshf(), acoshl()">
+<topic href="topic/a/acosh.html#acosh" title="acosh(), acoshf(), acoshl()"/>
+</entry>
+<entry keyword="ACTION">
+<topic href="topic/h/hsearch.html#hsearch" title="hsearch()"/>
+</entry>
+<entry keyword="adaptive partitions">
+<entry keyword="averaging window size, setting">
+<topic href="topic/c/clockperiod.html#clockperiod" title="ClockPeriod(), ClockPeriod_r()"/>
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="bankruptcy, handling">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="budgets">
+<entry keyword="zero, preventing">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="zero, setting on bankruptcy">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+</entry>
+<entry keyword="CPU time, getting">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="creating">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="IDs, finding for a partition">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="inheritance, preventing">
+<topic href="topic/c/channelcreate.html#channelcreate" title="ChannelCreate(), ChannelCreate_r()"/>
+</entry>
+<entry keyword="locking">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="maximum number of">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="names">
+<entry keyword="assigning">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="maximum length">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+</entry>
+<entry keyword="parameters, setting">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="processes">
+<entry keyword="getting">
+<topic href="topic/p/posix_spawnattr_getpartid.html#posix_spawnattr_getpartid" title=" posix_spawnattr_getpartid() "/>
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="setting">
+<topic href="topic/p/posix_spawnattr_addpartition.html#posix_spawnattr_addpartition" title=" posix_spawnattr_addpartition() "/>
+<topic href="topic/p/posix_spawn.html#posix_spawn" title="posix_spawn(), posix_spawnp()"/>
+<topic href="topic/p/posix_spawnattr_addpartid.html#posix_spawnattr_addpartid" title=" posix_spawnattr_addpartid() "/>
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+</entry>
+<entry keyword="querying">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="scheduler">
+<entry keyword="controlling">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="parameters, getting">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="parameters, setting">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+</entry>
+<entry keyword="scheduling policies">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="security, setting">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="System">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="threads">
+<entry keyword="critical">
+<topic href="topic/s/sigevent.html#sigevent" title="sigevent"/>
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="determining">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+<entry keyword="joining">
+<topic href="topic/s/schedctl.html#schedctl" title="SchedCtl(), SchedCtl_r()"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="address space layout randomization (ASLR)">
+<topic href="topic/m/malloc.html#malloc" title="malloc()"/>
+</entry>
+<entry keyword="Address Space Layout Randomization (ASLR)">
+<topic href="topic/p/posix_spawn.html#posix_spawn" title="posix_spawn(), posix_spawnp()"/>
+</entry>
+<entry keyword="addresses">
+<entry keyword="hosts">
+<entry keyword="strings, converting to/from">
+<topic href="topic/i/inet_pton.html#inet_pton" title="inet_pton()"/>
+<topic href="topic/i/inet_ntop.html#inet_ntop" title="inet_ntop()"/>
+</entry>
+</entry>
+<entry keyword="IP">
+<entry keyword="strings, converting to/from">
+<topic href="topic/i/inet_ntoa.html#inet_ntoa" title="inet_ntoa()"/>
+<topic href="topic/i/inet_aton.html#inet_aton" title="inet_aton()"/>
+<topic href="topic/i/inet_pton.html#inet_pton" title="inet_pton()"/>
+<topic href="topic/i/inet_addr.html#inet_addr" title="inet_addr()"/>
+<topic href="topic/i/inet_ntoa_r.html#inet_ntoa_r" title="inet_ntoa_r()"/>
+<topic href="topic/i/inet_ntop.html#inet_ntop" title="inet_ntop()"/>
+</entry>
+</entry>
+<entry keyword="IPv6">
+<topic href="topic/i/inet6_proto.html#inet6_proto" title="INET6"/>
+</entry>
+<entry keyword="link-local">
+<topic href="topic/i/inet6_proto.html#inet6_proto" title="INET6"/>
+</entry>
+<entry keyword="local network">
+<entry keyword="IP addresses, converting to/from">
+<topic href="topic/i/inet_makeaddr.html#inet_makeaddr" title="inet_makeaddr()"/>
+</entry>
+<entry keyword="IP addresses, extracting from">
+<topic href="topic/i/inet_lnaof.html#inet_lnaof" title="inet_lnaof()"/>
+</entry>
+</entry>
+<entry keyword="nodenames, translating">
+<topic href="topic/g/getnameinfo.html#getnameinfo" title="getnameinfo()"/>
+</entry>
+<entry keyword="scoped">
+<topic href="topic/i/inet6_proto.html#inet6_proto" title="INET6"/>
+</entry>
+<entry keyword="site-local">
+<topic href="topic/i/inet6_proto.html#inet6_proto" title="INET6"/>
+</entry>
+<entry keyword="sockets">
+<topic href="topic/a/addrinfo.html#addrinfo" title="addrinfo"/>
+<topic href="topic/g/gai_strerror.html#gai_strerror" title="gai_strerror()"/>
+<topic href="topic/f/freeaddrinfo.html#freeaddrinfo" title="freeaddrinfo()"/>
+<topic href="topic/g/getaddrinfo.html#getaddrinfo" title="getaddrinfo()"/>
+</entry>
+</entry>
+<entry keyword="addrinfo">
+<topic href="topic/a/addrinfo.html#addrinfo" title="addrinfo"/>
+<entry keyword="errors">
+<topic href="topic/g/gai_strerror.html#gai_strerror" title="gai_strerror()"/>
+</entry>
+<entry keyword="freeing">
+<topic href="topic/f/freeaddrinfo.html#freeaddrinfo" title="freeaddrinfo()"/>
+</entry>
+<entry keyword="getting">
+<topic href="topic/g/getaddrinfo.html#getaddrinfo" title="getaddrinfo()"/>
+</entry>
+</entry>
+<entry keyword="advisory locks">
+<topic href="topic/f/flock.html#flock" title="flock()"/>
+<entry keyword="See files, locking">

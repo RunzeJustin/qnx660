@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.qnx.tools.ide.sysinfo"
+      label="%featureName"
+      version="5.0.0.v201402230336"
+      provider-name="%providerName"
+      plugin="com.qnx.tools.ide.sysinfo">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="com.qnx.tools.ide" version="5.0.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="com.qnx.tools.ide.sysinfo.ui"
+         download-size="185"
+         install-size="359"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.sysinfo"
+         download-size="5"
+         install-size="5"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.apsinfo.core"
+         download-size="30"
+         install-size="58"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.apsinfo.ui"
+         download-size="99"
+         install-size="197"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.sysinfo.log.core"
+         download-size="52"
+         install-size="105"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.sysinfo.log.ui"
+         download-size="87"
+         install-size="166"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.thoughtworks.xstream"
+         download-size="377"
+         install-size="430"
+         version="1.3.0"/>
+
+</feature>

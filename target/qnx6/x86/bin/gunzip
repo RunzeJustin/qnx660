@@ -1,0 +1,3 @@
+#!/bin/sh
+PATH=${GZIP_BINDIR-'/builds/660_SDP/daily/nto//x86/bin'}:$PATH
+exec gzip -d "$@"

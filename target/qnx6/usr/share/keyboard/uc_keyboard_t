@@ -1,0 +1,37 @@
+[ UC_KEYBOARD_t ]
+#
+# Description:
+# This is the User's Configuration (UC) Keyboard data file
+# Containing a list of the supported keyboards.
+# 
+#
+# Keyword       Comment/{Values}/[Default]
+# ========      ================================================================
+# keyboard    - .
+#    name     - Keyboard name as it is shown in the window
+#    file_name - Keyboard file name ('/usr/share/keyboard')
+#
+keyboard ="Belgium",			"fr_BE_102.kbd"
+keyboard ="Canadian Dvorak",	"en_CA_101_dvorak.kbd"
+keyboard ="Canadian English",	"en_CA_101.kbd"
+keyboard ="Canadian French",	"fr_CA_102.kbd"
+keyboard ="Czech",				"cs_CZ_102.kbd"
+keyboard ="Danish",				"da_DK_102.kbd"
+keyboard ="Dutch",				"nl_NL_102.kbd"
+keyboard ="French",				"fr_FR_102.kbd"
+keyboard ="German",				"de_DE_102.kbd"
+keyboard ="Italian",			"it_IT_102.kbd"
+keyboard ="Japanese",			"ja_JP_106.kbd"
+keyboard ="Latin American",		"es_ES_102.kbd"
+keyboard ="Norwegian",			"no_NO_102.kbd"
+keyboard ="Polish",				"pl_PL_102.kbd"
+keyboard ="Portuguese",			"pt_PT_102.kbd"
+keyboard ="Russian",			"ru_RU_102.kbd"
+keyboard ="Slovak",				"sk_SK_102.kbd"
+keyboard ="Spanish",			"es_ES_102.kbd"
+keyboard ="Swedish",			"se_SE_102.kbd"
+keyboard ="Swiss French",		"fr_CH_102.kbd"
+keyboard ="Swiss German",		"de_CH_102.kbd"
+keyboard ="UK English",			"en_GB_102.kbd"
+keyboard ="US Dvorak",			"en_US_101_dvorak.kbd"
+keyboard ="US English",			"en_US_101.kbd"

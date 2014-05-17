@@ -1,0 +1,224 @@
+// exception standard header
+#ifndef _EXCEPTION_
+#define _EXCEPTION_
+#include <xstddef>
+
+_X_STD_BEGIN
+		// FORWARD REFERENCES
+class exception;
+typedef void (*_Prhand)(const exception&);
+extern _Prhand _Raise_handler;
+void _Throw(const exception&);
+
+ #if __EDG__ || defined(__SUNPRO_CC)
+		// CLASS exception
+class exception
+	{	// base of all library exceptions, EDG version
+public:
+	static _Prhand _Set_raise_handler(_Prhand _Pnew)
+		{	// register a handler for _Raise calls
+		const _Prhand _Pold = _Raise_handler;
+		_Raise_handler = _Pnew;
+		return (_Pold);
+		}
+
+	explicit exception(const char *_Message = "unknown") _THROW0()
+		: _Ptr(_Message)
+		{	// construct from message string
+		}
+
+	exception(const exception& _Right) _THROW0()
+		: _Ptr(_Right._Ptr)
+		{	// construct by copying _Right
+		}
+
+	exception& operator=(const exception& _Right) _THROW0()
+		{	// assign _Right
+		_Ptr = _Right._Ptr;
+		return (*this);
+		}
+
+	virtual ~exception() _NOEXCEPT
+		{	// destroy the object
+		}
+
+ #if _HAS_TRADITIONAL_STL
+	virtual const char *what() const
+
+ #else /* _HAS_TRADITIONAL_STL */
+	virtual const char *what() const _THROW0()
+ #endif /* _HAS_TRADITIONAL_STL */
+
+		{	// return pointer to message string
+		return (_Ptr);
+		}
+
+ #if _HAS_EXCEPTIONS
+protected:
+
+ #else /* _HAS_EXCEPTIONS */
+	void _Raise() const
+		{	// raise the exception
+		if (_Raise_handler != 0)
+			(*_Raise_handler)(*this);	// call raise handler if present
+
+		_Doraise();	// call the protected virtual
+		_RAISE(*this);	// raise this exception
+		}
+
+protected:
+	virtual void _Doraise() const
+		{	// perform class-specific exception handling
+		}
+ #endif /* _HAS_EXCEPTIONS */
+
+	const char *_Ptr;	// the message pointer
+	};
+
+		// CLASS bad_exception
+class bad_exception
+	: public exception
+	{	// base of all bad exceptions, EDG version
+public:
+	bad_exception(const char *_Message = "bad exception") _THROW0()
+		: exception(_Message)
+		{	// construct from message string
+		}
+
+	virtual ~bad_exception() _NOEXCEPT
+		{	// destroy the object
+		}
+
+ #if _HAS_EXCEPTIONS
+
+ #else /* _HAS_EXCEPTIONS */
+protected:
+	virtual void _Doraise() const
+		{	// raise this exception
+		_RAISE(*this);
+		}
+ #endif /* _HAS_EXCEPTIONS */
+	};
+
+ #else /* __EDG__ etc. */
+		// CLASS exception
+class exception
+	{	// base of all library exceptions, gcc version
+public:
+	static _Prhand _Set_raise_handler(_Prhand _Pnew);
+
+	exception() _THROW0()
+		{	// default constructor
+		}
+
+	explicit exception(const char *) _THROW0()
+		{	// construct from message string
+		}
+
+	virtual ~exception() _NOEXCEPT;
+
+ #if _HAS_TRADITIONAL_STL
+	virtual const char *what() const;
+
+ #else /* _HAS_TRADITIONAL_STL */
+	virtual const char *what() const _THROW0();
+ #endif /* _HAS_TRADITIONAL_STL */
+
+ #if _HAS_EXCEPTIONS
+
+ #else /* _HAS_EXCEPTIONS */
+
+	void _Raise() const;
+
+protected:
+	virtual void _Doraise() const;
+ #endif /* _HAS_EXCEPTIONS */
+	};
+
+		// CLASS bad_exception
+class bad_exception
+	: public exception
+	{	// base of all bad exceptions, gcc version
+public:
+	bad_exception() _THROW0()
+		{	// construct with no message string
+		}
+
+ #if defined(__MINGW32__) || defined(__CYGWIN__)
+	virtual ~bad_exception() _NOEXCEPT;
+
+ #else /* defined(__MINGW32__) */
+	virtual ~bad_exception() _NOEXCEPT
+		{	// destroy the object
+		}
+ #endif /* defined(__MINGW32__) */
+
+ #if _HAS_EXCEPTIONS
+
+ #else /* _HAS_EXCEPTIONS */
+protected:
+	virtual void _Doraise() const
+		{	// raise this exception
+		_RAISE(*this);
+		}
+ #endif /* _HAS_EXCEPTIONS */
+	};
+ #endif /* __EDG__ etc. */
+
+		// TYPES
+typedef void (*terminate_handler)();
+typedef void (*unexpected_handler)();
+
+		// FUNCTION DECLARATIONS
+terminate_handler get_terminate() _NOEXCEPT;
+terminate_handler set_terminate(terminate_handler) _THROW0();
+unexpected_handler get_unexpected() _NOEXCEPT;
+unexpected_handler set_unexpected(unexpected_handler) _THROW0();
+bool uncaught_exception() _THROW0();
+_NO_RETURN(terminate()) _NOEXCEPT;
+_NO_RETURN(unexpected());
+
+inline unexpected_handler get_unexpected() _NOEXCEPT
+	{	// get unexpected handler -- UNSAFE
+	unexpected_handler _Hand = set_unexpected(0);
+	set_unexpected(_Hand);
+	return (_Hand);
+	}
+
+inline terminate_handler get_terminate() _NOEXCEPT
+	{	// get terminate handler -- UNSAFE
+	terminate_handler _Hand = set_terminate(0);
+	set_terminate(_Hand);
+	return (_Hand);
+	}
+_X_STD_END
+
+ #if _HAS_CPP0X
+ #include <xxexception>
+ #endif /* _HAS_CPP0X */
+
+ #if _HAS_NAMESPACE
+
+ #else /* _HAS_NAMESPACE */
+using _STD _Prhand; using _STD _Raise_handler;
+using _STD _Throw;
+
+using _STD exception; using _STD bad_exception;
+using _STD terminate_handler; using _STD unexpected_handler;
+using _STD get_terminate; using _STD get_unexpected;
+using _STD set_terminate; using _STD set_unexpected;
+using _STD terminate; using _STD unexpected;
+using _STD uncaught_exception;
+ #endif /* _HAS_NAMESPACE */
+
+#endif /* _EXCEPTION_ */
+
+/*
+ * Copyright (c) 1992-2013 by P.J. Plauger.  ALL RIGHTS RESERVED.
+ * Consult your license regarding permissions and restrictions.
+V6.40:1566 */
+
+#if defined(__QNXNTO__) && defined(__USESRCVERSION)
+#include <sys/srcversion.h>
+__SRCVERSION("$URL$ $Rev: 735298 $")
+#endif

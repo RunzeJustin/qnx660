@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword="_DEVCTL_DATA()">
+<topic href="topic/s1_resmgr_devctl_simple2.html#devctl_simple2" title="An io_devctl() example that deals with data"/>
+</entry>
+<entry keyword="_FTYPE_ANY">
+<topic href="topic/s1_resmgr_resmgr_attach.html#resmgr_attach" title="The resmgr_attach() function and its parameters"/>
+</entry>
+<entry keyword="_FTYPE_MQUEUE">
+<topic href="topic/s1_resmgr_resmgr_attach.html#resmgr_attach" title="The resmgr_attach() function and its parameters"/>
+</entry>
+<entry keyword="_IO_ACL">
+<topic href="topic/s1_resmgr_io_acl.html#io_acl" title="io_acl()"/>
+</entry>
+<entry keyword="_IO_CHMOD">
+<topic href="topic/s1_resmgr_io_chmod.html#io_chmod" title="io_chmod()"/>
+</entry>
+<entry keyword="_IO_CHOWN">
+<topic href="topic/s1_resmgr_io_chown.html#io_chown" title="io_chown()"/>
+</entry>
+<entry keyword="_IO_CLOSE_DUP">
+<topic href="topic/s1_resmgr_struct_dirent.html#struct_dirent" title="The struct dirent structure and friends"/>
+<topic href="topic/s1_resmgr_io_close_dup.html#io_close_dup" title="io_close_dup()"/>
+</entry>
+<entry keyword="_IO_CONNECT">
+<topic href="topic/s3_qnx2nto_IO_manager.html#IO_manager" title="Client/Server using an I/O manager"/>
+<topic href="topic/s1_resmgr_io_link.html#io_link" title="io_link()"/>
+<topic href="topic/s1_resmgr_struct_dirent.html#struct_dirent" title="The struct dirent structure and friends"/>
+<topic href="topic/s1_resmgr_io_readlink.html#io_readlink" title="io_readlink()"/>
+<topic href="topic/s1_resmgr_io_unlink.html#io_unlink" title="io_unlink()"/>
+<topic href="topic/s1_resmgr_io_rename.html#io_rename" title="io_rename()"/>
+<topic href="topic/s1_resmgr_io_mknod.html#io_mknod" title="io_mknod()"/>
+<topic href="topic/s1_resmgr_io_open.html#io_open" title="io_open()"/>
+<topic href="topic/s1_resmgr_io_mount.html#io_mount" title="io_mount()"/>
+</entry>
+<entry keyword="_IO_CONNECT_COMBINE">
+<topic href="topic/s1_resmgr_io_open.html#io_open" title="io_open()"/>
+</entry>
+<entry keyword="_IO_CONNECT_COMBINE_CLOSE">
+<topic href="topic/s1_resmgr_should_be_connect.html#should_be_connect" title="Messages that should be connect messages but aren&apos;t"/>
+<topic href="topic/s1_resmgr_io_open.html#io_open" title="io_open()"/>
+</entry>
+<entry keyword="_IO_CONNECT_LINK">
+<topic href="topic/s1_resmgr_io_link.html#io_link" title="io_link()"/>
+</entry>
+<entry keyword="_IO_CONNECT_MKNOD">
+<topic href="topic/s1_resmgr_io_mknod.html#io_mknod" title="io_mknod()"/>
+</entry>
+<entry keyword="_IO_CONNECT_MOUNT">
+<topic href="topic/s1_resmgr_io_mount.html#io_mount" title="io_mount()"/>
+</entry>
+<entry keyword="_IO_CONNECT_OPEN">
+<topic href="topic/s1_resmgr_io_open.html#io_open" title="io_open()"/>
+</entry>
+<entry keyword="_IO_CONNECT_READLINK">
+<topic href="topic/s1_resmgr_io_readlink.html#io_readlink" title="io_readlink()"/>
+</entry>
+<entry keyword="_IO_CONNECT_RENAME">
+<topic href="topic/s1_resmgr_io_rename.html#io_rename" title="io_rename()"/>
+</entry>
+<entry keyword="_IO_CONNECT_UNLINK">
+<topic href="topic/s1_resmgr_io_unlink.html#io_unlink" title="io_unlink()"/>
+</entry>
+<entry keyword="_IO_DEVCTL">
+<topic href="topic/s1_resmgr_devctl_simple.html#devctl_simple" title="A simple io_devctl() example"/>
+<topic href="topic/s1_resmgr_io_devctl.html#io_devctl" title="io_devctl()"/>
+<topic href="topic/s1_resmgr_other_func.html#other_func" title="The other_func message handler"/>
+</entry>
+<entry keyword="_IO_DUP">
+<topic href="topic/s1_resmgr_io_dup.html#io_dup" title="io_dup()"/>
+</entry>
+<entry keyword="_IO_FDINFO">
+<topic href="topic/s1_resmgr_io_fdinfo.html#io_fdinfo" title="io_fdinfo()"/>
+</entry>
+<entry keyword="_IO_FLAG_RD">
+<topic href="topic/s1_resmgr_iofunc_ocb.html#iofunc_ocb" title="The iofunc_ocb_t OCB structure"/>
+</entry>
+<entry keyword="_IO_FLAG_WR">
+<topic href="topic/s1_resmgr_iofunc_ocb.html#iofunc_ocb" title="The iofunc_ocb_t OCB structure"/>
+</entry>
+<entry keyword="_IO_LSEEK">
+<topic href="topic/s1_resmgr_struct_dirent.html#struct_dirent" title="The struct dirent structure and friends"/>
+<topic href="topic/s1_resmgr_io_lseek.html#io_lseek" title="io_lseek()"/>
+</entry>
+<entry keyword="_IO_MMAP">
+<topic href="topic/s1_resmgr_io_mmap.html#io_mmap" title="io_mmap()"/>
+</entry>
+<entry keyword="_IO_MSG">
+<topic href="topic/s1_resmgr_io_msg.html#io_msg" title="io_msg()"/>
+<topic href="topic/s3_qnx2nto_Global_namespace.html#Global_namespace" title="Client/server using the global namespace"/>
+<topic href="topic/s3_qnx2nto_devctl.html#devctl" title="Translating messages to devctl() or _IO_MSG"/>
+<topic href="topic/s1_resmgr_other_func.html#other_func" title="The other_func message handler"/>
+</entry>
+<entry keyword="_IO_NOTIFY">
+<topic href="topic/s1_resmgr_io_notify.html#io_notify" title="io_notify()"/>
+</entry>
+<entry keyword="_IO_OPENFD">
+<topic href="topic/s1_resmgr_io_openfd.html#io_openfd" title="io_openfd()"/>
+</entry>
+<entry keyword="_IO_PATHCONF">
+<topic href="topic/s1_resmgr_io_pathconf.html#io_pathconf" title="io_pathconf()"/>
+</entry>
+<entry keyword="_IO_READ">
+<topic href="topic/s1_resmgr_struct_dirent.html#struct_dirent" title="The struct dirent structure and friends"/>
+<topic href="topic/s1_resmgr_io_read.html#io_read" title="io_read()"/>
+<topic href="topic/s1_resmgr_skeleton.html#skeleton" title="The basic skeleton of a resource manager"/>
+</entry>
+<entry keyword="_IO_SET_CONNECT_RET">
+<topic href="topic/s1_resmgr_io_open.html#io_open" title="io_open()"/>
+<topic href="topic/s1_resmgr_io_mount.html#io_mount" title="io_mount()"/>
+</entry>
+<entry keyword="_IO_SET_FDINFO_LEN">
+<topic href="topic/s1_resmgr_io_fdinfo.html#io_fdinfo" title="io_fdinfo()"/>
+</entry>
+<entry keyword="_IO_SET_PATHCONF_VALUE">
+<topic href="topic/s1_resmgr_io_pathconf.html#io_pathconf" title="io_pathconf()"/>
+</entry>
+<entry keyword="_IO_SET_READ_NBYTES">
+<topic href="topic/s1_resmgr_io_read.html#io_read" title="io_read()"/>
+</entry>
+<entry keyword="_IO_SET_WRITE_NBYTES">
+<topic href="topic/s1_resmgr_io_write.html#io_write" title="io_write()"/>
+</entry>
+<entry keyword="_IO_SET_WRITE_NBYTES()">
+<topic href="topic/s1_resmgr_write_simple.html#write_simple" title="A simple io_write() example"/>
+</entry>
+<entry keyword="_IO_SPACE">
+<topic href="topic/s1_resmgr_io_space.html#io_space" title="io_space()"/>
+</entry>
+<entry keyword="_IO_STAT">
+<topic href="topic/s1_resmgr_io_stat.html#io_stat" title="io_stat()"/>
+</entry>
+<entry keyword="_IO_SYNC">
+<topic href="topic/s1_resmgr_io_sync.html#io_sync" title="io_sync()"/>
+</entry>
+<entry keyword="_IO_UTIME">
+<topic href="topic/s1_resmgr_io_utime.html#io_utime" title="io_utime()"/>
+</entry>
+<entry keyword="_IO_WRITE">
+<topic href="topic/s1_resmgr_write_simple.html#write_simple" title="A simple io_write() example"/>
+<topic href="topic/s1_resmgr_io_write.html#io_write" title="io_write()"/>
+</entry>
+<entry keyword="_IO_XTYPE_NONE">
+<topic href="topic/s1_resmgr_read_simple_code.html#read_simple_code" title="The code"/>
+</entry>
+<entry keyword="_IO_XTYPE_OFFSET">
+<topic href="topic/s1_resmgr_write_simple.html#write_simple" title="A simple io_write() example"/>
+<topic href="topic/s1_resmgr_read_simple_code.html#read_simple_code" title="The code"/>
+<topic href="topic/s1_resmgr_io_read.html#io_read" title="io_read()"/>
+</entry>
+<entry keyword="_IOFUNC_NFUNCS">
+<topic href="topic/s1_resmgr_iofunc_mount.html#iofunc_mount" title="The iofunc_mount_t mount structure"/>
+</entry>
+<entry keyword="_IOMGR_PRIVATE_BASE">
+<topic href="topic/s3_qnx2nto_devctl.html#devctl" title="Translating messages to devctl() or _IO_MSG"/>
+</entry>
+<entry keyword="_IOMGR_PRIVATE_MAX">
+<topic href="topic/s3_qnx2nto_devctl.html#devctl" title="Translating messages to devctl() or _IO_MSG"/>
+</entry>
+<entry keyword="_NTO_CHF_COID_DISCONNECT">
+<topic href="topic/s1_msg_chanflags.html#chanflags" title="Channel flags"/>
+</entry>
+<entry keyword="_NTO_CHF_DISCONNECT">
+<topic href="topic/s1_msg_chanflags.html#chanflags" title="Channel flags"/>
+</entry>
+<entry keyword="_NTO_CHF_FIXED_PRIORITY">
+<topic href="topic/s1_msg_Priority_inheritance_trick.html#Priority_inheritance_trick" title="So what&apos;s the trick?"/>
+<topic href="topic/s1_msg_chanflags.html#chanflags" title="Channel flags"/>
+</entry>
+<entry keyword="_NTO_CHF_REPLY_LEN">
+<topic href="topic/s1_msg_msginfo.html#msginfo" title="Who sent the message?"/>
+<topic href="topic/s1_msg_chanflags.html#chanflags" title="Channel flags"/>
+</entry>
+<entry keyword="_NTO_CHF_SENDER_LEN">
+<topic href="topic/s1_msg_msginfo.html#msginfo" title="Who sent the message?"/>
+<topic href="topic/s1_msg_chanflags.html#chanflags" title="Channel flags"/>
+</entry>
+<entry keyword="_NTO_CHF_THREAD_DEATH">
+<topic href="topic/s1_msg_chanflags.html#chanflags" title="Channel flags"/>
+</entry>
+<entry keyword="_NTO_CHF_UNBLOCK">
+<topic href="topic/s1_resmgr_io_unblock_IO.html#io_unblock_IO" title="io_unblock() [I/O]"/>
+<topic href="topic/s1_msg_chanflags.html#chanflags" title="Channel flags"/>
+<topic href="topic/s1_timer_Signal_notification.html#Signal_notification" title="Signal notification"/>
+<topic href="topic/s1_msg_Synchronization_problem.html#Synchronization_problem" title="Synchronization problem"/>
+<topic href="topic/s1_timer_Kernel_timeouts_with_messages.html#Kernel_timeouts_with_messages" title="Kernel timeouts with message passing"/>
+<topic href="topic/s1_msg_ntochfunblock.html#ntochfunblock" title="_NTO_CHF_UNBLOCK"/>
+<entry keyword="and kernel timeouts">
+<topic href="topic/s1_timer_Kernel_timeouts_with_messages.html#Kernel_timeouts_with_messages" title="Kernel timeouts with message passing"/>
+</entry>
+<entry keyword="modifying client&apos;s behavior">
+<topic href="topic/s1_msg_ntochfunblock.html#ntochfunblock" title="_NTO_CHF_UNBLOCK"/>
+</entry>
+</entry>
+<entry keyword="_NTO_INTR_FLAGS_END">
+<topic href="topic/s1_inter_flags_parameter.html#flags_parameter" title="The flags parameter"/>
+</entry>
+<entry keyword="_NTO_INTR_FLAGS_PROCESS">
+<topic href="topic/s1_inter_flags_parameter.html#flags_parameter" title="The flags parameter"/>
+</entry>
+<entry keyword="_NTO_INTR_FLAGS_TRK_MSK">
+<topic href="topic/s1_inter_flags_parameter.html#flags_parameter" title="The flags parameter"/>
+</entry>
+<entry keyword="_NTO_MI_ENDIAN_BIG">
+<topic href="topic/s1_msg_msginfo.html#msginfo" title="Who sent the message?"/>
+</entry>
+<entry keyword="_NTO_MI_ENDIAN_DIFF">
+<topic href="topic/s1_msg_msginfo.html#msginfo" title="Who sent the message?"/>
+</entry>
+<entry keyword="_NTO_MI_NET_CRED_DIRTY">
+<topic href="topic/s1_msg_msginfo.html#msginfo" title="Who sent the message?"/>
+</entry>
+<entry keyword="_NTO_MI_UNBLOCK_REQ">
+<topic href="topic/s1_msg_nto_mi_unblock_req.html#nto_mi_unblock_req" title="Using the _NTO_MI_UNBLOCK_REQ"/>
+<topic href="topic/s1_msg_msginfo.html#msginfo" title="Who sent the message?"/>
+<topic href="topic/s1_resmgr_io_unblock_IO.html#io_unblock_IO" title="io_unblock() [I/O]"/>
+<topic href="topic/s1_resmgr_extocb.html#extocb" title="Extending the OCB"/>
+<topic href="topic/s1_resmgr_io_unblock_Connect.html#io_unblock_Connect" title="io_unblock() [CONNECT]"/>
+</entry>
+<entry keyword="_POSIX_DEVDIR_FROM">
+<topic href="topic/s1_resmgr_io_devctl.html#io_devctl" title="io_devctl()"/>
+</entry>
+<entry keyword="_POSIX_DEVDIR_TO">
+<topic href="topic/s1_resmgr_io_devctl.html#io_devctl" title="io_devctl()"/>
+</entry>
+<entry keyword="_PULSE_CODE_UNBLOCK">
+<topic href="topic/s1_msg_In_a_pulse.html#In_a_pulse" title="What&apos;s in a pulse?"/>
+</entry>
+<entry keyword="_RESMGR_CONNECT_NFUNCS">
+<topic href="topic/s1_resmgr_resmgr_connect.html#resmgr_connect" title="resmgr_connect_funcs_t connect table"/>
+</entry>
+<entry keyword="_RESMGR_DEFAULT">
+<topic href="topic/s1_resmgr_general.html#general" title="General notes"/>
+<topic href="topic/s1_resmgr_devctl_simple.html#devctl_simple" title="A simple io_devctl() example"/>
+<topic href="topic/s1_resmgr_io_devctl.html#io_devctl" title="io_devctl()"/>
+</entry>
+<entry keyword="_RESMGR_ERRNO (errno)">
+<topic href="topic/s1_resmgr_general.html#general" title="General notes"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_AFTER">
+<topic href="topic/s1_resmgr_resmgr_attach.html#resmgr_attach" title="The resmgr_attach() function and its parameters"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_BEFORE">
+<topic href="topic/s1_resmgr_resmgr_attach.html#resmgr_attach" title="The resmgr_attach() function and its parameters"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_DIR">
+<topic href="topic/s1_resmgr_rc_main.html#rc_main" title="main() and declarations"/>
+<topic href="topic/s1_resmgr_resmgr_attach.html#resmgr_attach" title="The resmgr_attach() function and its parameters"/>
+<topic href="topic/s1_resmgr_returning_dirents.html#returning_dirents" title="Returning directory entries"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_FTYPEALL">
+<topic href="topic/s1_resmgr_resmgr_attach.html#resmgr_attach" title="The resmgr_attach() function and its parameters"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_FTYPEONLY">
+<topic href="topic/s1_resmgr_resmgr_attach.html#resmgr_attach" title="The resmgr_attach() function and its parameters"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_OPAQUE">
+<topic href="topic/s1_resmgr_resmgr_attach.html#resmgr_attach" title="The resmgr_attach() function and its parameters"/>
+</entry>
+<entry keyword="_RESMGR_FLAG_SELF">
+<topic href="topic/s1_resmgr_resmgr_attach.html#resmgr_attach" title="The resmgr_attach() function and its parameters"/>
+</entry>
+<entry keyword="_RESMGR_IO_NFUNCS">
+<topic href="topic/s1_resmgr_resmgr_io.html#resmgr_io" title="resmgr_io_funcs_t I/O table"/>
+</entry>
+<entry keyword="_RESMGR_NOREPLY">
+<topic href="topic/s1_resmgr_general.html#general" title="General notes"/>
+<topic href="topic/s1_resmgr_read_simple_code.html#read_simple_code" title="The code"/>
+<topic href="topic/s1_resmgr_blocking_in_resmgr.html#blocking_in_resmgr" title="Blocking within the resource manager"/>
+</entry>
+<entry keyword="_RESMGR_NPARTS()">
+<topic href="topic/s1_resmgr_general.html#general" title="General notes"/>
+<topic href="topic/s1_resmgr_devctl_simple.html#devctl_simple" title="A simple io_devctl() example"/>
+</entry>
+<entry keyword="_RESMGR_PTR()">
+<topic href="topic/s1_resmgr_general.html#general" title="General notes"/>
+<topic href="topic/s1_resmgr_devctl_simple.html#devctl_simple" title="A simple io_devctl() example"/>
+</entry>
+<entry keyword="_RESMGR_STATUS">
+<topic href="topic/s1_resmgr_io_msg.html#io_msg" title="io_msg()"/>
+<topic href="topic/s1_resmgr_io_chown.html#io_chown" title="io_chown()"/>
+<topic href="topic/s1_resmgr_io_unblock_IO.html#io_unblock_IO" title="io_unblock() [I/O]"/>
+<topic href="topic/s1_resmgr_io_link.html#io_link" title="io_link()"/>
+<topic href="topic/s1_resmgr_io_readlink.html#io_readlink" title="io_readlink()"/>
+<topic href="topic/s1_resmgr_io_unlink.html#io_unlink" title="io_unlink()"/>
+<topic href="topic/s1_resmgr_io_lseek.html#io_lseek" title="io_lseek()"/>
+<topic href="topic/s1_resmgr_io_rename.html#io_rename" title="io_rename()"/>
+<topic href="topic/s1_resmgr_io_utime.html#io_utime" title="io_utime()"/>
+<topic href="topic/s1_resmgr_io_mknod.html#io_mknod" title="io_mknod()"/>
+<topic href="topic/s1_resmgr_io_space.html#io_space" title="io_space()"/>
+<topic href="topic/s1_resmgr_io_acl.html#io_acl" title="io_acl()"/>
+<topic href="topic/s1_resmgr_io_notify.html#io_notify" title="io_notify()"/>
+<topic href="topic/s1_resmgr_io_devctl.html#io_devctl" title="io_devctl()"/>
+<topic href="topic/s1_resmgr_io_sync.html#io_sync" title="io_sync()"/>
+<topic href="topic/s1_resmgr_io_unblock_Connect.html#io_unblock_Connect" title="io_unblock() [CONNECT]"/>
+<topic href="topic/s1_resmgr_io_lock.html#io_lock" title="io_lock()"/>
+<topic href="topic/s1_resmgr_io_dup.html#io_dup" title="io_dup()"/>
+<topic href="topic/s1_resmgr_io_close_dup.html#io_close_dup" title="io_close_dup()"/>
+<topic href="topic/s1_resmgr_io_lock_ocb.html#io_lock_ocb" title="io_lock_ocb()"/>
+<topic href="topic/s1_resmgr_io_mmap.html#io_mmap" title="io_mmap()"/>
+<topic href="topic/s1_resmgr_io_unlock_ocb.html#io_unlock_ocb" title="io_unlock_ocb()"/>
+<topic href="topic/s1_resmgr_resmgr_context.html#resmgr_context" title="The resmgr_context_t internal context block"/>
+<topic href="topic/s1_resmgr_io_close_ocb.html#io_close_ocb" title="io_close_ocb()"/>
+<topic href="topic/s1_resmgr_io_chmod.html#io_chmod" title="io_chmod()"/>
+<topic href="topic/s1_resmgr_io_openfd.html#io_openfd" title="io_openfd()"/>
+<topic href="topic/s1_resmgr_io_stat.html#io_stat" title="io_stat()"/>
+</entry>
+<entry keyword="_SC_PAGESIZE">
+<topic href="topic/s1_procs_Thread_attributes_stack.html#Thread_attributes_stack" title="The stack thread attributes"/>
+</entry>
+<entry keyword="/dev/null resource manager">
+<topic href="topic/s1_resmgr_the_resource_manager_library.html#the_resource_manager_library" title="The resource manager library"/>
+</entry>
+<entry keyword="&lt;sys/netmgr.h&gt;">
+<topic href="topic/s1_msg_ndnotes.html#ndnotes" title="Some notes on NDs"/>
+</entry>
+<entry keyword="&lt;sys/neutrino.h&gt;">
+<topic href="topic/s1_msg_Message_handling.html#Message_handling" title="Message handling"/>
+<topic href="topic/s1_msg_Creating_channel.html#Creating_channel" title="Creating the channel"/>
+<topic href="topic/s1_timer_kto.html#kto" title="Kernel timeouts"/>
+<topic href="topic/s1_timer_server_timeouts.html#server_timeouts" title="Server-maintained timeouts"/>
+<topic href="topic/s1_msg_Multipart_messages.html#Multipart_messages" title="Multipart messages"/>
+<topic href="topic/s1_msg_Server_framework.html#Server_framework" title="Server framework"/>
+<topic href="topic/s1_msg_In_a_pulse.html#In_a_pulse" title="What&apos;s in a pulse?"/>
+<topic href="topic/s1_timer_Thread_Join.html#Thread_Join" title="Kernel timeouts with pthread_join()"/>
+</entry>
+<entry keyword="&lt;sys/siginfo.h&gt;">
+<topic href="topic/s1_timer_server_timeouts.html#server_timeouts" title="Server-maintained timeouts"/>
+</entry>
+<entry keyword="&lt;time.h&gt;">
+<topic href="topic/s1_timer_What-kind.html#What-kind" title="What kind of timer?"/>
+</entry>
+<entry keyword="absolute timer">
+<topic href="topic/s1_timer_Summary.html#Summary" title="Summary"/>
+<topic href="topic/s1_timer_What-kind.html#What-kind" title="What kind of timer?"/>
+<topic href="topic/s1_timer_Types.html#Types" title="Types of timers"/>
+<entry keyword="converting time formats">
+<topic href="topic/s1_timer_What-kind.html#What-kind" title="What kind of timer?"/>
+</entry>
+<entry keyword="defined">
+<topic href="topic/s3_glossary.html#s3_glossary" title="Glossary"/>
+</entry>
+<entry keyword="example">
+<topic href="topic/s1_timer_What-kind.html#What-kind" title="What kind of timer?"/>
+</entry>
+</entry>
+<entry keyword="access control lists (ACLs)">
+<topic href="topic/s1_resmgr_iofunc_mount.html#iofunc_mount" title="The iofunc_mount_t mount structure"/>
+</entry>
+<entry keyword="address space">
+<topic href="topic/s1_procs_Why_processes.html#Why_processes" title="Why processes?"/>
+</entry>
+<entry keyword="adjusting time of day">
+<entry keyword="abruptly">
+<topic href="topic/s1_timer_Getting_setting.html#Getting_setting" title="Getting and setting"/>
+</entry>
+<entry keyword="gradually">
+<topic href="topic/s1_timer_Getting_setting.html#Getting_setting" title="Getting and setting"/>
+</entry>
+</entry>
+<entry keyword="adjusting timebase">
+<topic href="topic/s1_timer_Adjusting_timebase.html#Adjusting_timebase" title="Adjusting the timebase"/>
+</entry>
+<entry keyword="alignment">
+<entry keyword="defined">
+<topic href="topic/s3_glossary.html#s3_glossary" title="Glossary"/>
+</entry>
+</entry>
+<entry keyword="anonymous union">
+<entry keyword="used in struct sigevent">
+<topic href="topic/s1_timer_how_sigev.html#how_sigev" title="How to fill in the struct sigevent"/>
+</entry>
+</entry>
+<entry keyword="arming timeouts">
+<topic href="topic/s1_timer_kto.html#kto" title="Kernel timeouts"/>
+<topic href="topic/s1_timer_Kernel_timeouts_with_messages.html#Kernel_timeouts_with_messages" title="Kernel timeouts with message passing"/>
+</entry>
+<entry keyword="asctime()">
+<topic href="topic/s1_timer_What-kind.html#What-kind" title="What kind of timer?"/>
+</entry>
+<entry keyword="asynchronous">
+<topic href="topic/s3_glossary.html#s3_glossary" title="Glossary"/>
+<entry keyword="defined">
+<topic href="topic/s3_glossary.html#s3_glossary" title="Glossary"/>
+</entry>
+<entry keyword="See also synchronous">
+<topic href="topic/s3_glossary.html#s3_glossary" title="Glossary"/>
+</entry>
+</entry>
+<entry keyword="asynchronous messaging">
+<topic href="topic/s1_msg_Pulses.html#Pulses" title="Pulses"/>
+<entry keyword="See pulses">

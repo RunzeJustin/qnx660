@@ -1,0 +1,19 @@
+// xdebug internal header
+#ifndef _XDEBUG_
+#define _XDEBUG_
+
+#define _NEW_CRT				new
+#define _DELETE_CRT(ptr)		delete (ptr)
+#define _DELETE_CRT_VEC(ptr)	delete[] (ptr)
+#define _STRING_CRT				string
+#endif /* _XDEBUG_ */
+
+/*
+ * Copyright (c) 1992-2013 by P.J. Plauger.  ALL RIGHTS RESERVED.
+ * Consult your license regarding permissions and restrictions.
+V6.40:1566 */
+
+#if defined(__QNXNTO__) && defined(__USESRCVERSION)
+#include <sys/srcversion.h>
+__SRCVERSION("$URL$ $Rev: 735298 $")
+#endif

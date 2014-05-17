@@ -1,0 +1,4 @@
+check_version 1 0 include/hardware
+
+. include/rootdir
+add_co hardware CO_LOCAL_LIST

@@ -1,0 +1,605 @@
+__________________________________________________________________________
+
+Sat May 17 13:29:24 EDT 2014
+
+Free Memory: 49246 kB
+Total Memory: 114944 kB
+
+java.class.path:
+    /tmp/install.dir.9103/InstallerData
+    /tmp/install.dir.9103/InstallerData/installer.zip
+
+ZGUtil.CLASS_PATH:
+    /tmp/install.dir.9103/InstallerData
+    /tmp/install.dir.9103/InstallerData/installer.zip
+
+sun.boot.class.path:
+    /tmp/install.dir.9103/Linux/resource/jre/lib/resources.jar
+    /tmp/install.dir.9103/Linux/resource/jre/lib/rt.jar
+    /tmp/install.dir.9103/Linux/resource/jre/lib/sunrsasign.jar
+    /tmp/install.dir.9103/Linux/resource/jre/lib/jsse.jar
+    /tmp/install.dir.9103/Linux/resource/jre/lib/jce.jar
+    /tmp/install.dir.9103/Linux/resource/jre/lib/charsets.jar
+    /tmp/install.dir.9103/Linux/resource/jre/classes
+
+java.ext.dirs:
+    /tmp/install.dir.9103/Linux/resource/jre/lib/ext
+    /usr/java/packages/lib/ext
+
+java.version                  == 1.6.0_15 (Java 1)
+java.vm.name                  == Java HotSpot(TM) Server VM
+java.vm.vendor                == Sun Microsystems Inc.
+java.vm.version               == 14.1-b02
+java.vm.specification.name    == Java Virtual Machine Specification
+java.vm.specification.vendor  == Sun Microsystems Inc.
+java.vm.specification.version == 1.0
+java.specification.name       == Java Platform API Specification
+java.specification.vendor     == Sun Microsystems Inc.
+java.specification.version    == 1.6
+java.vendor                   == Sun Microsystems Inc.
+java.vendor.url               == http://java.sun.com/
+java.class.version            == 50.0
+java.compiler                 == null
+java.home                     == /tmp/install.dir.9103/Linux/resource/jre
+java.io.tmpdir                == /tmp
+os.name                       == Linux
+os.arch                       == i386
+os.version                    == 3.13.0-24-generic
+path.separator                == :
+file.separator                == /
+file.encoding                 == UTF-8
+user.name                     == root
+user.home                     == /root
+user.dir                      == /tmp/install.dir.9103
+user.language                 == en
+user.region                   == null
+__________________________________________________________________________
+
+Installed Feature(s) full of QNX Software Development Platform 6.6
+
+Install Begin: MAY 17, 2014 1:23:28 PM EDT
+Install End: MAY 17, 2014 1:27:38 PM EDT
+
+Installed by InstallAnywhere 14.0 Enterprise Build 4349
+
+
+User Interactions
+-----------------
+
+
+#Machine Information Consent
+#---------------------------
+PROMPT_USER_CHOSEN_OPTION=0
+
+#License Key
+#-----------
+INPUT_LICENSE_KEY=\"ZFA2-V488-YKLX-M55P-VHXL\"
+
+#Choose Install dir
+#------------------
+USER_INSTALL_DIR=/opt/qnx660
+
+#Get User Input: QNX_CONFIGURATION
+#---------------------------------
+QNX6_INPUT_RESULTS=\"\",\"No - QNX6.6 default\"
+
+#ERROR!
+#------
+PROMPT_USER_CHOSEN_OPTION=0
+
+#Choose Link Location
+#--------------------
+USER_SHORTCUTS=/root
+
+#Install
+#-------
+-fileOverwrite_/opt/qnx660/install/qnx-sdp/6.6/licenseNonCommercial.txt=Yes
+-fileOverwrite_/opt/qnx660/install/qnx-sdp/6.6/licensePartner.txt=Yes
+-fileOverwrite_/opt/qnx660/install/qnx-sdp/6.6/LicenseGuide.pdf=Yes
+-fileOverwrite_/opt/qnx660/install/qnx-sdp/6.6/Third_Party_Terms_List.pdf=Yes
+-fileOverwrite_/opt/qnx660/install/qnx-sdp/6.6/doc-manifest=Yes
+-fileOverwrite_/opt/qnx660/install/qnx-sdp/6.6/linux-manifest=Yes
+-fileOverwrite_/opt/qnx660/install/qnx-sdp/6.6/licenseCommercial.txt=Yes
+-fileOverwrite_/opt/qnx660/install/qnx-sdp/6.6/commit_msg=Yes
+-fileOverwrite_/opt/qnx660/install/qnx-sdp/6.6/addLicense.bin=Yes
+-fileOverwrite_/opt/qnx660/install/qnx-sdp/6.6/uninstaller.lax=Yes
+-fileOverwrite_/opt/qnx660/.qnx/bin/qnxactivate=Yes
+
+Summary
+-------
+
+Installation: Successful with errors.
+
+60 Successes
+0 Warnings
+1 NonFatalErrors
+0 FatalErrors
+
+Action Notes:
+
+None
+
+Install Log Detail:
+
+Check Disk Space:         /qnx660
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Required Disk Space: 1,000,579,904; Free Disk Space: 222,509,707,264
+
+Install Action:           Find Component in Registry: check previous installation
+                          Status: SUCCESSFUL
+
+
+Custom Action:            com.zerog.ia.customcode.util.fileutils.ExtractToFile
+                          Status: SUCCESSFUL
+
+Custom Action:            com.qnx.install.ia2010.ValidateLicense
+                          Status: SUCCESSFUL
+
+
+
+
+Install Action:           Find Component in Registry: Find component
+                          Status: SUCCESSFUL
+
+
+
+Modify Text File - Single File:   New File /license/test-test
+                          Status: ERROR
+                          Additional Notes: ERROR - java.io.FileNotFoundException: parent did not exist when attempting touch on path: /license/test-test
+
+
+
+
+
+
+
+
+
+
+Check Disk Space:         /opt/qnx660
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Required Disk Space: 1,000,579,905; Free Disk Space: 222,508,597,248
+
+Install Directory:        /opt/qnx660/jre
+                          Status: SUCCESSFUL
+
+Install JRE:              /opt/qnx660/jre
+                          Status: SUCCESSFUL
+
+Install Directory:        /opt/qnx660/
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Directory already existed
+
+Expand Archive: TAR       /opt/qnx660/qnx_sdp.tar
+                          Status: SUCCESSFUL
+
+Modify Text File - Single File:   New File /opt/qnx660/qnx660-env.sh
+                          Status: SUCCESSFUL
+
+Modify Text File - Single File:   New File /opt/qnx660/run-qde.sh
+                          Status: SUCCESSFUL
+
+
+Install Directory:        /opt/qnx660/host/linux/x86/usr/qde/eclipse/dropins/
+                          Status: SUCCESSFUL
+
+Modify Text File - Single File:   New File /opt/qnx660/host/linux/x86/usr/qde/eclipse/dropins/com.qnx.tools.ide.doc.qnx.momentics.8.0.0.link
+                          Status: SUCCESSFUL
+
+Install Directory:        /opt/qnx660/install/qnx-sdp/
+                          Status: SUCCESSFUL
+
+Install Directory:        /opt/qnx660/install/qnx-sdp/6.6/
+                          Status: SUCCESSFUL
+
+Install File:             /opt/qnx660/install/qnx-sdp/6.6/licenseNonCommercial.txt
+                          Status: SUCCESSFUL
+
+Install File:             /opt/qnx660/install/qnx-sdp/6.6/licensePartner.txt
+                          Status: SUCCESSFUL
+
+Install File:             /opt/qnx660/install/qnx-sdp/6.6/LicenseGuide.pdf
+                          Status: SUCCESSFUL
+
+Install File:             /opt/qnx660/install/qnx-sdp/6.6/Third_Party_Terms_List.pdf
+                          Status: SUCCESSFUL
+
+Install File:             /opt/qnx660/install/qnx-sdp/6.6/doc-manifest
+                          Status: SUCCESSFUL
+
+Install File:             /opt/qnx660/install/qnx-sdp/6.6/linux-manifest
+                          Status: SUCCESSFUL
+
+Install File:             /opt/qnx660/install/qnx-sdp/6.6/licenseCommercial.txt
+                          Status: SUCCESSFUL
+
+Install File:             /opt/qnx660/install/qnx-sdp/6.6/commit_msg
+                          Status: SUCCESSFUL
+
+Install File:             /opt/qnx660/install/qnx-sdp/6.6/addLicense.bin
+                          Status: SUCCESSFUL
+
+Install Uninstaller:      QNX Software Development Platform 6.6(Install All Uninstaller Components)
+                          Status: SUCCESSFUL
+
+
+Install File:             /opt/qnx660/install/qnx-sdp/6.6/uninstaller.lax
+                          Status: SUCCESSFUL
+
+Install Uninstaller:      QNX Software Development Platform 6.6(Install All Uninstaller Components)
+                          Status: SUCCESSFUL
+
+Install Directory:        /opt/qnx660/.qnx/
+                          Status: SUCCESSFUL
+
+Install Directory:        /opt/qnx660/.qnx/qconfig/
+                          Status: SUCCESSFUL
+
+Modify Text File - Single File:   New File /opt/qnx660/.qnx/qconfig/qnx_software_development_platform_6.6.0.xml
+                          Status: SUCCESSFUL
+
+Install Directory:        /opt/qnx660/.qnx/license/
+                          Status: SUCCESSFUL
+
+Install Directory:        /opt/qnx660/.qnx/bin/
+                          Status: SUCCESSFUL
+
+Custom Action:            com.qnx.install.ia2010.AddLicense
+                          Status: SUCCESSFUL
+
+Execute Command:          chmod 666 /opt/qnx660/.qnx/license/licenses
+                          Status: SUCCESSFUL
+
+Install Directory:        /opt/qnx660/.qnx/bin/
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Directory already existed
+
+Install File:             /opt/qnx660/.qnx/bin/qnxactivate
+                          Status: SUCCESSFUL
+
+Install Directory:        /root/
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Directory already existed
+
+Create Link:              /root/run-qde.sh
+                          Status: SUCCESSFUL
+
+
+Execute Command:          /opt/qnx660/.qnx/bin/qnxactivate -d "/opt/qnx660/.qnx"
+                          Status: SUCCESSFUL
+
+Execute Command:          chmod 777 /opt/qnx660/host/linux/x86/usr/qde/eclipse/p2
+                          Status: SUCCESSFUL
+
+Execute Command:          chmod 777 /opt/qnx660/host/linux/x86/usr/qde/eclipse/configuration
+                          Status: SUCCESSFUL
+
+====================STDERR ENTRIES==================
+
+GUI mode is not supported : /tmp/install.dir.9103/Linux/resource/jre/lib/i386/xawt/libmawt.so: libXext.so.6: cannot open shared object file: No such file or directory
+__________________________________________________________________________
+
+InstallAnywhere 2012
+Version: 14.0
+__________________________________________________________________________
+
+Sat May 17 13:23:25 EDT 2014
+
+Free Memory: 52977 kB
+Total Memory: 57280 kB
+
+No Arguments
+
+java.class.path:
+    /tmp/install.dir.9103/InstallerData
+    /tmp/install.dir.9103/InstallerData/installer.zip
+
+ZGUtil.CLASS_PATH:
+    /tmp/install.dir.9103/InstallerData
+    /tmp/install.dir.9103/InstallerData/installer.zip
+
+sun.boot.class.path:
+    /tmp/install.dir.9103/Linux/resource/jre/lib/resources.jar
+    /tmp/install.dir.9103/Linux/resource/jre/lib/rt.jar
+    /tmp/install.dir.9103/Linux/resource/jre/lib/sunrsasign.jar
+    /tmp/install.dir.9103/Linux/resource/jre/lib/jsse.jar
+    /tmp/install.dir.9103/Linux/resource/jre/lib/jce.jar
+    /tmp/install.dir.9103/Linux/resource/jre/lib/charsets.jar
+    /tmp/install.dir.9103/Linux/resource/jre/classes
+
+java.ext.dirs:
+    /tmp/install.dir.9103/Linux/resource/jre/lib/ext
+    /usr/java/packages/lib/ext
+
+java.version                  == 1.6.0_15 (Java 1)
+java.vm.name                  == Java HotSpot(TM) Server VM
+java.vm.vendor                == Sun Microsystems Inc.
+java.vm.version               == 14.1-b02
+java.vm.specification.name    == Java Virtual Machine Specification
+java.vm.specification.vendor  == Sun Microsystems Inc.
+java.vm.specification.version == 1.0
+java.specification.name       == Java Platform API Specification
+java.specification.vendor     == Sun Microsystems Inc.
+java.specification.version    == 1.6
+java.vendor                   == Sun Microsystems Inc.
+java.vendor.url               == http://java.sun.com/
+java.class.version            == 50.0
+java.compiler                 == null
+java.home                     == /tmp/install.dir.9103/Linux/resource/jre
+java.io.tmpdir                == /tmp
+os.name                       == Linux
+os.arch                       == i386
+os.version                    == 3.13.0-24-generic
+path.separator                == :
+file.separator                == /
+file.encoding                 == UTF-8
+user.name                     == root
+user.home                     == /root
+user.dir                      == /tmp/install.dir.9103
+user.language                 == en
+user.region                   == null
+__________________________________________________________________________
+
+
+
+
+Loading externalized properties
+
+
+
+System's temporary directory = /tmp
+java.io.FileNotFoundException: parent did not exist when attempting touch on path: /license/test-test
+	at Flexeraakq.ae(Unknown Source)
+	at Flexeraakq.<init>(Unknown Source)
+	at Flexeraakp.getOutputStream(Unknown Source)
+	at com.zerog.ia.installer.actions.ASCIIFileManipulator.manipulateFile(Unknown Source)
+	at com.zerog.ia.installer.actions.ASCIIFileManipulator.installSelf(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.an(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.al(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.al(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.al(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.am(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runNextInstallPiece(Unknown Source)
+	at com.zerog.ia.installer.ConsoleBasedAAMgr.ac(Unknown Source)
+	at com.zerog.ia.installer.AAMgrBase.runPreInstall(Unknown Source)
+	at com.zerog.ia.installer.LifeCycleManager.consoleInstallMain(Unknown Source)
+	at com.zerog.ia.installer.LifeCycleManager.executeApplication(Unknown Source)
+	at com.zerog.ia.installer.Main.main(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zerog.lax.LAX.launch(Unknown Source)
+	at com.zerog.lax.LAX.main(Unknown Source)
+Exception running install action:
+    java.io.FileNotFoundException: parent did not exist when attempting touch on path: /license/test-test
+installUnixJRE:  the source VM tar: /tmp/install.dir.9103/Linux/resource/vm.tar
+    exists = true
+installUnixJRE:  the source VMRoot: /tmp/install.dir.9103/Linux/resource/jre
+    exists = true
+installUnixJRE:  the dest VMRoot: /opt/qnx660/jre
+    exists = true
+#
+# INSTALLING VM: /opt/qnx660/jre
+#
+
+installUnixJRE: Using new TAR technique...
+Destination path for tar extraction (sans 'jre') =
+    /opt/qnx660
+
+installUnixJRE: install shell script:
+#!/bin/sh
+echo "InstallUnixJRE Script begun..."
+cd '/opt/qnx660'
+tar xf '/tmp/install.dir.9103/Linux/resource/vm.tar'
+chmod -R '775' '/opt/qnx660/jre'
+echo "...InstallUnixJRE Script complete."
+##### SCRIPT END ############
+
+XMLScriptWriter: No Installation Objects were skipped
+com.qnx.install.LicenseException: No license found for product 7 ReturnCode=2
+	at com.qnx.install.License.getInfo(License.java:261)
+	at com.qnx.install.ia2010.AddLicense.disableCurrentLicense(AddLicense.java:84)
+	at com.qnx.install.ia2010.AddLicense.install(AddLicense.java:41)
+	at com.zerog.ia.installer.actions.CustomAction.installSelf(Unknown Source)
+	at com.zerog.ia.installer.actions.PlugInAction.installSelf(Unknown Source)
+	at com.zerog.ia.installer.InstallablePiece.install(Unknown Source)
+	at com.zerog.ia.installer.InstallablePiece.install(Unknown Source)
+	at com.zerog.ia.installer.InstallablePiece.install(Unknown Source)
+	at com.zerog.ia.installer.GhostDirectory.install(Unknown Source)
+	at com.zerog.ia.installer.InstallablePiece.install(Unknown Source)
+	at com.zerog.ia.installer.Installer.install(Unknown Source)
+	at com.zerog.ia.installer.LifeCycleManager.consoleInstallMain(Unknown Source)
+	at com.zerog.ia.installer.LifeCycleManager.executeApplication(Unknown Source)
+	at com.zerog.ia.installer.Main.main(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zerog.lax.LAX.launch(Unknown Source)
+	at com.zerog.lax.LAX.main(Unknown Source)
+Retrying Installables deferred in pass 0
+Deferral retries done because: 
+There were no deferrals in the last pass.
+SHUTDOWN REQUESTED
+
+REGISTRY ALREADY STORED!
+
+Exiting with exit code: 1
+====================STDOUT ENTRIES==================
+
+ExtractToFile: target = /tmp/install.dir.9103/Linux/resource/jre/lib/i386/libqnxlic.so
+ExtractToFile: extractWhatURL = jar:file:/tmp/install.dir.9103/InstallerData/installer.zip!/$WORKSPACE$/libqnxlic.so
+License validating ..... "ZFA2-V488-YKLX-M55P-VHXL"
+
+DEBUG: this is eval license
+Just finished validating license
+THE VALUE of p is 6
+THE VALUE of es is false
+Check existing license before adding a new key........
+check if license key for product# 7 already exists...
+Adding license key........
+The product [productType=7,serial=170362,activateDays=0,expireDays=36,EXPIRY,{type=7,flags=e02] is being installed
+
+Splash screen for Evaluation.
+
+
+testing license...
+[productType=7,serial=170362,activateDays=0,expireDays=36,EXPIRY,{type=7,flags=e02]
+(X) commiting registry
+(X) shutting down service manager
+(X) cleaning up temporary directories

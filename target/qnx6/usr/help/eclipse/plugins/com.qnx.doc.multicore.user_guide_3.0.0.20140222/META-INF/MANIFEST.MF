@@ -1,0 +1,9 @@
+Manifest-Version: 3.0.0
+Ant-Version: Apache Ant 1.7.1
+Created-By: 10.0-b19 (Sun Microsystems Inc.)
+Bundle-SymbolicName: com.qnx.doc.multicore.user_guide
+Bundle-Version: 3.0.0.20140222
+Bundle-Localization: plugin
+Bundle-Name: %plugin.name
+Bundle-Vendor: %plugin.providername
+

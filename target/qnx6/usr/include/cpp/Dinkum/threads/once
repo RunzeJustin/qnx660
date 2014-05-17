@@ -1,0 +1,55 @@
+// once-function header for threads library
+#ifndef _DINKUM_THREADS_ONCE
+#define _DINKUM_THREADS_ONCE
+#include <Dinkum/threads/xthreads.h>
+
+
+namespace Dinkum
+	{	// Dinkum Libraries
+	namespace threads
+		{	// Dinkum C++ Threads Library
+
+typedef ::_Once_flag once_flag;
+const _Once_flag once_init = _ONCE_FLAG_INIT;
+
+inline void call_once(_Once_callback_t _Func, _Once_flag& _Flag)
+	{	// execute func exactly once
+	::_Call_once(&_Flag, _Func);
+	}
+
+ #if _HAS_STRICT_LINKAGE
+inline void call_once(_Once_callback_cpp_t _Func, _Once_flag& _Flag)
+	{	// execute func exactly once
+	::_Call_once(&_Flag, _Func);
+	}
+ #else
+ #endif /* _HAS_STRICT_LINKAGE */
+		}	// namespace threads
+	}	// namespace Dinkum
+#endif /* _DINKUM_THREADS_ONCE */
+
+/*
+ * This file is derived from software bearing the following
+ * restrictions:
+ *
+ * (c) Copyright William E. Kempf 2001
+ *
+ * Permission to use, copy, modify, distribute and sell this
+ * software and its documentation for any purpose is hereby
+ * granted without fee, provided that the above copyright
+ * notice appear in all copies and that both that copyright
+ * notice and this permission notice appear in supporting
+ * documentation. William E. Kempf makes no representations
+ * about the suitability of this software for any purpose.
+ * It is provided "as is" without express or implied warranty.
+ */
+
+/*
+ * Copyright (c) 1992-2013 by P.J. Plauger.  ALL RIGHTS RESERVED.
+ * Consult your license regarding permissions and restrictions.
+V6.40:1566 */
+
+#if defined(__QNXNTO__) && defined(__USESRCVERSION)
+#include <sys/srcversion.h>
+__SRCVERSION("$URL$ $Rev$")
+#endif

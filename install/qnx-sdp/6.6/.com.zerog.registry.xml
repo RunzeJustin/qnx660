@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry install_date="2014-05-17 13:26:30" version="1.1" last_modified="2014-05-17 13:27:37">
+	<products>
+		<product name="QNX Software Development Platform 6.6" id="28e51889-1f14-11b2-86f9-f93903c03ce3" version="6.6.0.0" copyright="2011" info_url="http://www.qnx.com" support_url="" location="/opt/qnx660" last_modified="2014-05-17 13:27:28">
+		<![CDATA[$PRODUCT_NAME$ - installer]]>
+			<vendor name="QNX Software Systems Limited" id="28e52bd4-1f14-11b2-86f9-f93903c03ce3" home_page="www.qnx.com" email=""/>
+			<feature short_name="full" name="full" last_modified="2014-05-17 13:27:28">
+			<![CDATA[full]]>
+				<component ref_id="28e684ab-1f14-11b2-8945-f93903c03ce3" version="1.0.0.0" location="/opt/qnx660/install/qnx-sdp/6.6/uninstaller"/>
+				<component ref_id="28e6c6f0-1f14-11b2-8945-f93903c03ce3" version="1.0.0.0" location="/opt/qnx660/jre"/>
+				<component ref_id="08e4db05-1f10-11b2-8656-f93903c03ce3" version="1.0.0.0" location="/opt/qnx660/install/qnx-sdp/6.6/licenseNonCommercial.txt"/>
+			</feature>
+		</product>
+	</products>
+	<components>
+		<component id="28e6c6f0-1f14-11b2-8945-f93903c03ce3" version="1.0.0.0" name="InstallAnywhere VM Component" location="/opt/qnx660/jre" vendor="QNX Software Systems Limited">
+			<resource keyfile="true" name="jre" location="/opt/qnx660/jre" type="post_processed_dir" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[true]]>
+			</resource>
+		</component>
+		<component id="28e684ab-1f14-11b2-8945-f93903c03ce3" version="1.0.0.0" name="InstallAnywhere Uninstall Component" location="/opt/qnx660/install/qnx-sdp/6.6/uninstaller" vendor="QNX Software Systems Limited">
+			<resource keyfile="false" name="install_log.txt" location="/opt/qnx660/install/qnx-sdp/6.6/install_log.txt" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="qnx660" location="/opt/qnx660" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="jre" location="/opt/qnx660/jre" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="install" location="/opt/qnx660/install" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="qnx-sdp" location="/opt/qnx660/install/qnx-sdp" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="qnx-sdp" location="/opt/qnx660/install/qnx-sdp" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="6.6" location="/opt/qnx660/install/qnx-sdp/6.6" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="uninstaller.jar" location="/opt/qnx660/install/qnx-sdp/6.6/uninstaller.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="true" name="uninstaller" location="/opt/qnx660/install/qnx-sdp/6.6/uninstaller" type="executable" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="uninstaller.lax" location="/opt/qnx660/install/qnx-sdp/6.6/uninstaller.lax" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name=".qnx" location="/opt/qnx660/.qnx" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name=".qnx" location="/opt/qnx660/.qnx" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name=".com.zerog.registry.xml" location="/opt/qnx660/install/qnx-sdp/6.6/.com.zerog.registry.xml" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+		</component>
+		<component id="08e4db05-1f10-11b2-8656-f93903c03ce3" version="1.0.0.0" name="common" location="/opt/qnx660/install/qnx-sdp/6.6/licenseNonCommercial.txt" vendor="QNX Software Systems Limited">
+			<resource keyfile="false" name="ability" location="/opt/qnx660/target/qnx6/armle-v7/bin/ability" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="aps" location="/opt/qnx660/target/qnx6/armle-v7/bin/aps" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="asa" location="/opt/qnx660/target/qnx6/armle-v7/bin/asa" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="awk" location="/opt/qnx660/target/qnx6/armle-v7/bin/awk" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="canctl" location="/opt/qnx660/target/qnx6/armle-v7/bin/canctl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="cat" location="/opt/qnx660/target/qnx6/armle-v7/bin/cat" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="cdpub" location="/opt/qnx660/target/qnx6/armle-v7/bin/cdpub" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="chgrp" location="/opt/qnx660/target/qnx6/armle-v7/bin/chgrp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="chmod" location="/opt/qnx660/target/qnx6/armle-v7/bin/chmod" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="chown" location="/opt/qnx660/target/qnx6/armle-v7/bin/chown" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="confstr" location="/opt/qnx660/target/qnx6/armle-v7/bin/confstr" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="cp" location="/opt/qnx660/target/qnx6/armle-v7/bin/cp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="cpio" location="/opt/qnx660/target/qnx6/armle-v7/bin/cpio" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="csplit" location="/opt/qnx660/target/qnx6/armle-v7/bin/csplit" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="dd" location="/opt/qnx660/target/qnx6/armle-v7/bin/dd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="df" location="/opt/qnx660/target/qnx6/armle-v7/bin/df" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="diff" location="/opt/qnx660/target/qnx6/armle-v7/bin/diff" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="display-adjustment" location="/opt/qnx660/target/qnx6/armle-v7/bin/display-adjustment" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="display-detect" location="/opt/qnx660/target/qnx6/armle-v7/bin/display-detect" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="dresize" location="/opt/qnx660/target/qnx6/armle-v7/bin/dresize" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="du" location="/opt/qnx660/target/qnx6/armle-v7/bin/du" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="dumpifs" location="/opt/qnx660/target/qnx6/armle-v7/bin/dumpifs" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="dvfs_client" location="/opt/qnx660/target/qnx6/armle-v7/bin/dvfs_client" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="echo" location="/opt/qnx660/target/qnx6/armle-v7/bin/echo" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="elvis" location="/opt/qnx660/target/qnx6/armle-v7/bin/elvis" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="esh" location="/opt/qnx660/target/qnx6/armle-v7/bin/esh" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ex" location="/opt/qnx660/target/qnx6/armle-v7/bin/ex" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="false" location="/opt/qnx660/target/qnx6/armle-v7/bin/false" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fesh" location="/opt/qnx660/target/qnx6/armle-v7/bin/fesh" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gawk" location="/opt/qnx660/target/qnx6/armle-v7/bin/gawk" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="getfacl" location="/opt/qnx660/target/qnx6/armle-v7/bin/getfacl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gunzip" location="/opt/qnx660/target/qnx6/armle-v7/bin/gunzip" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gzip" location="/opt/qnx660/target/qnx6/armle-v7/bin/gzip" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="hostname" location="/opt/qnx660/target/qnx6/armle-v7/bin/hostname" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="igawk" location="/opt/qnx660/target/qnx6/armle-v7/bin/igawk" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="in32" location="/opt/qnx660/target/qnx6/armle-v7/bin/in32" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="isend" location="/opt/qnx660/target/qnx6/armle-v7/bin/isend" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="isendrecv" location="/opt/qnx660/target/qnx6/armle-v7/bin/isendrecv" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="kill" location="/opt/qnx660/target/qnx6/armle-v7/bin/kill" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ksh" location="/opt/qnx660/target/qnx6/armle-v7/bin/ksh" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ln" location="/opt/qnx660/target/qnx6/armle-v7/bin/ln" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="login" location="/opt/qnx660/target/qnx6/armle-v7/bin/login" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="logout" location="/opt/qnx660/target/qnx6/armle-v7/bin/logout" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ls" location="/opt/qnx660/target/qnx6/armle-v7/bin/ls" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mkdir" location="/opt/qnx660/target/qnx6/armle-v7/bin/mkdir" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mmcsdpub" location="/opt/qnx660/target/qnx6/armle-v7/bin/mmcsdpub" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mount" location="/opt/qnx660/target/qnx6/armle-v7/bin/mount" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mv" location="/opt/qnx660/target/qnx6/armle-v7/bin/mv" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="on" location="/opt/qnx660/target/qnx6/armle-v7/bin/on" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="out32" location="/opt/qnx660/target/qnx6/armle-v7/bin/out32" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pathtrust" location="/opt/qnx660/target/qnx6/armle-v7/bin/pathtrust" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pax" location="/opt/qnx660/target/qnx6/armle-v7/bin/pax" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pidin" location="/opt/qnx660/target/qnx6/armle-v7/bin/pidin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ps" location="/opt/qnx660/target/qnx6/armle-v7/bin/ps" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pwd" location="/opt/qnx660/target/qnx6/armle-v7/bin/pwd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="resource_seed" location="/opt/qnx660/target/qnx6/armle-v7/bin/resource_seed" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="rm" location="/opt/qnx660/target/qnx6/armle-v7/bin/rm" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="script" location="/opt/qnx660/target/qnx6/armle-v7/bin/script" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="sed" location="/opt/qnx660/target/qnx6/armle-v7/bin/sed" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="sendnto" location="/opt/qnx660/target/qnx6/armle-v7/bin/sendnto" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="setfacl" location="/opt/qnx660/target/qnx6/armle-v7/bin/setfacl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="sh" location="/opt/qnx660/target/qnx6/armle-v7/bin/sh" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="shutdown" location="/opt/qnx660/target/qnx6/armle-v7/bin/shutdown" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="slay" location="/opt/qnx660/target/qnx6/armle-v7/bin/slay" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="slog2info" location="/opt/qnx660/target/qnx6/armle-v7/bin/slog2info" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="slogger2" location="/opt/qnx660/target/qnx6/armle-v7/bin/slogger2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="sloginfo" location="/opt/qnx660/target/qnx6/armle-v7/bin/sloginfo" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="sntp" location="/opt/qnx660/target/qnx6/armle-v7/bin/sntp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="split" location="/opt/qnx660/target/qnx6/armle-v7/bin/split" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="stty" location="/opt/qnx660/target/qnx6/armle-v7/bin/stty" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="su" location="/opt/qnx660/target/qnx6/armle-v7/bin/su" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="sync" location="/opt/qnx660/target/qnx6/armle-v7/bin/sync" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="tar" location="/opt/qnx660/target/qnx6/armle-v7/bin/tar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="true" location="/opt/qnx660/target/qnx6/armle-v7/bin/true" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="uesh" location="/opt/qnx660/target/qnx6/armle-v7/bin/uesh" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="umount" location="/opt/qnx660/target/qnx6/armle-v7/bin/umount" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="uname" location="/opt/qnx660/target/qnx6/armle-v7/bin/uname" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="uncompress" location="/opt/qnx660/target/qnx6/armle-v7/bin/uncompress" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="update_nand" location="/opt/qnx660/target/qnx6/armle-v7/bin/update_nand" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="usblauncher" location="/opt/qnx660/target/qnx6/armle-v7/bin/usblauncher" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="vi" location="/opt/qnx660/target/qnx6/armle-v7/bin/vi" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="view" location="/opt/qnx660/target/qnx6/armle-v7/bin/view" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="waitfor" location="/opt/qnx660/target/qnx6/armle-v7/bin/waitfor" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="zcat" location="/opt/qnx660/target/qnx6/armle-v7/bin/zcat" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="binary.boot" location="/opt/qnx660/target/qnx6/armle-v7/boot/sys/binary.boot" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="elf.boot" location="/opt/qnx660/target/qnx6/armle-v7/boot/sys/elf.boot" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="kdumper" location="/opt/qnx660/target/qnx6/armle-v7/boot/sys/kdumper" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libmod_aps.a" location="/opt/qnx660/target/qnx6/armle-v7/boot/sys/libmod_aps.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="procnto" location="/opt/qnx660/target/qnx6/armle-v7/boot/sys/procnto" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="procnto-instr" location="/opt/qnx660/target/qnx6/armle-v7/boot/sys/procnto-instr" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="procnto-smp" location="/opt/qnx660/target/qnx6/armle-v7/boot/sys/procnto-smp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="procnto-smp-instr" location="/opt/qnx660/target/qnx6/armle-v7/boot/sys/procnto-smp-instr" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="raw.boot" location="/opt/qnx660/target/qnx6/armle-v7/boot/sys/raw.boot" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="srec.boot" location="/opt/qnx660/target/qnx6/armle-v7/boot/sys/srec.boot" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="swaple.boot" location="/opt/qnx660/target/qnx6/armle-v7/boot/sys/swaple.boot" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="crt1.o" location="/opt/qnx660/target/qnx6/armle-v7/lib/crt1.o" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="crt1S.o" location="/opt/qnx660/target/qnx6/armle-v7/lib/crt1S.o" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="crti.o" location="/opt/qnx660/target/qnx6/armle-v7/lib/crti.o" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="crtn.o" location="/opt/qnx660/target/qnx6/armle-v7/lib/crtn.o" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="cam-cdrom.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/cam-cdrom.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="cam-disk.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/cam-disk.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="cam-optical.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/cam-optical.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="charset.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/charset.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="deva-ctrl-usb.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/deva-ctrl-usb.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="deva-mixer-ac97.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/deva-mixer-ac97.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="deva-mixer-ak4531.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/deva-mixer-ak4531.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="deva-util-restore.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/deva-util-restore.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devh-egalax.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devh-egalax.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devh-microtouch.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devh-microtouch.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devh-touchintl.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devh-touchintl.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devh-usb.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devh-usb.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devnp-asix.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devnp-asix.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devn-dm9102.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devn-dm9102.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devn-el900.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devn-el900.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devn-ne2000.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devn-ne2000.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devn-pegasus.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devn-pegasus.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devn-rtl.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devn-rtl.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devn-rtl8150.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devn-rtl8150.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devn-smc9000.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devn-smc9000.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devn-smsc9500.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devn-smsc9500.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devnp-bge.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devnp-bge.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devnp-e1000.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devnp-e1000.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devnp-ecm.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devnp-ecm.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devnp-ecmplus.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devnp-ecmplus.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devnp-ncm.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devnp-ncm.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devnp-rtl8169.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devnp-rtl8169.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devnp-shim.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devnp-shim.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devnp-speedo.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devnp-speedo.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devnp-ural.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devnp-ural.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devnp-usbdnet.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devnp-usbdnet.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devu-ehci.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devu-ehci.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devu-ohci.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devu-ohci.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devu-uhci.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/devu-uhci.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fs-cd.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/fs-cd.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fs-dos.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/fs-dos.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fs-ext2.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/fs-ext2.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fs-mac.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/fs-mac.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fs-nt.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/fs-nt.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fs-qnx4.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/fs-qnx4.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fs-qnx6.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/fs-qnx6.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fs-rcfs.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/fs-rcfs.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fs-udf.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/fs-udf.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="img_codec_bmp.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/img_codec_bmp.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="img_codec_gif.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/img_codec_gif.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="img_codec_jpg.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/img_codec_jpg.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="img_codec_pcx.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/img_codec_pcx.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="img_codec_png.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/img_codec_png.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="img_codec_sgi.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/img_codec_sgi.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="img_codec_tga.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/img_codec_tga.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="img_codec_tif.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/img_codec_tif.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="io-blk.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/io-blk.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lsm-autoip.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/lsm-autoip.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lsm-avb.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/lsm-avb.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lsm-nraw.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/lsm-nraw.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lsm-pf-v4.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/lsm-pf-v4.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lsm-pf-v6.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/lsm-pf-v6.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lsm-qnet.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/lsm-qnet.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lsm-slip.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/lsm-slip.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="preservedmem.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/preservedmem.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pp-audiocd.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/pubs/pp-audiocd.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pp-dvd.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/pubs/pp-dvd.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pp-generic.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/dll/pubs/pp-generic.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libcpp-ne.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/gcc/4.7.3/libcpp-ne.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libcpp-ne.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/gcc/4.7.3/libcpp-ne.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libcpp-neS.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/gcc/4.7.3/libcpp-neS.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libcpp.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/gcc/4.7.3/libcpp.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libcpp.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/gcc/4.7.3/libcpp.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libcppS.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/gcc/4.7.3/libcppS.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libcxa.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/gcc/4.7.3/libcxa.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libgomp.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/gcc/4.7.3/libgomp.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libgomp.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/gcc/4.7.3/libgomp.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libmudflap.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/gcc/4.7.3/libmudflap.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libmudflap.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/gcc/4.7.3/libmudflap.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libmudflapth.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/gcc/4.7.3/libmudflapth.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libmudflapth.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/gcc/4.7.3/libmudflapth.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libstdc++.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/gcc/4.7.3/libstdc++.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libstdc++.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/gcc/4.7.3/libstdc++.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libsupc++.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/gcc/4.7.3/libsupc++.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libabe.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libabe.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libabe.so.1" location="/opt/qnx660/target/qnx6/armle-v7/lib/libabe.so.1" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libasound.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libasound.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libasound.so.2" location="/opt/qnx660/target/qnx6/armle-v7/lib/libasound.so.2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libbessel.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libbessel.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libbessel.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libbessel.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libbessel.so.1" location="/opt/qnx660/target/qnx6/armle-v7/lib/libbessel.so.1" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libc.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libc.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libc.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libc.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libc.so.3" location="/opt/qnx660/target/qnx6/armle-v7/lib/libc.so.3" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libcS.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libcS.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libcam.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libcam.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libcam.so.2" location="/opt/qnx660/target/qnx6/armle-v7/lib/libcam.so.2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libcpp-ne.so.4" location="/opt/qnx660/target/qnx6/armle-v7/lib/libcpp-ne.so.4" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libcpp-ne.so.5" location="/opt/qnx660/target/qnx6/armle-v7/lib/libcpp-ne.so.5" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libcpp.so.4" location="/opt/qnx660/target/qnx6/armle-v7/lib/libcpp.so.4" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libcpp.so.5" location="/opt/qnx660/target/qnx6/armle-v7/lib/libcpp.so.5" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libcsm.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libcsm.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libcsm.so.1" location="/opt/qnx660/target/qnx6/armle-v7/lib/libcsm.so.1" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libecpp-ne.so.4" location="/opt/qnx660/target/qnx6/armle-v7/lib/libecpp-ne.so.4" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libecpp.so.4" location="/opt/qnx660/target/qnx6/armle-v7/lib/libecpp.so.4" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libelfcore.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libelfcore.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libelfcore.so.1" location="/opt/qnx660/target/qnx6/armle-v7/lib/libelfcore.so.1" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libgomp.so.1" location="/opt/qnx660/target/qnx6/armle-v7/lib/libgomp.so.1" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libgomp.so.1.0.0" location="/opt/qnx660/target/qnx6/armle-v7/lib/libgomp.so.1.0.0" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libetfs.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libetfs.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libhiddi.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libhiddi.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libhiddi.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libhiddi.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libhiddi.so.1" location="/opt/qnx660/target/qnx6/armle-v7/lib/libhiddi.so.1" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libi2c-master.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libi2c-master.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libimg.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libimg.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libimg.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libimg.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libimg.so.1" location="/opt/qnx660/target/qnx6/armle-v7/lib/libimg.so.1" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libimgS.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libimgS.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libjpeg.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libjpeg.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libjpeg.so.4" location="/opt/qnx660/target/qnx6/armle-v7/lib/libjpeg.so.4" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libm.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libm.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libm.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libm.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libm.so.2" location="/opt/qnx660/target/qnx6/armle-v7/lib/libm.so.2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libmS.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libmS.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libmudflap.so.0" location="/opt/qnx660/target/qnx6/armle-v7/lib/libmudflap.so.0" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libmudflap.so.0.0.0" location="/opt/qnx660/target/qnx6/armle-v7/lib/libmudflap.so.0.0.0" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libmudflapth.so.0" location="/opt/qnx660/target/qnx6/armle-v7/lib/libmudflapth.so.0" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libmudflapth.so.0.0.0" location="/opt/qnx660/target/qnx6/armle-v7/lib/libmudflapth.so.0.0.0" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libpmic-common.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libpmic-common.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libpmic-common.so.1" location="/opt/qnx660/target/qnx6/armle-v7/lib/libpmic-common.so.1" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libpmic-test-common.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libpmic-test-common.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libpmic-test-common.so.1" location="/opt/qnx660/target/qnx6/armle-v7/lib/libpmic-test-common.so.1" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libpps.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libpps.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libpps.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libpps.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libpps.so.1" location="/opt/qnx660/target/qnx6/armle-v7/lib/libpps.so.1" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libppsS.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libppsS.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libqnxterm.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libqnxterm.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libshutdown.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libshutdown.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libslog2.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libslog2.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libslog2.so.1" location="/opt/qnx660/target/qnx6/armle-v7/lib/libslog2.so.1" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libslog2parse.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libslog2parse.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libslog2parse.so.1" location="/opt/qnx660/target/qnx6/armle-v7/lib/libslog2parse.so.1" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libslog2shim.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libslog2shim.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libslog2shim.so.1" location="/opt/qnx660/target/qnx6/armle-v7/lib/libslog2shim.so.1" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libsocket.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libsocket.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libsocket.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libsocket.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libsocket.so.3" location="/opt/qnx660/target/qnx6/armle-v7/lib/libsocket.so.3" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libsocketS.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libsocketS.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libstdc++.so.6" location="/opt/qnx660/target/qnx6/armle-v7/lib/libstdc++.so.6" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libstdc++.so.6.0.13" location="/opt/qnx660/target/qnx6/armle-v7/lib/libstdc++.so.6.0.13" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libstdc++.so.6.0.17" location="/opt/qnx660/target/qnx6/armle-v7/lib/libstdc++.so.6.0.17" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libstdc++.so.6.0.17-gdb.py" location="/opt/qnx660/target/qnx6/armle-v7/lib/libstdc++.so.6.0.17-gdb.py" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libtracelog.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libtracelog.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libtracelog.so.1" location="/opt/qnx660/target/qnx6/armle-v7/lib/libtracelog.so.1" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libusbdci.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libusbdci.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libusbdci.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libusbdci.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libusbdci.so.2" location="/opt/qnx660/target/qnx6/armle-v7/lib/libusbdci.so.2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libusbdciS.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libusbdciS.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libusbdi.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libusbdi.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libusbdi.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libusbdi.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libusbdi.so.2" location="/opt/qnx660/target/qnx6/armle-v7/lib/libusbdi.so.2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libusbdiS.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libusbdiS.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libwlconfig.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libwlconfig.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libwlconfig.so" location="/opt/qnx660/target/qnx6/armle-v7/lib/libwlconfig.so" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libwlconfig.so.1" location="/opt/qnx660/target/qnx6/armle-v7/lib/libwlconfig.so.1" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="libwlconfigS.a" location="/opt/qnx660/target/qnx6/armle-v7/lib/libwlconfigS.a" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mcrt1.o" location="/opt/qnx660/target/qnx6/armle-v7/lib/mcrt1.o" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="nto.link" location="/opt/qnx660/target/qnx6/armle-v7/lib/nto.link" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="grcat" location="/opt/qnx660/target/qnx6/armle-v7/libexec/awk/grcat" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pwcat" location="/opt/qnx660/target/qnx6/armle-v7/libexec/awk/pwcat" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="brconfig" location="/opt/qnx660/target/qnx6/armle-v7/sbin/brconfig" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="chkdosfs" location="/opt/qnx660/target/qnx6/armle-v7/sbin/chkdosfs" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="chkfsys" location="/opt/qnx660/target/qnx6/armle-v7/sbin/chkfsys" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="chkqnx6fs" location="/opt/qnx660/target/qnx6/armle-v7/sbin/chkqnx6fs" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devb-ahci" location="/opt/qnx660/target/qnx6/armle-v7/sbin/devb-ahci" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devb-eide" location="/opt/qnx660/target/qnx6/armle-v7/sbin/devb-eide" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devb-loopback" location="/opt/qnx660/target/qnx6/armle-v7/sbin/devb-loopback" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devb-ram" location="/opt/qnx660/target/qnx6/armle-v7/sbin/devb-ram" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devb-umass" location="/opt/qnx660/target/qnx6/armle-v7/sbin/devb-umass" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devc-pty" location="/opt/qnx660/target/qnx6/armle-v7/sbin/devc-pty" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devc-ser8250" location="/opt/qnx660/target/qnx6/armle-v7/sbin/devc-ser8250" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devc-serusb" location="/opt/qnx660/target/qnx6/armle-v7/sbin/devc-serusb" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devc-serusb_dcd" location="/opt/qnx660/target/qnx6/armle-v7/sbin/devc-serusb_dcd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devf-generic" location="/opt/qnx660/target/qnx6/armle-v7/sbin/devf-generic" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devf-ram" location="/opt/qnx660/target/qnx6/armle-v7/sbin/devf-ram" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devu-kbd" location="/opt/qnx660/target/qnx6/armle-v7/sbin/devu-kbd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devu-mouse" location="/opt/qnx660/target/qnx6/armle-v7/sbin/devu-mouse" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devu-umass_client-block" location="/opt/qnx660/target/qnx6/armle-v7/sbin/devu-umass_client-block" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="dinit" location="/opt/qnx660/target/qnx6/armle-v7/sbin/dinit" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="dloader" location="/opt/qnx660/target/qnx6/armle-v7/sbin/dloader" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="dprepresize" location="/opt/qnx660/target/qnx6/armle-v7/sbin/dprepresize" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fdisk" location="/opt/qnx660/target/qnx6/armle-v7/sbin/fdisk" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fs-etfs-ram" location="/opt/qnx660/target/qnx6/armle-v7/sbin/fs-etfs-ram" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fsencrypt" location="/opt/qnx660/target/qnx6/armle-v7/sbin/fsencrypt" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="getty" location="/opt/qnx660/target/qnx6/armle-v7/sbin/getty" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="hidview" location="/opt/qnx660/target/qnx6/armle-v7/sbin/hidview" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ifconfig" location="/opt/qnx660/target/qnx6/armle-v7/sbin/ifconfig" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ifwatchd" location="/opt/qnx660/target/qnx6/armle-v7/sbin/ifwatchd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="inflator" location="/opt/qnx660/target/qnx6/armle-v7/sbin/inflator" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="init" location="/opt/qnx660/target/qnx6/armle-v7/sbin/init" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="io-audio" location="/opt/qnx660/target/qnx6/armle-v7/sbin/io-audio" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="io-hid" location="/opt/qnx660/target/qnx6/armle-v7/sbin/io-hid" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="io-pkt-v4" location="/opt/qnx660/target/qnx6/armle-v7/sbin/io-pkt-v4" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="io-pkt-v4-hc" location="/opt/qnx660/target/qnx6/armle-v7/sbin/io-pkt-v4-hc" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="io-pkt-v6-hc" location="/opt/qnx660/target/qnx6/armle-v7/sbin/io-pkt-v6-hc" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="io-usb" location="/opt/qnx660/target/qnx6/armle-v7/sbin/io-usb" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="io-usb-dcd" location="/opt/qnx660/target/qnx6/armle-v7/sbin/io-usb-dcd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mkdosfs" location="/opt/qnx660/target/qnx6/armle-v7/sbin/mkdosfs" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mkqnx6fs" location="/opt/qnx660/target/qnx6/armle-v7/sbin/mkqnx6fs" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mkrcfs" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/mkrcfs" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mq" location="/opt/qnx660/target/qnx6/armle-v7/sbin/mq" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mqueue" location="/opt/qnx660/target/qnx6/armle-v7/sbin/mqueue" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pfctl" location="/opt/qnx660/target/qnx6/armle-v7/sbin/pfctl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pin" location="/opt/qnx660/target/qnx6/armle-v7/sbin/pin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pipe" location="/opt/qnx660/target/qnx6/armle-v7/sbin/pipe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pppoectl" location="/opt/qnx660/target/qnx6/armle-v7/sbin/pppoectl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="route" location="/opt/qnx660/target/qnx6/armle-v7/sbin/route" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="rtc" location="/opt/qnx660/target/qnx6/armle-v7/sbin/rtc" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="setkey" location="/opt/qnx660/target/qnx6/armle-v7/sbin/setkey" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="slattach" location="/opt/qnx660/target/qnx6/armle-v7/sbin/slattach" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="spi-master" location="/opt/qnx660/target/qnx6/armle-v7/sbin/spi-master" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="sysctl" location="/opt/qnx660/target/qnx6/armle-v7/sbin/sysctl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="tinit" location="/opt/qnx660/target/qnx6/armle-v7/sbin/tinit" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ulink_ctrl" location="/opt/qnx660/target/qnx6/armle-v7/sbin/ulink_ctrl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="usb" location="/opt/qnx660/target/qnx6/armle-v7/sbin/usb" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="usb_info" location="/opt/qnx660/target/qnx6/armle-v7/sbin/usb_info" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="arp" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/arp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="basename" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/basename" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="bc" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/bc" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="bunzip2" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/bunzip2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="bzcat" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/bzcat" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="bzip2" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/bzip2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="bzip2recover" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/bzip2recover" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="cfgopen" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/cfgopen" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="chat" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/chat" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="chattr" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/chattr" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="cksum" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/cksum" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="clear" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/clear" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="cmp" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/cmp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="comm" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/comm" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="coreinfo" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/coreinfo" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="crontab" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/crontab" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="curl" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/curl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="cut" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/cut" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="date" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/date" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="deflate" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/deflate" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="devi-hid" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/devi-hid" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="dig" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/dig" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="dirname" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/dirname" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="dumpefs" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/dumpefs" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="egrep" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/egrep" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="env" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/env" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="errno" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/errno" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="etfsctl" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/etfsctl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="expand" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/expand" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="expr" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/expr" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fcat" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/fcat" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fgrep" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/fgrep" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="file" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/file" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="find" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/find" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="flashctl" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/flashctl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fmt" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/fmt" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fold" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/fold" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="freeze" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/freeze" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fsync" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/fsync" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fsysinfo" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/fsysinfo" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ftp" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/ftp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="fullpath" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/fullpath" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="funzip" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/funzip" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="getconf" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/getconf" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="grep" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/grep" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="hd" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/hd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="head" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/head" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="hogs" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/hogs" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="host" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/host" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="id" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/id" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="indent" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/indent" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="infocmp" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/infocmp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="join" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/join" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ldd" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/ldd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ldrel" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/ldrel" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="less" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/less" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lessecho" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/lessecho" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lesskey" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/lesskey" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="link" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/link" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lpd" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/lpd" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lpr" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/lpr" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lprc" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/lprc" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lprq" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/lprq" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lprrm" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/lprrm" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lx" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/lx" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mcs" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/mcs" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="melt" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/melt" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mesg" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/mesg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mix_ctl" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/mix_ctl" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mkcldr" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/mkcldr" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mkfifo" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/mkfifo" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mkrec" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/mkrec" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="more" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/more" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mount_ifs" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/mount_ifs" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mstrip" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/mstrip" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="netstat" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/netstat" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="newgrp" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/newgrp" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="nice" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/nice" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="nohup" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/nohup" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="nslookup" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/nslookup" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="nsupdate" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/nsupdate" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ntpdc" location="/opt/qnx660/target/qnx6/armle-v7/usr/bin/ntpdc" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="qnx660-env.sh" location="/opt/qnx660/qnx660-env.sh" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="run-qde.sh" location="/opt/qnx660/run-qde.sh" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="host" location="/opt/qnx660/host" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="linux" location="/opt/qnx660/host/linux" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="x86" location="/opt/qnx660/host/linux/x86" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="usr" location="/opt/qnx660/host/linux/x86/usr" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="qde" location="/opt/qnx660/host/linux/x86/usr/qde" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="eclipse" location="/opt/qnx660/host/linux/x86/usr/qde/eclipse" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="dropins" location="/opt/qnx660/host/linux/x86/usr/qde/eclipse/dropins" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="com.qnx.tools.ide.doc.qnx.momentics.8.0.0.link" location="/opt/qnx660/host/linux/x86/usr/qde/eclipse/dropins/com.qnx.tools.ide.doc.qnx.momentics.8.0.0.link" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="6.6" location="/opt/qnx660/install/qnx-sdp/6.6" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="true" name="licenseNonCommercial.txt" location="/opt/qnx660/install/qnx-sdp/6.6/licenseNonCommercial.txt" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="licensePartner.txt" location="/opt/qnx660/install/qnx-sdp/6.6/licensePartner.txt" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="LicenseGuide.pdf" location="/opt/qnx660/install/qnx-sdp/6.6/LicenseGuide.pdf" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Third_Party_Terms_List.pdf" location="/opt/qnx660/install/qnx-sdp/6.6/Third_Party_Terms_List.pdf" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="doc-manifest" location="/opt/qnx660/install/qnx-sdp/6.6/doc-manifest" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="linux-manifest" location="/opt/qnx660/install/qnx-sdp/6.6/linux-manifest" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="licenseCommercial.txt" location="/opt/qnx660/install/qnx-sdp/6.6/licenseCommercial.txt" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="commit_msg" location="/opt/qnx660/install/qnx-sdp/6.6/commit_msg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="addLicense.bin" location="/opt/qnx660/install/qnx-sdp/6.6/addLicense.bin" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="qconfig" location="/opt/qnx660/.qnx/qconfig" type="directory" uninstall="false" rollbackEnabledCancel="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="qnx_software_development_platform_6.6.0.xml" location="/opt/qnx660/.qnx/qconfig/qnx_software_development_platform_6.6.0.xml" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="license" location="/opt/qnx660/.qnx/license" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="bin" location="/opt/qnx660/.qnx/bin" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="" location="com.qnx.install.ia2010.AddLicense " type="customcode" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="qnxactivate" location="/opt/qnx660/.qnx/bin/qnxactivate" type="file" uninstall="false" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="run-qde.sh" location="/root/run-qde.sh" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+		</component>
+	</components>
+</registry>

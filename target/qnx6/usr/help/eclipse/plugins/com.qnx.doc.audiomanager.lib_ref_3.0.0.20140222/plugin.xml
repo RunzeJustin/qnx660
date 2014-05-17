@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<?eclipse version="3.0"?> 
+<plugin version="1.0" provider-name="%plugin.providername" name="Audio Manager Library Reference"
+   id="com.qnx.doc.audiomanager.lib_ref">
+
+   <extension point="org.eclipse.help.toc">
+      <toc file="main.xml" primary="true"/>
+   </extension>
+
+   <extension point="org.eclipse.help.index">
+      <index file="index.xml"/>
+   </extension>
+
+   <extension id="com.qnx.doc.audiomanager.lib_ref.libhover" name="Audio manager API documentation"
+      point="org.eclipse.linuxtools.cdt.libhover.library">
+      <library location="output.libhover" name="Audio manager lib ref documentation" type="C"/>
+   </extension>
+
+</plugin>

@@ -1,0 +1,978 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword=" delta mode ">
+<topic href="topic/subscription_delta.html#Deltamode" title="Delta mode"/>
+</entry>
+<entry keyword=" full mode ">
+<topic href="topic/subscription_full.html#Fullmode" title="Full mode"/>
+</entry>
+<entry keyword=" groups ">
+<entry keyword="notification">
+<topic href="topic/subscribe_multiple_ntfgrps.html#Notificationgroups" title="Notification groups"/>
+</entry>
+</entry>
+<entry keyword=" mode ">
+<entry keyword="delta">
+<topic href="topic/subscription_delta.html#Deltamode" title="Delta mode"/>
+</entry>
+<entry keyword="full">
+<topic href="topic/subscription_full.html#Fullmode" title="Full mode"/>
+</entry>
+</entry>
+<entry keyword=" notification ">
+<entry keyword="groups">
+<topic href="topic/subscribe_multiple_ntfgrps.html#Notificationgroups" title="Notification groups"/>
+</entry>
+</entry>
+<entry keyword=".all">
+<topic href="topic/objects_obj_spec_.html#Specialobjects" title="Special objects"/>
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+<entry keyword=".notify">
+<topic href="topic/objects_obj_spec_.html#Specialobjects" title="Special objects"/>
+<entry keyword="file">
+<topic href="topic/subscribe_notification_filedescriptor.html#Gettingnotificationsofdataonafiledescriptor" title="Getting notifications of data on a file descriptor"/>
+</entry>
+</entry>
+<entry keyword="ACL file">
+<topic href="topic/options_acl_file.html#ACLfileoption" title="Active Control List configuration file"/>
+<entry keyword="descriptors">
+<topic href="topic/options_acl_file_format.html#ACLfileoptionformat" title="ACL configuration file format"/>
+</entry>
+<entry keyword="format">
+<topic href="topic/options_acl_file_format.html#ACLfileoptionformat" title="ACL configuration file format"/>
+</entry>
+</entry>
+<entry keyword="Active Control List file">
+<topic href="topic/options_acl_file_format.html#ACLfileoptionformat" title="ACL configuration file format"/>
+<topic href="topic/options_acl_file.html#ACLfileoption" title="Active Control List configuration file"/>
+</entry>
+<entry keyword="adding">
+<entry keyword="items">
+<topic href="topic/options_item_qualifier.html#Itemqualifier" title="Item qualifier"/>
+</entry>
+</entry>
+<entry keyword="APIs">
+<topic href="topic/pps_api_reference.html#pps_API_reference" title="PPS API reference"/>
+<topic href="topic/pps_api.html#pps_API" title="PPS encoding and decoding API"/>
+<entry keyword="decoding functions">
+<topic href="topic/pps_decode.html#PPS_decode" title="Decoding PPS data"/>
+</entry>
+<entry keyword="encoding functions">
+<topic href="topic/pps_encode.html#PPS_encode" title="Encoding PPS data"/>
+</entry>
+</entry>
+<entry keyword="asynchronous">
+<entry keyword="publishing">
+<topic href="topic/qnx_pps_service.html#QNXPPSService" title="QNX Neutrino PPS service"/>
+</entry>
+</entry>
+<entry keyword="attribute">
+<topic href="topic/objects_attribute_syntax.html#Attributes" title="Attribute syntax"/>
+<entry keyword="names">
+<topic href="topic/objects_attribute_syntax.html#Attributes" title="Attribute syntax"/>
+</entry>
+<entry keyword="rules">
+<topic href="topic/objects_attribute_syntax.html#Attributes" title="Attribute syntax"/>
+</entry>
+</entry>
+<entry keyword="attributes">
+<entry keyword="adding new to an object">
+<topic href="topic/create_modify_delete_objects_attributes.html#create_modify_delete_objects_and_attributes" title="Creating, modifying, and deleting objects and attributes"/>
+</entry>
+<entry keyword="deleting">
+<topic href="topic/create_modify_delete_objects_attributes.html#create_modify_delete_objects_and_attributes" title="Creating, modifying, and deleting objects and attributes"/>
+</entry>
+<entry keyword="name prefixes">
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+<entry keyword="of PPS objects, changing">
+<topic href="topic/create_modify_delete_objects_attributes.html#create_modify_delete_objects_and_attributes" title="Creating, modifying, and deleting objects and attributes"/>
+</entry>
+<entry keyword="options">
+<topic href="topic/options_object_att_qualifiers.html#Objectandattributequalifiers" title="Object and attribute qualifiers"/>
+</entry>
+<entry keyword="special characters prefixed to names">
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+</entry>
+<entry keyword="binary data">
+<entry keyword="encoding">
+<topic href="topic/objects_objectsyntax.html#Objectsyntax" title="Object syntax"/>
+</entry>
+</entry>
+<entry keyword="character encoding">
+<entry keyword="UTF-8">
+<topic href="topic/persistence_savingobjects.html#Savingobjects" title="Saving objects"/>
+</entry>
+</entry>
+<entry keyword="characters">
+<entry keyword="special, prefixed to attribute names">
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+</entry>
+<entry keyword="creating">
+<entry keyword="objects">
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+</entry>
+<entry keyword="critical file descriptors">
+<topic href="topic/options_critical_option.html#Criticaloption" title="Critical option"/>
+</entry>
+<entry keyword="critical option">
+<topic href="topic/options_critical_option.html#Criticaloption" title="Critical option"/>
+</entry>
+<entry keyword="data structures">
+<topic href="topic/pps_api_reference.html#pps_API_reference" title="PPS API reference"/>
+<topic href="topic/pps_api.html#pps_API" title="PPS encoding and decoding API"/>
+<entry keyword="pps_attrib_t">
+<topic href="topic/api/pps_attrib_t.html#pps_attrib_t" title="pps_attrib_t"/>
+</entry>
+<entry keyword="pps_decoder_state_t">
+<topic href="topic/api/pps_decoder_state_t.html#pps_decoder_state_t" title="pps_decoder_state_t"/>
+</entry>
+<entry keyword="pps_decoder_t">
+<topic href="topic/api/pps_decoder_t.html#pps_decoder_t" title="pps_decoder_t"/>
+</entry>
+<entry keyword="pps_encoder_t">
+<topic href="topic/api/pps_encoder_t.html#pps_encoder_t" title="pps_encoder_t"/>
+</entry>
+</entry>
+<entry keyword="decoding functions">
+<topic href="topic/pps_decode.html#PPS_decode" title="Decoding PPS data"/>
+</entry>
+<entry keyword="deleting">
+<entry keyword="attributes">
+<topic href="topic/create_modify_delete_objects_attributes.html#create_modify_delete_objects_and_attributes" title="Creating, modifying, and deleting objects and attributes"/>
+</entry>
+<entry keyword="items">
+<topic href="topic/options_item_qualifier.html#Itemqualifier" title="Item qualifier"/>
+</entry>
+<entry keyword="objects">
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+</entry>
+<entry keyword="depth of directories">
+<topic href="topic/objects_siz_.html#Objectanddirectorysizes" title="Object and directory sizes"/>
+</entry>
+<entry keyword="descriptor">
+<entry keyword="file">
+<topic href="topic/options_critical_option.html#Criticaloption" title="Critical option"/>
+</entry>
+</entry>
+<entry keyword="directories">
+<entry keyword="depth">
+<topic href="topic/objects_siz_.html#Objectanddirectorysizes" title="Object and directory sizes"/>
+</entry>
+</entry>
+<entry keyword="directory">
+<entry keyword="changing">
+<topic href="topic/persistence_savingobjects.html#Savingobjects" title="Saving objects"/>
+</entry>
+</entry>
+<entry keyword="encoding">
+<topic href="topic/objects_objectsyntax.html#Objectsyntax" title="Object syntax"/>
+</entry>
+<entry keyword="encoding functions">
+<topic href="topic/pps_encode.html#PPS_encode" title="Encoding PPS data"/>
+</entry>
+<entry keyword="enumerations">
+<entry keyword="pps_attrib_flags_t">
+<topic href="topic/api/pps_attrib_flags_t.html#pps_attrib_flags_t" title="pps_attrib_flags_t"/>
+</entry>
+<entry keyword="pps_decoder_error_t">
+<topic href="topic/api/pps_decoder_error_t.html#pps_decoder_error_t" title="pps_decoder_error_t"/>
+</entry>
+<entry keyword="pps_encoder_error_t">
+<topic href="topic/api/pps_encoder_error_t.html#pps_encoder_error_t" title="pps_encoder_error_t"/>
+</entry>
+<entry keyword="pps_node_type_t">
+<topic href="topic/api/pps_node_type_t.html#pps_node_type_t" title="pps_node_type_t"/>
+</entry>
+<entry keyword="pps_options_t">
+<topic href="topic/api/pps_options_t.html#pps_options_t" title="pps_options_t"/>
+</entry>
+<entry keyword="pps_status_t">
+<topic href="topic/api/pps_status_t.html#pps_status_t" title="pps_status_t"/>
+</entry>
+</entry>
+<entry keyword="examples">
+<entry keyword="object syntax">
+<topic href="topic/objects_objectsyntax.html#Objectsyntax" title="Object syntax"/>
+</entry>
+</entry>
+<entry keyword="file descriptors">
+<entry keyword="critical">
+<topic href="topic/options_critical_option.html#Criticaloption" title="Critical option"/>
+</entry>
+<entry keyword="limit per object">
+<topic href="topic/subscribe_notification_filedescriptor.html#Gettingnotificationsofdataonafiledescriptor" title="Getting notifications of data on a file descriptor"/>
+</entry>
+<entry keyword="notification of available data">
+<topic href="topic/subscribe_notification_filedescriptor.html#Gettingnotificationsofdataonafiledescriptor" title="Getting notifications of data on a file descriptor"/>
+</entry>
+<entry keyword="notification of closing">
+<topic href="topic/subscribe_multiple_use_ntfgrps.html#usingnotificationgroups" title="Using notification groups"/>
+</entry>
+<entry keyword="server">
+<topic href="topic/options_critical_option.html#Criticaloption" title="Critical option"/>
+</entry>
+<entry keyword="setting not to block on PPS read">
+<topic href="topic/subscribe_blocking.html#Blockingandnonblockingreads" title="Blocking and nonblocking reads"/>
+</entry>
+</entry>
+<entry keyword="files">
+<entry keyword="object">
+<topic href="topic/objects_objectfiles.html#Objectfiles" title="Object files"/>
+</entry>
+<entry keyword="special">
+<topic href="topic/objects_obj_spec_.html#Specialobjects" title="Special objects"/>
+</entry>
+</entry>
+<entry keyword="filesystem">
+<entry keyword="default filepath">
+<topic href="topic/objects_objectfiles.html#Objectfiles" title="Object files"/>
+</entry>
+<entry keyword="limitations on persistence">
+<topic href="topic/persistence_persistentstorage.html#Persistentstorage" title="Persistent storage"/>
+</entry>
+<entry keyword="PPS">
+<topic href="topic/objects_objectfiles.html#Objectfiles" title="Object files"/>
+</entry>
+<entry keyword="support for persistence">
+<topic href="topic/persistence_persistentstorage.html#Persistentstorage" title="Persistent storage"/>
+</entry>
+</entry>
+<entry keyword="functions">
+<topic href="topic/pps_api_reference.html#pps_API_reference" title="PPS API reference"/>
+<topic href="topic/pps_api.html#pps_API" title="PPS encoding and decoding API"/>
+<entry keyword="pps_decoder_cleanup()">
+<topic href="topic/api/pps_decoder_cleanup.html#pps_decoder_cleanup" title="pps_decoder_cleanup()"/>
+</entry>
+<entry keyword="pps_decoder_dump_tree()">
+<topic href="topic/api/pps_decoder_dump_tree.html#pps_decoder_dump_tree" title="pps_decoder_dump_tree()"/>
+</entry>
+<entry keyword="pps_decoder_flags()">
+<topic href="topic/api/pps_decoder_flags.html#pps_decoder_flagse" title="pps_decoder_flags()"/>
+</entry>
+<entry keyword="pps_decoder_get_bool()">
+<topic href="topic/api/pps_decoder_get_bool.html#pps_decoder_get_bool" title="pps_decoder_get_bool()"/>
+</entry>
+<entry keyword="pps_decoder_get_double()">
+<topic href="topic/api/pps_decoder_get_double.html#pps_decoder_get_double" title="pps_decoder_get_double()"/>
+</entry>
+<entry keyword="pps_decoder_get_int()">
+<topic href="topic/api/pps_decoder_get_int.html#pps_decoder_get_int" title="pps_decoder_get_int()"/>
+</entry>
+<entry keyword="pps_decoder_get_int64()">
+<topic href="topic/api/pps_decoder_get_int64.html#pps_decoder_get_int64" title="pps_decoder_get_int64()"/>
+</entry>
+<entry keyword="pps_decoder_get_state()">
+<topic href="topic/api/pps_decoder_get_state.html#pps_decoder_get_state" title="pps_decoder_get_state()"/>
+</entry>
+<entry keyword="pps_decoder_get_string()">
+<topic href="topic/api/pps_decoder_get_string.html#pps_decoder_get_string" title="pps_decoder_get_string()"/>
+</entry>
+<entry keyword="pps_decoder_goto_index()">
+<topic href="topic/api/pps_decoder_goto_index.html#pps_decoder_goto_index" title="pps_decoder_goto_index()"/>
+</entry>
+<entry keyword="pps_decoder_initialize()">
+<topic href="topic/api/pps_decoder_initialize.html#pps_decoder_intitialize" title="pps_decoder_initialize()"/>
+</entry>
+<entry keyword="pps_decoder_is_integer">
+<topic href="topic/api/pps_decoder_is_integer.html#pps_decoder_is_integer" title="pps_decoder_is_integer()"/>
+</entry>
+<entry keyword="pps_decoder_length()">
+<topic href="topic/api/pps_decoder_length.html#pps_decoder_length" title="pps_decoder_length()"/>
+</entry>
+<entry keyword="pps_decoder_next()">
+<topic href="topic/api/pps_decoder_next.html#pps_decoder_next" title="pps_decoder_next()"/>
+</entry>
+<entry keyword="pps_decoder_parse_json_str()">
+<topic href="topic/api/pps_decoder_parse_json_str.html#pps_decoder_parse_json_str" title="pps_decoder_parse_json_str()"/>
+</entry>
+<entry keyword="pps_decoder_parse_pps_str()">
+<topic href="topic/api/pps_decoder_parse_pps_str.html#pps_decoder_parse_pps_str" title="pps_decoder_parse_pps_str()"/>
+</entry>
+<entry keyword="pps_decoder_pop()">
+<topic href="topic/api/pps_decoder_pop.html#pps_decoder_pop" title="pps_decoder_pop()"/>
+</entry>
+<entry keyword="pps_decoder_push_array()">
+<topic href="topic/api/pps_decoder_push_array.html#pps_decoder_push_array" title="pps_decoder_push_array()"/>
+</entry>
+<entry keyword="pps_decoder_push_object()">
+<topic href="topic/api/pps_decoder_push_object.html#pps_decoder_push_object" title="pps_decoder_push_object()"/>
+</entry>
+<entry keyword="pps_decoder_push()">
+<topic href="topic/api/pps_decoder_push.html#pps_decoder_push" title="pps_decoder_push()"/>
+</entry>
+<entry keyword="pps_decoder_reset()">
+<topic href="topic/api/pps_decoder_reset.html#pps_decoder_reset" title="pps_decoder_reset()"/>
+</entry>
+<entry keyword="pps_decoder_set_position()">
+<topic href="topic/api/pps_decoder_set_position.html#pps_decoder_set_position" title="pps_decoder_set_position()"/>
+</entry>
+<entry keyword="pps_decoder_set_state()">
+<topic href="topic/api/pps_decoder_set_state.html#pps_decoder_set_state" title="pps_decoder_set_state()"/>
+</entry>
+<entry keyword="pps_decoder_status()">
+<topic href="topic/api/pps_decoder_status.html#pps_decoder_status" title="pps_decoder_status()"/>
+</entry>
+<entry keyword="pps_decoder_type()">
+<topic href="topic/api/pps_decoder_type.html#pps_decoder_type" title="pps_decoder_type()"/>
+</entry>
+<entry keyword="pps_encoder_add_bool()">
+<topic href="topic/api/pps_encoder_add_bool.html#pps_encoder_add_bool" title=" pps_encoder_add_bool() "/>
+</entry>
+<entry keyword="pps_encoder_add_double()">
+<topic href="topic/api/pps_encoder_add_double.html#pps_encoder_add_double" title="pps_encoder_add_double()"/>
+</entry>
+<entry keyword="pps_encoder_add_from_decoder()">
+<topic href="topic/api/pps_encoder_add_from_decoder.html#pps_encoder_add_from_decoder" title="pps_encoder_add_from_decoder()"/>
+</entry>
+<entry keyword="pps_encoder_add_int()">
+<topic href="topic/api/pps_encoder_add_int.html#pps_encoder_add_int" title="pps_encoder_add_int()"/>
+</entry>
+<entry keyword="pps_encoder_add_int64()">
+<topic href="topic/api/pps_encoder_add_int64.html#pps_encoder_add_int64" title="pps_encoder_add_int64()"/>
+</entry>
+<entry keyword="pps_encoder_add_json()">
+<topic href="topic/api/pps_encoder_add_json.html#pps_encoder_add_json" title="pps_encoder_add_json()"/>
+</entry>
+<entry keyword="pps_encoder_add_null()">
+<topic href="topic/api/pps_encoder_add_null.html#pps_encoder_add_null" title="pps_encoder_add_null()"/>
+</entry>
+<entry keyword="pps_encoder_add_string()">
+<topic href="topic/api/pps_encoder_add_string.html#pps_encoder_add_string" title="pps_encoder_add_string()"/>
+</entry>
+<entry keyword="pps_encoder_buffer()">
+<topic href="topic/api/pps_encoder_buffer.html#pps_encoder_buffer" title="pps_encoder_buffer()"/>
+</entry>
+<entry keyword="pps_encoder_cleanup()">
+<topic href="topic/api/pps_encoder_cleanup.html#pps_encoder_cleanup" title="pps_encoder_cleanup()"/>
+</entry>
+<entry keyword="pps_encoder_delete_attribute()">
+<topic href="topic/api/pps_encoder_delete_attribute.html#pps_encoder_delete_attribute" title="pps_encoder_delete_attribute()"/>
+</entry>
+<entry keyword="pps_encoder_end_array()">
+<topic href="topic/api/pps_encoder_end_array.html#pps_encoder_end_array" title="pps_encoder_end_array()"/>
+</entry>
+<entry keyword="pps_encoder_end_object()">
+<topic href="topic/api/pps_encoder_end_object.html#pps_encoder_end_object" title="pps_encoder_end_object()"/>
+</entry>
+<entry keyword="pps_encoder_initialize()">
+<topic href="topic/api/pps_encoder_initialize.html#pps_encoder_initialize" title="pps_encoder_initialize()"/>
+</entry>
+<entry keyword="pps_encoder_length()">
+<topic href="topic/api/pps_encoder_length.html#pps_encoder_length" title="pps_encoder_length()"/>
+</entry>
+<entry keyword="pps_encoder_reset()">
+<topic href="topic/api/pps_encoder_reset.html#pps_encoder_reset" title="pps_encoder_reset"/>
+</entry>
+<entry keyword="pps_encoder_start_array()">
+<topic href="topic/api/pps_encoder_start_array.html#pps_encoder_start_array" title="pps_encoder_start_array()"/>
+</entry>
+<entry keyword="pps_encoder_start_object()">
+<topic href="topic/api/pps_encoder_start_object.html#pps_encoder_start_object" title="pps_encoder_start_object()"/>
+</entry>
+<entry keyword="ppsparse()">
+<topic href="topic/api/ppsparse.html#ppsparse" title="ppsparse()"/>
+</entry>
+</entry>
+<entry keyword="functions ">
+<entry keyword="pps_decoder_name()">
+<topic href="topic/api/pps_decoder_name.html#pps_decoder_name" title="pps_decoder_name()"/>
+</entry>
+</entry>
+<entry keyword="groups">
+<entry keyword="notification">
+<entry keyword="creating">
+<topic href="topic/subscribe_multiple_create_ntfgrps.html#Createnotificationgroups" title="Creating notification groups"/>
+</entry>
+<entry keyword="using">
+<topic href="topic/subscribe_multiple_use_ntfgrps.html#usingnotificationgroups" title="Using notification groups"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="header files">
+<entry keyword="location">
+<topic href="topic/pps_api_reference.html#pps_API_reference" title="PPS API reference"/>
+</entry>
+</entry>
+<entry keyword="i qualifier">
+<entry keyword="item">
+<topic href="topic/options_item_qualifier.html#Itemqualifier" title="Item qualifier"/>
+</entry>
+</entry>
+<entry keyword="io_notify()">
+<entry keyword="functionality in PPS">
+<topic href="topic/subscribe_io_notify.html#io_notify_functionality" title="io_notify() functionality"/>
+</entry>
+</entry>
+<entry keyword="item">
+<entry keyword="of a set">
+<topic href="topic/options_item_qualifier.html#Itemqualifier" title="Item qualifier"/>
+</entry>
+<entry keyword="set">
+<entry keyword="adding">
+<topic href="topic/options_item_qualifier.html#Itemqualifier" title="Item qualifier"/>
+</entry>
+<entry keyword="deleting">
+<topic href="topic/options_item_qualifier.html#Itemqualifier" title="Item qualifier"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="item qualifier">
+<topic href="topic/options_item_qualifier.html#Itemqualifier" title="Item qualifier"/>
+</entry>
+<entry keyword="libraries">
+<entry keyword="location">
+<topic href="topic/pps_api_reference.html#pps_API_reference" title="PPS API reference"/>
+</entry>
+</entry>
+<entry keyword="limit to open file descriptors">
+<topic href="topic/subscribe_notification_filedescriptor.html#Gettingnotificationsofdataonafiledescriptor" title="Getting notifications of data on a file descriptor"/>
+</entry>
+<entry keyword="linefeed characters">
+<topic href="topic/objects_objectsyntax.html#Objectsyntax" title="Object syntax"/>
+</entry>
+<entry keyword="loading objects">
+<topic href="topic/persistence_loadingobjects.html#Loadingobjects" title="Loading objects"/>
+</entry>
+<entry keyword="modes">
+<entry keyword="subscription">
+<topic href="topic/subscription_modes.html#SubscriptionModes" title="Subscription Modes"/>
+</entry>
+</entry>
+<entry keyword="n attribute qualifier">
+<topic href="topic/options_non_persist_qualifier.html#Nopersistencequalifier" title="Nonpersistence qualifier"/>
+</entry>
+<entry keyword="n object qualifier">
+<topic href="topic/options_non_persist_qualifier.html#Nopersistencequalifier" title="Nonpersistence qualifier"/>
+</entry>
+<entry keyword="names">
+<entry keyword="attribute">
+<topic href="topic/objects_attribute_syntax.html#Attributes" title="Attribute syntax"/>
+</entry>
+<entry keyword="object">
+<topic href="topic/objects_objectsyntax.html#Objectsyntax" title="Object syntax"/>
+</entry>
+</entry>
+<entry keyword="NFS server">
+<entry keyword="persistence">
+<topic href="topic/persistence_persistentstorage.html#Persistentstorage" title="Persistent storage"/>
+</entry>
+</entry>
+<entry keyword="nonpersistence qualifier">
+<topic href="topic/options_non_persist_qualifier.html#Nopersistencequalifier" title="Nonpersistence qualifier"/>
+</entry>
+<entry keyword="notification">
+<entry keyword=" of closed file descriptor">
+<topic href="topic/subscribe_multiple_use_ntfgrps.html#usingnotificationgroups" title="Using notification groups"/>
+</entry>
+</entry>
+<entry keyword="notification groups">
+<entry keyword="creating">
+<topic href="topic/subscribe_multiple_create_ntfgrps.html#Createnotificationgroups" title="Creating notification groups"/>
+</entry>
+<entry keyword="using">
+<topic href="topic/subscribe_multiple_use_ntfgrps.html#usingnotificationgroups" title="Using notification groups"/>
+</entry>
+</entry>
+<entry keyword="notifications">
+<entry keyword="attribute change">
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+<entry keyword="object change">
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+<entry keyword="object creation">
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+<entry keyword="object deletion">
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+<entry keyword="object truncation">
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+</entry>
+<entry keyword="O_NONBLOCK">
+<topic href="topic/subscribe_blocking.html#Blockingandnonblockingreads" title="Blocking and nonblocking reads"/>
+</entry>
+<entry keyword="objects">
+<entry keyword="critical option">
+<topic href="topic/options_critical_option.html#Criticaloption" title="Critical option"/>
+</entry>
+<entry keyword="files">
+<topic href="topic/objects_objectfiles.html#Objectfiles" title="Object files"/>
+</entry>
+<entry keyword="loading">
+<topic href="topic/persistence_loadingobjects.html#Loadingobjects" title="Loading objects"/>
+</entry>
+<entry keyword="modes of opening">
+<topic href="topic/subscription_modes.html#SubscriptionModes" title="Subscription Modes"/>
+</entry>
+<entry keyword="modifying attributes of">
+<topic href="topic/create_modify_delete_objects_attributes.html#create_modify_delete_objects_and_attributes" title="Creating, modifying, and deleting objects and attributes"/>
+</entry>
+<entry keyword="names">
+<topic href="topic/objects_objectsyntax.html#Objectsyntax" title="Object syntax"/>
+</entry>
+<entry keyword="notification">
+<entry keyword="of creation">
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+<entry keyword="of deletion">
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+<entry keyword="of lost critical publisher">
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+<entry keyword="of truncation">
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+</entry>
+<entry keyword="options">
+<topic href="topic/options_object_att_qualifiers.html#Objectandattributequalifiers" title="Object and attribute qualifiers"/>
+</entry>
+<entry keyword="persistence">
+<topic href="topic/persistence.html#Persistence" title="Persistence"/>
+</entry>
+<entry keyword="publishing and subscribing">
+<topic href="topic/objects_and_their_attributes.html#ObjectsandtheirAttributes" title="Objects and their attributes"/>
+</entry>
+<entry keyword="restoring">
+<topic href="topic/persistence_loadingobjects.html#Loadingobjects" title="Loading objects"/>
+</entry>
+<entry keyword="saving">
+<topic href="topic/persistence_savingobjects.html#Savingobjects" title="Saving objects"/>
+</entry>
+<entry keyword="size in memory">
+<topic href="topic/objects_siz_.html#Objectanddirectorysizes" title="Object and directory sizes"/>
+</entry>
+<entry keyword="special">
+<topic href="topic/objects_obj_spec_.html#Specialobjects" title="Special objects"/>
+</entry>
+<entry keyword="state changes">
+<topic href="topic/subscribe.html#Subscribing" title="Subscribing"/>
+</entry>
+<entry keyword="subscribing to">
+<topic href="topic/subscribe.html#Subscribing" title="Subscribing"/>
+</entry>
+<entry keyword="subscribing to all in a directory">
+<topic href="topic/subscribe_multiple.html#Subscribingtomultipleobjects" title="Subscribing to multiple objects"/>
+</entry>
+<entry keyword="subscribing to multiple">
+<topic href="topic/subscribe_multiple.html#Subscribingtomultipleobjects" title="Subscribing to multiple objects"/>
+</entry>
+<entry keyword="syntax">
+<topic href="topic/objects_objectsyntax.html#Objectsyntax" title="Object syntax"/>
+</entry>
+<entry keyword="temporary">
+<topic href="topic/options_non_persist_qualifier.html#Nopersistencequalifier" title="Nonpersistence qualifier"/>
+</entry>
+</entry>
+<entry keyword="open">
+<entry keyword="modes">
+<topic href="topic/subscription_modes.html#SubscriptionModes" title="Subscription Modes"/>
+</entry>
+<entry keyword="query">
+<entry keyword="options">
+<topic href="topic/options_pathname_openoptions.html#Pathnameopenoptions" title="Pathname open options"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="options">
+<entry keyword="ACL file">
+<topic href="topic/options_acl_file_format.html#ACLfileoptionformat" title="ACL configuration file format"/>
+<topic href="topic/options_acl_file.html#ACLfileoption" title="Active Control List configuration file"/>
+</entry>
+<entry keyword="Active Control List file">
+<topic href="topic/options_acl_file_format.html#ACLfileoptionformat" title="ACL configuration file format"/>
+<topic href="topic/options_acl_file.html#ACLfileoption" title="Active Control List configuration file"/>
+</entry>
+<entry keyword="critical">
+<topic href="topic/options_critical_option.html#Criticaloption" title="Critical option"/>
+</entry>
+<entry keyword="for attributes">
+<topic href="topic/options_object_att_qualifiers.html#Objectandattributequalifiers" title="Object and attribute qualifiers"/>
+</entry>
+<entry keyword="for objects">
+<topic href="topic/options_object_att_qualifiers.html#Objectandattributequalifiers" title="Object and attribute qualifiers"/>
+</entry>
+<entry keyword="open">
+<entry keyword="pathname">
+<topic href="topic/options_pathname_openoptions.html#Pathnameopenoptions" title="Pathname open options"/>
+</entry>
+</entry>
+<entry keyword="PPS">
+<topic href="topic/pps_running.html#RunningPPS" title="Running PPS"/>
+<entry keyword="nonpersistent">
+<topic href="topic/options_pathname_openoptions.html#Pathnameopenoptions" title="Pathname open options"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="pathname">
+<entry keyword="open">
+<entry keyword="options">
+<topic href="topic/options_pathname_openoptions.html#Pathnameopenoptions" title="Pathname open options"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="persistence">
+<topic href="topic/persistence.html#Persistence" title="Persistence"/>
+<entry keyword="filesystems">
+<topic href="topic/persistence_persistentstorage.html#Persistentstorage" title="Persistent storage"/>
+</entry>
+<entry keyword="limitations from filesystem">
+<topic href="topic/persistence_persistentstorage.html#Persistentstorage" title="Persistent storage"/>
+</entry>
+<entry keyword="nonpersistence qualifier">
+<topic href="topic/options_non_persist_qualifier.html#Nopersistencequalifier" title="Nonpersistence qualifier"/>
+</entry>
+<entry keyword="of PPS objects">
+<topic href="topic/persistence.html#Persistence" title="Persistence"/>
+</entry>
+</entry>
+<entry keyword="Persistent Publish/Subscribe">
+<entry keyword="PPS">
+<topic href="topic/qnx_pps_service.html#QNXPPSService" title="QNX Neutrino PPS service"/>
+</entry>
+</entry>
+<entry keyword="persistent storage directory, changing">
+<topic href="topic/persistence_savingobjects.html#Savingobjects" title="Saving objects"/>
+</entry>
+<entry keyword="PPS">
+<topic href="topic/qnx_pps_service.html#QNXPPSService" title="QNX Neutrino PPS service"/>
+<entry keyword="io_notify() functionality">
+<topic href="topic/subscribe_io_notify.html#io_notify_functionality" title="io_notify() functionality"/>
+</entry>
+<entry keyword="options">
+<topic href="topic/pps_running.html#RunningPPS" title="Running PPS"/>
+</entry>
+<entry keyword="publishing">
+<topic href="topic/publishing.html#Publishing" title="Publishing"/>
+</entry>
+<entry keyword="running">
+<topic href="topic/pps_running.html#RunningPPS" title="Running PPS"/>
+</entry>
+</entry>
+<entry keyword="pps_attrib_flags_t">
+<topic href="topic/api/pps_attrib_flags_t.html#pps_attrib_flags_t" title="pps_attrib_flags_t"/>
+<entry keyword="values">
+<topic href="topic/api/pps_attrib_flags_t.html#pps_attrib_flags_t" title="pps_attrib_flags_t"/>
+</entry>
+</entry>
+<entry keyword="pps_attrib_t">
+<topic href="topic/api/pps_attrib_t.html#pps_attrib_t" title="pps_attrib_t"/>
+</entry>
+<entry keyword="pps_decoder_cleanup()">
+<topic href="topic/api/pps_decoder_cleanup.html#pps_decoder_cleanup" title="pps_decoder_cleanup()"/>
+</entry>
+<entry keyword="pps_decoder_dump_tree()">
+<topic href="topic/api/pps_decoder_dump_tree.html#pps_decoder_dump_tree" title="pps_decoder_dump_tree()"/>
+</entry>
+<entry keyword="pps_decoder_error_t">
+<topic href="topic/api/pps_decoder_error_t.html#pps_decoder_error_t" title="pps_decoder_error_t"/>
+<entry keyword="values">
+<topic href="topic/api/pps_decoder_error_t.html#pps_decoder_error_t" title="pps_decoder_error_t"/>
+</entry>
+</entry>
+<entry keyword="pps_decoder_flags()">
+<topic href="topic/api/pps_decoder_flags.html#pps_decoder_flagse" title="pps_decoder_flags()"/>
+</entry>
+<entry keyword="pps_decoder_get_bool()">
+<topic href="topic/api/pps_decoder_get_bool.html#pps_decoder_get_bool" title="pps_decoder_get_bool()"/>
+</entry>
+<entry keyword="pps_decoder_get_double()">
+<topic href="topic/api/pps_decoder_get_double.html#pps_decoder_get_double" title="pps_decoder_get_double()"/>
+</entry>
+<entry keyword="pps_decoder_get_int()">
+<topic href="topic/api/pps_decoder_get_int.html#pps_decoder_get_int" title="pps_decoder_get_int()"/>
+</entry>
+<entry keyword="pps_decoder_get_int64()">
+<topic href="topic/api/pps_decoder_get_int64.html#pps_decoder_get_int64" title="pps_decoder_get_int64()"/>
+</entry>
+<entry keyword="pps_decoder_get_state()">
+<topic href="topic/api/pps_decoder_get_state.html#pps_decoder_get_state" title="pps_decoder_get_state()"/>
+</entry>
+<entry keyword="pps_decoder_get_string()">
+<topic href="topic/api/pps_decoder_get_string.html#pps_decoder_get_string" title="pps_decoder_get_string()"/>
+</entry>
+<entry keyword="pps_decoder_goto_index()">
+<topic href="topic/api/pps_decoder_goto_index.html#pps_decoder_goto_index" title="pps_decoder_goto_index()"/>
+</entry>
+<entry keyword="pps_decoder_initialize()">
+<topic href="topic/api/pps_decoder_initialize.html#pps_decoder_intitialize" title="pps_decoder_initialize()"/>
+</entry>
+<entry keyword="pps_decoder_is_integer">
+<topic href="topic/api/pps_decoder_is_integer.html#pps_decoder_is_integer" title="pps_decoder_is_integer()"/>
+</entry>
+<entry keyword="pps_decoder_length()">
+<topic href="topic/api/pps_decoder_length.html#pps_decoder_length" title="pps_decoder_length()"/>
+</entry>
+<entry keyword="pps_decoder_name()">
+<topic href="topic/api/pps_decoder_name.html#pps_decoder_name" title="pps_decoder_name()"/>
+</entry>
+<entry keyword="pps_decoder_next()">
+<topic href="topic/api/pps_decoder_next.html#pps_decoder_next" title="pps_decoder_next()"/>
+</entry>
+<entry keyword="pps_decoder_parse_json_str()">
+<topic href="topic/api/pps_decoder_parse_json_str.html#pps_decoder_parse_json_str" title="pps_decoder_parse_json_str()"/>
+</entry>
+<entry keyword="pps_decoder_parse_pps_str()">
+<topic href="topic/api/pps_decoder_parse_pps_str.html#pps_decoder_parse_pps_str" title="pps_decoder_parse_pps_str()"/>
+</entry>
+<entry keyword="pps_decoder_pop()">
+<topic href="topic/api/pps_decoder_pop.html#pps_decoder_pop" title="pps_decoder_pop()"/>
+</entry>
+<entry keyword="pps_decoder_push_array()">
+<topic href="topic/api/pps_decoder_push_array.html#pps_decoder_push_array" title="pps_decoder_push_array()"/>
+</entry>
+<entry keyword="pps_decoder_push_object()">
+<topic href="topic/api/pps_decoder_push_object.html#pps_decoder_push_object" title="pps_decoder_push_object()"/>
+</entry>
+<entry keyword="pps_decoder_push()">
+<topic href="topic/api/pps_decoder_push.html#pps_decoder_push" title="pps_decoder_push()"/>
+</entry>
+<entry keyword="pps_decoder_reset()">
+<topic href="topic/api/pps_decoder_reset.html#pps_decoder_reset" title="pps_decoder_reset()"/>
+</entry>
+<entry keyword="pps_decoder_set_position()">
+<topic href="topic/api/pps_decoder_set_position.html#pps_decoder_set_position" title="pps_decoder_set_position()"/>
+</entry>
+<entry keyword="pps_decoder_set_state()">
+<topic href="topic/api/pps_decoder_set_state.html#pps_decoder_set_state" title="pps_decoder_set_state()"/>
+</entry>
+<entry keyword="pps_decoder_state_t">
+<topic href="topic/api/pps_decoder_state_t.html#pps_decoder_state_t" title="pps_decoder_state_t"/>
+</entry>
+<entry keyword="pps_decoder_status()">
+<topic href="topic/api/pps_decoder_status.html#pps_decoder_status" title="pps_decoder_status()"/>
+</entry>
+<entry keyword="pps_decoder_t">
+<topic href="topic/api/pps_decoder_t.html#pps_decoder_t" title="pps_decoder_t"/>
+</entry>
+<entry keyword="pps_decoder_type()">
+<topic href="topic/api/pps_decoder_type.html#pps_decoder_type" title="pps_decoder_type()"/>
+</entry>
+<entry keyword="pps_encoder_add_bool()">
+<topic href="topic/api/pps_encoder_add_bool.html#pps_encoder_add_bool" title=" pps_encoder_add_bool() "/>
+</entry>
+<entry keyword="pps_encoder_add_double()">
+<topic href="topic/api/pps_encoder_add_double.html#pps_encoder_add_double" title="pps_encoder_add_double()"/>
+</entry>
+<entry keyword="pps_encoder_add_from_decoder()">
+<topic href="topic/api/pps_encoder_add_from_decoder.html#pps_encoder_add_from_decoder" title="pps_encoder_add_from_decoder()"/>
+</entry>
+<entry keyword="pps_encoder_add_int()">
+<topic href="topic/api/pps_encoder_add_int.html#pps_encoder_add_int" title="pps_encoder_add_int()"/>
+</entry>
+<entry keyword="pps_encoder_add_int64()">
+<topic href="topic/api/pps_encoder_add_int64.html#pps_encoder_add_int64" title="pps_encoder_add_int64()"/>
+</entry>
+<entry keyword="pps_encoder_add_json()">
+<topic href="topic/api/pps_encoder_add_json.html#pps_encoder_add_json" title="pps_encoder_add_json()"/>
+</entry>
+<entry keyword="pps_encoder_add_null()">
+<topic href="topic/api/pps_encoder_add_null.html#pps_encoder_add_null" title="pps_encoder_add_null()"/>
+</entry>
+<entry keyword="pps_encoder_add_string()">
+<topic href="topic/api/pps_encoder_add_string.html#pps_encoder_add_string" title="pps_encoder_add_string()"/>
+</entry>
+<entry keyword="pps_encoder_buffer()">
+<topic href="topic/api/pps_encoder_buffer.html#pps_encoder_buffer" title="pps_encoder_buffer()"/>
+</entry>
+<entry keyword="pps_encoder_cleanup()">
+<topic href="topic/api/pps_encoder_cleanup.html#pps_encoder_cleanup" title="pps_encoder_cleanup()"/>
+</entry>
+<entry keyword="pps_encoder_delete_attribute()">
+<topic href="topic/api/pps_encoder_delete_attribute.html#pps_encoder_delete_attribute" title="pps_encoder_delete_attribute()"/>
+</entry>
+<entry keyword="pps_encoder_end_array()">
+<topic href="topic/api/pps_encoder_end_array.html#pps_encoder_end_array" title="pps_encoder_end_array()"/>
+</entry>
+<entry keyword="pps_encoder_end_object()">
+<topic href="topic/api/pps_encoder_end_object.html#pps_encoder_end_object" title="pps_encoder_end_object()"/>
+</entry>
+<entry keyword="pps_encoder_error_t">
+<topic href="topic/api/pps_encoder_error_t.html#pps_encoder_error_t" title="pps_encoder_error_t"/>
+<entry keyword="values">
+<topic href="topic/api/pps_encoder_error_t.html#pps_encoder_error_t" title="pps_encoder_error_t"/>
+</entry>
+</entry>
+<entry keyword="pps_encoder_initialize()">
+<topic href="topic/api/pps_encoder_initialize.html#pps_encoder_initialize" title="pps_encoder_initialize()"/>
+</entry>
+<entry keyword="pps_encoder_length()">
+<topic href="topic/api/pps_encoder_length.html#pps_encoder_length" title="pps_encoder_length()"/>
+</entry>
+<entry keyword="pps_encoder_reset()">
+<topic href="topic/api/pps_encoder_reset.html#pps_encoder_reset" title="pps_encoder_reset"/>
+</entry>
+<entry keyword="pps_encoder_start_array()">
+<topic href="topic/api/pps_encoder_start_array.html#pps_encoder_start_array" title="pps_encoder_start_array()"/>
+</entry>
+<entry keyword="pps_encoder_start_object()">
+<topic href="topic/api/pps_encoder_start_object.html#pps_encoder_start_object" title="pps_encoder_start_object()"/>
+</entry>
+<entry keyword="pps_encoder_t">
+<topic href="topic/api/pps_encoder_t.html#pps_encoder_t" title="pps_encoder_t"/>
+</entry>
+<entry keyword="pps_node_type_t">
+<topic href="topic/api/pps_node_type_t.html#pps_node_type_t" title="pps_node_type_t"/>
+<entry keyword="values">
+<topic href="topic/api/pps_node_type_t.html#pps_node_type_t" title="pps_node_type_t"/>
+</entry>
+</entry>
+<entry keyword="pps_options_t">
+<topic href="topic/api/pps_options_t.html#pps_options_t" title="pps_options_t"/>
+<entry keyword="values">
+<topic href="topic/api/pps_options_t.html#pps_options_t" title="pps_options_t"/>
+</entry>
+</entry>
+<entry keyword="pps_status_t">
+<topic href="topic/api/pps_status_t.html#pps_status_t" title="pps_status_t"/>
+<entry keyword="values">
+<topic href="topic/api/pps_status_t.html#pps_status_t" title="pps_status_t"/>
+</entry>
+</entry>
+<entry keyword="ppsparse()">
+<topic href="topic/api/ppsparse.html#ppsparse" title="ppsparse()"/>
+</entry>
+<entry keyword="priority inheritance">
+<topic href="topic/qnx_pps_service.html#QNXPPSService" title="QNX Neutrino PPS service"/>
+</entry>
+<entry keyword="Publish/Subscribe">
+<entry keyword="Persistent">
+<topic href="topic/qnx_pps_service.html#QNXPPSService" title="QNX Neutrino PPS service"/>
+</entry>
+</entry>
+<entry keyword="publisher">
+<entry keyword="connection to subscriber">
+<topic href="topic/qnx_pps_service.html#QNXPPSService" title="QNX Neutrino PPS service"/>
+</entry>
+<entry keyword="lost critical for object">
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+<entry keyword="multiple">
+<topic href="topic/multiple_publishers.html#multiple_publishers" title="Multiple Publishers"/>
+</entry>
+</entry>
+<entry keyword="publishing">
+<topic href="topic/publishing.html#Publishing" title="Publishing"/>
+<entry keyword="asynchronous">
+<topic href="topic/qnx_pps_service.html#QNXPPSService" title="QNX Neutrino PPS service"/>
+</entry>
+</entry>
+<entry keyword="publishing and subscribing">
+<topic href="topic/objects_and_their_attributes.html#ObjectsandtheirAttributes" title="Objects and their attributes"/>
+</entry>
+<entry keyword="qualifiers">
+<entry keyword="nonpersistence">
+<topic href="topic/options_non_persist_qualifier.html#Nopersistencequalifier" title="Nonpersistence qualifier"/>
+</entry>
+<entry keyword="set item">
+<topic href="topic/options_item_qualifier.html#Itemqualifier" title="Item qualifier"/>
+</entry>
+</entry>
+<entry keyword="reading">
+<entry keyword="blocking and nonblocking">
+<topic href="topic/subscribe_blocking.html#Blockingandnonblockingreads" title="Blocking and nonblocking reads"/>
+</entry>
+</entry>
+<entry keyword="restoring objects">
+<topic href="topic/persistence_loadingobjects.html#Loadingobjects" title="Loading objects"/>
+</entry>
+<entry keyword="rules">
+<entry keyword="attribute">
+<topic href="topic/objects_attribute_syntax.html#Attributes" title="Attribute syntax"/>
+</entry>
+</entry>
+<entry keyword="separator">
+<entry keyword="for items in a set">
+<topic href="topic/options_item_qualifier.html#Itemqualifier" title="Item qualifier"/>
+</entry>
+</entry>
+<entry keyword="server">
+<entry keyword="file descriptors">
+<topic href="topic/options_critical_option.html#Criticaloption" title="Critical option"/>
+</entry>
+</entry>
+<entry keyword="Server objects">
+<entry keyword="writing to a single object">
+<topic href="topic/server_objects.html#Serverobjects" title="Server objects"/>
+</entry>
+</entry>
+<entry keyword="sets">
+<entry keyword="adding items">
+<topic href="topic/options_item_qualifier.html#Itemqualifier" title="Item qualifier"/>
+</entry>
+<entry keyword="deleting items">
+<topic href="topic/options_item_qualifier.html#Itemqualifier" title="Item qualifier"/>
+</entry>
+</entry>
+<entry keyword="shutdown">
+<entry keyword="saving objects at">
+<topic href="topic/persistence.html#Persistence" title="Persistence"/>
+</entry>
+</entry>
+<entry keyword="size">
+<entry keyword="of objects in memory">
+<topic href="topic/objects_siz_.html#Objectanddirectorysizes" title="Object and directory sizes"/>
+</entry>
+</entry>
+<entry keyword="state changes">
+<entry keyword="object">
+<topic href="topic/subscribe.html#Subscribing" title="Subscribing"/>
+</entry>
+</entry>
+<entry keyword="structures">
+<topic href="topic/pps_api_reference.html#pps_API_reference" title="PPS API reference"/>
+<topic href="topic/pps_api.html#pps_API" title="PPS encoding and decoding API"/>
+</entry>
+<entry keyword="subscriber">
+<entry keyword="blocking and nonblocking reads">
+<topic href="topic/subscribe_blocking.html#Blockingandnonblockingreads" title="Blocking and nonblocking reads"/>
+</entry>
+<entry keyword="connection to publisher">
+<topic href="topic/qnx_pps_service.html#QNXPPSService" title="QNX Neutrino PPS service"/>
+</entry>
+<entry keyword="object">
+<entry keyword="modes of opening">
+<topic href="topic/subscription_modes.html#SubscriptionModes" title="Subscription Modes"/>
+</entry>
+</entry>
+</entry>
+<entry keyword="subscribing">
+<entry keyword="to a PPS object">
+<topic href="topic/subscribe.html#Subscribing" title="Subscribing"/>
+</entry>
+<entry keyword="to all objects in a directory">
+<topic href="topic/subscribe_multiple.html#Subscribingtomultipleobjects" title="Subscribing to multiple objects"/>
+<topic href="topic/subscribe_multiple_all.html#Subscribetoallobjectsinadirectory" title="Subscribe to all objects in a directory"/>
+</entry>
+<entry keyword="to multiple objects in a directory">
+<topic href="topic/subscribe_multiple.html#Subscribingtomultipleobjects" title="Subscribing to multiple objects"/>
+</entry>
+</entry>
+<entry keyword="syntax">
+<entry keyword="attribute">
+<topic href="topic/objects_attribute_syntax.html#Attributes" title="Attribute syntax"/>
+</entry>
+<entry keyword="object">
+<topic href="topic/objects_objectsyntax.html#Objectsyntax" title="Object syntax"/>
+</entry>
+</entry>
+<entry keyword="temporary objects">
+<topic href="topic/options_non_persist_qualifier.html#Nopersistencequalifier" title="Nonpersistence qualifier"/>
+</entry>
+<entry keyword="truncating">
+<entry keyword="objects">
+<topic href="topic/objects_chg_notification_.html#Changenotification" title="Change notification"/>
+</entry>
+</entry>
+<entry keyword="UTF-8">
+<topic href="topic/persistence_savingobjects.html#Savingobjects" title="Saving objects"/>
+</entry>
+</index>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<?eclipse version="3.0"?> 
+<plugin id="com.qnx.doc.dev_pub.ref_guide">
+
+   <extension point="org.eclipse.help.toc">
+	<toc file="main.xml" primary="true"/>
+   </extension>
+   
+	<extension point="org.eclipse.help.index">
+	 <index file="index.xml"/>
+	</extension>
+</plugin>

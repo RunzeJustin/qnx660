@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.qnx.tools.ide.momentics"
+      label="%featureName"
+      version="5.0.0.v201402230336"
+      provider-name="%providerName"
+      plugin="com.qnx.tools.ide.momentics">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="QNX Momentics Update Site" url="https://www.qnx.com/account/updates/foundry27/ide/5.0/"/>
+      <discovery label="QNX Momentics Update Site" url="https://www.qnx.com/account/updates/foundry27/ide/5.0/"/>
+   </url>
+
+   <includes
+         id="com.qnx.tools.ide"
+         version="5.0.0.v201402230336"/>
+
+   <includes
+         id="com.qnx.tools.ide.qde"
+         version="5.0.0.v201402230336"/>
+
+   <includes
+         id="com.qnx.tools.ide.terminal"
+         version="5.0.0.v201402230336"/>
+
+   <includes
+         id="com.qnx.tools.ide.sysinfo"
+         version="5.0.0.v201402230336"/>
+
+   <includes
+         id="com.qnx.tools.ide.SystemProfiler"
+         version="5.0.0.v201402230336"/>
+
+   <includes
+         id="com.qnx.tools.ide.builder"
+         version="5.0.0.v201402230336"/>
+
+   <includes
+         id="com.qnx.tools.ide.coverage"
+         version="5.0.0.v201402230336"/>
+
+   <includes
+         id="com.qnx.tools.ide.mat"
+         version="5.0.0.v201402230336"/>
+
+   <includes
+         id="com.qnx.tools.ide.updater"
+         version="5.0.0.v201402230336"/>
+
+   <includes
+         id="com.qnx.tools.ide.profiler2"
+         version="5.0.0.v201402230336"/>
+
+   <includes
+         id="com.qnx.tools.ide.mudflap"
+         version="5.0.0.v201402230336"/>
+
+   <includes
+         id="com.qnx.tools.ide.doc.ide.users.guide"
+         version="3.0.0.20140222"/>
+
+   <requires>
+      <import plugin="org.eclipse.equinox.transforms.hook" version="1.0.300" match="compatible"/>
+      <import plugin="org.eclipse.equinox.transforms.xslt" version="1.0.200" match="compatible"/>
+      <import plugin="com.google.collect" version="1.0.0" match="compatible"/>
+      <import plugin="org.antlr.runtime" version="3.4.0" match="compatible"/>
+      <import feature="org.eclipse.platform" version="3.6.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.cvs" version="1.2.0" match="compatible"/>
+      <import feature="org.eclipse.ocl" version="3.0.0" match="compatible"/>
+      <import feature="org.eclipse.emf.common" version="2.6.0" match="compatible"/>
+      <import feature="org.eclipse.emf.common.ui" version="2.6.0" match="compatible"/>
+      <import feature="org.eclipse.emf.databinding" version="1.2.0" match="compatible"/>
+      <import feature="org.eclipse.emf.databinding.edit" version="1.2.0" match="compatible"/>
+      <import feature="org.eclipse.emf.ecore" version="2.6.0" match="compatible"/>
+      <import feature="org.eclipse.emf.ecore.edit" version="2.6.0" match="compatible"/>
+      <import feature="org.eclipse.emf.edit" version="2.6.0" match="compatible"/>
+      <import feature="org.eclipse.emf.edit.ui" version="2.6.0" match="compatible"/>
+      <import feature="org.eclipse.emf.mapping" version="2.6.0" match="compatible"/>
+      <import feature="org.eclipse.emf.mapping.ecore" version="2.6.0" match="compatible"/>
+      <import feature="org.eclipse.xsd" version="2.7.0" match="compatible"/>
+      <import feature="org.eclipse.egit"/>
+      <import feature="org.eclipse.cdt"/>
+      <import feature="org.eclipse.cdt.debug.gdbjtag"/>
+      <import feature="org.eclipse.cdt.debug.ui.memory"/>
+      <import plugin="org.eclipse.linuxtools.cdt.libhover"/>
+      <import feature="org.eclipse.team.svn"/>
+      <import feature="org.eclipse.cdt.qt" version="1.0.0.qualifier"/>
+   </requires>
+
+   <plugin
+         id="com.qnx.tools.ide.momentics"
+         download-size="1170"
+         install-size="1829"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.doc.homepage"
+         download-size="93"
+         install-size="146"
+         version="5.0.0.v201402230336"/>
+
+   <plugin
+         id="com.qnx.tools.ide.momentics.examples"
+         download-size="118"
+         install-size="223"
+         version="5.0.0.v201402230336"/>
+
+   <plugin
+         id="com.qnx.tools.ide.remotepackage.core"
+         download-size="20"
+         install-size="33"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.remotepackage.ui"
+         download-size="26"
+         install-size="51"
+         version="6.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.remotepackage.ui.svn"
+         download-size="47"
+         install-size="98"
+         version="1.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.remotepackage.ui.zip"
+         download-size="17"
+         install-size="32"
+         version="1.0.0.v201402230336"
+         unpack="false"/>
+
+</feature>

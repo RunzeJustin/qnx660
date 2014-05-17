@@ -1,0 +1,7 @@
+check_version 1 0 include/utils
+
+. include/rootdir
+add_co utils CO_LOCAL_LIST
+for utils_dir in $*; do
+	add_co utils/$utils_dir CO_LOCAL_LIST
+done

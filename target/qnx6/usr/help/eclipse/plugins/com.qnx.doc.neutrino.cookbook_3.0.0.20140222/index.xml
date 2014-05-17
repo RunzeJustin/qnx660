@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword="/proc">
+<topic href="topic/s3_procfs.html#s3_procfs" title="The /proc Filesystem"/>
+<entry keyword="and DCMD_GETFPREG">
+<topic href="topic/s3_procfs_Finding_thread_information.html#Finding_thread_information" title="Finding out information about the threads"/>
+</entry>
+<entry keyword="and DCMD_GETGREG">
+<topic href="topic/s3_procfs_Finding_thread_information.html#Finding_thread_information" title="Finding out information about the threads"/>
+</entry>
+<entry keyword="and DCMD_PROC_INFO">
+<topic href="topic/s3_procfs_Finding_process_information.html#Finding_process_information" title="Finding out information about the process"/>
+</entry>
+<entry keyword="and DCMD_PROC_IRQS">
+<topic href="topic/s3_procfs_DCMD_PROC_IRQS.html#DCMD_PROC_IRQS" title="DCMD_PROC_IRQS"/>
+<topic href="topic/s3_procfs_Finding_process_information.html#Finding_process_information" title="Finding out information about the process"/>
+</entry>
+<entry keyword="and DCMD_PROC_MAPDEBUG_BASE">
+<topic href="topic/s3_procfs_Finding_process_information.html#Finding_process_information" title="Finding out information about the process"/>
+</entry>
+<entry keyword="and DCMD_PROC_MAPINFO">
+<topic href="topic/s3_procfs_DCMD_PROC_MAPINFO.html#DCMD_PROC_MAPINFO" title="DCMD_PROC_MAPINFO and DCMD_PROC_PAGEDATA"/>
+<topic href="topic/s3_procfs_Finding_process_information.html#Finding_process_information" title="Finding out information about the process"/>
+</entry>
+<entry keyword="and DCMD_PROC_PAGEDATA">
+<topic href="topic/s3_procfs_DCMD_PROC_MAPINFO.html#DCMD_PROC_MAPINFO" title="DCMD_PROC_MAPINFO and DCMD_PROC_PAGEDATA"/>
+<topic href="topic/s3_procfs_Finding_process_information.html#Finding_process_information" title="Finding out information about the process"/>
+</entry>
+<entry keyword="and DCMD_PROC_TIDSTATUS">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+<topic href="topic/s3_procfs_Finding_thread_information.html#Finding_thread_information" title="Finding out information about the threads"/>
+</entry>
+<entry keyword="and DCMD_PROC_TIMERS">
+<topic href="topic/s3_procfs_Finding_process_information.html#Finding_process_information" title="Finding out information about the process"/>
+</entry>
+<entry keyword="and debug_thread_t">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="and interrupts">
+<topic href="topic/s3_procfs_DCMD_PROC_IRQS.html#DCMD_PROC_IRQS" title="DCMD_PROC_IRQS"/>
+</entry>
+<entry keyword="and procfs_mapinfo">
+<topic href="topic/s3_procfs_DCMD_PROC_MAPINFO.html#DCMD_PROC_MAPINFO" title="DCMD_PROC_MAPINFO and DCMD_PROC_PAGEDATA"/>
+</entry>
+<entry keyword="and timers">
+<topic href="topic/s3_procfs_DCMD_PROC_TIMERS.html#DCMD_PROC_TIMERS" title="DCMD_PROC_TIMERS"/>
+</entry>
+<entry keyword="as file">
+<topic href="topic/s3_procfs_pid_directories.html#pid_directories" title="The /proc by-process-ID directories"/>
+<entry keyword="lseek()">
+<topic href="topic/s3_procfs_Operations.html#Operations" title="Operations on the as entry"/>
+</entry>
+<entry keyword="read()">
+<topic href="topic/s3_procfs_Operations.html#Operations" title="Operations on the as entry"/>
+</entry>
+<entry keyword="write()">
+<topic href="topic/s3_procfs_Operations.html#Operations" title="Operations on the as entry"/>
+</entry>
+</entry>
+<entry keyword="CPU usage information">
+<topic href="topic/s3_procfs_CPU_usage.html#CPU_usage" title="CPU usage information"/>
+</entry>
+<entry keyword="debug_process_t">
+<topic href="topic/s3_procfs_DCMD_PROC_INFO.html#DCMD_PROC_INFO" title="DCMD_PROC_INFO"/>
+</entry>
+<entry keyword="devctl() access">
+<topic href="topic/s3_procfs_Other_addr_space.html#Other_addr_space" title="Someone else&apos;s virtual address space"/>
+</entry>
+<entry keyword="fetching thread floating-point registers">
+<topic href="topic/s3_procfs_DCMD_PROC_GETGREG.html#DCMD_PROC_GETGREG" title="The DCMD_PROC_GETGREG and DCMD_PROC_GETFPREG commands"/>
+</entry>
+<entry keyword="fetching thread general registers">
+<topic href="topic/s3_procfs_DCMD_PROC_GETGREG.html#DCMD_PROC_GETGREG" title="The DCMD_PROC_GETGREG and DCMD_PROC_GETFPREG commands"/>
+</entry>
+<entry keyword="finding thread information">
+<topic href="topic/s3_procfs_Finding_thread_information.html#Finding_thread_information" title="Finding out information about the threads"/>
+</entry>
+<entry keyword="group ID information">
+<topic href="topic/s3_procfs_Process_info.html#Process_info" title="Process information"/>
+</entry>
+<entry keyword="interrupt area">
+<topic href="topic/s3_procfs_DCMD_PROC_IRQS.html#DCMD_PROC_IRQS" title="DCMD_PROC_IRQS"/>
+</entry>
+<entry keyword="interrupt event">
+<topic href="topic/s3_procfs_DCMD_PROC_IRQS.html#DCMD_PROC_IRQS" title="DCMD_PROC_IRQS"/>
+</entry>
+<entry keyword="interrupt flags">
+<topic href="topic/s3_procfs_DCMD_PROC_IRQS.html#DCMD_PROC_IRQS" title="DCMD_PROC_IRQS"/>
+</entry>
+<entry keyword="interrupt handler">
+<topic href="topic/s3_procfs_DCMD_PROC_IRQS.html#DCMD_PROC_IRQS" title="DCMD_PROC_IRQS"/>
+</entry>
+<entry keyword="interrupt ID">
+<topic href="topic/s3_procfs_DCMD_PROC_IRQS.html#DCMD_PROC_IRQS" title="DCMD_PROC_IRQS"/>
+</entry>
+<entry keyword="interrupt level">
+<topic href="topic/s3_procfs_DCMD_PROC_IRQS.html#DCMD_PROC_IRQS" title="DCMD_PROC_IRQS"/>
+</entry>
+<entry keyword="interrupt mask count">
+<topic href="topic/s3_procfs_DCMD_PROC_IRQS.html#DCMD_PROC_IRQS" title="DCMD_PROC_IRQS"/>
+</entry>
+<entry keyword="interrupt process ID">
+<topic href="topic/s3_procfs_DCMD_PROC_IRQS.html#DCMD_PROC_IRQS" title="DCMD_PROC_IRQS"/>
+</entry>
+<entry keyword="interrupt thread ID">
+<topic href="topic/s3_procfs_DCMD_PROC_IRQS.html#DCMD_PROC_IRQS" title="DCMD_PROC_IRQS"/>
+</entry>
+<entry keyword="interrupt vector">
+<topic href="topic/s3_procfs_DCMD_PROC_IRQS.html#DCMD_PROC_IRQS" title="DCMD_PROC_IRQS"/>
+</entry>
+<entry keyword="iterating through threads in process">
+<topic href="topic/s3_procfs_Finding_thread_information.html#Finding_thread_information" title="Finding out information about the threads"/>
+</entry>
+<entry keyword="lazy-map paging information">
+<topic href="topic/s3_procfs_Block_thread_info.html#Block_thread_info" title="Blocked thread information"/>
+</entry>
+<entry keyword="non-numeric entries">
+<topic href="topic/s3_procfs_Iterating_through_processes.html#Iterating_through_processes" title="Iterating through the list of processes"/>
+</entry>
+<entry keyword="number of threads in a process">
+<topic href="topic/s3_procfs_Process_info.html#Process_info" title="Process information"/>
+</entry>
+<entry keyword="process connected channels">
+<topic href="topic/s3_procfs_Miscellaneous.html#Miscellaneous" title="Miscellaneous"/>
+</entry>
+<entry keyword="process connected file descriptors">
+<topic href="topic/s3_procfs_Miscellaneous.html#Miscellaneous" title="Miscellaneous"/>
+</entry>
+<entry keyword="process default thread priority">
+<topic href="topic/s3_procfs_Process_info.html#Process_info" title="Process information"/>
+</entry>
+<entry keyword="process group information">
+<topic href="topic/s3_procfs_Process_info.html#Process_info" title="Process information"/>
+</entry>
+<entry keyword="process hierarchy information">
+<topic href="topic/s3_procfs_Process_info.html#Process_info" title="Process information"/>
+</entry>
+<entry keyword="process ID">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="process memory region information">
+<topic href="topic/s3_procfs_DCMD_PROC_MAPINFO.html#DCMD_PROC_MAPINFO" title="DCMD_PROC_MAPINFO and DCMD_PROC_PAGEDATA"/>
+</entry>
+<entry keyword="process number of timers">
+<topic href="topic/s3_procfs_Miscellaneous.html#Miscellaneous" title="Miscellaneous"/>
+</entry>
+<entry keyword="process signals ignored">
+<topic href="topic/s3_procfs_Signal_info.html#Signal_info" title="Signal information"/>
+</entry>
+<entry keyword="process signals pending">
+<topic href="topic/s3_procfs_Signal_info.html#Signal_info" title="Signal information"/>
+</entry>
+<entry keyword="process signals queued">
+<topic href="topic/s3_procfs_Signal_info.html#Signal_info" title="Signal information"/>
+</entry>
+<entry keyword="process umask information">
+<topic href="topic/s3_procfs_Miscellaneous.html#Miscellaneous" title="Miscellaneous"/>
+</entry>
+<entry keyword="searching for a process">
+<topic href="topic/s3_procfs_Finding_processes.html#Finding_processes" title="Finding a particular process"/>
+<topic href="topic/s3_procfs_Iterating_through_processes.html#Iterating_through_processes" title="Iterating through the list of processes"/>
+</entry>
+<entry keyword="session ID information">
+<topic href="topic/s3_procfs_Process_info.html#Process_info" title="Process information"/>
+</entry>
+<entry keyword="stack information">
+<topic href="topic/s3_procfs_Block_thread_info.html#Block_thread_info" title="Blocked thread information"/>
+</entry>
+<entry keyword="stack location">
+<topic href="topic/s3_procfs_Memory_info.html#Memory_info" title="Memory information"/>
+</entry>
+<entry keyword="stack size">
+<topic href="topic/s3_procfs_Memory_info.html#Memory_info" title="Memory information"/>
+</entry>
+<entry keyword="struct sigevent">
+<topic href="topic/s3_procfs_DCMD_PROC_TIMERS.html#DCMD_PROC_TIMERS" title="DCMD_PROC_TIMERS"/>
+</entry>
+<entry keyword="thread blocked state information">
+<topic href="topic/s3_procfs_Block_thread_info.html#Block_thread_info" title="Blocked thread information"/>
+</entry>
+<entry keyword="thread blocking reason">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread channel ID information">
+<topic href="topic/s3_procfs_Block_thread_info.html#Block_thread_info" title="Blocked thread information"/>
+</entry>
+<entry keyword="thread CPU time">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread current system call">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread flags">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread ID">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread instruction pointer">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread kernel call timeout flags">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread last channel ID used">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread last CPU number">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread local storage (TLS) area">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread message passing information">
+<topic href="topic/s3_procfs_Block_thread_info.html#Block_thread_info" title="Blocked thread information"/>
+</entry>
+<entry keyword="thread policy">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread priority">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread signal information">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread signals blocked">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread signals pending">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread stack base">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread stack pointer">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread stack size">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread start time">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread state">
+<topic href="topic/s3_procfs_DCMD_PROC_TIDSTATUS.html#DCMD_PROC_TIDSTATUS" title="The DCMD_PROC_TIDSTATUS command"/>
+</entry>
+<entry keyword="thread STATE_JOIN information">
+<topic href="topic/s3_procfs_Block_thread_info.html#Block_thread_info" title="Blocked thread information"/>
+</entry>
+<entry keyword="thread STATE_RECEIVE information">
+<topic href="topic/s3_procfs_Block_thread_info.html#Block_thread_info" title="Blocked thread information"/>
+</entry>
+<entry keyword="thread STATE_REPLY information">
+<topic href="topic/s3_procfs_Block_thread_info.html#Block_thread_info" title="Blocked thread information"/>
+</entry>
+<entry keyword="thread STATE_SEND information">
+<topic href="topic/s3_procfs_Block_thread_info.html#Block_thread_info" title="Blocked thread information"/>
+</entry>
+<entry keyword="thread STATE_STACK information">
+<topic href="topic/s3_procfs_Block_thread_info.html#Block_thread_info" title="Blocked thread information"/>
+</entry>
+<entry keyword="thread STATE_WAITPAGE information">
+<topic href="topic/s3_procfs_Block_thread_info.html#Block_thread_info" title="Blocked thread information"/>
+</entry>
+<entry keyword="thread synchronization information">
+<topic href="topic/s3_procfs_Block_thread_info.html#Block_thread_info" title="Blocked thread information"/>
+</entry>
+<entry keyword="timer and associated thread ID">
+<topic href="topic/s3_procfs_DCMD_PROC_TIMERS.html#DCMD_PROC_TIMERS" title="DCMD_PROC_TIMERS"/>
+</entry>
+<entry keyword="timer clock ID">
+<topic href="topic/s3_procfs_DCMD_PROC_TIMERS.html#DCMD_PROC_TIMERS" title="DCMD_PROC_TIMERS"/>
+</entry>
+<entry keyword="timer event">
+<topic href="topic/s3_procfs_DCMD_PROC_TIMERS.html#DCMD_PROC_TIMERS" title="DCMD_PROC_TIMERS"/>
+</entry>
+<entry keyword="timer firing time">
+<topic href="topic/s3_procfs_DCMD_PROC_TIMERS.html#DCMD_PROC_TIMERS" title="DCMD_PROC_TIMERS"/>
+</entry>
+<entry keyword="timer flags">
+<topic href="topic/s3_procfs_DCMD_PROC_TIMERS.html#DCMD_PROC_TIMERS" title="DCMD_PROC_TIMERS"/>
+</entry>
+<entry keyword="timer notification type">
+<topic href="topic/s3_procfs_DCMD_PROC_TIMERS.html#DCMD_PROC_TIMERS" title="DCMD_PROC_TIMERS"/>
+</entry>
+<entry keyword="timer overruns">
+<topic href="topic/s3_procfs_DCMD_PROC_TIMERS.html#DCMD_PROC_TIMERS" title="DCMD_PROC_TIMERS"/>
+</entry>
+<entry keyword="timer remaining time">
+<topic href="topic/s3_procfs_DCMD_PROC_TIMERS.html#DCMD_PROC_TIMERS" title="DCMD_PROC_TIMERS"/>
+</entry>
+<entry keyword="user ID information">
+<topic href="topic/s3_procfs_Process_info.html#Process_info" title="Process information"/>
+</entry>
+</entry>
+<entry keyword="/proc/boot">
+<topic href="topic/s3_procfs_proc_boot.html#proc_boot" title="The /proc/boot directory"/>
+<topic href="topic/s3_procfs.html#s3_procfs" title="The /proc Filesystem"/>
+<topic href="topic/s3_procfs_pid_directories.html#pid_directories" title="The /proc by-process-ID directories"/>
+</entry>
+<entry keyword="/proc/dumper">
+<topic href="topic/s3_procfs_pid_directories.html#pid_directories" title="The /proc by-process-ID directories"/>
+</entry>
+<entry keyword="/proc/mount">
+<topic href="topic/s3_procfs_proc_mount.html#proc_mount" title="The /proc/mount directory"/>
+<topic href="topic/s3_procfs.html#s3_procfs" title="The /proc Filesystem"/>
+<entry keyword="channel ID">
+<topic href="topic/s3_procfs_proc_mount.html#proc_mount" title="The /proc/mount directory"/>
+</entry>
+<entry keyword="file type">
+<topic href="topic/s3_procfs_proc_mount.html#proc_mount" title="The /proc/mount directory"/>
+</entry>
+<entry keyword="Handle">
+<topic href="topic/s3_procfs_proc_mount.html#proc_mount" title="The /proc/mount directory"/>
+</entry>
+<entry keyword="node ID">
+<topic href="topic/s3_procfs_proc_mount.html#proc_mount" title="The /proc/mount directory"/>
+</entry>
+<entry keyword="process ID">
+<topic href="topic/s3_procfs_proc_mount.html#proc_mount" title="The /proc/mount directory"/>
+<topic href="topic/s3_procfs_pid_directories.html#pid_directories" title="The /proc by-process-ID directories"/>
+</entry>
+</entry>
+<entry keyword="/proc/self">
+<topic href="topic/s3_procfs_pid_directories.html#pid_directories" title="The /proc by-process-ID directories"/>
+</entry>
+<entry keyword="/var/spool/news">
+<topic href="topic/s2_tarfs_Operation.html#Operation" title="Operation"/>
+<topic href="topic/s2_tarfs_How_to_improve.html#How_to_improve" title="How can this possibly be made better?"/>
+</entry>
+<entry keyword="&lt;sys/*.h&gt;">
+<topic href="topic/about.html#about" title="About This Guide"/>
+<entry keyword="See individual files">

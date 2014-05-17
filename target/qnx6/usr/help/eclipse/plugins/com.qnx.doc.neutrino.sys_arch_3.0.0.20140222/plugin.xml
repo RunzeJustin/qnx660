@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name="%plugin.name" id="com.qnx.doc.neutrino.sys_arch" version="1.0" provider-name="%plugin.providername">
+
+<extension point="org.eclipse.help.toc">
+	<toc file="main.xml" primary="false"/>
+</extension>
+<extension point="org.eclipse.help.index">
+	<index file="index.xml"/>
+</extension>
+
+</plugin>

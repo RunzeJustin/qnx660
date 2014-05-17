@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword="_CS_ARCHITECTURE">
+<topic href="topic/s/setconf.html#setconf" title="setconf"/>
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_CS_DOMAIN">
+<topic href="topic/r/resolv.conf.html#resolv.conf" title="/etc/resolv.conf"/>
+<topic href="topic/d/dhcp.client.html#dhcp.client" title="dhcp.client"/>
+<topic href="topic/s/setconf.html#setconf" title="setconf"/>
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_CS_HOSTNAME">
+<topic href="topic/s/setconf.html#setconf" title="setconf"/>
+<topic href="topic/h/hostname.html#hostname" title="hostname"/>
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_CS_HW_PROVIDER">
+<topic href="topic/s/setconf.html#setconf" title="setconf"/>
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_CS_HW_SERIAL">
+<topic href="topic/s/setconf.html#setconf" title="setconf"/>
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_CS_LIBPATH">
+<topic href="topic/s/setconf.html#setconf" title="setconf"/>
+<topic href="topic/w/which.html#which" title="which"/>
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_CS_LOCALE">
+<topic href="topic/s/setconf.html#setconf" title="setconf"/>
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_CS_MACHINE">
+<topic href="topic/s/setconf.html#setconf" title="setconf"/>
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_CS_PATH">
+<topic href="topic/s/setconf.html#setconf" title="setconf"/>
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+<topic href="topic/l/login.html#login" title="login"/>
+</entry>
+<entry keyword="_CS_RELEASE">
+<topic href="topic/s/setconf.html#setconf" title="setconf"/>
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_CS_RESOLVE">
+<topic href="topic/r/resolv.conf.html#resolv.conf" title="/etc/resolv.conf"/>
+<topic href="topic/d/dhcp.client.html#dhcp.client" title="dhcp.client"/>
+<topic href="topic/s/setconf.html#setconf" title="setconf"/>
+<topic href="topic/p/pppd.html#pppd" title="pppd"/>
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_CS_SRPC_DOMAIN">
+<topic href="topic/s/setconf.html#setconf" title="setconf"/>
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_CS_SYSNAME">
+<topic href="topic/s/setconf.html#setconf" title="setconf"/>
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_CS_TIMEZONE">
+<topic href="topic/s/setconf.html#setconf" title="setconf"/>
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_CS_VERSION">
+<topic href="topic/s/setconf.html#setconf" title="setconf"/>
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_DEBUG_FLAG_CURTID">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_DEBUG_FLAG_FORK">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_DEBUG_FLAG_IPINVAL">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_DEBUG_FLAG_ISSYS">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_DEBUG_FLAG_ISTOP">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_DEBUG_FLAG_KLC">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_DEBUG_FLAG_RLC">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_DEBUG_FLAG_SSTEP">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_DEBUG_FLAG_STOPPED">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_DEBUG_FLAG_TRACE_EXEC">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_DEBUG_FLAG_TRACE_MODIFY">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_DEBUG_FLAG_TRACE_RD">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_DEBUG_FLAG_TRACE_WR">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_NTO_PF_*">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_NTO_TCTL_IO">
+<topic href="topic/p/procnto.html#procnto" title="procnto*"/>
+</entry>
+<entry keyword="_NTO_TF_*">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_NTO_TI_ABSOLUTE">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_NTO_TI_ACTIVE">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_NTO_TI_EXPIRED">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_NTO_TI_PRECISE">
+<topic href="topic/p/pidin.html#pidin" title="pidin"/>
+</entry>
+<entry keyword="_NTO_TRACE_USERFIRST">
+<topic href="topic/s/slogger.html#slogger" title="slogger"/>
+</entry>
+<entry keyword="_NTO_TRACE_USERLAST">
+<topic href="topic/s/slogger.html#slogger" title="slogger"/>
+</entry>
+<entry keyword="_PC_ASYNC_IO">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_PC_CHOWN_RESTRICTED">
+<topic href="topic/c/chgrp.html#chgrp" title="chgrp"/>
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+<topic href="topic/c/chown.html#chown" title="chown"/>
+</entry>
+<entry keyword="_PC_LINK_DIR">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_PC_LINK_MAX">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_PC_MAX_CANON">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_PC_MAX_INPUT">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_PC_NAME_MAX">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_PC_NO_TRUNC">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_PC_PATH_MAX">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_PC_PIPE_BUF">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_PC_PRIO_IO">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_PC_SYNC_IO">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_PC_VDISABLE">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_AIO_PRIO_DELTA_MAX">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_ARG_MAX">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_CHILD_MAX">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_CLK_TCK">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_DELAYTIMER_MAX">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_GETGR_R_SIZE_MAX">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_GETPW_R_SIZE_MAX">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_JOB_CONTROL">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_NGROUPS_MAX">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_OPEN_MAX">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_PAGESIZE">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_SAVED_IDS">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_SEM_NSEMS_MAX">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_SIGQUEUE_MAX">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_THREAD_STACK_MIN">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_TZNAME_MAX">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="_SC_VERSION">
+<topic href="topic/g/getconf.html#getconf" title="getconf"/>
+</entry>
+<entry keyword="-- (end of options)">
+<topic href="topic/utilconv_Invoking_utilities.html#Invoking_utilities" title="Invoking utilities"/>
+</entry>
+<entry keyword=": (ksh builtin)">
+<topic href="topic/k/ksh.html#ksh" title="ksh"/>
+</entry>
+<entry keyword=".">
+<entry keyword="esh, fesh builtin">
+<topic href="topic/e/esh.html#esh" title="esh"/>
+</entry>
+<entry keyword="ksh builtin">
+<topic href="topic/k/ksh.html#ksh" title="ksh"/>
+</entry>
+</entry>
+<entry keyword=".devices directory">
+<entry keyword="mcd">
+<topic href="topic/m/mcd.html#mcd" title="mcd"/>
+</entry>
+</entry>
+<entry keyword=".eject file">
+<entry keyword="mcd">
+<topic href="topic/m/mcd.html#mcd" title="mcd"/>
+</entry>
+</entry>
+<entry keyword=".insert file">
+<entry keyword="mcd">
+<topic href="topic/m/mcd.html#mcd" title="mcd"/>
+</entry>
+</entry>
+<entry keyword=".kev extension">
+<topic href="topic/t/tracelogger.html#tracelogger" title="tracelogger"/>
+</entry>
+<entry keyword=".kshrc">
+<topic href="topic/k/ksh.html#ksh" title="ksh"/>
+</entry>
+<entry keyword=".longfilenames">
+<topic href="topic/f/fs-qnx4.so.html#fs-qnx4.so" title="fs-qnx4.so"/>
+</entry>
+<entry keyword=".nslookuprc">
+<topic href="topic/n/nslookup.html#nslookup" title="nslookup"/>
+</entry>
+<entry keyword=".profile">
+<topic href="topic/k/ksh.html#ksh" title="ksh"/>
+</entry>
+<entry keyword=".rhosts">
+<topic href="topic/r/rlogind.html#rlogind" title="rlogind"/>
+<topic href="topic/r/rhosts.html#rhosts" title="~/.rhosts"/>
+<topic href="topic/r/rshd.html#rshd" title="rshd"/>
+<topic href="topic/h/hosts.equiv.html#hosts.equiv" title="/etc/hosts.equiv"/>
+</entry>
+<entry keyword="[ ] (ksh builtin)">
+<topic href="topic/k/ksh.html#ksh" title="ksh"/>
+</entry>
+<entry keyword="/dev, /etc, /proc, /usr, /var directories">
+<topic href="topic/about.html#about" title=" About This Reference "/>
+<entry keyword="See individual files">

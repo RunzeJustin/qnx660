@@ -1,0 +1,43 @@
+// xtime header for threads library
+#ifndef _DINKUM_THREADS_XTIME
+#define _DINKUM_THREADS_XTIME
+#include <Dinkum/threads/xtimec.h>
+
+
+namespace Dinkum
+	{	// Dinkum Libraries
+	namespace threads
+		{	// Dinkum C++ Threads Library
+
+using ::xtime;
+using ::TIME_UTC;
+using ::xtime_get;
+		}	// namespace threads
+	}	// namespace Dinkum
+#endif /* _DINKUM_THREADS_XTIME */
+
+/*
+ * This file is derived from software bearing the following
+ * restrictions:
+ *
+ * (c) Copyright William E. Kempf 2001
+ *
+ * Permission to use, copy, modify, distribute and sell this
+ * software and its documentation for any purpose is hereby
+ * granted without fee, provided that the above copyright
+ * notice appear in all copies and that both that copyright
+ * notice and this permission notice appear in supporting
+ * documentation. William E. Kempf makes no representations
+ * about the suitability of this software for any purpose.
+ * It is provided "as is" without express or implied warranty.
+ */
+
+/*
+ * Copyright (c) 1992-2013 by P.J. Plauger.  ALL RIGHTS RESERVED.
+ * Consult your license regarding permissions and restrictions.
+V6.40:1566 */
+
+#if defined(__QNXNTO__) && defined(__USESRCVERSION)
+#include <sys/srcversion.h>
+__SRCVERSION("$URL$ $Rev$")
+#endif

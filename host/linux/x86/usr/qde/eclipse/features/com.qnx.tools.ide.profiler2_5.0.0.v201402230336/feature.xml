@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.qnx.tools.ide.profiler2"
+      label="%featureName"
+      version="5.0.0.v201402230336"
+      provider-name="%providerName"
+      plugin="com.qnx.tools.ide.profiler2">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="com.qnx.tools.ide.qde" version="5.0.0" match="compatible"/>
+      <import plugin="com.thoughtworks.xstream"/>
+   </requires>
+
+   <plugin
+         id="com.qnx.tools.ide.profiler2"
+         download-size="5"
+         install-size="5"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.profiler2.core"
+         download-size="233"
+         install-size="462"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.common.sessions.core"
+         download-size="46"
+         install-size="82"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+   <plugin
+         id="com.qnx.tools.ide.profiler2.ui"
+         download-size="406"
+         install-size="798"
+         version="5.0.0.v201402230336"
+         unpack="false"/>
+
+</feature>

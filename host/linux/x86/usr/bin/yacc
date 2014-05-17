@@ -1,0 +1,2 @@
+#! /bin/sh
+exec '/builds/660_SDP/daily/linux//x86/usr/bin/bison' -y "$@"

@@ -1,0 +1,17 @@
+// cstalign standard header
+#ifndef _CSTDALIGN_
+#define _CSTDALIGN_
+#include <yvals.h>
+
+#include <stdalign.h>
+#endif /* _CSTDALIGN_ */
+
+/*
+ * Copyright (c) 1992-2013 by P.J. Plauger.  ALL RIGHTS RESERVED.
+ * Consult your license regarding permissions and restrictions.
+V6.40:1566 */
+
+#if defined(__QNXNTO__) && defined(__USESRCVERSION)
+#include <sys/srcversion.h>
+__SRCVERSION("$URL$ $Rev$")
+#endif

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="gnu.io.rxtx"
+      label="%featureName"
+      version="2.1.7.4_v20071016-7B57e7UAXMAAqGAGf"
+      provider-name="%providerName"
+      plugin="gnu.io.rxtx"
+      image="rxtx120.png">
+
+   <description url="http://www.rxtx.org">
+      %description
+   </description>
+
+   <copyright url="http://www.rxtx.org/credits.html">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://rxtx.qbang.org/eclipse"/>
+   </url>
+
+   <plugin
+         id="gnu.io.rxtx.linux.x86"
+         os="linux"
+         ws="gtk"
+         arch="x86"
+         download-size="84"
+         install-size="225"
+         version="2.1.7.3_v20071015"
+         fragment="true"/>
+
+   <plugin
+         id="gnu.io.rxtx.linux.x86_64"
+         os="linux"
+         ws="gtk"
+         arch="x86_64"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"/>
+
+   <plugin
+         id="gnu.io.rxtx.win32.x86"
+         os="win32"
+         ws="win32"
+         arch="x86"
+         download-size="57"
+         install-size="153"
+         version="2.1.7.3_v20071015"
+         fragment="true"/>
+
+   <plugin
+         id="gnu.io.rxtx"
+         download-size="69"
+         install-size="74"
+         version="2.1.7.4"/>
+
+</feature>

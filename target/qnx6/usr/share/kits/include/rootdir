@@ -1,0 +1,3 @@
+check_version 1 0 include/rootdir
+
+add_co Makefile CO_LOCAL_LIST

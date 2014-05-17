@@ -1,0 +1,32 @@
+// cstddef standard header
+#ifndef _CSTDDEF_
+#define _CSTDDEF_
+#include <yvals.h>
+
+#ifdef _STD_USING
+ #undef _STD_USING
+  #include <stddef.h>
+ #define _STD_USING
+
+#else /* _STD_USING */
+ #include <stddef.h>
+#endif /* _STD_USING */
+
+ #ifdef _GLOBAL_USING
+_STD_BEGIN
+using _CSTD ptrdiff_t; using _CSTD size_t;
+using _CSTD max_align_t;
+_STD_END
+ #endif /* _GLOBAL_USING */
+
+#endif /* _CSTDDEF_ */
+
+/*
+ * Copyright (c) 1992-2013 by P.J. Plauger.  ALL RIGHTS RESERVED.
+ * Consult your license regarding permissions and restrictions.
+V6.40:1566 */
+
+#if defined(__QNXNTO__) && defined(__USESRCVERSION)
+#include <sys/srcversion.h>
+__SRCVERSION("$URL$ $Rev: 735298 $")
+#endif

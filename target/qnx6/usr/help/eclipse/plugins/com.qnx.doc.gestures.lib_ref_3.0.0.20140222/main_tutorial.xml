@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+<toc label="Gestures Tutorials" topic="topic/manual/gestures_tutorials.html"><topic label="Gestures Tutorials " href="topic/manual/gestures_tutorials.html"><topic label="Tutorial: Create a gesture-handling application" href="topic/manual/create_gestures_app_tutorial.html"><topic label="Example: Code snippets of a gesture-handling application" href="topic/manual/multiple_gesture_sets_example.html"/></topic><topic label="Tutorial: Create a custom gesture" href="topic/manual/custom_gesture_tutorial.html"><topic label="Example: Code snippets of a defining a custom gesture" href="topic/manual/custom_gesture_example.html"/></topic></topic></toc>

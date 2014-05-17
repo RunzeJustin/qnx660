@@ -1,0 +1,333 @@
+
+
+.unresolved { background-color: skyblue; }
+.noTemplate { background-color: yellow; }
+
+
+
+body {
+	margin-left: 10px;
+}
+
+/* DITA stuff */
+
+.booktitle {
+	margin: 20px 20px 12px 0px;
+	font-size: 30px;
+	font-family: tahoma, verdana, helvetica, arial, sans-serif;
+	line-height: 36px;	
+	font-weight: normal;
+	color: #6b6b6b;
+	margin-left: 0px;
+	}
+
+.booktitle sup {
+	font-size: 10px;
+	vertical-align:top;
+}
+
+.reltasks,.relconcepts,.relinfo,.relref {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	line-height: 15px;
+}
+
+.option {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.keyword.option {
+    font-family: "Courier New", Courier, monospace;
+}
+
+p {
+	margin-left:0px;
+	margin-right:0px;
+    line-height: 125%;
+}
+
+
+dl {
+	margin-left: 0px;
+	margin-right:0px;
+}
+
+
+
+img
+
+{
+	border: none;
+}
+
+.opt {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.h1, h1 {
+	font: 18px  verdana, tahoma, helvetica, arial, sans-serif;
+	line-height: 24px;
+	font-weight: normal;
+	color: #336699;
+	margin-left: 0px;
+	}
+.h2,  h2 {
+	font: 14px  verdana, tahoma, helvetica, arial, sans-serif;
+	line-height: 20px;
+	color: #336699;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	}
+.h3, h3 {
+	font: 13px verdana, tahoma, helvetica, arial, sans-serif;
+	line-height: 13px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	color: #666;
+	margin-left: 0px;
+	}
+.h4, h4 {
+	font: 12px  verdana, tahoma, helvetica, arial, sans-serif;
+	line-height: 19px;
+	font-weight: bold;
+	margin-bottom: 0px;
+		margin-top: 0px;
+	color: #666;
+	margin-left: 0px;
+	}	
+
+	
+td {
+	padding: 3px;
+	margin: 10px;
+	background: #fff url('/images/template/bg.gif') repeat-x;
+	font: 12px verdana, tahoma, helvetica, arial, sans-serif;
+	line-height: 140%;
+	color: #333;
+	}
+	
+
+	
+	
+ a:link, a:link { color: #5f83a8; }
+ a:visited, a:visited { color: #666; }
+ a:hover, a:hover { color: #006699; }	
+
+.p, .widetext p {
+	font-family: verdana, tahoma, helvetica, arial, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	margin-top: 0px;
+	margin-bottom: 12px;
+	margin-left: 0px;
+	margin-right:0px;
+	}
+ .SUP, .widetext SUP {
+	position: relative;
+	top: 3px;
+	font-size: 9px;
+	}
+
+ .td 
+{
+    margin: 5px;
+	text-align: left;
+}
+	
+
+ 
+ .ul {
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 0px;
+	}
+	
+	ul li {
+		background: transparent url('images/bullet_round.gif') no-repeat 0px 9px;
+		list-style: none;
+		padding-left: 12px;
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+	
+	ul li li {
+		background: transparent url('images/bullet_2.gif') no-repeat 0px 9px;
+		list-style: none;
+		padding-left: 12px;
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+	
+	
+ .li {
+	background: transparent url('images/bullet_round.gif') no-repeat 0px 9px;
+	padding-left: 12px;
+	margin-left: 16px;
+	margin-right: 16px;
+	}
+ .li li {
+	background: transparent url('images/bullet_2.gif') no-repeat 0px 9px;
+	list-style: none;
+	}
+ .li li li, #list3 {
+	background: transparent url('images/bullet_2.gif') no-repeat 0px 9px;
+	
+	}
+ .ol {
+	margin-left: 0px;
+	padding-left: 20px;
+	}
+ .ol li {
+	background: none;
+	margin: 0px 0px 9px 0px;
+	padding-left: 0px;
+	margin-right: 10px;
+
+	}
+
+	div.parentlink {
+		margin-left:0px;
+	}
+	
+	div.p {
+		margin-left:0px;
+		
+	}
+	
+	div {
+		margin-left:0px;
+		margin-right:0px;
+	}
+	
+	span {
+		margin-left:0px;
+	}
+	
+	pre {
+		margin-left:0px;
+		margin-right:0px;
+	}
+	
+	p.pre {
+		margin-left:0px;
+		margin-right:0px;
+	}
+	
+	
+.codesamp {
+	background: #f0f0f0;
+	font-family: courier, monospace;
+	color: brown;
+	margin: 20px;
+	margin-right: 10px;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.cmdsamp {
+	background: #f0f0f0;
+	font-family: courier, monospace;
+	color: brown;
+	margin: 20px;
+	margin-right: 10px;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+pre.synopsis {
+	background: #f0f0f0;
+	font-family: courier, monospace;
+	color: brown;
+	margin-left: 0px;
+	margin-right: 10px;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+pre.syntax {
+	background: #f0f0f0;
+	font-family: courier, monospace;
+	color: brown;
+	margin-left: 0px;
+	margin-right: 10px;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+img {
+	border: none;
+}
+
+/* Generic tables have thin black borders. Headers have a grey fill. */
+
+table, th, td {
+    table-layout: auto;
+	margin: 1em;
+    empty-cells: show;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding:5px;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+/* Tables for notes, cautions, and warnings have horizontal, but no vertical,
+   borders. Make the hairlines above and below invisible. */
+
+hr.note, hr.caution, hr.warning {
+    visibility:hidden;
+    margin: 0;
+}
+
+table.note, table.caution, table.warning {
+    margin: 1em;
+    width:97%;
+    table-layout: auto;
+    padding:2px;
+}
+
+td.noteicon, td.cautionicon, td.warningicon {
+    width: 45px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+table.note, th.note, td.note,
+table.caution, th.caution, td.caution,
+table.warning, th.warning, td.warning {
+    margin: 1em;
+    empty-cells: show;
+    border-collapse: collapse;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    padding:2px;
+}
+
+/* Tables for the navigation buttons and onesteps have no borders. */
+
+table.nav, th.nav, td.nav,
+table.onestep, th.onestep, td.onestep {
+    table-layout: auto;
+    margin: 1em;
+    empty-cells: show;
+    border-collapse: collapse;
+    border: 0px;
+    padding:2px;
+}
+

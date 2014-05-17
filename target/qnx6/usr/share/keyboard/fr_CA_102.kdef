@@ -1,0 +1,266 @@
+// file fr_CA_102.kbd
+
+Keyboard "fr_CA_102" {
+
+	include "altgr.inc"
+	include "common.inc"
+
+	KeyType "TwoLettersAndDead" {
+		NoSym <Ctrl>
+		NoSym <Alt>
+		Unmodified Sym #1
+		<Caps_Lock> Sym #2
+		<Shift> Sym #2
+		<Shift> + <Caps_Lock> Sym #1
+		<AltGr> Deadkey #3
+		<AltGr> + <Caps_Lock> Deadkey #3
+		<AltGr> + <Shift> Deadkey #3
+		<AltGr> + <Shift> + <Caps_Lock> Deadkey #3
+		}
+
+	Key {
+		Type "ThreeLevel"
+		Scan  02
+		Syms  '1' '!' [plusminus]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  03
+		Syms  '2' '"' '@'
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  04
+		Syms  '3' '/' [sterling]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  05
+		Syms  '4' '$' [cent]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  06
+		Syms  '5' '%' [currency]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  07
+		Syms  '6' '?' [notsign]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  08
+		Syms  '7' '&' '|'
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  09
+		Syms  '8' '*' [twosuperior]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  0A
+		Syms  '9' '(' [threesuperior]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  0B
+		Syms  '0' ')' [onequarter]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  0C
+		Syms  '-' '_' [onehalf]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  0D
+		Syms  '=' '+' [threequarters]
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  10
+		Syms  'q' 'Q'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  11
+		Syms  'w' 'W'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  12
+		Syms  'e' 'E'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  13
+		Syms  'r' 'R'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  14
+		Syms  't' 'T'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  15
+		Syms  'y' 'Y'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  16
+		Syms  'u' 'U'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  17
+		Syms  'i' 'I'
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  18
+		Syms  'o' 'O' [section]
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  19
+		Syms  'p' 'P' [paragraph]
+		}
+	Key {
+		Type "TwoDeadAndOneAlive"
+		Scan  1A
+		Syms  '^' '^' '['
+		}
+	Key {
+		Type "TwoDeadAndOneAlive"
+		Scan  1B
+		Syms  [cedilla] [diaeresis] ']'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  1E
+		Syms  'a' 'A'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  1F
+		Syms  's' 'S'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  20
+		Syms  'd' 'D'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  21
+		Syms  'f' 'F'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  22
+		Syms  'g' 'G'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  23
+		Syms  'h' 'H'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  24
+		Syms  'j' 'J'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  25
+		Syms  'k' 'K'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  26
+		Syms  'l' 'L'
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  27
+		Syms  ';' ':' '~'
+		}
+	Key {
+		Type "TwoDeadAndOneAlive"
+		Scan  28
+		Syms  '`' '`' '{'
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  29
+		Syms  '#' '|' '\'
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  2B
+		Syms  '<' '>' '}'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  2C
+		Syms  'z' 'Z'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  2D
+		Syms  'x' 'X'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  2E
+		Syms  'c' 'C'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  2F
+		Syms  'v' 'V'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  30
+		Syms  'b' 'B'
+		}
+	Key {
+		Type "TwoLevelLetter"
+		Scan  31
+		Syms  'n' 'N'
+		}
+	Key {
+		Type "ThreeLevelLetter"
+		Scan  32
+		Syms  'm' 'M' [mu]
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  33
+		Syms  ',' ',' '-'
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  34
+		Syms  '.' '.' '_'
+		}
+	Key {
+		Type "TwoLettersAndDead"
+		Scan  35
+		Syms  [eacute] [Eacute] '''
+		}
+	Key {
+		Type "NoModsOnly"
+		Scan  39
+		Syms  ' '
+		}
+	Key {
+		Type "ThreeLevel"
+		Scan  56
+		Syms  [guillemotleft] [guillemotright] [degree]
+		}
+	}

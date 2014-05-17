@@ -1,0 +1,31 @@
+// csignal standard header
+#ifndef _CSIGNAL_
+#define _CSIGNAL_
+#include <yvals.h>
+
+#ifdef _STD_USING
+ #undef _STD_USING
+  #include <signal.h>
+ #define _STD_USING
+
+#else /* _STD_USING */
+ #include <signal.h>
+#endif /* _STD_USING */
+
+ #ifdef _GLOBAL_USING
+_STD_BEGIN
+using _CSTD sig_atomic_t; using _CSTD raise; using _CSTD signal;
+_STD_END
+ #endif /* _GLOBAL_USING */
+
+#endif /* _CSIGNAL_ */
+
+/*
+ * Copyright (c) 1992-2013 by P.J. Plauger.  ALL RIGHTS RESERVED.
+ * Consult your license regarding permissions and restrictions.
+V6.40:1566 */
+
+#if defined(__QNXNTO__) && defined(__USESRCVERSION)
+#include <sys/srcversion.h>
+__SRCVERSION("$URL$ $Rev: 735298 $")
+#endif

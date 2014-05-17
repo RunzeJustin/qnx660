@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<index>
+<entry keyword="codecs">
+<entry keyword="listing">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_codec_list.html#img_codec_list" title="img_codec_list()"/>
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_codec_list_byext.html#img_codec_list_byext" title="img_codec_list_byext()"/>
+</entry>
+<entry keyword="listing by MIME">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_codec_list_bymime.html#img_codec_list_bymime" title="img_codec_list_bymime()"/>
+</entry>
+</entry>
+<entry keyword="configuration">
+<entry keyword="img.conf">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_lib_attach.html#img_lib_attach" title="img_lib_attach()"/>
+</entry>
+</entry>
+<entry keyword="frames">
+<entry keyword="decoding">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_decode_get_frame_count.html#img_decode_get_frame_count" title="img_decode_get_frame_count()"/>
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_decode_begin.html#img_decode_begin" title="img_decode_begin()"/>
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_decode_frame.html#img_decode_frame" title="img_decode_frame()"/>
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_decode_finish.html#img_decode_finish" title="img_decode_finish()"/>
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_decode_set_frame_index.html#img_decode_set_frame_index" title="img_decode_set_frame_index()"/>
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_decode_frame_resize.html#img_decode_frame_resize" title="img_decode_frame_resize()"/>
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_decode_validate.html#img_decode_validate" title="img_decode_validate()"/>
+</entry>
+</entry>
+<entry keyword="images">
+<entry keyword="bits per pixel">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_fmt_bpp.html#img_fmt_bpp" title="IMG_FMT_BPP()"/>
+</entry>
+<entry keyword="converting">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_convert_data.html#img_convert_data" title="img_convert_data()"/>
+</entry>
+<entry keyword="loading">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_load.html#img_load" title="img_load()"/>
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_load_resize.html#img_load_resize_file" title="img_load_resize()"/>
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_load_resize_file.html#img_load_resize_file" title="img_load_resize_file()"/>
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_load_file.html#img_load_file" title="img_load_file()"/>
+</entry>
+<entry keyword="scanline">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_fmt_bpl.html#img_fmt_bpl" title="IMG_FMT_BPL()"/>
+</entry>
+</entry>
+<entry keyword="img_cfg_read()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_cfg_read.html#img_cfg_read" title="img_cfg_read()"/>
+</entry>
+<entry keyword="img_codec_get_criteria()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_codec_get_criteria.html#img_codec_get_criteria" title="img_codec_get_criteria()"/>
+</entry>
+<entry keyword="img_codec_list_bymime()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_codec_list_bymime.html#img_codec_list_bymime" title="img_codec_list_bymime()"/>
+</entry>
+<entry keyword="img_codec_list()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_codec_list.html#img_codec_list" title="img_codec_list()"/>
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_codec_list_byext.html#img_codec_list_byext" title="img_codec_list_byext()"/>
+</entry>
+<entry keyword="img_convert_data()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_convert_data.html#img_convert_data" title="img_convert_data()"/>
+</entry>
+<entry keyword="img_decode_begin()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_decode_begin.html#img_decode_begin" title="img_decode_begin()"/>
+</entry>
+<entry keyword="img_decode_callouts_t">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_decode_callouts_t.html#img_decode_callouts_t" title="img_decode_callouts_t"/>
+</entry>
+<entry keyword="img_decode_finish()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_decode_finish.html#img_decode_finish" title="img_decode_finish()"/>
+</entry>
+<entry keyword="img_decode_frame_resize()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_decode_frame_resize.html#img_decode_frame_resize" title="img_decode_frame_resize()"/>
+</entry>
+<entry keyword="img_decode_frame()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_decode_frame.html#img_decode_frame" title="img_decode_frame()"/>
+</entry>
+<entry keyword="img_decode_get_frame_count()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_decode_get_frame_count.html#img_decode_get_frame_count" title="img_decode_get_frame_count()"/>
+</entry>
+<entry keyword="img_decode_set_frame_index()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_decode_set_frame_index.html#img_decode_set_frame_index" title="img_decode_set_frame_index()"/>
+</entry>
+<entry keyword="img_decode_validate()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_decode_validate.html#img_decode_validate" title="img_decode_validate()"/>
+</entry>
+<entry keyword="IMG_FMT_BGR888">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_format_t.html#img_convert_data" title="img_format_t"/>
+</entry>
+<entry keyword="IMG_FMT_BPL()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_fmt_bpl.html#img_fmt_bpl" title="IMG_FMT_BPL()"/>
+</entry>
+<entry keyword="IMG_FMT_BPP()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_fmt_bpp.html#img_fmt_bpp" title="IMG_FMT_BPP()"/>
+</entry>
+<entry keyword="IMG_FMT_G8">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_format_t.html#img_convert_data" title="img_format_t"/>
+</entry>
+<entry keyword="IMG_FMT_INVALID">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_format_t.html#img_convert_data" title="img_format_t"/>
+</entry>
+<entry keyword="IMG_FMT_MONO">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_format_t.html#img_convert_data" title="img_format_t"/>
+</entry>
+<entry keyword="IMG_FMT_PAL1">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_format_t.html#img_convert_data" title="img_format_t"/>
+</entry>
+<entry keyword="IMG_FMT_PAL8">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_format_t.html#img_convert_data" title="img_format_t"/>
+</entry>
+<entry keyword="IMG_FMT_PKBE_ARGB1555">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_format_t.html#img_convert_data" title="img_format_t"/>
+</entry>
+<entry keyword="IMG_FMT_PKBE_ARGB8888">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_format_t.html#img_convert_data" title="img_format_t"/>
+</entry>
+<entry keyword="IMG_FMT_PKBE_RGB565">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_format_t.html#img_convert_data" title="img_format_t"/>
+</entry>
+<entry keyword="IMG_FMT_PKBE_XRGB8888">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_format_t.html#img_convert_data" title="img_format_t"/>
+</entry>
+<entry keyword="IMG_FMT_PKLE_ARGB1555">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_format_t.html#img_convert_data" title="img_format_t"/>
+</entry>
+<entry keyword="IMG_FMT_PKLE_ARGB8888">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_format_t.html#img_convert_data" title="img_format_t"/>
+</entry>
+<entry keyword="IMG_FMT_PKLE_RGB565">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_format_t.html#img_convert_data" title="img_format_t"/>
+</entry>
+<entry keyword="IMG_FMT_PKLE_XRGB8888">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_format_t.html#img_convert_data" title="img_format_t"/>
+</entry>
+<entry keyword="IMG_FMT_RGB888">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_format_t.html#img_convert_data" title="img_format_t"/>
+</entry>
+<entry keyword="IMG_FMT_RGBA8888">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_format_t.html#img_convert_data" title="img_format_t"/>
+</entry>
+<entry keyword="img_lib_attach()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_lib_attach.html#img_lib_attach" title="img_lib_attach()"/>
+</entry>
+<entry keyword="img_lib_detach()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_lib_detach.html#img_lib_detach" title="img_lib_detach()"/>
+</entry>
+<entry keyword="img_load_file()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_load_file.html#img_load_file" title="img_load_file()"/>
+</entry>
+<entry keyword="img_load_resize_file()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_load_resize_file.html#img_load_resize_file" title="img_load_resize_file()"/>
+</entry>
+<entry keyword="img_load_resize()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_load_resize.html#img_load_resize_file" title="img_load_resize()"/>
+</entry>
+<entry keyword="img_load()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_load.html#img_load" title="img_load()"/>
+</entry>
+<entry keyword="img.conf">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_lib_attach.html#img_lib_attach" title="img_lib_attach()"/>
+</entry>
+<entry keyword="input stream">
+<entry keyword="closing">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/io_close.html#io_close" title="io_close()"/>
+</entry>
+</entry>
+<entry keyword="io_close()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/io_close.html#io_close" title="io_close()"/>
+</entry>
+<entry keyword="io_open()">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/io_open.html#io_open" title="io_open()"/>
+</entry>
+<entry keyword="library">
+<entry keyword="detaching">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_lib_detach.html#img_lib_detach" title="img_lib_detach()"/>
+</entry>
+<entry keyword="initializing">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_lib_attach.html#img_lib_attach" title="img_lib_attach()"/>
+</entry>
+<entry keyword="loading codecs">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/img_cfg_read.html#img_cfg_read" title="img_cfg_read()"/>
+</entry>
+</entry>
+<entry keyword="stream">
+<entry keyword="initializing">
+<topic href="com.qnx.doc.libimg.lib_ref/topic/io_open.html#io_open" title="io_open()"/>
+</entry>
+</entry>
+</index>

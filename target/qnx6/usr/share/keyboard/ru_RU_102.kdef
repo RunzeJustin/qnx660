@@ -1,0 +1,740 @@
+
+Keyboard "ru_RU_102" {
+
+	//	Uses right Alt to switch between Russian and US layouts
+
+	Modifiers {
+		<LEFT_SHIFT>
+		<RIGHT_SHIFT>
+		<LEFT_CTRL>
+		<RIGHT_CTRL>
+		<LEFT_ALT>
+		<CAPS_LOCK>
+		<SCROLL_LOCK>
+		<NUM_LOCK>
+		<LOCK_SAVE>
+		<ISO_LOCK>
+		<CAPS_LED>
+		<MODE_SWITCH>
+		<LATIN_MODE>
+		}
+
+	KeyType "Unmodified" {
+		NoSym <AltGr>
+		Unmodified Sym #1
+
+		Key {
+			IsMod <LEFT_CTRL>
+			Scan  1D
+			Syms  [Control_L]
+			}
+		Key {
+			IsMod <LEFT_SHIFT>
+			Scan  2A
+			Syms  [Shift_L]
+			}
+		Key {
+			IsMod <RIGHT_SHIFT>
+			Scan  36
+			Syms  [Shift_R]
+			}
+		Key {
+			IsMod <LEFT_ALT>
+			Scan  38
+			Syms  [Alt_L]
+			}
+		Key {
+			IsMod <CAPS_LOCK>
+			Scan  3A
+			Syms  [Caps_Lock]
+			}
+		Key {
+			Scan  3B
+			Syms  [F1]
+			}
+		Key {
+			Scan  3C
+			Syms  [F2]
+			}
+		Key {
+			Scan  3D
+			Syms  [F3]
+			}
+		Key {
+			Scan  3E
+			Syms  [F4]
+			}
+		Key {
+			Scan  3F
+			Syms  [F5]
+			}
+		Key {
+			Scan  40
+			Syms  [F6]
+			}
+		Key {
+			Scan  41
+			Syms  [F7]
+			}
+		Key {
+			Scan  42
+			Syms  [F8]
+			}
+		Key {
+			Scan  43
+			Syms  [F9]
+			}
+		Key {
+			Scan  44
+			Syms  [F10]
+			}
+		Key {
+			IsMod <NUM_LOCK>
+			Scan  45
+			Syms  [Num_Lock]
+			}
+		Key {
+			IsMod <SCROLL_LOCK>
+			Scan  46
+			Syms  [Scroll_Lock]
+			}
+		Key {
+			IsMod <MODE_SWITCH>
+			Scan  E0 38 // Right Alt
+			Syms  [Mode_switch]
+			}
+		Key {
+			Scan  E0 5B
+			Syms  [Hyper_L]
+			}
+		Key {
+			Scan  57
+			Syms  [F11]
+			}
+		Key {
+			Scan  58
+			Syms  [F12]
+			}
+		Key {
+			Scan  E0 5C
+			Syms  [Hyper_R]
+			}
+		Key {
+			Scan  E0 5D
+			Syms  [Menu]
+			}
+		Key {
+			Scan  E0 50
+			Syms  [Down]
+			}
+		Key {
+			IsMod <RIGHT_CTRL>
+			Scan  E0 1D
+			Syms  [Control_R]
+			}
+		Key {
+			Scan  E0 49
+			Syms  [Prior]
+			}
+		Key {
+			Scan  E0 48
+			Syms  [Up]
+			}
+		Key {
+			Scan  E0 53
+			Syms  [Delete]
+			}
+		Key {
+			Scan  E0 4F
+			Syms  [End]
+			}
+		Key {
+			Scan  E0 52
+			Syms  [Insert]
+			}
+		Key {
+			Scan  E0 4B
+			Syms  [Left]
+			}
+		Key {
+			Scan  E0 4D
+			Syms  [Right]
+			}
+		Key {
+			Scan  E0 51
+			Syms  [Next]
+			}
+		Key {
+			Scan  E0 47
+			Syms  [Home]
+			}
+		}
+
+	KeyType "ThreeLevelDigit" {
+		NoSym <Ctrl>
+		NoSym <Alt>
+		Unmodified Sym #1
+		<LATIN_MODE> Sym #1
+		<LATIN_MODE> + <Shift> Sym #2
+		<Shift> Sym #3
+
+		Key {
+			Scan  03
+			Syms  '2' '@' '"'
+			}
+		Key {
+			Scan  04
+			Syms  '3' '#' 2116 // 'Numero'
+			}
+		Key {
+			Scan  05
+			Syms  '4' '$' ';'
+			}
+		Key {
+			Scan  07
+			Syms  '6' '^' ':'
+			}
+		Key {
+			Scan  08
+			Syms  '7' '&' '?'
+			}
+		}
+
+	KeyType "FourSymbolsLevel" {
+		NoSym <Ctrl>
+		NoSym <Alt>
+		Unmodified Sym #3
+		<Shift> Sym #4
+		<LATIN_MODE> Sym #1
+		<LATIN_MODE> + <Shift> Sym #2
+
+		Key {
+			Scan  35
+			Syms  '/' '?' '.' ','
+			}
+		Key {
+			Scan  2B
+			Syms  '\' '|' '\' '/'
+			}
+		}
+
+	KeyType "TwoLevel" {
+		NoSym <Ctrl>
+		NoSym <Alt>
+		Unmodified Sym #1
+		<Shift> Sym #2
+
+		Key {
+			Scan  02
+			Syms  '1' '!'
+			}
+		Key {
+			Scan  06
+			Syms  '5' '%'
+			}
+		Key {
+			Scan  09
+			Syms  '8' '*'
+			}
+		Key {
+			Scan  0A
+			Syms  '9' '('
+			}
+		Key {
+			Scan  0B
+			Syms  '0' ')'
+			}
+		Key {
+			Scan  0C
+			Syms  '-' '_'
+			}
+		Key {
+			Scan  0D
+			Syms  '=' '+'
+			}
+		Key {
+			Scan  0F
+			Syms  [Tab] [KP_Tab]
+			}
+		}
+
+	KeyType "SymbolAndLetter" {
+		NoSym <Ctrl>
+		NoSym <Alt>
+
+		Unmodified Sym #3
+		<Caps_Lock> Sym #4
+		<Shift> Sym #4
+		<Shift> + <Caps_Lock> Sym #3
+
+		<LATIN_MODE> Sym #1
+		<LATIN_MODE> + <Caps_Lock> Sym #1
+		<LATIN_MODE> + <Shift> Sym #2
+		<LATIN_MODE> + <Shift> + <Caps_Lock> Sym #2
+
+		Key {
+			Scan  1A
+			Syms  '[' '{' [Cyrillic_ha] [Cyrillic_HA]
+			}
+		Key {
+			Scan  1B
+			Syms  ']' '}' [Cyrillic_hardsign] [Cyrillic_HARDSIGN]
+			}
+		Key {
+			Scan  27
+			Syms  ';' ':' [Cyrillic_zhe] [Cyrillic_ZHE]
+			}
+		Key {
+			Scan  28
+			Syms  ''' '"' [Cyrillic_e] [Cyrillic_E]
+			}
+		Key {
+			Scan  29
+			Syms  '`' '~' [Cyrillic_io] [Cyrillic_IO]
+			}
+		Key {
+			Scan  33
+			Syms  ',' '<' [Cyrillic_be] [Cyrillic_BE]
+			}
+		Key {
+			Scan  34
+			Syms  '.' '>' [Cyrillic_yu] [Cyrillic_YU]
+			}
+	}
+
+	KeyType "TwoLetters" {
+		NoSym <Ctrl>
+		NoSym <Alt>
+
+		Unmodified Sym #3
+		<Caps_Lock> Sym #4
+		<Shift> Sym #4
+		<Shift> + <Caps_Lock> Sym #3
+
+		<LATIN_MODE> Sym #1
+		<LATIN_MODE> + <Caps_Lock> Sym #2
+		<LATIN_MODE> + <Shift> Sym #2
+		<LATIN_MODE> + <Shift> + <Caps_Lock> Sym #1
+
+		Key {
+			Scan  10
+			Syms  'q' 'Q' [Cyrillic_shorti] [Cyrillic_SHORTI]
+			}
+		Key {
+			Scan  11
+			Syms  'w' 'W' [Cyrillic_tse] [Cyrillic_TSE]
+			}
+		Key {
+			Scan  12
+			Syms  'e' 'E' [Cyrillic_u] [Cyrillic_U]
+			}
+		Key {
+			Scan  13
+			Syms  'r' 'R' [Cyrillic_ka] [Cyrillic_KA]
+			}
+		Key {
+			Scan  14
+			Syms  't' 'T' [Cyrillic_ie] [Cyrillic_IE]
+			}
+		Key {
+			Scan  15
+			Syms  'y' 'Y' [Cyrillic_en] [Cyrillic_EN]
+			}
+		Key {
+			Scan  16
+			Syms  'u' 'U' [Cyrillic_ghe] [Cyrillic_GHE]
+			}
+		Key {
+			Scan  17
+			Syms  'i' 'I' [Cyrillic_sha] [Cyrillic_SHA]
+			}
+		Key {
+			Scan  18
+			Syms  'o' 'O' [Cyrillic_shcha] [Cyrillic_SHCHA]
+			}
+		Key {
+			Scan  19
+			Syms  'p' 'P' [Cyrillic_ze] [Cyrillic_ZE]
+			}
+		Key {
+			Scan  1E
+			Syms  'a' 'A' [Cyrillic_ef] [Cyrillic_EF]
+			}
+		Key {
+			Scan  1F
+			Syms  's' 'S' [Cyrillic_yeru] [Cyrillic_YERU]
+			}
+		Key {
+			Scan  20
+			Syms  'd' 'D' [Cyrillic_ve] [Cyrillic_VE]
+			}
+		Key {
+			Scan  21
+			Syms  'f' 'F' [Cyrillic_a] [Cyrillic_A]
+			}
+		Key {
+			Scan  22
+			Syms  'g' 'G' [Cyrillic_pe] [Cyrillic_PE]
+			}
+		Key {
+			Scan  23
+			Syms  'h' 'H' [Cyrillic_er] [Cyrillic_ER]
+			}
+		Key {
+			Scan  24
+			Syms  'j' 'J' [Cyrillic_o] [Cyrillic_O]
+			}
+		Key {
+			Scan  25
+			Syms  'k' 'K' [Cyrillic_el] [Cyrillic_EL]
+			}
+		Key {
+			Scan  26
+			Syms  'l' 'L' [Cyrillic_de] [Cyrillic_DE]
+			}
+		Key {
+			Scan  2C
+			Syms  'z' 'Z' [Cyrillic_ya] [Cyrillic_YA]
+			}
+		Key {
+			Scan  2D
+			Syms  'x' 'X' [Cyrillic_che] [Cyrillic_CHE]
+			}
+		Key {
+			Scan  2E
+			Syms  'c' 'C' [Cyrillic_es] [Cyrillic_ES]
+			}
+		Key {
+			Scan  2F
+			Syms  'v' 'V' [Cyrillic_em] [Cyrillic_EM]
+			}
+		Key {
+			Scan  30
+			Syms  'b' 'B' [Cyrillic_i] [Cyrillic_I]
+			}
+		Key {
+			Scan  31
+			Syms  'n' 'N' [Cyrillic_te] [Cyrillic_TE]
+			}
+		Key {
+			Scan  32
+			Syms  'm' 'M' [Cyrillic_softsign] [Cyrillic_SOFTSIGN]
+			}
+		}
+
+	KeyType "Keypad" {
+		Unmodified Sym #1
+		<Alt> Sym #1
+		<Ctrl> Sym #1
+		<Ctrl> + <Alt> Sym #1
+		<Shift> Sym #2
+		<Shift> + <Alt> Sym #2
+		<Shift> + <Ctrl> Sym #2
+		<Shift> + <Ctrl> + <Alt> Sym #2
+		<Num_Lock> Sym #2
+		<Num_Lock> + <Alt> NoSym
+		<Num_Lock> + <Ctrl> NoSym
+		<Num_Lock> + <Ctrl> + <Alt> NoSym
+		<Num_Lock> + <Shift> Sym #1
+		<Num_Lock> + <Shift> + <Alt> NoSym
+		<Num_Lock> + <Shift> + <Ctrl> NoSym
+		<Num_Lock> + <Shift> + <Ctrl> + <Alt> NoSym
+
+		Key [KP_7] {
+			Scan  47
+			Syms  [Home] '7'
+			}
+		Key [KP_8] {
+			Scan  48
+			Syms  [Up] '8'
+			}
+		Key [KP_9] {
+			Scan  49
+			Syms  [Prior] '9'
+			}
+		Key [KP_4] {
+			Scan  4B
+			Syms  [Left] '4'
+			}
+		Key {
+			Scan  4C
+			Syms  [KP_5] '5'
+			}
+		Key [KP_6] {
+			Scan  4D
+			Syms  [Right] '6'
+			}
+		Key [KP_1] {
+			Scan  4F
+			Syms  [End] '1'
+			}
+		Key [KP_2] {
+			Scan  50
+			Syms  [Down] '2'
+			}
+		Key [KP_3] {
+			Scan  51
+			Syms  [Next] '3'
+			}
+		Key [KP_0] {
+			Scan  52
+			Syms  [Insert] '0'
+			}
+		Key [KP_Decimal] {
+			Scan  53
+			Syms  [Delete] '.'
+			}
+		}
+
+	KeyType "Pause" {
+		NoSym <Shift>
+		NoSym <Alt>
+		Unmodified Sym #1
+		<Ctrl> Sym #2
+
+		Key {
+			Scan  E1 1D 45 E1 9D C5
+			Scan  E0 46 E0 C6
+			Syms  [Pause] [Break]
+			}
+		}
+
+	KeyType "Print" {
+		NoSym <Shift>
+		NoSym <Ctrl>
+		Unmodified Sym #1
+		<Alt> Sym #2
+
+		Key {
+			Scan  E0 37
+			Syms  [Print] [Help]
+			}
+		}
+
+	KeyType "NoModsOnly" {
+		NoSym <Ctrl>
+		NoSym <Alt>
+		Unmodified Sym #1
+
+		Key {
+			Scan  01
+			Syms  [Escape]
+			}
+		Key {
+			Scan  0E
+			Syms  [BackSpace]
+			}
+		Key {
+			Scan  1C
+			Syms  [Return]
+			}
+		Key [KP_Multiply] {
+			Scan  37
+			Syms  '*'
+			}
+		Key {
+			Scan  39
+			Syms  ' '
+			}
+		Key [KP_Subtract] {
+			Scan  4A
+			Syms  '-'
+			}
+		Key [KP_Add] {
+			Scan  4E
+			Syms  '+'
+			}
+		Key [KP_Enter] {
+			Scan  E0 1C
+			Syms  [Return]
+			}
+		Key [KP_Divide] {
+			Scan  E0 35
+			Syms  '/'
+			}
+		}
+
+	DeadScan { E0 2A }
+	DeadScan { E0 36 }
+
+	Action {
+		if   Up      <LATIN_MODE>
+		and  Press   <MODE_SWITCH>
+		then Press   <LATIN_MODE>
+		}
+
+	Action {
+		if   Down    <LATIN_MODE>
+		and  Press   <MODE_SWITCH>
+		then Release <LATIN_MODE>
+		}
+
+	Action {
+		if   Up      <Num_Lock>
+		and  Press   <NUM_LOCK>
+		then Press   <Num_Lock>
+		}
+
+	Action {
+		if   Down    <Num_Lock>
+		and  Press   <NUM_LOCK>
+		then Release <Num_Lock>
+		}
+
+	Action {
+		if   Up      <Scroll_Lock>
+		and  Press   <SCROLL_LOCK>
+		then Press   <Scroll_Lock>
+		}
+
+	Action {
+		if   Down    <Scroll_Lock>
+		and  Press   <SCROLL_LOCK>
+		then Release <Scroll_Lock>
+		}
+
+	Action {
+		if   Press   <LEFT_SHIFT>
+		or   Press   <RIGHT_SHIFT>
+		then Press   <Shift>
+		}
+
+	Action {
+		if   Press   <Shift>
+		then Up      <Shift_Lock>
+		}
+
+	Action {
+		if   Press   <LEFT_CTRL>
+		or   Press   <RIGHT_CTRL>
+		then Press   <Ctrl>
+		}
+
+	Action {
+		if   Press   <Ctrl>
+		then Up      <Ctrl_Lock>
+		}
+
+	Action {
+		if   Press   <LEFT_ALT>
+		then Press   <Alt>
+		}
+
+	Action {
+		if   Press   <Alt>
+		then Up      <Alt_Lock>
+		}
+
+	Action {
+		if   Press   <CAPS_LOCK>
+		and  Down    <Shift_Lock>
+		then Down    <LOCK_SAVE>
+		}
+
+	Action {
+		if   Press   <CAPS_LOCK>
+		and  Up      <Shift_Lock>
+		then Up      <LOCK_SAVE>
+		}
+
+	Action {
+		if   Up      <Caps_Lock>
+		and  Press   <CAPS_LOCK>
+		then Press   <Caps_Lock>
+		}
+
+	Action {
+		if   Down    <Caps_Lock>
+		and  Press   <CAPS_LOCK>
+		then Release <Caps_Lock>
+		}
+
+	Action {
+		if   Press   <Shift>
+		or   Press   <Ctrl>
+		or   Press   <Alt>
+		then Down    <ISO_LOCK>
+		}
+
+	Action {
+		if   Up      <CAPS_LOCK>
+		then Up      <ISO_LOCK>
+		}
+
+	Action {
+		if   Down    <ISO_LOCK>
+		and  Down    <LOCK_SAVE>
+		then Down    <Caps_Lock>
+		}
+
+	Action {
+		if   Down    <ISO_LOCK>
+		and  Up      <LOCK_SAVE>
+		then Up      <Caps_Lock>
+		}
+
+	Action {
+		if   Down    <ISO_LOCK>
+		and  Press   <Shift>
+		then Press   <Shift_Lock>
+		}
+
+	Action {
+		if   Down    <ISO_LOCK>
+		and  Press   <Ctrl>
+		then Press   <Ctrl_Lock>
+		}
+
+	Action {
+		if   Down    <ISO_LOCK>
+		and  Press   <Alt>
+		then Press   <Alt_Lock>
+		}
+
+	Action {
+		if   Up      <Shift_Lock>
+		and  Up      <LEFT_SHIFT>
+		and  Up      <RIGHT_SHIFT>
+		then Up      <Shift>
+		}
+
+	Action {
+		if   Up      <Ctrl_Lock>
+		and  Up      <LEFT_CTRL>
+		and  Up      <RIGHT_CTRL>
+		then Up      <Ctrl>
+		}
+
+	Action {
+		if   Up      <Alt_Lock>
+		and  Up      <LEFT_ALT>
+		then Up      <Alt>
+		}
+
+	Action {
+		then Up      <CAPS_LED>
+		}
+
+	Action {
+		if   Down    <Caps_Lock>
+		or   Down    <Shift_Lock>
+		or   Down    <Ctrl_Lock>
+		or   Down    <Alt_Lock>
+		or   Down    <AltGr_Lock>
+		or   Press   <Caps_Lock>
+		or   Press   <Shift_Lock>
+		or   Press   <Ctrl_Lock>
+		or   Press   <Alt_Lock>
+		then Down    <CAPS_LED>
+		}
+
+	Indicators {
+		<LATIN_MODE>	//		<Scroll_Lock>
+		<Num_Lock>
+		<CAPS_LED>
+		}
+
+	Compose <Alt> {
+		include "compose.inc"
+		}
+	}
